@@ -504,8 +504,8 @@ def AutoSum(input_file, output_file, vtype='tfidf', w2vec_data=None):
     dim = w2vec_data[1]
     Word2Vec_Vector(senlist, w2vec, dim)
     ConBaseSentenceClustering(senlist)
-    #smatrix = GetSimMatrix(senlist, 'euc')
-    smatrix = GetNSimMatrix(senlist, w2vec_data[0], 'cos')
+    smatrix = GetSimMatrix(senlist, 'cos')
+    #smatrix = GetNSimMatrix(senlist, w2vec_data[0], 'cos')
     #print smatrix
   res_sum = GreedySearch(senlist, 2, smatrix)
   out_pid = codecs.open(output_file, 'w', 'utf-8')
