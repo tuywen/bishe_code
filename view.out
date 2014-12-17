@@ -1,0 +1,624 @@
+load word2vec vectors: 6741 300
+0 size_asus_netbook_1005ha
+0 updates_garmin_nuvi_255W_gps
+0 screen_ipod_nano_8gb
+0 eyesight-issues_amazon_kindle
+0 battery-life_ipod_nano_8gb
+0 battery-life_amazon_kindle
+0 gas_mileage_toyota_camry_2007
+0 screen_netbook_1005ha
+0 quality_toyota_camry_2007
+0 directions_garmin_nuvi_255W_gps
+0 buttons_amazon_kindle
+0 features_windows7
+0 mileage_honda_accord_2008
+0 free_bestwestern_hotel_sfo
+0 price_amazon_kindle
+0 video_ipod_nano_8gb
+0 price_holiday_inn_london
+0 display_garmin_nuvi_255W_gps
+0 comfort_honda_accord_2008
+0 transmission_toyota_camry_2007
+0 navigation_amazon_kindle
+0 staff_bestwestern_hotel_sfo
+0 rooms_bestwestern_hotel_sfo
+0 location_bestwestern_hotel_sfo
+0 food_swissotel_chicago
+0 rooms_swissotel_chicago
+0 interior_honda_accord_2008
+0 location_holiday_inn_london
+0 seats_honda_accord_2008
+0 bathroom_bestwestern_hotel_sfo
+0 service_holiday_inn_london
+0 food_holiday_inn_london
+0 speed_garmin_nuvi_255W_gps
+0 comfort_toyota_camry_2007
+0 voice_garmin_nuvi_255W_gps
+0 service_bestwestern_hotel_sfo
+0 sound_ipod_nano_8gb
+0 fonts_amazon_kindle
+0 service_swissotel_hotel_chicago
+0 battery-life_netbook_1005ha
+0 speed_windows7
+0 keyboard_netbook_1005ha
+0 accuracy_garmin_nuvi_255W_gps
+sel: 24 but after that it is very easy and quite accurate to use .
+======= iteration 0 ========
+43.7820793676 24 4 12 but after that it is very easy and quite accurate to use .
+use quite easy accurate 0.77576307451 39.193074528
+
+
+43.4651051487 11 4 7 destination time, , this is pretty accurate too .
+destination pretty time accurate 0.764613871753 38.8936625596
+
+
+43.1518756104 60 4 11 to date it's been a very easy to use and accurate .
+use accurate easy date 0.779878577985 38.5978506196
+
+
+43.0394291322 12 2 6 but, it's always very accurate .
+always accurate 0.897565623219 38.4916722612
+
+
+42.831056322 61 4 8 mounted really easily and has been very accurate .
+easily accurate mounted really 0.768028549912 38.2949364218
+
+
+42.4480690146 57 6 13 this is a great gps, it is so easy to use and it is always accurate .
+great always use easy accurate gps 0.639679084002 37.9334115964
+
+
+42.2490670051 62 3 5 seems to be rather accurate .
+rather accurate seems 0.825198911437 37.745599702
+
+
+42.0119853067 18 3 9 the directions are highly accurate down to a  t  .
+accurate highly directions 0.807660293549 37.5218837316
+
+
+42.0067752003 14 3 9 most of the times, this info was very accurate .
+info accurate times 0.797502385935 37.516967772
+
+
+41.98184357 55 6 10 the directions provided have all been quite accurate thus far .
+provided far accurate thus quite directions 0.683456915434 37.4934439575
+
+
+41.9755054115 59 5 11 easy to use and amazed at how accurate this item is .
+use item accurate easy amazed 0.706208873653 37.4874637626
+
+
+41.8980939311 25 3 8 the accuracy at this point is very good .
+good point accuracy 0.785144948384 37.4144264677
+
+
+41.7214609085 28 7 12 i've used it around town and find it to be extremely accurate .
+town used around accurate 've extremely find 0.642279838285 37.2477893134
+
+
+41.5040992017 45 3 6 accuracy is determined by the maps .
+maps determined accuracy 0.76490024832 37.0427573505
+
+
+41.4775931808 0 1 4 , and is very, very accurate .
+accurate 1.0 37.0177570708
+
+
+41.1037989988 15 7 15 i've even used it in the  pedestrian  mode, and it's amazing how accurate it is .
+even used accurate 've pedestrian amazing mode 0.616899314636 36.6652484992
+
+
+41.0022078223 8 6 14 aside from that, every destination i've thrown at has been 100% accurate .
+thrown accurate destination aside 've every 0.654737234804 36.5694590605
+
+
+40.5178541447 5 4 13 it got me from point a to point b with 100% accuracy everytime .
+point everytime got accuracy 0.705494081581 36.1128652035
+
+
+40.4224599029 64 4 5 highly accurate, pois are great .
+great accurate pois highly 0.692185049395 36.0229577611
+
+
+40.3173645917 36 8 16 if your looking for a nice, accurate gps for not so much money, got with this one .
+gps money accurate one looking much got nice 0.567188751854 35.9239147024
+
+
+40.3167265432 6 5 12 it has yet to disappoint, getting me everywhere with 100% accuracy .
+getting everywhere disappoint yet accuracy 0.67077476303 35.9233134219
+
+
+40.1455950013 20 6 16 the screen is easy to see, the voice tells you where you are and it's very accurate .
+accurate screen tells see easy voice 0.648908913483 35.7620539688
+
+
+39.9963467354 30 5 12 a lot of my friends' addresses are inaccurate by any gps .
+addresses lot gps friends inaccurate 0.657779605352 35.6214325418
+
+
+39.8685709171 37 6 12 0 out of 5 stars inexpensive, accurate, plenty of features, august 6, 2009
+august plenty accurate inexpensive features stars 0.67196239952 35.5010551676
+
+
+39.8394601258 21 6 13 it was accurate to the minute when it told me when i would arrive home .
+would accurate home arrive minute told 0.678606994319 35.4736315943
+
+
+39.5240771714 13 8 12 the map is pretty accurate and the point of interest database also is good .
+map good interest point accurate database also pretty 0.567261175938 35.1765672946
+
+
+39.3045606493 9 7 15 in closing, this is a fantastic gps with some very nice features and is very accurate in directions .
+fantastic features directions closing nice accurate gps 0.572912868815 34.9698441634
+
+
+38.7772293101 47 3 6 accuracy is within a few yards .
+within yards accuracy 0.727316036163 34.4733918901
+
+
+38.7301220266 34 6 13 i was blown away at the accuracy and routing capability this thing had .
+routing blown away capability thing accuracy 0.611840724177 34.4290532314
+
+
+38.6245654505 63 6 11 it was accurate on determing original directions and recalculating when necessary .
+necessary recalculating accurate determing directions original 0.638932479556 34.3297066048
+
+
+38.2307276931 33 7 15 i updated to the latest 2010 map soon after i received the unit, so the map is accurate to me .
+map updated received soon accurate unit latest 0.612249301037 33.9591134961
+
+
+38.1659049962 46 6 11 less traveled rural roads will not be accurate on any unit .
+less accurate traveled roads rural unit 0.639148247571 33.8981281065
+
+
+38.1151519108 56 8 14 ,  very accurate but with one small glitch i found ,  i'll explain in the cons
+cons 'll accurate one glitch small found explain 0.570371997329 33.8503817173
+
+
+37.6676601934 7 6 10 0 out of 5 stars honest, accurate review, , please read !
+read accurate please honest stars review 0.624399043548 33.4294869556
+
+
+37.6616692195 31 8 15 it loads quickly, have pretty accurate directions, and can recalculate quickly when i miss a turn .
+accurate quickly turn pretty directions loads miss recalculate 0.523077003414 33.4238531239
+
+
+37.6387057592 27 8 14 bottom line is i wanted a unit that is accurate and had reliable satellite connection .
+satellite bottom connection reliable line wanted accurate unit 0.58442763992 33.4022588553
+
+
+37.5356275802 40 8 13 the closest one that gives the most accurate route that i usually take is the navigon .
+closest accurate one take usually navigon route gives 0.53622121508 33.3053318252
+
+
+37.2412527814 23 9 17 i was familiar with the streets and only used the nuvi to get an accurate arrival time estimate .
+arrival used get familiar accurate streets time estimate nuvi 0.517992937648 33.0285702107
+
+
+36.8419269748 1 9 17 but for the most part, we find that the garmin software provides accurate directions, whereever we intend to go .
+intend whereever accurate part provides directions garmin find software 0.510384642704 32.6532483116
+
+
+36.7689537591 43 7 11 the estimated time to arrival does not seem to calculate the travelling time accurately .
+arrival travelling calculate accurately time estimated seem 0.5745584437 32.5846755785
+
+
+36.2570833626 53 10 16 practiced visiting places i already knew to see how accurate the directions and maps would be .
+already practiced would places visiting accurate knew see maps directions 0.47234617058 32.1037954438
+
+
+35.7371808197 17 9 18 the most accurate review stated that these machines are adjunct to a good map and signs on the interstate .
+map good stated accurate adjunct signs review machines interstate 0.520003777545 31.6155933815
+
+
+35.2486923698 42 9 13 it has worked well for local driving giving accurate directions for roads and streets .
+driving giving accurate streets well roads directions worked local 0.507680895936 31.1570999727
+
+
+34.920230642 66 7 10 speed of calculation, accuracy, and simplicity of operation are top notch .
+simplicity calculation top operation notch speed accuracy 0.542832234392 30.848923599
+
+
+34.8486445992 16 5 12 only  is only accurate when an ad says,  top sirloin steak, only $1 .
+says sirloin accurate top steak 0.617745247239 30.7817712108
+
+
+34.7955375165 54 7 9 easy to use, excellent accuracy, nice and intuitive interface .
+use intuitive easy excellent interface nice accuracy 0.491763400762 30.7319562268
+
+
+34.708104132 22 8 15 0 out of 5 stars gps navigator doesn't navigate accurately on a straight road .
+straight accurately n't stars navigate navigator road gps 0.501016334733 30.6499482792
+
+
+34.4167455421 44 11 23 accuracy is as good as any other unit, they all sometimes tell you you have arrived when you haven't, or continue to tell you to turn when you're already there .
+already unit 're tell accuracy good arrived sometimes n't turn continue 0.434346961134 30.3767184542
+
+
+34.2988607179 26 11 25 while the 255w routing seems generally accurate and logical, on my first use i discovered that it does have some errors in its internal map .
+generally accurate logical discovered use errors seems routing map internal first 0.442849683238 30.2661903105
+
+
+34.0841731748 29 9 20 i found the maps to be inaccurate at first, but after i updated them from garmin's website everything is golden .
+website updated inaccurate maps golden everything found garmin first 0.477135802709 30.0649329095
+
+
+33.9616006639 10 9 17 plus, i've always heard that there are  quirks  with any gps being accurate, having pois, etc .
+pois always accurate etc 've heard quirks plus gps 0.430165987374 29.950047027
+
+
+33.9486278774 49 10 16 the garmin is loaded with very accurate maps that generally know the roads in even the remotest areas .
+even remotest garmin generally maps know roads loaded accurate areas 0.424475420219 29.9378885831
+
+
+33.580724864 19 11 24 depending on what you are using it for, it is a nice adjunct to a travel trip and the directions are accurate and usually the quickest, but not always .
+trip depending travel adjunct quickest accurate nice directions using always usually 0.404237799485 29.5931448641
+
+
+31.7645152695 41 13 27 after 2 weeks, it has yet to make a mistake, and is always completely accurate ,  even to the point of telling me which side of the street my destination is on .
+point accurate street yet even make destination weeks completely telling always side mistake 0.363948625738 27.8931626655
+
+
+30.6853635479 52 13 27 i had a gps 10, years ago when i owned a boat that was difficult to use and with very poor accuracy so i had assumed that the road gps wasn't any better .
+gps owned years boat use assumed better accuracy poor ago n't difficult road 0.368808108242 26.8846426145
+
+
+30.1596229554 3 10 18 it provides immediate alternatives if the route from the online map program was inaccurate or blocked by an obstacle .
+map inaccurate route alternatives immediate obstacle program provides online blocked 0.407885942852 26.3937602489
+
+
+29.7095939946 4 12 22 i've used other gps units, as well as gps built into cars   and to this day nothing beats the accuracy of a garmin gps .
+beats built units accuracy used cars nothing garmin day well 've gps 0.331177395216 25.9738106292
+
+
+29.3424105689 51 13 22 my new garmin 255w had very easy set up, accurate directions to locations, user friendly unit to anyone in my vehicle who tried it .
+set accurate locations unit anyone easy vehicle new friendly tried user directions garmin 0.324667178711 25.6313376737
+
+
+29.0911117623 48 14 26 what the 255w does best is find a street address, business, point of interest, hospital or airport and give you turn, by, turn directions with amazing accuracy .
+give street find best hospital point amazing interest accuracy business address directions turn airport 0.323282367716 25.3970394245
+
+
+29.0122259562 58 13 26 very easy to operate and pretty accurate as well, only led me astray once and that was in northern maine where roads are few and paved ones fewer .
+accurate roads maine northern astray easy paved led pretty ones well fewer operate 0.343835180731 25.3235053651
+
+
+27.6376703253 65 15 25 i can't believe how accurate and detailed the information estimated time of arrival,speed limits along the way,and detailed map of my route, to name a few .
+detailed estimated speed information way accurate arrival map along believe name limits route n't time 0.283428808039 24.0433918948
+
+
+25.8474288534 32 14 25 because the accuracy is good to the street address level, it may not be able to guide you to the exact location if your destination is inside a shopping mall .
+street destination able location accuracy good shopping may address exact level inside mall guide 0.26127228317 22.3797307742
+
+
+24.9445414611 38 15 31 the only glitch i have found so far is that the speed limits are not 100% accurate, although the gps, amazingly, is able to very accurately tell you how fast your vehicle is moving .
+accurate glitch speed amazingly able fast vehicle gps far accurately moving although limits tell found 0.223231211558 21.5423381101
+
+
+22.6477086433 35 20 41 i used it the day i bought it,   and then this morning, and as soon as it comes on it is  ready to navigate  the only downfall of this product, and the only reason i did not give it 5 stars is the fact that the speed limit it displays for the road you are on isn't 100% accurate .
+downfall navigate displays ready speed give stars road accurate bought product used soon reason day morning n't limit fact comes 0.162922581914 19.4176378041
+
+
+21.6041932848 2 15 33 this function is not accurate if you don't leave it in battery mode say, when you stop at the cracker barrell for lunch and to play one of those trangle games with the tees .
+battery one say barrell n't accurate function play stop lunch tees cracker leave games mode 0.229876744821 18.4551900286
+
+
+15.8516619279 39 17 34 i was a little disappointed in the inaccuracy of the posted speed limit, as i'm guilty of not paying close enough attention to those signs, especially w  interstate speed traps that are constantly changing up and down .
+signs close speed little traps constantly enough interstate paying attention changing disappointed posted especially guilty limit inaccuracy 0.105723166395 13.1895359301
+
+
+12.745155148 50 21 33 i'm really glad i bought it though, and like the easy to read graphics, the voice used to tell you the name of the street you are to turn on, the uncannily accurate estimates of mileage and time of arrival at your destination .
+accurate estimates street really destination uncannily easy tell mileage bought arrival used though read graphics glad name like turn time voice 0.00758569941725 10.3831618505
+
+
+sel: 11 destination time, , this is pretty accurate too .
+======= iteration 1 ========
+84.5641634873 11 4 7 destination time, , this is pretty accurate too .
+destination pretty time accurate 0.764613871753 38.8936625596
+
+
+84.2560708563 60 4 11 to date it's been a very easy to use and accurate .
+use accurate easy date 0.779878577985 38.5978506196
+
+
+84.1454787892 12 2 6 but, it's always very accurate .
+always accurate 0.897565623219 38.4916722612
+
+
+83.9405568944 61 4 8 mounted really easily and has been very accurate .
+easily accurate mounted really 0.768028549912 38.2949364218
+
+
+83.5639621067 57 6 13 this is a great gps, it is so easy to use and it is always accurate .
+great always use easy accurate gps 0.639679084002 37.9334115964
+
+
+83.3683074364 62 3 5 seems to be rather accurate .
+rather accurate seems 0.825198911437 37.745599702
+
+
+83.1352368807 18 3 9 the directions are highly accurate down to a  t  .
+accurate highly directions 0.807660293549 37.5218837316
+
+
+83.1301152094 14 3 9 most of the times, this info was very accurate .
+info accurate times 0.797502385935 37.516967772
+
+
+83.1056069332 55 6 10 the directions provided have all been quite accurate thus far .
+provided far accurate thus quite directions 0.683456915434 37.4934439575
+
+
+83.0993764456 59 5 11 easy to use and amazed at how accurate this item is .
+use item accurate easy amazed 0.706208873653 37.4874637626
+
+
+83.0232814892 25 3 8 the accuracy at this point is very good .
+good point accuracy 0.785144948384 37.4144264677
+
+
+82.8496627117 28 7 12 i've used it around town and find it to be extremely accurate .
+town used around accurate 've extremely find 0.642279838285 37.2477893134
+
+
+82.636030042 45 3 6 accuracy is determined by the maps .
+maps determined accuracy 0.76490024832 37.0427573505
+
+
+82.6099802567 0 1 4 , and is very, very accurate .
+accurate 1.0 37.0177570708
+
+
+82.2426550953 15 7 15 i've even used it in the  pedestrian  mode, and it's amazing how accurate it is .
+even used accurate 've pedestrian amazing mode 0.616899314636 36.6652484992
+
+
+82.1428335033 8 6 14 aside from that, every destination i've thrown at has been 100% accurate .
+thrown accurate destination aside 've every 0.654737234804 36.5694590605
+
+
+81.6669846921 5 4 13 it got me from point a to point b with 100% accuracy everytime .
+point everytime got accuracy 0.705494081581 36.1128652035
+
+
+81.5732789033 64 4 5 highly accurate, pois are great .
+great accurate pois highly 0.692185049395 36.0229577611
+
+
+81.4700489144 36 8 16 if your looking for a nice, accurate gps for not so much money, got with this one .
+gps money accurate one looking much got nice 0.567188751854 35.9239147024
+
+
+81.4694222071 6 5 12 it has yet to disappoint, getting me everywhere with 100% accuracy .
+getting everywhere disappoint yet accuracy 0.67077476303 35.9233134219
+
+
+81.3177069478 40 8 13 the closest one that gives the most accurate route that i usually take is the navigon .
+closest accurate one take usually navigon route gives 0.53622121508 33.3053318252
+
+
+81.3013397604 20 6 16 the screen is easy to see, the voice tells you where you are and it's very accurate .
+accurate screen tells see easy voice 0.648908913483 35.7620539688
+
+
+81.1547625551 30 5 12 a lot of my friends' addresses are inaccurate by any gps .
+addresses lot gps friends inaccurate 0.657779605352 35.6214325418
+
+
+81.0292823568 37 6 12 0 out of 5 stars inexpensive, accurate, plenty of features, august 6, 2009
+august plenty accurate inexpensive features stars 0.67196239952 35.5010551676
+
+
+81.0233321491 23 9 17 i was familiar with the streets and only used the nuvi to get an accurate arrival time estimate .
+arrival used get familiar accurate streets time estimate nuvi 0.517992937648 33.0285702107
+
+
+81.0006957169 21 6 13 it was accurate to the minute when it told me when i would arrive home .
+would accurate home arrive minute told 0.678606994319 35.4736315943
+
+
+80.6910188519 13 8 12 the map is pretty accurate and the point of interest database also is good .
+map good interest point accurate database also pretty 0.567261175938 35.1765672946
+
+
+80.6240063425 1 9 17 but for the most part, we find that the garmin software provides accurate directions, whereever we intend to go .
+intend whereever accurate part provides directions garmin find software 0.510384642704 32.6532483116
+
+
+80.475503933 9 7 15 in closing, this is a fantastic gps with some very nice features and is very accurate in directions .
+fantastic features directions closing nice accurate gps 0.572912868815 34.9698441634
+
+
+80.0391627303 53 10 16 practiced visiting places i already knew to see how accurate the directions and maps would be .
+already practiced would places visiting accurate knew see maps directions 0.47234617058 32.1037954438
+
+
+79.9578877167 47 3 6 accuracy is within a few yards .
+within yards accuracy 0.727316036163 34.4733918901
+
+
+79.9116554204 34 6 13 i was blown away at the accuracy and routing capability this thing had .
+routing blown away capability thing accuracy 0.611840724177 34.4290532314
+
+
+79.8080637774 63 6 11 it was accurate on determing original directions and recalculating when necessary .
+necessary recalculating accurate determing directions original 0.638932479556 34.3297066048
+
+
+79.5192601874 17 9 18 the most accurate review stated that these machines are adjunct to a good map and signs on the interstate .
+map good stated accurate adjunct signs review machines interstate 0.520003777545 31.6155933815
+
+
+79.421610108 33 7 15 i updated to the latest 2010 map soon after i received the unit, so the map is accurate to me .
+map updated received soon accurate unit latest 0.612249301037 33.9591134961
+
+
+79.3580108331 46 6 11 less traveled rural roads will not be accurate on any unit .
+less accurate traveled roads rural unit 0.639148247571 33.8981281065
+
+
+79.3082172321 56 8 14 ,  very accurate but with one small glitch i found ,  i'll explain in the cons
+cons 'll accurate one glitch small found explain 0.570371997329 33.8503817173
+
+
+78.8692468296 7 6 10 0 out of 5 stars honest, accurate review, , please read !
+read accurate please honest stars review 0.624399043548 33.4294869556
+
+
+78.863370694 31 8 15 it loads quickly, have pretty accurate directions, and can recalculate quickly when i miss a turn .
+accurate quickly turn pretty directions loads miss recalculate 0.523077003414 33.4238531239
+
+
+78.8408475966 27 8 14 bottom line is i wanted a unit that is accurate and had reliable satellite connection .
+satellite bottom connection reliable line wanted accurate unit 0.58442763992 33.4022588553
+
+
+78.1988249097 44 11 23 accuracy is as good as any other unit, they all sometimes tell you you have arrived when you haven't, or continue to tell you to turn when you're already there .
+already unit 're tell accuracy good arrived sometimes n't turn continue 0.434346961134 30.3767184542
+
+
+78.0809400855 26 11 25 while the 255w routing seems generally accurate and logical, on my first use i discovered that it does have some errors in its internal map .
+generally accurate logical discovered use errors seems routing map internal first 0.442849683238 30.2661903105
+
+
+77.9879956179 43 7 11 the estimated time to arrival does not seem to calculate the travelling time accurately .
+arrival travelling calculate accurately time estimated seem 0.5745584437 32.5846755785
+
+
+77.8662525424 29 9 20 i found the maps to be inaccurate at first, but after i updated them from garmin's website everything is golden .
+website updated inaccurate maps golden everything found garmin first 0.477135802709 30.0649329095
+
+
+77.7436800316 10 9 17 plus, i've always heard that there are  quirks  with any gps being accurate, having pois, etc .
+pois always accurate etc 've heard quirks plus gps 0.430165987374 29.950047027
+
+
+77.730707245 49 10 16 the garmin is loaded with very accurate maps that generally know the roads in even the remotest areas .
+even remotest garmin generally maps know roads loaded accurate areas 0.424475420219 29.9378885831
+
+
+77.3628042316 19 11 24 depending on what you are using it for, it is a nice adjunct to a travel trip and the directions are accurate and usually the quickest, but not always .
+trip depending travel adjunct quickest accurate nice directions using always usually 0.404237799485 29.5931448641
+
+
+76.4983525855 42 9 13 it has worked well for local driving giving accurate directions for roads and streets .
+driving giving accurate streets well roads directions worked local 0.507680895936 31.1570999727
+
+
+76.1766950597 66 7 10 speed of calculation, accuracy, and simplicity of operation are top notch .
+simplicity calculation top operation notch speed accuracy 0.542832234392 30.848923599
+
+
+76.1066011625 16 5 12 only  is only accurate when an ad says,  top sirloin steak, only $1 .
+says sirloin accurate top steak 0.617745247239 30.7817712108
+
+
+76.0546031964 54 7 9 easy to use, excellent accuracy, nice and intuitive interface .
+use intuitive easy excellent interface nice accuracy 0.491763400762 30.7319562268
+
+
+75.9689998186 22 8 15 0 out of 5 stars gps navigator doesn't navigate accurately on a straight road .
+straight accurately n't stars navigate navigator road gps 0.501016334733 30.6499482792
+
+
+75.5465946371 41 13 27 after 2 weeks, it has yet to make a mistake, and is always completely accurate ,  even to the point of telling me which side of the street my destination is on .
+point accurate street yet even make destination weeks completely telling always side mistake 0.363948625738 27.8931626655
+
+
+74.4674429156 52 13 27 i had a gps 10, years ago when i owned a boat that was difficult to use and with very poor accuracy so i had assumed that the road gps wasn't any better .
+gps owned years boat use assumed better accuracy poor ago n't difficult road 0.368808108242 26.8846426145
+
+
+73.9417023231 3 10 18 it provides immediate alternatives if the route from the online map program was inaccurate or blocked by an obstacle .
+map inaccurate route alternatives immediate obstacle program provides online blocked 0.407885942852 26.3937602489
+
+
+73.4916733622 4 12 22 i've used other gps units, as well as gps built into cars   and to this day nothing beats the accuracy of a garmin gps .
+beats built units accuracy used cars nothing garmin day well 've gps 0.331177395216 25.9738106292
+
+
+73.1244899366 51 13 22 my new garmin 255w had very easy set up, accurate directions to locations, user friendly unit to anyone in my vehicle who tried it .
+set accurate locations unit anyone easy vehicle new friendly tried user directions garmin 0.324667178711 25.6313376737
+
+
+72.87319113 48 14 26 what the 255w does best is find a street address, business, point of interest, hospital or airport and give you turn, by, turn directions with amazing accuracy .
+give street find best hospital point amazing interest accuracy business address directions turn airport 0.323282367716 25.3970394245
+
+
+72.7943053238 58 13 26 very easy to operate and pretty accurate as well, only led me astray once and that was in northern maine where roads are few and paved ones fewer .
+accurate roads maine northern astray easy paved led pretty ones well fewer operate 0.343835180731 25.3235053651
+
+
+71.419749693 65 15 25 i can't believe how accurate and detailed the information estimated time of arrival,speed limits along the way,and detailed map of my route, to name a few .
+detailed estimated speed information way accurate arrival map along believe name limits route n't time 0.283428808039 24.0433918948
+
+
+69.629508221 32 14 25 because the accuracy is good to the street address level, it may not be able to guide you to the exact location if your destination is inside a shopping mall .
+street destination able location accuracy good shopping may address exact level inside mall guide 0.26127228317 22.3797307742
+
+
+68.7266208287 38 15 31 the only glitch i have found so far is that the speed limits are not 100% accurate, although the gps, amazingly, is able to very accurately tell you how fast your vehicle is moving .
+accurate glitch speed amazingly able fast vehicle gps far accurately moving although limits tell found 0.223231211558 21.5423381101
+
+
+66.429788011 35 20 41 i used it the day i bought it,   and then this morning, and as soon as it comes on it is  ready to navigate  the only downfall of this product, and the only reason i did not give it 5 stars is the fact that the speed limit it displays for the road you are on isn't 100% accurate .
+downfall navigate displays ready speed give stars road accurate bought product used soon reason day morning n't limit fact comes 0.162922581914 19.4176378041
+
+
+65.3862726525 2 15 33 this function is not accurate if you don't leave it in battery mode say, when you stop at the cracker barrell for lunch and to play one of those trangle games with the tees .
+battery one say barrell n't accurate function play stop lunch tees cracker leave games mode 0.229876744821 18.4551900286
+
+
+59.6337412956 39 17 34 i was a little disappointed in the inaccuracy of the posted speed limit, as i'm guilty of not paying close enough attention to those signs, especially w  interstate speed traps that are constantly changing up and down .
+signs close speed little traps constantly enough interstate paying attention changing disappointed posted especially guilty limit inaccuracy 0.105723166395 13.1895359301
+
+
+56.5272345156 50 21 33 i'm really glad i bought it though, and like the easy to read graphics, the voice used to tell you the name of the street you are to turn on, the uncannily accurate estimates of mileage and time of arrival at your destination .
+accurate estimates street really destination uncannily easy tell mileage bought arrival used though read graphics glad name like turn time voice 0.00758569941725 10.3831618505
+
+
+43.7820793676 24 4 12 but after that it is very easy and quite accurate to use .
+use quite easy accurate 0.77576307451 39.193074528
+
+
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.35802 (95%-conf.int. 0.35802 - 0.35802)
+1 ROUGE-1 Average_P: 0.30526 (95%-conf.int. 0.30526 - 0.30526)
+1 ROUGE-1 Average_F: 0.32954 (95%-conf.int. 0.32954 - 0.32954)
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.09211 (95%-conf.int. 0.09211 - 0.09211)
+1 ROUGE-2 Average_P: 0.07778 (95%-conf.int. 0.07778 - 0.07778)
+1 ROUGE-2 Average_F: 0.08434 (95%-conf.int. 0.08434 - 0.08434)
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.01408 (95%-conf.int. 0.01408 - 0.01408)
+1 ROUGE-3 Average_P: 0.01176 (95%-conf.int. 0.01176 - 0.01176)
+1 ROUGE-3 Average_F: 0.01282 (95%-conf.int. 0.01282 - 0.01282)
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_P: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_F: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+---------------------------------------------
+1 ROUGE-L Average_R: 0.27160 (95%-conf.int. 0.27160 - 0.27160)
+1 ROUGE-L Average_P: 0.23158 (95%-conf.int. 0.23158 - 0.23158)
+1 ROUGE-L Average_F: 0.25000 (95%-conf.int. 0.25000 - 0.25000)
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.17285 (95%-conf.int. 0.17285 - 0.17285)
+1 ROUGE-W-1.2 Average_P: 0.23296 (95%-conf.int. 0.23296 - 0.23296)
+1 ROUGE-W-1.2 Average_F: 0.19845 (95%-conf.int. 0.19845 - 0.19845)
+
+1 interior_toyota_camry_2007
+1 parking_bestwestern_hotel_sfo
+1 satellite_garmin_nuvi_255W_gps
+1 performance_honda_accord_2008
+1 room_holiday_inn_london
+1 staff_swissotel_chicago
+1 performance_netbook_1005ha
+1 screen_garmin_nuvi_255W_gps
+
+R-1 	0.33 0.31 0.36
+R-2 	0.08 0.08 0.09
+R-3 	0.01 0.01 0.01
+R-4 	0.00 0.00 0.00
+R-l 	0.25 0.23 0.27
+R-w 	0.20 0.23 0.17

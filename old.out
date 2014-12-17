@@ -1,0 +1,58 @@
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.78930 (95%-conf.int. 0.78930 - 0.78930)
+1 ROUGE-1 Average_P: 0.44112 (95%-conf.int. 0.44112 - 0.44112)
+1 ROUGE-1 Average_F: 0.56595 (95%-conf.int. 0.56595 - 0.56595)
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.58844 (95%-conf.int. 0.58844 - 0.58844)
+1 ROUGE-2 Average_P: 0.32642 (95%-conf.int. 0.32642 - 0.32642)
+1 ROUGE-2 Average_F: 0.41991 (95%-conf.int. 0.41991 - 0.41991)
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.52595 (95%-conf.int. 0.52595 - 0.52595)
+1 ROUGE-3 Average_P: 0.28952 (95%-conf.int. 0.28952 - 0.28952)
+1 ROUGE-3 Average_F: 0.37346 (95%-conf.int. 0.37346 - 0.37346)
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.47183 (95%-conf.int. 0.47183 - 0.47183)
+1 ROUGE-4 Average_P: 0.25769 (95%-conf.int. 0.25769 - 0.25769)
+1 ROUGE-4 Average_F: 0.33333 (95%-conf.int. 0.33333 - 0.33333)
+---------------------------------------------
+1 ROUGE-L Average_R: 0.74916 (95%-conf.int. 0.74916 - 0.74916)
+1 ROUGE-L Average_P: 0.41869 (95%-conf.int. 0.41869 - 0.41869)
+1 ROUGE-L Average_F: 0.53717 (95%-conf.int. 0.53717 - 0.53717)
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.30712 (95%-conf.int. 0.30712 - 0.30712)
+1 ROUGE-W-1.2 Average_P: 0.29634 (95%-conf.int. 0.29634 - 0.29634)
+1 ROUGE-W-1.2 Average_F: 0.30163 (95%-conf.int. 0.30163 - 0.30163)
+---------------------------------------------
+1 ROUGE-S* Average_R: 0.59892 (95%-conf.int. 0.59892 - 0.59892)
+1 ROUGE-S* Average_P: 0.18695 (95%-conf.int. 0.18695 - 0.18695)
+1 ROUGE-S* Average_F: 0.28495 (95%-conf.int. 0.28495 - 0.28495)
+---------------------------------------------
+1 ROUGE-SU* Average_R: 0.60492 (95%-conf.int. 0.60492 - 0.60492)
+1 ROUGE-SU* Average_P: 0.19152 (95%-conf.int. 0.19152 - 0.19152)
+1 ROUGE-SU* Average_F: 0.29093 (95%-conf.int. 0.29093 - 0.29093)
+
+0 size_asus_netbook_1005ha
+rouge_1_f_score 0.56595
+rouge_1_precision 0.44112
+rouge_1_recall 0.7893
+rouge_2_f_score 0.41991
+rouge_2_precision 0.32642
+rouge_2_recall 0.58844
+rouge_3_f_score 0.37346
+rouge_3_precision 0.28952
+rouge_3_recall 0.52595
+rouge_4_f_score 0.33333
+rouge_4_precision 0.25769
+rouge_4_recall 0.47183
+rouge_l_f_score 0.53717
+rouge_l_precision 0.41869
+rouge_l_recall 0.74916
+rouge_s*_f_score 0.28495
+rouge_s*_precision 0.18695
+rouge_s*_recall 0.59892
+rouge_su*_f_score 0.29093
+rouge_su*_precision 0.19152
+rouge_su*_recall 0.60492
+rouge_w_1.2_f_score 0.30163
+rouge_w_1.2_precision 0.29634
+rouge_w_1.2_recall 0.30712

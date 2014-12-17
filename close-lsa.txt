@@ -1,0 +1,1258 @@
+load word2vec vectors: 6741 300
+0 size_asus_netbook_1005ha
+0 updates_garmin_nuvi_255W_gps
+0 screen_ipod_nano_8gb
+0 eyesight-issues_amazon_kindle
+0 battery-life_ipod_nano_8gb
+0 battery-life_amazon_kindle
+0 gas_mileage_toyota_camry_2007
+0 screen_netbook_1005ha
+0 quality_toyota_camry_2007
+0 directions_garmin_nuvi_255W_gps
+0 buttons_amazon_kindle
+0 features_windows7
+0 mileage_honda_accord_2008
+0 free_bestwestern_hotel_sfo
+0 price_amazon_kindle
+0 video_ipod_nano_8gb
+0 price_holiday_inn_london
+0 display_garmin_nuvi_255W_gps
+0 comfort_honda_accord_2008
+0 transmission_toyota_camry_2007
+0 navigation_amazon_kindle
+0 staff_bestwestern_hotel_sfo
+0 rooms_bestwestern_hotel_sfo
+0 location_bestwestern_hotel_sfo
+0 food_swissotel_chicago
+0 rooms_swissotel_chicago
+0 interior_honda_accord_2008
+0 location_holiday_inn_london
+0 seats_honda_accord_2008
+0 bathroom_bestwestern_hotel_sfo
+0 service_holiday_inn_london
+0 food_holiday_inn_london
+0 speed_garmin_nuvi_255W_gps
+0 comfort_toyota_camry_2007
+0 voice_garmin_nuvi_255W_gps
+0 service_bestwestern_hotel_sfo
+0 sound_ipod_nano_8gb
+0 fonts_amazon_kindle
+0 service_swissotel_hotel_chicago
+0 battery-life_netbook_1005ha
+0 speed_windows7
+0 keyboard_netbook_1005ha
+0 accuracy_garmin_nuvi_255W_gps
+============== 0 ==============
+Sentence:  , and is very, very accurate .
+*** TF-IDF ***
+(1, 0.6754710355303897) (1, 0.89468425442330812) (23, 0.7498442645921841)
+in closing, this is a fantastic gps with some very nice features and is very accurate in directions .
+
+(4, 0.6383719515440797) (2, 0.81341139625170822) (5, 0.8207313339682121)
+but after that it is very easy and quite accurate to use .
+
+(5, 0.612945006267664) (3, 0.77262733766638703) (2, 0.8386880430176349)
+to date it's been a very easy to use and accurate .
+
+(2, 0.6608957433437802) (4, 0.74194663623687074) (4, 0.8248544651986345)
+but, it's always very accurate .
+
+(6, 0.6107438247959203) (5, 0.72407092799253892) (1, 0.8392011035786608)
+most of the times, this info was very accurate .
+
+============== 1 ==============
+Sentence:  but for the most part, we find that the garmin software provides accurate directions, whereever we intend to go .
+*** TF-IDF ***
+(6, 0.5495926183222686) (1, 0.57026194314701018) (53, 0.7459367553460359)
+most of the times, this info was very accurate .
+
+(3, 0.5514401559734087) (2, 0.5557190140157896) (23, 0.799799142806898)
+but after that it is very easy and quite accurate to use .
+
+(11, 0.5408675827839993) (3, 0.55093653005977994) (14, 0.8128275031770043)
+i've used it around town and find it to be extremely accurate .
+
+(5, 0.5503159456775286) (4, 0.54778962373090423) (58, 0.717327224812653)
+but, it's always very accurate .
+
+(17, 0.5274832232804321) (5, 0.54423559113467757) (44, 0.7569059287172202)
+the directions are highly accurate down to a  t  .
+
+============== 2 ==============
+Sentence:  this function is not accurate if you don't leave it in battery mode say, when you stop at the cracker barrell for lunch and to play one of those trangle games with the tees .
+*** TF-IDF ***
+(4, 0.5685846469101092) (1, 0.53030175291772164) (11, 0.7798812603795509)
+i've even used it in the  pedestrian  mode, and it's amazing how accurate it is .
+
+(8, 0.5583472986901935) (2, 0.5256374819920252) (38, 0.7337037166531991)
+the accuracy at this point is very good .
+
+(5, 0.5662402675603809) (3, 0.52135409517323494) (41, 0.7315141706176886)
+the screen is easy to see, the voice tells you where you are and it's very accurate .
+
+(13, 0.5428291694820165) (4, 0.52125164079041919) (34, 0.7425045389485563)
+easy to use and amazed at how accurate this item is .
+
+(39, 0.5165731362587459) (5, 0.5185739249044643) (32, 0.7464173612063709)
+aside from that, every destination i've thrown at has been 100% accurate .
+
+============== 3 ==============
+Sentence:  it provides immediate alternatives if the route from the online map program was inaccurate or blocked by an obstacle .
+*** TF-IDF ***
+(2, 0.5575164442519454) (1, 0.62067249590038953) (44, 0.7116983159189114)
+accuracy is determined by the maps .
+
+(1, 0.5655819149925772) (2, 0.57115423014609101) (22, 0.7423842797157114)
+a lot of my friends' addresses are inaccurate by any gps .
+
+(21, 0.5242084459779037) (3, 0.54476828288292567) (18, 0.7489967033536611)
+it was accurate on determing original directions and recalculating when necessary .
+
+(4, 0.5543842134285694) (4, 0.53996531808986414) (27, 0.7347136323946455)
+i was familiar with the streets and only used the nuvi to get an accurate arrival time estimate .
+
+(13, 0.5296240137362754) (5, 0.5312443448298303) (38, 0.7229320890024165)
+aside from that, every destination i've thrown at has been 100% accurate .
+
+============== 4 ==============
+Sentence:  i've used other gps units, as well as gps built into cars   and to this day nothing beats the accuracy of a garmin gps .
+*** TF-IDF ***
+(26, 0.5228593987150704) (1, 0.55859438391861937) (57, 0.7204931736229991)
+accuracy is within a few yards .
+
+(7, 0.5579719394434963) (2, 0.55462998038717382) (13, 0.8148367729352068)
+i've used it around town and find it to be extremely accurate .
+
+(2, 0.584347520861474) (3, 0.54835940949806394) (8, 0.8351343502888899)
+this is a great gps, it is so easy to use and it is always accurate .
+
+(9, 0.556729597890292) (4, 0.53584172277272368) (24, 0.7908976349755249)
+a lot of my friends' addresses are inaccurate by any gps .
+
+(10, 0.5545152364586063) (5, 0.53450254615512915) (9, 0.8340380281770872)
+i've even used it in the  pedestrian  mode, and it's amazing how accurate it is .
+
+============== 5 ==============
+Sentence:  it got me from point a to point b with 100% accuracy everytime .
+*** TF-IDF ***
+(2, 0.6436308101248063) (1, 0.88007013168471726) (2, 0.8279156040208356)
+it has yet to disappoint, getting me everywhere with 100% accuracy .
+
+(1, 0.6494465585494646) (2, 0.69491020170778928) (1, 0.840098363973701)
+the accuracy at this point is very good .
+
+(12, 0.5329102576575682) (3, 0.68298559889766719) (29, 0.7267831426002233)
+accuracy is within a few yards .
+
+(3, 0.6036868025530859) (4, 0.65454817554853562) (3, 0.8061209885422953)
+aside from that, every destination i've thrown at has been 100% accurate .
+
+(7, 0.568645301192119) (5, 0.62506974092138545) (10, 0.7691925466553513)
+if your looking for a nice, accurate gps for not so much money, got with this one .
+
+============== 6 ==============
+Sentence:  it has yet to disappoint, getting me everywhere with 100% accuracy .
+*** TF-IDF ***
+(1, 0.6436308101248063) (1, 0.88007013168471726) (3, 0.8279156040208356)
+it got me from point a to point b with 100% accuracy everytime .
+
+(2, 0.6081749378441247) (2, 0.74861359671268013) (5, 0.8187033642730643)
+aside from that, every destination i've thrown at has been 100% accurate .
+
+(6, 0.5473291406791898) (3, 0.62334790463440615) (18, 0.7655991990711615)
+mounted really easily and has been very accurate .
+
+(17, 0.5229758933379955) (4, 0.61598324520445047) (48, 0.7176912123133125)
+accuracy is within a few yards .
+
+(24, 0.519143834336119) (5, 0.61073266373031077) (34, 0.7391483754951801)
+speed of calculation, accuracy, and simplicity of operation are top notch .
+
+============== 7 ==============
+Sentence:  0 out of 5 stars honest, accurate review, , please read !
+*** TF-IDF ***
+(2, 0.6637135081171642) (1, 0.8168916895080014) (3, 0.781189701804446)
+0 out of 5 stars gps navigator doesn't navigate accurately on a straight road .
+
+(1, 0.6818404932462675) (2, 0.81095290713186563) (1, 0.8332317328769577)
+0 out of 5 stars inexpensive, accurate, plenty of features, august 6, 2009
+
+(4, 0.5499300172023017) (3, 0.65793721308220932) (13, 0.7573162861236901)
+the most accurate review stated that these machines are adjunct to a good map and signs on the interstate .
+
+(31, 0.5052991821390428) (4, 0.57300965464804765) (16, 0.7489660989723586)
+i've even used it in the  pedestrian  mode, and it's amazing how accurate it is .
+
+(24, 0.5083010845274089) (5, 0.5500495688635092) (18, 0.7481553846125291)
+if your looking for a nice, accurate gps for not so much money, got with this one .
+
+============== 8 ==============
+Sentence:  aside from that, every destination i've thrown at has been 100% accurate .
+*** TF-IDF ***
+(3, 0.5959916124569224) (1, 0.85537969530409341) (23, 0.7846284655767737)
+mounted really easily and has been very accurate .
+
+(15, 0.5436895942262208) (2, 0.74927247638789418) (24, 0.783421262790378)
+the directions provided have all been quite accurate thus far .
+
+(1, 0.6081749378441247) (3, 0.74861359671268013) (7, 0.8187033642730643)
+it has yet to disappoint, getting me everywhere with 100% accuracy .
+
+(2, 0.6036868025530859) (4, 0.65454817554853562) (12, 0.8061209885422953)
+it got me from point a to point b with 100% accuracy everytime .
+
+(6, 0.5576742329533627) (5, 0.63678437671191424) (39, 0.7649582329728526)
+to date it's been a very easy to use and accurate .
+
+============== 9 ==============
+Sentence:  in closing, this is a fantastic gps with some very nice features and is very accurate in directions .
+*** TF-IDF ***
+(1, 0.6754710355303897) (1, 0.89468425442330812) (44, 0.7498442645921841)
+, and is very, very accurate .
+
+(6, 0.5807410864265665) (2, 0.6996867861406677) (47, 0.7473887164431617)
+,  very accurate but with one small glitch i found ,  i'll explain in the cons
+
+(28, 0.5346664578845841) (3, 0.69343219224333952) (20, 0.7878856300242832)
+mounted really easily and has been very accurate .
+
+(15, 0.553888571759606) (4, 0.69108601287736082) (2, 0.8504267479400776)
+easy to use, excellent accuracy, nice and intuitive interface .
+
+(3, 0.5914027564927181) (5, 0.67299143674840112) (31, 0.7709280451890189)
+the accuracy at this point is very good .
+
+============== 10 ==============
+Sentence:  plus, i've always heard that there are  quirks  with any gps being accurate, having pois, etc .
+*** TF-IDF ***
+(1, 0.602862957402384) (1, 0.8678379189065748) (7, 0.8366623272390732)
+highly accurate, pois are great .
+
+(29, 0.518129773407687) (2, 0.58432469243462037) (58, 0.736007254310938)
+the directions are highly accurate down to a  t  .
+
+(3, 0.5665118921907755) (3, 0.58144538173535487) (26, 0.7925614867043489)
+but, it's always very accurate .
+
+(4, 0.5647950963371191) (4, 0.56610688688742328) (1, 0.8685414034866628)
+this is a great gps, it is so easy to use and it is always accurate .
+
+(7, 0.5480800384818746) (5, 0.56180689153898933) (6, 0.8380768692483236)
+aside from that, every destination i've thrown at has been 100% accurate .
+
+============== 11 ==============
+Sentence:  destination time, , this is pretty accurate too .
+*** TF-IDF ***
+(1, 0.5982547990270696) (1, 0.78268232357018508) (15, 0.8196015616526764)
+the estimated time to arrival does not seem to calculate the travelling time accurately .
+
+(5, 0.5635448432832104) (2, 0.76656129340641344) (38, 0.7761362029712959)
+the accuracy at this point is very good .
+
+(12, 0.5469530021003401) (3, 0.73365440329632736) (23, 0.8060788576398705)
+easy to use and amazed at how accurate this item is .
+
+(14, 0.545897234297269) (4, 0.7182228392863953) (20, 0.8105097099561085)
+most of the times, this info was very accurate .
+
+(2, 0.5878707917370259) (5, 0.68707917830573184) (5, 0.8407514362560653)
+the map is pretty accurate and the point of interest database also is good .
+
+============== 12 ==============
+Sentence:  but, it's always very accurate .
+*** TF-IDF ***
+(3, 0.6533473679819667) (1, 0.84437446293265694) (7, 0.7955768613013245)
+but after that it is very easy and quite accurate to use .
+
+(2, 0.6599921342948546) (2, 0.81694990211711527) (1, 0.8601053861282065)
+to date it's been a very easy to use and accurate .
+
+(4, 0.6321219485636429) (3, 0.76086430604444077) (3, 0.8327490069863561)
+this is a great gps, it is so easy to use and it is always accurate .
+
+(6, 0.6198552440349172) (4, 0.75743525025789094) (2, 0.8408951027614961)
+i've even used it in the  pedestrian  mode, and it's amazing how accurate it is .
+
+(7, 0.6116248621084796) (5, 0.74762277071418937) (4, 0.8297597379033901)
+the screen is easy to see, the voice tells you where you are and it's very accurate .
+
+============== 13 ==============
+Sentence:  the map is pretty accurate and the point of interest database also is good .
+*** TF-IDF ***
+(1, 0.6753256693298237) (1, 0.83768574642424487) (1, 0.8549678812317508)
+the accuracy at this point is very good .
+
+(5, 0.5792407030004673) (2, 0.78257620150273) (3, 0.8483367889971345)
+the most accurate review stated that these machines are adjunct to a good map and signs on the interstate .
+
+(21, 0.5282673555628106) (3, 0.71661612232492855) (44, 0.7779600729553623)
+most of the times, this info was very accurate .
+
+(35, 0.5167504123585539) (4, 0.70654115750393642) (66, 0.6898213711665858)
+accuracy is within a few yards .
+
+(3, 0.5878707917370259) (5, 0.68707917830573184) (6, 0.8407514362560653)
+destination time, , this is pretty accurate too .
+
+============== 14 ==============
+Sentence:  most of the times, this info was very accurate .
+*** TF-IDF ***
+(2, 0.5831754623043849) (1, 0.80339401643767783) (44, 0.7368362146392131)
+the accuracy at this point is very good .
+
+(5, 0.5592849329185764) (2, 0.74602253748455083) (56, 0.7094167892851283)
+i was blown away at the accuracy and routing capability this thing had .
+
+(1, 0.6107438247959203) (3, 0.72407092799253892) (1, 0.8392011035786608)
+, and is very, very accurate .
+
+(9, 0.545897234297269) (4, 0.7182228392863953) (2, 0.8105097099561085)
+destination time, , this is pretty accurate too .
+
+(26, 0.5282673555628106) (5, 0.71661612232492855) (12, 0.7779600729553623)
+the map is pretty accurate and the point of interest database also is good .
+
+============== 15 ==============
+Sentence:  i've even used it in the  pedestrian  mode, and it's amazing how accurate it is .
+*** TF-IDF ***
+(1, 0.633004498725898) (1, 0.88205103490231551) (7, 0.8440920171187016)
+i've used it around town and find it to be extremely accurate .
+
+(2, 0.6198552440349172) (2, 0.75743525025789094) (9, 0.8408951027614961)
+but, it's always very accurate .
+
+(4, 0.5871592725963413) (3, 0.70444380359659631) (8, 0.8419619276841341)
+to date it's been a very easy to use and accurate .
+
+(5, 0.5802004310279125) (4, 0.68006403897737688) (2, 0.8598714412795915)
+this is a great gps, it is so easy to use and it is always accurate .
+
+(10, 0.5584608924953017) (5, 0.65169915765322484) (6, 0.8453486744951129)
+easy to use and amazed at how accurate this item is .
+
+============== 16 ==============
+Sentence:  only  is only accurate when an ad says,  top sirloin steak, only $1 .
+*** TF-IDF ***
+(5, 0.5489953316863533) (1, 0.56445644044084453) (15, 0.7162435250584172)
+speed of calculation, accuracy, and simplicity of operation are top notch .
+
+(1, 0.6035481271356584) (2, 0.55851061074332831) (23, 0.7005518162907067)
+i was familiar with the streets and only used the nuvi to get an accurate arrival time estimate .
+
+(31, 0.5057862011367453) (3, 0.54928206937292468) (58, 0.6624846120030672)
+easy to use, excellent accuracy, nice and intuitive interface .
+
+(10, 0.5232029186415892) (4, 0.53203350134349114) (57, 0.6624937272754308)
+it was accurate on determing original directions and recalculating when necessary .
+
+(55, 0.5005725512982807) (5, 0.53189917053085889) (45, 0.6774018504925168)
+mounted really easily and has been very accurate .
+
+============== 17 ==============
+Sentence:  the most accurate review stated that these machines are adjunct to a good map and signs on the interstate .
+*** TF-IDF ***
+(2, 0.5792407030004673) (1, 0.78257620150273) (1, 0.8483367889971345)
+the map is pretty accurate and the point of interest database also is good .
+
+(5, 0.565041479449667) (2, 0.68342437205603679) (41, 0.7492678547867925)
+the accuracy at this point is very good .
+
+(8, 0.5499300172023017) (3, 0.65793721308220932) (33, 0.7573162861236901)
+0 out of 5 stars honest, accurate review, , please read !
+
+(7, 0.5570576161304891) (4, 0.64038256928805359) (45, 0.7446987443233257)
+most of the times, this info was very accurate .
+
+(12, 0.5403225896585393) (5, 0.58572680720482162) (46, 0.7445886308954444)
+the directions are highly accurate down to a  t  .
+
+============== 18 ==============
+Sentence:  the directions are highly accurate down to a  t  .
+*** TF-IDF ***
+(1, 0.6724950472653095) (1, 0.80363422089760439) (1, 0.8620195305868508)
+highly accurate, pois are great .
+
+(2, 0.5770441874834135) (2, 0.69882709569530999) (16, 0.7702572480913175)
+depending on what you are using it for, it is a nice adjunct to a travel trip and the directions are accurate and usually the quickest, but not always .
+
+(7, 0.5329322255736446) (3, 0.66748329212982149) (39, 0.727278718074895)
+the screen is easy to see, the voice tells you where you are and it's very accurate .
+
+(21, 0.5219278868517316) (4, 0.66094607652186821) (55, 0.6897075762649061)
+speed of calculation, accuracy, and simplicity of operation are top notch .
+
+(47, 0.5062002009173291) (5, 0.65981212084311258) (28, 0.7454865748671816)
+accuracy is determined by the maps .
+
+============== 19 ==============
+Sentence:  depending on what you are using it for, it is a nice adjunct to a travel trip and the directions are accurate and usually the quickest, but not always .
+*** TF-IDF ***
+(7, 0.5770441874834135) (1, 0.69882709569530999) (43, 0.7702572480913175)
+the directions are highly accurate down to a  t  .
+
+(1, 0.6242033196528873) (2, 0.64925033924357267) (46, 0.757783310838493)
+but, it's always very accurate .
+
+(40, 0.5233195449862257) (3, 0.59645895999849907) (66, 0.6653332002934175)
+accuracy is within a few yards .
+
+(19, 0.549475104943064) (4, 0.56499528561235357) (25, 0.8140919367306814)
+easy to use, excellent accuracy, nice and intuitive interface .
+
+(20, 0.5492784007075153) (5, 0.56429076069546302) (41, 0.7757088277816753)
+it was accurate on determing original directions and recalculating when necessary .
+
+============== 20 ==============
+Sentence:  the screen is easy to see, the voice tells you where you are and it's very accurate .
+*** TF-IDF ***
+(2, 0.619706569128987) (1, 0.78066509080933955) (2, 0.8330340766931296)
+to date it's been a very easy to use and accurate .
+
+(4, 0.6116248621084796) (2, 0.74762277071418937) (3, 0.8297597379033901)
+but, it's always very accurate .
+
+(9, 0.5728412023154372) (3, 0.73801637676251786) (5, 0.8256750751280798)
+this is a great gps, it is so easy to use and it is always accurate .
+
+(8, 0.5764152014534987) (4, 0.73247720248056636) (6, 0.823251047614102)
+but after that it is very easy and quite accurate to use .
+
+(26, 0.5267928748796622) (5, 0.7010156248177839) (38, 0.7485954650637878)
+highly accurate, pois are great .
+
+============== 21 ==============
+Sentence:  it was accurate to the minute when it told me when i would arrive home .
+*** TF-IDF ***
+(1, 0.5964386690452582) (1, 0.85797369880129115) (44, 0.7125405376420901)
+it was accurate on determing original directions and recalculating when necessary .
+
+(17, 0.532870933254711) (2, 0.60958439668550835) (52, 0.701759349054372)
+most of the times, this info was very accurate .
+
+(9, 0.5466712857755655) (3, 0.58868766085306035) (50, 0.7049121539392781)
+it has yet to disappoint, getting me everywhere with 100% accuracy .
+
+(7, 0.5497799663762037) (4, 0.56840375886425432) (38, 0.7196174264332273)
+i've even used it in the  pedestrian  mode, and it's amazing how accurate it is .
+
+(64, 0.5000053587607584) (5, 0.56244596402685032) (66, 0.6523709989019746)
+speed of calculation, accuracy, and simplicity of operation are top notch .
+
+============== 22 ==============
+Sentence:  0 out of 5 stars gps navigator doesn't navigate accurately on a straight road .
+*** TF-IDF ***
+(1, 0.6637135081171642) (1, 0.8168916895080014) (5, 0.781189701804446)
+0 out of 5 stars honest, accurate review, , please read !
+
+(5, 0.5732211064368901) (2, 0.69884841867112868) (19, 0.7445389280039754)
+the estimated time to arrival does not seem to calculate the travelling time accurately .
+
+(2, 0.6556590106225813) (3, 0.68147586926759463) (2, 0.7995587476642754)
+0 out of 5 stars inexpensive, accurate, plenty of features, august 6, 2009
+
+(4, 0.5742993782596788) (4, 0.57354623220239631) (3, 0.7884234248091097)
+i had a gps 10, years ago when i owned a boat that was difficult to use and with very poor accuracy so i had assumed that the road gps wasn't any better .
+
+(3, 0.6120218683594639) (5, 0.55248479737465062) (1, 0.8017542733690551)
+i used it the day i bought it,   and then this morning, and as soon as it comes on it is  ready to navigate  the only downfall of this product, and the only reason i did not give it 5 stars is the fact that the speed limit it displays for the road you are on isn't 100% accurate .
+
+============== 23 ==============
+Sentence:  i was familiar with the streets and only used the nuvi to get an accurate arrival time estimate .
+*** TF-IDF ***
+(1, 0.605308028450027) (1, 0.66179844541600896) (2, 0.8629337557364873)
+the estimated time to arrival does not seem to calculate the travelling time accurately .
+
+(10, 0.5439647068023539) (2, 0.6209115080301133) (13, 0.8275096141263124)
+i've used it around town and find it to be extremely accurate .
+
+(9, 0.5493761300582222) (3, 0.6132674107866275) (4, 0.8553204643579797)
+destination time, , this is pretty accurate too .
+
+(8, 0.5497090408020434) (4, 0.59236524892774423) (22, 0.8041275073363376)
+it has worked well for local driving giving accurate directions for roads and streets .
+
+(17, 0.5318464217380638) (5, 0.58082560908551395) (38, 0.7792597163595779)
+,  very accurate but with one small glitch i found ,  i'll explain in the cons
+
+============== 24 ==============
+Sentence:  but after that it is very easy and quite accurate to use .
+*** TF-IDF ***
+(1, 0.6667694591653096) (1, 0.93439389488592961) (3, 0.9048185781757312)
+to date it's been a very easy to use and accurate .
+
+(3, 0.6533473679819667) (2, 0.84437446293265694) (28, 0.7955768613013245)
+but, it's always very accurate .
+
+(2, 0.6609890112875854) (3, 0.83510449210235005) (1, 0.9231680586604654)
+this is a great gps, it is so easy to use and it is always accurate .
+
+(4, 0.6383719515440797) (4, 0.81341139625170822) (19, 0.8207313339682121)
+, and is very, very accurate .
+
+(6, 0.5993439236254279) (5, 0.7978589477411) (4, 0.8973587740555573)
+easy to use, excellent accuracy, nice and intuitive interface .
+
+============== 25 ==============
+Sentence:  the accuracy at this point is very good .
+*** TF-IDF ***
+(1, 0.6753256693298237) (1, 0.83768574642424487) (1, 0.8549678812317508)
+the map is pretty accurate and the point of interest database also is good .
+
+(7, 0.5831754623043849) (2, 0.80339401643767783) (39, 0.7368362146392131)
+most of the times, this info was very accurate .
+
+(5, 0.6150842537865278) (3, 0.77647955207520525) (9, 0.7833588831808442)
+i was blown away at the accuracy and routing capability this thing had .
+
+(4, 0.6202099120047897) (4, 0.76881901014005849) (35, 0.7476170758769975)
+easy to use and amazed at how accurate this item is .
+
+(13, 0.5635448432832104) (5, 0.76656129340641344) (12, 0.7761362029712959)
+destination time, , this is pretty accurate too .
+
+============== 26 ==============
+Sentence:  while the 255w routing seems generally accurate and logical, on my first use i discovered that it does have some errors in its internal map .
+*** TF-IDF ***
+(1, 0.5708488942347631) (1, 0.72927152345191626) (15, 0.8129043776981969)
+seems to be rather accurate .
+
+(14, 0.5391756006307621) (2, 0.53516843635727485) (59, 0.7309748608239032)
+0 out of 5 stars gps navigator doesn't navigate accurately on a straight road .
+
+(24, 0.5280632735213016) (3, 0.53390582462027469) (9, 0.8209378062651391)
+easy to use, excellent accuracy, nice and intuitive interface .
+
+(7, 0.5494849183028356) (4, 0.52566888303049419) (33, 0.7934202469337448)
+i was blown away at the accuracy and routing capability this thing had .
+
+(2, 0.5708141674896471) (5, 0.52413959546436528) (52, 0.7492165038695091)
+in closing, this is a fantastic gps with some very nice features and is very accurate in directions .
+
+============== 27 ==============
+Sentence:  bottom line is i wanted a unit that is accurate and had reliable satellite connection .
+*** TF-IDF ***
+(13, 0.5251956211601604) (1, 0.64674223494994132) (66, 0.6726190270815877)
+accuracy is within a few yards .
+
+(14, 0.5244885348746474) (2, 0.55669981261621637) (4, 0.7930061176018688)
+the map is pretty accurate and the point of interest database also is good .
+
+(31, 0.5150304127977403) (3, 0.54421621679290511) (11, 0.7797493641418014)
+destination time, , this is pretty accurate too .
+
+(2, 0.5494242106550853) (4, 0.53951290642575001) (13, 0.7785461978108994)
+this is a great gps, it is so easy to use and it is always accurate .
+
+(28, 0.5156004989718972) (5, 0.53377856549844394) (60, 0.7248272895140517)
+accuracy is determined by the maps .
+
+============== 28 ==============
+Sentence:  i've used it around town and find it to be extremely accurate .
+*** TF-IDF ***
+(1, 0.633004498725898) (1, 0.88205103490231551) (3, 0.8440920171187016)
+i've even used it in the  pedestrian  mode, and it's amazing how accurate it is .
+
+(3, 0.565435362943419) (2, 0.79513948214691621) (38, 0.7701399965352991)
+seems to be rather accurate .
+
+(17, 0.5353049743541773) (3, 0.73177130133003965) (44, 0.7653928046023297)
+less traveled rural roads will not be accurate on any unit .
+
+(19, 0.5321659482634411) (4, 0.62973377306221867) (39, 0.7700252984123519)
+but, it's always very accurate .
+
+(8, 0.5439647068023539) (5, 0.6209115080301133) (12, 0.8275096141263124)
+i was familiar with the streets and only used the nuvi to get an accurate arrival time estimate .
+
+============== 29 ==============
+Sentence:  i found the maps to be inaccurate at first, but after i updated them from garmin's website everything is golden .
+*** TF-IDF ***
+(1, 0.6058511017047655) (1, 0.69023199703255567) (35, 0.7486396102765155)
+but, it's always very accurate .
+
+(7, 0.5626493570920756) (2, 0.64598177587658445) (6, 0.7952178171306072)
+accuracy is determined by the maps .
+
+(3, 0.5920867777881339) (3, 0.63260855449645048) (43, 0.7350278260767217)
+but after that it is very easy and quite accurate to use .
+
+(14, 0.545099880008994) (4, 0.58830334590560385) (61, 0.6997826133394145)
+seems to be rather accurate .
+
+(4, 0.5818448719047948) (5, 0.58320622876483863) (19, 0.7696780066252377)
+,  very accurate but with one small glitch i found ,  i'll explain in the cons
+
+============== 30 ==============
+Sentence:  a lot of my friends' addresses are inaccurate by any gps .
+*** TF-IDF ***
+(9, 0.5398561130638524) (1, 0.77192449089374771) (66, 0.6408804011450253)
+speed of calculation, accuracy, and simplicity of operation are top notch .
+
+(1, 0.5672151013898264) (2, 0.68745491972024342) (46, 0.7164346317240932)
+accuracy is determined by the maps .
+
+(14, 0.5352534933892819) (3, 0.65806301023543778) (52, 0.7019204079488256)
+less traveled rural roads will not be accurate on any unit .
+
+(16, 0.5328095948636725) (4, 0.65445238897325575) (53, 0.700832332822563)
+the directions are highly accurate down to a  t  .
+
+(22, 0.5235818468253374) (5, 0.61928408124794387) (20, 0.7543343773953)
+highly accurate, pois are great .
+
+============== 31 ==============
+Sentence:  it loads quickly, have pretty accurate directions, and can recalculate quickly when i miss a turn .
+*** TF-IDF ***
+(3, 0.5578555676551664) (1, 0.66344497757980347) (10, 0.8206548763668517)
+destination time, , this is pretty accurate too .
+
+(12, 0.5306930019122394) (2, 0.5946421774609344) (15, 0.8130232085597251)
+the directions are highly accurate down to a  t  .
+
+(7, 0.5394549571172067) (3, 0.58506431096209222) (16, 0.812273652928929)
+the map is pretty accurate and the point of interest database also is good .
+
+(6, 0.5465371290924291) (4, 0.55354291411697076) (6, 0.828187945335547)
+the directions provided have all been quite accurate thus far .
+
+(5, 0.5495056622048085) (5, 0.52621217237557893) (26, 0.80071248264846)
+it was accurate on determing original directions and recalculating when necessary .
+
+============== 32 ==============
+Sentence:  because the accuracy is good to the street address level, it may not be able to guide you to the exact location if your destination is inside a shopping mall .
+*** TF-IDF ***
+(15, 0.5446264906325955) (1, 0.62478533560947713) (60, 0.7198739013799197)
+seems to be rather accurate .
+
+(21, 0.532323766377387) (2, 0.61276381265224933) (58, 0.7225005823984578)
+accuracy is within a few yards .
+
+(14, 0.548525214409151) (3, 0.55842478740108903) (9, 0.8235696473847172)
+destination time, , this is pretty accurate too .
+
+(3, 0.5812090134357903) (4, 0.54772823258515246) (44, 0.7590998068880552)
+the accuracy at this point is very good .
+
+(18, 0.5357714470795918) (5, 0.53251243390321445) (41, 0.7644580770276024)
+accuracy is determined by the maps .
+
+============== 33 ==============
+Sentence:  i updated to the latest 2010 map soon after i received the unit, so the map is accurate to me .
+*** TF-IDF ***
+(2, 0.5847881512608916) (1, 0.67080513148865895) (3, 0.8010102263681473)
+the map is pretty accurate and the point of interest database also is good .
+
+(4, 0.566862652123561) (2, 0.58160136150071506) (39, 0.7339414762321391)
+but after that it is very easy and quite accurate to use .
+
+(39, 0.5172323147093553) (3, 0.57940111043875808) (43, 0.7310487434517965)
+the directions are highly accurate down to a  t  .
+
+(6, 0.5637593508967502) (4, 0.56350983610097094) (23, 0.7478159487904015)
+this is a great gps, it is so easy to use and it is always accurate .
+
+(60, 0.5030646791407063) (5, 0.55605746723432337) (45, 0.7291404798755363)
+highly accurate, pois are great .
+
+============== 34 ==============
+Sentence:  i was blown away at the accuracy and routing capability this thing had .
+*** TF-IDF ***
+(1, 0.6150842537865278) (1, 0.77647955207520525) (7, 0.7833588831808442)
+the accuracy at this point is very good .
+
+(4, 0.5592849329185764) (2, 0.74602253748455083) (53, 0.7094167892851283)
+most of the times, this info was very accurate .
+
+(3, 0.5635646784866487) (3, 0.71870444420212209) (37, 0.7487512289861391)
+easy to use and amazed at how accurate this item is .
+
+(18, 0.5274786806419465) (4, 0.68555698658341691) (14, 0.7718992537579312)
+destination time, , this is pretty accurate too .
+
+(16, 0.5279026810209972) (5, 0.62072370577918834) (57, 0.7007059632317661)
+it was accurate on determing original directions and recalculating when necessary .
+
+============== 35 ==============
+Sentence:  i used it the day i bought it,   and then this morning, and as soon as it comes on it is  ready to navigate  the only downfall of this product, and the only reason i did not give it 5 stars is the fact that the speed limit it displays for the road you are on isn't 100% accurate .
+*** TF-IDF ***
+(1, 0.6120218683594639) (1, 0.55248479737465062) (33, 0.8017542733690551)
+0 out of 5 stars gps navigator doesn't navigate accurately on a straight road .
+
+(4, 0.6042674627623277) (2, 0.53040310994662276) (28, 0.8082413522163876)
+this is a great gps, it is so easy to use and it is always accurate .
+
+(20, 0.5545331815898514) (3, 0.5278180815937038) (53, 0.7629933841735992)
+the accuracy at this point is very good .
+
+(40, 0.5420590655569647) (4, 0.52638837913813474) (25, 0.8171991202168641)
+destination time, , this is pretty accurate too .
+
+(36, 0.543322779718229) (5, 0.52532791978140847) (56, 0.7512848895703932)
+most of the times, this info was very accurate .
+
+============== 36 ==============
+Sentence:  if your looking for a nice, accurate gps for not so much money, got with this one .
+*** TF-IDF ***
+(13, 0.5483727402535992) (1, 0.69102249544452909) (44, 0.7784127960681935)
+easy to use, excellent accuracy, nice and intuitive interface .
+
+(2, 0.5939903919708002) (2, 0.65392950840599517) (2, 0.8718854592545244)
+this is a great gps, it is so easy to use and it is always accurate .
+
+(7, 0.568645301192119) (3, 0.62506974092138545) (46, 0.7691925466553513)
+it got me from point a to point b with 100% accuracy everytime .
+
+(3, 0.5933240194822713) (4, 0.60847529358308616) (42, 0.7791673155553778)
+it has worked well for local driving giving accurate directions for roads and streets .
+
+(26, 0.5205403913261188) (5, 0.59757653161841529) (34, 0.7949926101202959)
+easy to use and amazed at how accurate this item is .
+
+============== 37 ==============
+Sentence:  0 out of 5 stars inexpensive, accurate, plenty of features, august 6, 2009
+*** TF-IDF ***
+(1, 0.6818404932462675) (1, 0.81095290713186563) (1, 0.8332317328769577)
+0 out of 5 stars honest, accurate review, , please read !
+
+(3, 0.5544784296056167) (2, 0.68194318504780205) (54, 0.6752292578315817)
+speed of calculation, accuracy, and simplicity of operation are top notch .
+
+(2, 0.6556590106225813) (3, 0.68147586926759463) (3, 0.7995587476642754)
+0 out of 5 stars gps navigator doesn't navigate accurately on a straight road .
+
+(8, 0.5377827292775355) (4, 0.60473893914655874) (40, 0.7004088745666771)
+most of the times, this info was very accurate .
+
+(10, 0.5320538023254181) (5, 0.586583611828009) (47, 0.6818691476990473)
+, and is very, very accurate .
+
+============== 38 ==============
+Sentence:  the only glitch i have found so far is that the speed limits are not 100% accurate, although the gps, amazingly, is able to very accurately tell you how fast your vehicle is moving .
+*** TF-IDF ***
+(8, 0.5709989709952259) (1, 0.57366814224568763) (6, 0.8463249501382246)
+the directions provided have all been quite accurate thus far .
+
+(4, 0.5901732482039344) (2, 0.55590910673682359) (14, 0.8366778118581084)
+this is a great gps, it is so easy to use and it is always accurate .
+
+(5, 0.5892364212802368) (3, 0.5547091663208874) (60, 0.7488510313503907)
+, and is very, very accurate .
+
+(51, 0.520911296883658) (4, 0.54522653463865212) (42, 0.7825430555081913)
+highly accurate, pois are great .
+
+(29, 0.5389829645329385) (5, 0.53858475928979177) (45, 0.7805575128759547)
+speed of calculation, accuracy, and simplicity of operation are top notch .
+
+============== 39 ==============
+Sentence:  i was a little disappointed in the inaccuracy of the posted speed limit, as i'm guilty of not paying close enough attention to those signs, especially w  interstate speed traps that are constantly changing up and down .
+*** TF-IDF ***
+(4, 0.5675702695678773) (1, 0.60695599119978105) (65, 0.6687265656590405)
+the directions are highly accurate down to a  t  .
+
+(3, 0.576837038757552) (2, 0.54080614730785737) (50, 0.7258606859207959)
+speed of calculation, accuracy, and simplicity of operation are top notch .
+
+(53, 0.5076054809109432) (3, 0.51219364540385603) (55, 0.7126780917978344)
+easy to use, excellent accuracy, nice and intuitive interface .
+
+(2, 0.5781473280639994) (4, 0.51104234891593892) (23, 0.7816515690465982)
+the most accurate review stated that these machines are adjunct to a good map and signs on the interstate .
+
+(34, 0.5180310783510524) (5, 0.50989267697202367) (44, 0.740157668298124)
+the estimated time to arrival does not seem to calculate the travelling time accurately .
+
+============== 40 ==============
+Sentence:  the closest one that gives the most accurate route that i usually take is the navigon .
+*** TF-IDF ***
+(2, 0.5633923633123746) (1, 0.67685223228450409) (47, 0.7494245198815022)
+most of the times, this info was very accurate .
+
+(9, 0.5455929011534218) (2, 0.57056844874135926) (22, 0.7914884410204277)
+but after that it is very easy and quite accurate to use .
+
+(17, 0.531284264064672) (3, 0.55143208698453838) (14, 0.8048907911440324)
+aside from that, every destination i've thrown at has been 100% accurate .
+
+(4, 0.5550214925696639) (4, 0.55022071158761399) (11, 0.8071991089362089)
+,  very accurate but with one small glitch i found ,  i'll explain in the cons
+
+(63, 0.5000052807089892) (5, 0.5493077294976344) (60, 0.7205279067342267)
+speed of calculation, accuracy, and simplicity of operation are top notch .
+
+============== 41 ==============
+Sentence:  after 2 weeks, it has yet to make a mistake, and is always completely accurate ,  even to the point of telling me which side of the street my destination is on .
+*** TF-IDF ***
+(15, 0.5559936167507994) (1, 0.58326704955227049) (4, 0.8547956115142603)
+destination time, , this is pretty accurate too .
+
+(3, 0.5855121426813888) (2, 0.57414881361123871) (36, 0.7920175442240509)
+this is a great gps, it is so easy to use and it is always accurate .
+
+(10, 0.5636237188185879) (3, 0.56528450366859495) (44, 0.7717400913874322)
+but, it's always very accurate .
+
+(6, 0.5660908162145536) (4, 0.55717694009647989) (32, 0.7952860961797165)
+but after that it is very easy and quite accurate to use .
+
+(1, 0.5977079386727047) (5, 0.54736488559907481) (9, 0.836170762550677)
+it has yet to disappoint, getting me everywhere with 100% accuracy .
+
+============== 42 ==============
+Sentence:  it has worked well for local driving giving accurate directions for roads and streets .
+*** TF-IDF ***
+(7, 0.5443636016855375) (1, 0.64363639371622283) (39, 0.7255617194646046)
+mounted really easily and has been very accurate .
+
+(21, 0.5179108299141258) (2, 0.61725474777926426) (7, 0.7986954268070288)
+the directions provided have all been quite accurate thus far .
+
+(1, 0.5933240194822713) (3, 0.60847529358308616) (18, 0.7791673155553778)
+if your looking for a nice, accurate gps for not so much money, got with this one .
+
+(16, 0.5238237273819357) (4, 0.59342088153402217) (26, 0.7602675130741458)
+the directions are highly accurate down to a  t  .
+
+(5, 0.5497090408020434) (5, 0.59236524892774423) (5, 0.8041275073363376)
+i was familiar with the streets and only used the nuvi to get an accurate arrival time estimate .
+
+============== 43 ==============
+Sentence:  the estimated time to arrival does not seem to calculate the travelling time accurately .
+*** TF-IDF ***
+(3, 0.5982547990270696) (1, 0.78268232357018508) (3, 0.8196015616526764)
+destination time, , this is pretty accurate too .
+
+(5, 0.5732211064368901) (2, 0.69884841867112868) (29, 0.7445389280039754)
+0 out of 5 stars gps navigator doesn't navigate accurately on a straight road .
+
+(2, 0.605308028450027) (3, 0.66179844541600896) (1, 0.8629337557364873)
+i was familiar with the streets and only used the nuvi to get an accurate arrival time estimate .
+
+(44, 0.5050967787876375) (4, 0.57729333729849819) (24, 0.7544625268373302)
+the directions provided have all been quite accurate thus far .
+
+(18, 0.5141694952012794) (5, 0.56972462809268276) (55, 0.69541631634408)
+the directions are highly accurate down to a  t  .
+
+============== 44 ==============
+Sentence:  accuracy is as good as any other unit, they all sometimes tell you you have arrived when you haven't, or continue to tell you to turn when you're already there .
+*** TF-IDF ***
+(1, 0.6134219489029563) (1, 0.5560736732899576) (39, 0.761359867596348)
+the screen is easy to see, the voice tells you where you are and it's very accurate .
+
+(8, 0.5701718262833942) (2, 0.55034356529225559) (35, 0.7674023518547846)
+the directions provided have all been quite accurate thus far .
+
+(12, 0.5501858296808431) (3, 0.53491059093691684) (23, 0.7942849034758281)
+the accuracy at this point is very good .
+
+(16, 0.5357753160385506) (4, 0.53120566940088532) (51, 0.728940181359816)
+less traveled rural roads will not be accurate on any unit .
+
+(31, 0.5162614004767232) (5, 0.52481921028430933) (45, 0.7431719776545369)
+easy to use, excellent accuracy, nice and intuitive interface .
+
+============== 45 ==============
+Sentence:  accuracy is determined by the maps .
+*** TF-IDF ***
+(1, 0.5805399906881713) (1, 0.75241076238902038) (5, 0.7901752576034091)
+the garmin is loaded with very accurate maps that generally know the roads in even the remotest areas .
+
+(15, 0.5253287104121592) (2, 0.70307105377805734) (16, 0.753155152047712)
+speed of calculation, accuracy, and simplicity of operation are top notch .
+
+(2, 0.5682955497462768) (3, 0.69002352301109349) (13, 0.7594094942368114)
+the accuracy at this point is very good .
+
+(5, 0.5654138458288377) (4, 0.68923103842964917) (14, 0.7574251270973374)
+practiced visiting places i already knew to see how accurate the directions and maps would be .
+
+(4, 0.5672151013898264) (5, 0.68745491972024342) (43, 0.7164346317240932)
+a lot of my friends' addresses are inaccurate by any gps .
+
+============== 46 ==============
+Sentence:  less traveled rural roads will not be accurate on any unit .
+*** TF-IDF ***
+(1, 0.555253002657585) (1, 0.77870969445618932) (31, 0.7210827959273854)
+seems to be rather accurate .
+
+(5, 0.5353049743541773) (2, 0.73177130133003965) (7, 0.7653928046023297)
+i've used it around town and find it to be extremely accurate .
+
+(6, 0.5352534933892819) (3, 0.65806301023543778) (42, 0.7019204079488256)
+a lot of my friends' addresses are inaccurate by any gps .
+
+(15, 0.5256042871078075) (4, 0.61539745716052885) (60, 0.6659590509866355)
+it was accurate on determing original directions and recalculating when necessary .
+
+(42, 0.5006198740739625) (5, 0.56873470876952292) (27, 0.725235531669882)
+i've even used it in the  pedestrian  mode, and it's amazing how accurate it is .
+
+============== 47 ==============
+Sentence:  accuracy is within a few yards .
+*** TF-IDF ***
+(1, 0.5538668662413638) (1, 0.7296251335448054) (1, 0.7683385461419345)
+the accuracy at this point is very good .
+
+(22, 0.5167504123585539) (2, 0.70654115750393642) (21, 0.6898213711665858)
+the map is pretty accurate and the point of interest database also is good .
+
+(2, 0.55213764902297) (3, 0.70314872152662455) (13, 0.7057200711329)
+i can't believe how accurate and detailed the information estimated time of arrival,speed limits along the way,and detailed map of my route, to name a few .
+
+(6, 0.5329102576575682) (4, 0.68298559889766719) (6, 0.7267831426002233)
+it got me from point a to point b with 100% accuracy everytime .
+
+(16, 0.5225471472577758) (5, 0.68128858536557813) (4, 0.7533534861479616)
+speed of calculation, accuracy, and simplicity of operation are top notch .
+
+============== 48 ==============
+Sentence:  what the 255w does best is find a street address, business, point of interest, hospital or airport and give you turn, by, turn directions with amazing accuracy .
+*** TF-IDF ***
+(7, 0.5682496218197942) (1, 0.6293510224042711) (63, 0.6971554845709106)
+accuracy is determined by the maps .
+
+(1, 0.5899566263841349) (2, 0.62564603624501069) (8, 0.8177206386626574)
+the map is pretty accurate and the point of interest database also is good .
+
+(31, 0.5269222748846883) (3, 0.55653760549358866) (61, 0.7004067709444282)
+accuracy is within a few yards .
+
+(8, 0.5678296343313038) (4, 0.55222260757766495) (15, 0.8013501510763059)
+the accuracy at this point is very good .
+
+(11, 0.5506225739655685) (5, 0.53658494260902745) (32, 0.7670642568850057)
+i've even used it in the  pedestrian  mode, and it's amazing how accurate it is .
+
+============== 49 ==============
+Sentence:  the garmin is loaded with very accurate maps that generally know the roads in even the remotest areas .
+*** TF-IDF ***
+(2, 0.5805399906881713) (1, 0.75241076238902038) (34, 0.7901752576034091)
+accuracy is determined by the maps .
+
+(4, 0.5763229616207491) (2, 0.61226823044775114) (61, 0.7243852388930467)
+, and is very, very accurate .
+
+(1, 0.5832086191136098) (3, 0.60748757825166544) (42, 0.7668783564223605)
+in closing, this is a fantastic gps with some very nice features and is very accurate in directions .
+
+(3, 0.5765451545076389) (4, 0.58859124979891453) (15, 0.817998262370808)
+i've even used it in the  pedestrian  mode, and it's amazing how accurate it is .
+
+(24, 0.526233999548482) (5, 0.5628064305319932) (13, 0.8182700978689518)
+the map is pretty accurate and the point of interest database also is good .
+
+============== 50 ==============
+Sentence:  i'm really glad i bought it though, and like the easy to read graphics, the voice used to tell you the name of the street you are to turn on, the uncannily accurate estimates of mileage and time of arrival at your destination .
+*** TF-IDF ***
+(19, 0.5463422979642646) (1, 0.57065885114208659) (25, 0.8244022626375365)
+mounted really easily and has been very accurate .
+
+(1, 0.6269740207411841) (2, 0.55006460011322467) (16, 0.8447881072479495)
+the screen is easy to see, the voice tells you where you are and it's very accurate .
+
+(11, 0.5682676243214434) (3, 0.54477883916194536) (5, 0.8693892938824989)
+destination time, , this is pretty accurate too .
+
+(16, 0.5588642839742031) (4, 0.53890749273913952) (48, 0.7758704902960609)
+0 out of 5 stars honest, accurate review, , please read !
+
+(22, 0.5440911029921542) (5, 0.53448449797632547) (30, 0.8150725783466191)
+aside from that, every destination i've thrown at has been 100% accurate .
+
+============== 51 ==============
+Sentence:  my new garmin 255w had very easy set up, accurate directions to locations, user friendly unit to anyone in my vehicle who tried it .
+*** TF-IDF ***
+(2, 0.5594676168787567) (1, 0.53743628375999164) (61, 0.7125244318533087)
+, and is very, very accurate .
+
+(27, 0.523367557147932) (2, 0.53474108616960425) (33, 0.7828216659463415)
+the directions are highly accurate down to a  t  .
+
+(52, 0.5065770197119521) (3, 0.52393083548641362) (60, 0.7146611764951952)
+0 out of 5 stars honest, accurate review, , please read !
+
+(4, 0.5510360058440735) (4, 0.52378115885138121) (14, 0.8040452351189381)
+to date it's been a very easy to use and accurate .
+
+(7, 0.5465348344708905) (5, 0.51935699129713675) (41, 0.7719737367270453)
+a lot of my friends' addresses are inaccurate by any gps .
+
+============== 52 ==============
+Sentence:  i had a gps 10, years ago when i owned a boat that was difficult to use and with very poor accuracy so i had assumed that the road gps wasn't any better .
+*** TF-IDF ***
+(5, 0.5742993782596788) (1, 0.57354623220239631) (16, 0.7884234248091097)
+0 out of 5 stars gps navigator doesn't navigate accurately on a straight road .
+
+(36, 0.5275399190170178) (2, 0.55703824101644983) (57, 0.7194977274818873)
+accuracy is within a few yards .
+
+(8, 0.5643625518824456) (3, 0.55591313504619866) (17, 0.7869630334230502)
+but after that it is very easy and quite accurate to use .
+
+(2, 0.5984820974665275) (4, 0.55090996210913346) (6, 0.8131997370503493)
+this is a great gps, it is so easy to use and it is always accurate .
+
+(13, 0.5549851967730102) (5, 0.55001392813417238) (39, 0.7522370548113146)
+to date it's been a very easy to use and accurate .
+
+============== 53 ==============
+Sentence:  practiced visiting places i already knew to see how accurate the directions and maps would be .
+*** TF-IDF ***
+(5, 0.5534483410720901) (1, 0.71201040191701848) (52, 0.745508606216817)
+seems to be rather accurate .
+
+(1, 0.5654138458288377) (2, 0.68923103842964917) (47, 0.7574251270973374)
+accuracy is determined by the maps .
+
+(11, 0.5311580776085706) (3, 0.65174415653542617) (39, 0.7685899551921184)
+the directions are highly accurate down to a  t  .
+
+(3, 0.5612665284195099) (4, 0.57818150124049827) (48, 0.7563576364294117)
+the screen is easy to see, the voice tells you where you are and it's very accurate .
+
+(6, 0.5490460012122691) (5, 0.55859963367008725) (46, 0.7579121642922353)
+easy to use and amazed at how accurate this item is .
+
+============== 54 ==============
+Sentence:  easy to use, excellent accuracy, nice and intuitive interface .
+*** TF-IDF ***
+(4, 0.5871580330288753) (1, 0.86653103940511245) (3, 0.8704620142113335)
+easy to use and amazed at how accurate this item is .
+
+(3, 0.5897835412376984) (2, 0.83908990152472573) (1, 0.9055257180892144)
+this is a great gps, it is so easy to use and it is always accurate .
+
+(1, 0.6003101867461696) (3, 0.8323331380558594) (5, 0.8349927828989494)
+to date it's been a very easy to use and accurate .
+
+(2, 0.5993439236254279) (4, 0.7978589477411) (2, 0.8973587740555573)
+but after that it is very easy and quite accurate to use .
+
+(11, 0.5311415684367192) (5, 0.69373510717722087) (32, 0.7517085144344529)
+, and is very, very accurate .
+
+============== 55 ==============
+Sentence:  the directions provided have all been quite accurate thus far .
+*** TF-IDF ***
+(5, 0.5582131045971812) (1, 0.89986642493581193) (11, 0.8115752151007377)
+mounted really easily and has been very accurate .
+
+(7, 0.5436895942262208) (2, 0.74927247638789418) (31, 0.783421262790378)
+aside from that, every destination i've thrown at has been 100% accurate .
+
+(1, 0.5961349256755187) (3, 0.74788800416286028) (3, 0.8381131812727912)
+but after that it is very easy and quite accurate to use .
+
+(4, 0.5647731073213197) (4, 0.71993170599945344) (35, 0.769977247151442)
+to date it's been a very easy to use and accurate .
+
+(43, 0.5018138195050326) (5, 0.70089860344261545) (38, 0.7650031761227764)
+, and is very, very accurate .
+
+============== 56 ==============
+Sentence:  ,  very accurate but with one small glitch i found ,  i'll explain in the cons
+*** TF-IDF ***
+(5, 0.5807410864265665) (1, 0.6996867861406677) (47, 0.7473887164431617)
+in closing, this is a fantastic gps with some very nice features and is very accurate in directions .
+
+(3, 0.5833801237230078) (2, 0.67094967848842657) (59, 0.7112459593027676)
+, and is very, very accurate .
+
+(2, 0.5892941960063683) (3, 0.62325479570576969) (61, 0.7108383348212459)
+but, it's always very accurate .
+
+(4, 0.5818448719047948) (4, 0.58320622876483863) (31, 0.7696780066252377)
+i found the maps to be inaccurate at first, but after i updated them from garmin's website everything is golden .
+
+(14, 0.5318464217380638) (5, 0.58082560908551395) (25, 0.7792597163595779)
+i was familiar with the streets and only used the nuvi to get an accurate arrival time estimate .
+
+============== 57 ==============
+Sentence:  this is a great gps, it is so easy to use and it is always accurate .
+*** TF-IDF ***
+(2, 0.6480537698086859) (1, 0.84732387765520101) (3, 0.8903447244824698)
+easy to use and amazed at how accurate this item is .
+
+(12, 0.5897835412376984) (2, 0.83908990152472573) (2, 0.9055257180892144)
+easy to use, excellent accuracy, nice and intuitive interface .
+
+(1, 0.6609890112875854) (3, 0.83510449210235005) (1, 0.9231680586604654)
+but after that it is very easy and quite accurate to use .
+
+(3, 0.6472265716831185) (4, 0.83212043251460022) (7, 0.8666800166127302)
+to date it's been a very easy to use and accurate .
+
+(4, 0.6321219485636429) (5, 0.76086430604444077) (18, 0.8327490069863561)
+but, it's always very accurate .
+
+============== 58 ==============
+Sentence:  very easy to operate and pretty accurate as well, only led me astray once and that was in northern maine where roads are few and paved ones fewer .
+*** TF-IDF ***
+(10, 0.5473167541452073) (1, 0.6594836087417475) (63, 0.685544000870405)
+accuracy is within a few yards .
+
+(12, 0.5448307243832664) (2, 0.557290645269926) (27, 0.7803235747073716)
+destination time, , this is pretty accurate too .
+
+(2, 0.5680669700972842) (3, 0.55439862506348025) (59, 0.7044504096425102)
+, and is very, very accurate .
+
+(1, 0.5778380213141479) (4, 0.55403486148144254) (49, 0.7393458989058725)
+the screen is easy to see, the voice tells you where you are and it's very accurate .
+
+(4, 0.5589187263572021) (5, 0.53864720505460417) (4, 0.8230527204466995)
+but after that it is very easy and quite accurate to use .
+
+============== 59 ==============
+Sentence:  easy to use and amazed at how accurate this item is .
+*** TF-IDF ***
+(5, 0.5871580330288753) (1, 0.86653103940511245) (4, 0.8704620142113335)
+easy to use, excellent accuracy, nice and intuitive interface .
+
+(1, 0.6480537698086859) (2, 0.84732387765520101) (2, 0.8903447244824698)
+this is a great gps, it is so easy to use and it is always accurate .
+
+(4, 0.6098249118543045) (3, 0.81270905886993305) (3, 0.8778280563299352)
+to date it's been a very easy to use and accurate .
+
+(3, 0.6186432587944988) (4, 0.79023216189623247) (1, 0.9227451398680013)
+but after that it is very easy and quite accurate to use .
+
+(2, 0.6202099120047897) (5, 0.76881901014005849) (48, 0.7476170758769975)
+the accuracy at this point is very good .
+
+============== 60 ==============
+Sentence:  to date it's been a very easy to use and accurate .
+*** TF-IDF ***
+(1, 0.6667694591653096) (1, 0.93439389488592961) (1, 0.9048185781757312)
+but after that it is very easy and quite accurate to use .
+
+(8, 0.6003101867461696) (2, 0.8323331380558594) (7, 0.8349927828989494)
+easy to use, excellent accuracy, nice and intuitive interface .
+
+(3, 0.6472265716831185) (3, 0.83212043251460022) (3, 0.8666800166127302)
+this is a great gps, it is so easy to use and it is always accurate .
+
+(2, 0.6599921342948546) (4, 0.81694990211711527) (4, 0.8601053861282065)
+but, it's always very accurate .
+
+(6, 0.6098249118543045) (5, 0.81270905886993305) (2, 0.8778280563299352)
+easy to use and amazed at how accurate this item is .
+
+============== 61 ==============
+Sentence:  mounted really easily and has been very accurate .
+*** TF-IDF ***
+(4, 0.5582131045971812) (1, 0.89986642493581193) (11, 0.8115752151007377)
+the directions provided have all been quite accurate thus far .
+
+(3, 0.5959916124569224) (2, 0.85537969530409341) (30, 0.7846284655767737)
+aside from that, every destination i've thrown at has been 100% accurate .
+
+(1, 0.6050821314776108) (3, 0.75380171301649579) (26, 0.7912015724534632)
+to date it's been a very easy to use and accurate .
+
+(11, 0.5305406484269004) (4, 0.72439735134012229) (2, 0.8592371374769181)
+but after that it is very easy and quite accurate to use .
+
+(2, 0.6015063154369428) (5, 0.71695605873590262) (24, 0.7916041022554816)
+, and is very, very accurate .
+
+============== 62 ==============
+Sentence:  seems to be rather accurate .
+*** TF-IDF ***
+(2, 0.565435362943419) (1, 0.79513948214691621) (14, 0.7701399965352991)
+i've used it around town and find it to be extremely accurate .
+
+(3, 0.555253002657585) (2, 0.77870969445618932) (49, 0.7210827959273854)
+less traveled rural roads will not be accurate on any unit .
+
+(1, 0.5708488942347631) (3, 0.72927152345191626) (3, 0.8129043776981969)
+while the 255w routing seems generally accurate and logical, on my first use i discovered that it does have some errors in its internal map .
+
+(4, 0.5534483410720901) (4, 0.71201040191701848) (35, 0.745508606216817)
+practiced visiting places i already knew to see how accurate the directions and maps would be .
+
+(6, 0.5446264906325955) (5, 0.62478533560947713) (50, 0.7198739013799197)
+because the accuracy is good to the street address level, it may not be able to guide you to the exact location if your destination is inside a shopping mall .
+
+============== 63 ==============
+Sentence:  it was accurate on determing original directions and recalculating when necessary .
+*** TF-IDF ***
+(1, 0.5964386690452582) (1, 0.85797369880129115) (53, 0.7125405376420901)
+it was accurate to the minute when it told me when i would arrive home .
+
+(6, 0.5350111445352129) (2, 0.6381058851028758) (13, 0.7742215950489636)
+most of the times, this info was very accurate .
+
+(23, 0.5225868520616371) (3, 0.62659754559954806) (7, 0.7962137962293714)
+the directions provided have all been quite accurate thus far .
+
+(10, 0.5279026810209972) (4, 0.62072370577918834) (54, 0.7007059632317661)
+i was blown away at the accuracy and routing capability this thing had .
+
+(13, 0.5256042871078075) (5, 0.61539745716052885) (62, 0.6659590509866355)
+less traveled rural roads will not be accurate on any unit .
+
+============== 64 ==============
+Sentence:  highly accurate, pois are great .
+*** TF-IDF ***
+(3, 0.602862957402384) (1, 0.8678379189065748) (5, 0.8366623272390732)
+plus, i've always heard that there are  quirks  with any gps being accurate, having pois, etc .
+
+(1, 0.6724950472653095) (2, 0.80363422089760439) (2, 0.8620195305868508)
+the directions are highly accurate down to a  t  .
+
+(6, 0.5267928748796622) (3, 0.7010156248177839) (39, 0.7485954650637878)
+the screen is easy to see, the voice tells you where you are and it's very accurate .
+
+(2, 0.6248337671341123) (4, 0.69129312110765384) (1, 0.8648602171223692)
+this is a great gps, it is so easy to use and it is always accurate .
+
+(5, 0.5297092650849798) (5, 0.67666530692200533) (49, 0.7260357631776702)
+speed of calculation, accuracy, and simplicity of operation are top notch .
+
+============== 65 ==============
+Sentence:  i can't believe how accurate and detailed the information estimated time of arrival,speed limits along the way,and detailed map of my route, to name a few .
+*** TF-IDF ***
+(9, 0.55213764902297) (1, 0.70314872152662455) (64, 0.7057200711329)
+accuracy is within a few yards .
+
+(4, 0.5635643875885745) (2, 0.55446022718360821) (55, 0.7515169895634342)
+speed of calculation, accuracy, and simplicity of operation are top notch .
+
+(17, 0.5370238044382527) (3, 0.53637312039315233) (37, 0.7864224861585611)
+i've even used it in the  pedestrian  mode, and it's amazing how accurate it is .
+
+(10, 0.5504313485661647) (4, 0.53443969214234988) (9, 0.8359506098931866)
+the map is pretty accurate and the point of interest database also is good .
+
+(19, 0.5361105306795881) (5, 0.53146283321148091) (43, 0.7786000668069609)
+easy to use and amazed at how accurate this item is .
+
+============== 66 ==============
+Sentence:  speed of calculation, accuracy, and simplicity of operation are top notch .
+*** TF-IDF ***
+(8, 0.5398561130638524) (1, 0.77192449089374771) (66, 0.6408804011450253)
+a lot of my friends' addresses are inaccurate by any gps .
+
+(20, 0.5253287104121592) (2, 0.70307105377805734) (9, 0.753155152047712)
+accuracy is determined by the maps .
+
+(9, 0.5397189225684701) (3, 0.70002323144472611) (55, 0.6797202945483153)
+most of the times, this info was very accurate .
+
+(4, 0.5544784296056167) (4, 0.68194318504780205) (58, 0.6752292578315817)
+0 out of 5 stars inexpensive, accurate, plenty of features, august 6, 2009
+
+(22, 0.5225471472577758) (5, 0.68128858536557813) (8, 0.7533534861479616)
+accuracy is within a few yards .
+
+0 interior_toyota_camry_2007
+0 parking_bestwestern_hotel_sfo
+0 satellite_garmin_nuvi_255W_gps
+0 performance_honda_accord_2008
+0 room_holiday_inn_london
+0 staff_swissotel_chicago
+0 performance_netbook_1005ha
+0 screen_garmin_nuvi_255W_gps

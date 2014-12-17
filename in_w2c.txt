@@ -1,0 +1,222 @@
+load word2vec vectors: 6741 300
+0 size_asus_netbook_1005ha
+0 updates_garmin_nuvi_255W_gps
+0 screen_ipod_nano_8gb
+0 eyesight-issues_amazon_kindle
+0 battery-life_ipod_nano_8gb
+0 battery-life_amazon_kindle
+0 gas_mileage_toyota_camry_2007
+0 screen_netbook_1005ha
+0 quality_toyota_camry_2007
+0 directions_garmin_nuvi_255W_gps
+0 buttons_amazon_kindle
+0 features_windows7
+0 mileage_honda_accord_2008
+0 free_bestwestern_hotel_sfo
+0 price_amazon_kindle
+0 video_ipod_nano_8gb
+0 price_holiday_inn_london
+0 display_garmin_nuvi_255W_gps
+0 comfort_honda_accord_2008
+0 transmission_toyota_camry_2007
+0 navigation_amazon_kindle
+0 staff_bestwestern_hotel_sfo
+0 rooms_bestwestern_hotel_sfo
+0 location_bestwestern_hotel_sfo
+0 food_swissotel_chicago
+0 rooms_swissotel_chicago
+0 interior_honda_accord_2008
+0 location_holiday_inn_london
+0 seats_honda_accord_2008
+0 bathroom_bestwestern_hotel_sfo
+0 service_holiday_inn_london
+0 food_holiday_inn_london
+0 speed_garmin_nuvi_255W_gps
+0 comfort_toyota_camry_2007
+0 voice_garmin_nuvi_255W_gps
+0 service_bestwestern_hotel_sfo
+0 sound_ipod_nano_8gb
+0 fonts_amazon_kindle
+0 service_swissotel_hotel_chicago
+0 battery-life_netbook_1005ha
+0 speed_windows7
+0 keyboard_netbook_1005ha
+0 accuracy_garmin_nuvi_255W_gps
+sel: 50 i'm really glad i bought it though, and like the easy to read graphics, the voice used to tell you the name of the street you are to turn on, the uncannily accurate estimates of mileage and time of arrival at your destination .
+======= iteration 0 ========
+59.5023316238 35 i'm really glad i bought it though, and like the easy to read graphics, the voice used to tell you the name of the street you are to turn on, the uncannily accurate estimates of mileage and time of arrival at your destination .
+59.4526459819 15 this is a great gps, it is so easy to use and it is always accurate .
+59.3996356283 33 the only glitch i have found so far is that the speed limits are not 100% accurate, although the gps, amazingly, is able to very accurately tell you how fast your vehicle is moving .
+59.0227995919 43 i used it the day i bought it,   and then this morning, and as soon as it comes on it is  ready to navigate  the only downfall of this product, and the only reason i did not give it 5 stars is the fact that the speed limit it displays for the road you are on isn't 100% accurate .
+58.937029171 17 i've even used it in the  pedestrian  mode, and it's amazing how accurate it is .
+58.8503282618 18 if your looking for a nice, accurate gps for not so much money, got with this one .
+58.7851705902 27 i can't believe how accurate and detailed the information estimated time of arrival,speed limits along the way,and detailed map of my route, to name a few .
+58.7095987558 13 the map is pretty accurate and the point of interest database also is good .
+58.5176431763 13 but after that it is very easy and quite accurate to use .
+58.4979588737 26 depending on what you are using it for, it is a nice adjunct to a travel trip and the directions are accurate and usually the quickest, but not always .
+58.4306284815 18 i was familiar with the streets and only used the nuvi to get an accurate arrival time estimate .
+58.405480892 29 after 2 weeks, it has yet to make a mistake, and is always completely accurate ,  even to the point of telling me which side of the street my destination is on .
+58.2734359082 9 destination time, , this is pretty accurate too .
+58.2086263631 17 the garmin is loaded with very accurate maps that generally know the roads in even the remotest areas .
+58.1985430124 27 while the 255w routing seems generally accurate and logical, on my first use i discovered that it does have some errors in its internal map .
+58.1750601363 13 i've used it around town and find it to be extremely accurate .
+58.1233618563 17 it loads quickly, have pretty accurate directions, and can recalculate quickly when i miss a turn .
+57.9654557632 19 plus, i've always heard that there are  quirks  with any gps being accurate, having pois, etc .
+57.7316295336 17 practiced visiting places i already knew to see how accurate the directions and maps would be .
+57.6982446267 24 my new garmin 255w had very easy set up, accurate directions to locations, user friendly unit to anyone in my vehicle who tried it .
+57.6899957561 8 but, it's always very accurate .
+57.652361749 12 to date it's been a very easy to use and accurate .
+57.6187144448 9 mounted really easily and has been very accurate .
+57.5653299532 27 because the accuracy is good to the street address level, it may not be able to guide you to the exact location if your destination is inside a shopping mall .
+57.4798298576 24 i've used other gps units, as well as gps built into cars   and to this day nothing beats the accuracy of a garmin gps .
+57.462202645 14 the closest one that gives the most accurate route that i usually take is the navigon .
+57.3924146002 12 easy to use and amazed at how accurate this item is .
+57.3898635588 11 the directions provided have all been quite accurate thus far .
+57.1865182847 25 accuracy is as good as any other unit, they all sometimes tell you you have arrived when you haven't, or continue to tell you to turn when you're already there .
+57.1765469454 17 in closing, this is a fantastic gps with some very nice features and is very accurate in directions .
+57.0845960702 19 but for the most part, we find that the garmin software provides accurate directions, whereever we intend to go .
+57.0621303395 16 aside from that, every destination i've thrown at has been 100% accurate .
+56.9349565482 28 what the 255w does best is find a street address, business, point of interest, hospital or airport and give you turn, by, turn directions with amazing accuracy .
+56.9100555078 28 very easy to operate and pretty accurate as well, only led me astray once and that was in northern maine where roads are few and paved ones fewer .
+56.8207463663 15 ,  very accurate but with one small glitch i found ,  i'll explain in the cons
+56.6928729797 18 the screen is easy to see, the voice tells you where you are and it's very accurate .
+56.5338721319 29 i had a gps 10, years ago when i owned a boat that was difficult to use and with very poor accuracy so i had assumed that the road gps wasn't any better .
+56.4286841733 11 easy to use, excellent accuracy, nice and intuitive interface .
+56.3955351115 7 highly accurate, pois are great .
+56.0971544331 19 the most accurate review stated that these machines are adjunct to a good map and signs on the interstate .
+55.9563948187 15 bottom line is i wanted a unit that is accurate and had reliable satellite connection .
+55.7932219679 36 i was a little disappointed in the inaccuracy of the posted speed limit, as i'm guilty of not paying close enough attention to those signs, especially w  interstate speed traps that are constantly changing up and down .
+55.7523115962 22 i found the maps to be inaccurate at first, but after i updated them from garmin's website everything is golden .
+55.7394341997 11 most of the times, this info was very accurate .
+55.5282129413 9 the accuracy at this point is very good .
+55.5010076746 14 it has yet to disappoint, getting me everywhere with 100% accuracy .
+55.4102984629 14 it has worked well for local driving giving accurate directions for roads and streets .
+55.3108553131 14 i was blown away at the accuracy and routing capability this thing had .
+55.2667336175 6 seems to be rather accurate .
+55.1991792422 12 it was accurate on determing original directions and recalculating when necessary .
+55.0602066671 35 this function is not accurate if you don't leave it in battery mode say, when you stop at the cracker barrell for lunch and to play one of those trangle games with the tees .
+55.0398693841 17 i updated to the latest 2010 map soon after i received the unit, so the map is accurate to me .
+55.0217544514 10 the directions are highly accurate down to a  t  .
+54.9877466782 12 the estimated time to arrival does not seem to calculate the travelling time accurately .
+54.7650571941 13 0 out of 5 stars inexpensive, accurate, plenty of features, august 6, 2009
+54.7523479699 13 a lot of my friends' addresses are inaccurate by any gps .
+54.616493785 6 , and is very, very accurate .
+54.5778640685 12 0 out of 5 stars honest, accurate review, , please read !
+54.5737031668 14 it was accurate to the minute when it told me when i would arrive home .
+54.4422236877 7 accuracy is determined by the maps .
+54.341743604 14 it got me from point a to point b with 100% accuracy everytime .
+54.1281108858 19 it provides immediate alternatives if the route from the online map program was inaccurate or blocked by an obstacle .
+54.0766105207 16 0 out of 5 stars gps navigator doesn't navigate accurately on a straight road .
+53.4122104837 12 less traveled rural roads will not be accurate on any unit .
+53.1316943902 12 speed of calculation, accuracy, and simplicity of operation are top notch .
+51.6977813428 14 only  is only accurate when an ad says,  top sirloin steak, only $1 .
+50.989431468 7 accuracy is within a few yards .
+sel: 57 this is a great gps, it is so easy to use and it is always accurate .
+======= iteration 1 ========
+118.954977606 15 this is a great gps, it is so easy to use and it is always accurate .
+118.901967252 33 the only glitch i have found so far is that the speed limits are not 100% accurate, although the gps, amazingly, is able to very accurately tell you how fast your vehicle is moving .
+118.525131216 43 i used it the day i bought it,   and then this morning, and as soon as it comes on it is  ready to navigate  the only downfall of this product, and the only reason i did not give it 5 stars is the fact that the speed limit it displays for the road you are on isn't 100% accurate .
+118.439360795 17 i've even used it in the  pedestrian  mode, and it's amazing how accurate it is .
+118.352659886 18 if your looking for a nice, accurate gps for not so much money, got with this one .
+118.287502214 27 i can't believe how accurate and detailed the information estimated time of arrival,speed limits along the way,and detailed map of my route, to name a few .
+118.21193038 13 the map is pretty accurate and the point of interest database also is good .
+118.0199748 13 but after that it is very easy and quite accurate to use .
+118.000290497 26 depending on what you are using it for, it is a nice adjunct to a travel trip and the directions are accurate and usually the quickest, but not always .
+117.710957987 17 the garmin is loaded with very accurate maps that generally know the roads in even the remotest areas .
+117.700874636 27 while the 255w routing seems generally accurate and logical, on my first use i discovered that it does have some errors in its internal map .
+117.67739176 13 i've used it around town and find it to be extremely accurate .
+117.62569348 17 it loads quickly, have pretty accurate directions, and can recalculate quickly when i miss a turn .
+117.467787387 19 plus, i've always heard that there are  quirks  with any gps being accurate, having pois, etc .
+117.233961157 17 practiced visiting places i already knew to see how accurate the directions and maps would be .
+117.20057625 24 my new garmin 255w had very easy set up, accurate directions to locations, user friendly unit to anyone in my vehicle who tried it .
+117.19232738 8 but, it's always very accurate .
+117.154693373 12 to date it's been a very easy to use and accurate .
+117.121046069 9 mounted really easily and has been very accurate .
+117.067661577 27 because the accuracy is good to the street address level, it may not be able to guide you to the exact location if your destination is inside a shopping mall .
+116.982161481 24 i've used other gps units, as well as gps built into cars   and to this day nothing beats the accuracy of a garmin gps .
+116.894746224 12 easy to use and amazed at how accurate this item is .
+116.892195183 11 the directions provided have all been quite accurate thus far .
+116.688849908 25 accuracy is as good as any other unit, they all sometimes tell you you have arrived when you haven't, or continue to tell you to turn when you're already there .
+116.678878569 17 in closing, this is a fantastic gps with some very nice features and is very accurate in directions .
+116.586927694 19 but for the most part, we find that the garmin software provides accurate directions, whereever we intend to go .
+116.437288172 28 what the 255w does best is find a street address, business, point of interest, hospital or airport and give you turn, by, turn directions with amazing accuracy .
+116.412387132 28 very easy to operate and pretty accurate as well, only led me astray once and that was in northern maine where roads are few and paved ones fewer .
+116.32307799 15 ,  very accurate but with one small glitch i found ,  i'll explain in the cons
+116.195204603 18 the screen is easy to see, the voice tells you where you are and it's very accurate .
+116.036203756 29 i had a gps 10, years ago when i owned a boat that was difficult to use and with very poor accuracy so i had assumed that the road gps wasn't any better .
+115.931015797 11 easy to use, excellent accuracy, nice and intuitive interface .
+115.897866735 7 highly accurate, pois are great .
+115.599486057 19 the most accurate review stated that these machines are adjunct to a good map and signs on the interstate .
+115.458726442 15 bottom line is i wanted a unit that is accurate and had reliable satellite connection .
+115.295553592 36 i was a little disappointed in the inaccuracy of the posted speed limit, as i'm guilty of not paying close enough attention to those signs, especially w  interstate speed traps that are constantly changing up and down .
+115.25464322 22 i found the maps to be inaccurate at first, but after i updated them from garmin's website everything is golden .
+115.241765824 11 most of the times, this info was very accurate .
+115.030544565 9 the accuracy at this point is very good .
+115.003339298 14 it has yet to disappoint, getting me everywhere with 100% accuracy .
+114.912630087 14 it has worked well for local driving giving accurate directions for roads and streets .
+114.813186937 14 i was blown away at the accuracy and routing capability this thing had .
+114.789422433 18 i was familiar with the streets and only used the nuvi to get an accurate arrival time estimate .
+114.769065241 6 seems to be rather accurate .
+114.764631746 29 after 2 weeks, it has yet to make a mistake, and is always completely accurate ,  even to the point of telling me which side of the street my destination is on .
+114.701510866 12 it was accurate on determing original directions and recalculating when necessary .
+114.634463636 9 destination time, , this is pretty accurate too .
+114.562538291 35 this function is not accurate if you don't leave it in battery mode say, when you stop at the cracker barrell for lunch and to play one of those trangle games with the tees .
+114.542201008 17 i updated to the latest 2010 map soon after i received the unit, so the map is accurate to me .
+114.524086075 10 the directions are highly accurate down to a  t  .
+114.267388818 13 0 out of 5 stars inexpensive, accurate, plenty of features, august 6, 2009
+114.254679594 13 a lot of my friends' addresses are inaccurate by any gps .
+114.118825409 6 , and is very, very accurate .
+114.080195692 12 0 out of 5 stars honest, accurate review, , please read !
+114.076034791 14 it was accurate to the minute when it told me when i would arrive home .
+113.944555311 7 accuracy is determined by the maps .
+113.844075228 14 it got me from point a to point b with 100% accuracy everytime .
+113.834867214 14 the closest one that gives the most accurate route that i usually take is the navigon .
+113.63044251 19 it provides immediate alternatives if the route from the online map program was inaccurate or blocked by an obstacle .
+113.578942144 16 0 out of 5 stars gps navigator doesn't navigate accurately on a straight road .
+113.440601975 16 aside from that, every destination i've thrown at has been 100% accurate .
+112.914542107 12 less traveled rural roads will not be accurate on any unit .
+112.634026014 12 speed of calculation, accuracy, and simplicity of operation are top notch .
+111.397077519 12 the estimated time to arrival does not seem to calculate the travelling time accurately .
+111.200112967 14 only  is only accurate when an ad says,  top sirloin steak, only $1 .
+110.491763092 7 accuracy is within a few yards .
+59.5023316238 35 i'm really glad i bought it though, and like the easy to read graphics, the voice used to tell you the name of the street you are to turn on, the uncannily accurate estimates of mileage and time of arrival at your destination .
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.41975 (95%-conf.int. 0.41975 - 0.41975)
+1 ROUGE-1 Average_P: 0.11333 (95%-conf.int. 0.11333 - 0.11333)
+1 ROUGE-1 Average_F: 0.17847 (95%-conf.int. 0.17847 - 0.17847)
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.03947 (95%-conf.int. 0.03947 - 0.03947)
+1 ROUGE-2 Average_P: 0.01017 (95%-conf.int. 0.01017 - 0.01017)
+1 ROUGE-2 Average_F: 0.01617 (95%-conf.int. 0.01617 - 0.01617)
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.01408 (95%-conf.int. 0.01408 - 0.01408)
+1 ROUGE-3 Average_P: 0.00345 (95%-conf.int. 0.00345 - 0.00345)
+1 ROUGE-3 Average_F: 0.00554 (95%-conf.int. 0.00554 - 0.00554)
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_P: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_F: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+---------------------------------------------
+1 ROUGE-L Average_R: 0.35802 (95%-conf.int. 0.35802 - 0.35802)
+1 ROUGE-L Average_P: 0.09667 (95%-conf.int. 0.09667 - 0.09667)
+1 ROUGE-L Average_F: 0.15223 (95%-conf.int. 0.15223 - 0.15223)
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.17685 (95%-conf.int. 0.17685 - 0.17685)
+1 ROUGE-W-1.2 Average_P: 0.07548 (95%-conf.int. 0.07548 - 0.07548)
+1 ROUGE-W-1.2 Average_F: 0.10580 (95%-conf.int. 0.10580 - 0.10580)
+
+1 interior_toyota_camry_2007
+1 parking_bestwestern_hotel_sfo
+1 satellite_garmin_nuvi_255W_gps
+1 performance_honda_accord_2008
+1 room_holiday_inn_london
+1 staff_swissotel_chicago
+1 performance_netbook_1005ha
+1 screen_garmin_nuvi_255W_gps
+
+R-1 	0.18 0.11 0.42
+R-2 	0.02 0.01 0.04
+R-3 	0.01 0.00 0.01
+R-4 	0.00 0.00 0.00
+R-l 	0.15 0.10 0.36
+R-w 	0.11 0.08 0.18
