@@ -12,6 +12,7 @@ from nltk import word_tokenize
 import nltk 
 import codecs
 
+
 class sen_elems:
   def __init__(self):
     self.sen_id = 0
