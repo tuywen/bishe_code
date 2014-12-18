@@ -11,13 +11,16 @@ from sklearn.decomposition import TruncatedSVD
 from nltk import word_tokenize
 import nltk 
 import codecs
+import ConfigParser
 
+global_conf = ConfigParser.ConfigParser()
 
 class sen_elems:
   def __init__(self):
     self.sen_id = 0
     self.sen_str = ''
     self.sen_len = 0
+    self.uniq_word_num = 0
     self.sen_words = []
     self.word_dict = {}
     self.sen_vector = {}
@@ -36,7 +39,7 @@ def CutWords(sen_str):
   words = word_tokenize(sen_str.lower())
   final_words = []
   for word in words:
-    if word != None and word != '' and word not in [',','.','!']:
+    if word != None and word != '' and word not in [',','.','!','\'']:
       if word in stoplist:
         continue
       final_words.append(word)
@@ -63,6 +66,7 @@ def ReadText(in_path):
         cnt += 1
         senelem.sen_str = sen
         senelem.sen_words = CutWords(sen)
+        senelem.sen_len = len(senelem.sen_words)
         senlist.append(senelem)
   file_in.close()
   return senlist
@@ -86,7 +90,7 @@ def TfIdfVector(osen):
       else:
         osen[i].word_dict[word] += 1
       wcnt += 1
-    osen[i].sen_len = wcnt #len(osen[i].word_dict)
+    osen[i].uniq_word_num = wcnt #len(osen[i].word_dict)
     
     #for word in osen[i].word_dict:
     #  osen[i].word_dict[word] /= osen[i].sen_len
@@ -140,7 +144,7 @@ def TranSenToSparseMatrix(senlist, f_swap = False):
 
 def LSA_Vector(senlist, dim=100):
   sparse_matrix = TranSenToSparseMatrix(senlist, True)
-  svd = TruncatedSVD(n_components=dim)
+  svd = TruncatedSVD(n_components=dim, random_state=1)
   svd.fit(sparse_matrix)
   #print(svd.explained_variance_ratio_)
   #print(svd.explained_variance_ratio_.sum())
@@ -242,8 +246,10 @@ def BagOfWordSim(asen, bsen):
   
   for wid in bsen.sen_vector:
     bsum += bsen.sen_vector[wid] * bsen.sen_vector[wid]
-
-  return (cos_sum / math.sqrt(asum * bsum) + 1 ) / 2
+  if asum == 0 or bsum == 0:
+    return 0
+  else: 
+    return (cos_sum / math.sqrt(asum * bsum) + 1 ) / 2
 
 def ConVectorSim(asen, bsen, dis='cos'):
   vlen = len(asen.con_vector)
@@ -449,7 +455,12 @@ def GreedySearch(sens, limit, smatrix):
   sums = []
   sel = set([])
   tmpinfo = {}
-  for lim in range(0, limit):
+  max_sents = int(global_conf.get('greedysearch', 'max_sents'))
+  max_words = int(global_conf.get('greedysearch', 'max_words'))
+  sents_cnt = 0
+  words_cnt = 0
+  #for lim in range(0, limit):
+  while True:
     max_senid = -1
     max_subfunc = -1
     for i in range(0, slen):
@@ -466,6 +477,12 @@ def GreedySearch(sens, limit, smatrix):
       del sums[-1]
     sums.append(sens[max_senid])
     sel.add(max_senid)
+    sents_cnt += 1
+    words_cnt += sens[max_senid].sen_len
+    if max_sents > 0  and sents_cnt >= max_sents:
+      break
+    if max_words > 0  and words_cnt >= max_words:
+      break
     
     """
     print 'sel:',max_senid,sens[max_senid].sen_str
@@ -496,7 +513,8 @@ def AutoSum(input_file, output_file, vtype='tfidf', w2vec_data=None):
     TfIdfBaseSentenceClustering(senlist)
     smatrix = GetSimMatrix(senlist, 'tfidf')
   elif vtype == 'LSA':
-    LSA_Vector(senlist, 40)
+    lsa_dim = int(global_conf.get('config', 'lsa_dim'))
+    LSA_Vector(senlist, lsa_dim)
     ConBaseSentenceClustering(senlist)
     smatrix = GetSimMatrix(senlist, 'cos')
   elif vtype == 'w2v':
@@ -517,10 +535,11 @@ def AutoSum(input_file, output_file, vtype='tfidf', w2vec_data=None):
 def ROUGE(sysdoc_dir, modeldoc_dir, prefix_name, vtype='tfidf'):
   r = Rouge155(rouge_args=u"-a -c 95 -b 665 -m -n 4 -w 1.2")
   #r = Rouge155()
+  model_name_suffix = global_conf.get('name_pattern', 'model_name_suffix')
   r.system_dir = sysdoc_dir
   r.model_dir = modeldoc_dir + prefix_name
   r.system_filename_pattern = prefix_name + '.' + vtype + '(\d+).txt'
-  r.model_filename_pattern = prefix_name +'.(\d).gold'
+  r.model_filename_pattern = prefix_name + model_name_suffix #'.(\d).gold'
   output = r.convert_and_evaluate()
   print(output)
   output_dict = r.output_to_dict(output)
@@ -547,15 +566,15 @@ def ScoreTable(sum_dict, snum):
       if cnt % 3 == 0:
         print
         print 'R-' + key.split('_')[1] + ' \t',
-      print "%.2f"%round(sum_dict[key] / snum,2),
+      print "%.3f"%round(sum_dict[key] / snum, 3),
       cnt += 1
   return
 
 def ProcessAllFile(input_dir, output_dir, model_dir, vtype='tfidf'):
-  #word2vec_file = '/home/tuywen/code/summarization/tools/w2vec/out_words/vectors.bin'
-  word2vec_file = '/home/tuywen/code/summarization/tools/w2vec/out_words/Opinosis_u.vec'
-  #word2vec_file = '/home/tuywen/code/summarization/tools/CW_vec/Opinosis.vec'
+  word2vec_file = global_conf.get('config', 'w2v_feature_file')
   w2vec_data= LoadWordVector(word2vec_file)
+  run_one_case = global_conf.get('debug', 'run_one_case')
+
   dirlist = os.listdir(input_dir)
   cnt = 0
   sum_dict = {}
@@ -563,8 +582,6 @@ def ProcessAllFile(input_dir, output_dir, model_dir, vtype='tfidf'):
     input_file = input_dir + filename
     if os.path.isfile(input_file):
       prefix_name = filename.split('.')[0]
-      #if prefix_name != "accuracy_garmin_nuvi_255W_gps":
-      #  continue
       print cnt,prefix_name
       output_path = output_dir + prefix_name + '/'
       output_file = output_path + prefix_name + '.' + vtype + '001.txt'
@@ -572,7 +589,6 @@ def ProcessAllFile(input_dir, output_dir, model_dir, vtype='tfidf'):
         os.mkdir(output_path)
       
       #FindSen(input_file, output_file, vtype, w2vec_data)
-      #"""
       res_sum = AutoSum(input_file, output_file, vtype, w2vec_data)
       odict = ROUGE(output_path, model_dir, prefix_name, vtype)
       for k,v in odict.items():
@@ -582,8 +598,8 @@ def ProcessAllFile(input_dir, output_dir, model_dir, vtype='tfidf'):
           sum_dict[k] += v
 
       cnt += 1
-      #break
-      #"""
+      if run_one_case == '1':
+        break
   ScoreTable(sum_dict, cnt)
 
   return
@@ -645,25 +661,19 @@ def FindSen(input_file, output_file, vtype='tfidf', w2vec_data=None):
     """
   return 
 
+def ReadConfigFile(fpath):
+  global_conf.read(fpath)
 
 if __name__=='__main__':
-  vtype = sys.argv[1]
-  #"""
-  #word2vec_file = '/home/tuywen/code/summarization/tools/w2vec/out_words/vectors.bin'
-  #senlist = ReadText(sys.argv[1])
-  #Word2Vec_Vector(senlist, word2vec_file)
-  #LSA_Vector(senlist,30)
-  """
-  TfIdfVector(senlist)
-  SentenceClustering(senlist)
-  #PrintSenlist(senlist)
-  smatrix = GetSimMatrix(senlist)
-  print CompCovery([senlist[0]], senlist, smatrix)
-  print CompDiversity([senlist[0]], senlist, smatrix)
-  GreedySearch(senlist, 2)
-  ROUGE('test_sum.txt', 'accuracy_garmin_nuvi_255W_gps')
-  #"""
-  cdir = '/home/tuywen/code/summarization/data/'
-  ProcessAllFile(cdir + 'OpinosisDataset1.0_0/topics_2/','/home/tuywen/code/summarization/system_out/',cdir + 'OpinosisDataset1.0_0/summaries-gold/', vtype)
+  if len(sys.argv) < 1:
+    print "print choose config file to run"
+  
+  ReadConfigFile(sys.argv[1])
+  
+  method = global_conf.get('config', 'method')
+  docset_dir = global_conf.get('config', 'docset_dir')
+  sysout_dir = global_conf.get('config', 'sysout_dir')
+  goldsum_dir= global_conf.get('config', 'goldsum_dir')
+
+  ProcessAllFile(docset_dir,sysout_dir, goldsum_dir, method)
   #TestROUGE()
-  #LoadWordVector('/home/tuywen/code/summarization/tools/w2vec/out_words/vectors.bin')
