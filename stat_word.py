@@ -37,5 +37,8 @@ def ProcessAllFile(input_dir, output_file):
   return
 
 if __name__=='__main__':
-  cdir = '/home/tuywen/code/summarization/data/'
-  ProcessAllFile(cdir + 'OpinosisDataset1.0_0/topics_2/','/home/tuywen/code/summarization/tmp/all_words.txt')
+  #cdir = '/home/tuywen/code/summarization/data/'
+  input_dir = sys.argv[1]
+  output_dir = sys.argv[2]
+  #ProcessAllFile(cdir + 'OpinosisDataset1.0_0/topics_2/','/home/tuywen/code/summarization/tmp/all_words.txt')
+  ProcessAllFile(input_dir, output_dir)

@@ -112,7 +112,8 @@ def TfIdfVector(osen):
     idf_dict[word][1] = math.log(slen/(idf_dict[word][1] + 1) )
     ofile.write(ostr)
   ofile.close()
-
+  
+  print 'WORD SIZE: %d'%(len(idf_dict))
   #TF*IDF
   for i in range(0, slen):
     for word in osen[i].word_dict:
@@ -521,9 +522,14 @@ def AutoSum(input_file, output_file, vtype='tfidf', w2vec_data=None):
     w2vec = w2vec_data[0]
     dim = w2vec_data[1]
     Word2Vec_Vector(senlist, w2vec, dim)
-    ConBaseSentenceClustering(senlist)
-    smatrix = GetSimMatrix(senlist, 'cos')
-    #smatrix = GetNSimMatrix(senlist, w2vec_data[0], 'cos')
+    Nsim = (global_conf.get('w2v', 'Nsim') == 'True')
+    #print Nsim
+    if Nsim == False:
+      ConBaseSentenceClustering(senlist)
+      smatrix = GetSimMatrix(senlist, 'euc')
+    else:
+      ConBaseSentenceClustering(senlist)
+      smatrix = GetNSimMatrix(senlist, w2vec_data[0], 'cos')
     #print smatrix
   res_sum = GreedySearch(senlist, 2, smatrix)
   out_pid = codecs.open(output_file, 'w', 'utf-8')
@@ -533,7 +539,8 @@ def AutoSum(input_file, output_file, vtype='tfidf', w2vec_data=None):
   return res_sum
 
 def ROUGE(sysdoc_dir, modeldoc_dir, prefix_name, vtype='tfidf'):
-  r = Rouge155(rouge_args=u"-a -c 95 -b 665 -m -n 4 -w 1.2")
+  r = Rouge155(rouge_args=u"-a -c 95 -l 100 -m -n 4 -w 1.2")
+  #r = Rouge155(rouge_args=u"-a -c 95 -b 665 -m -n 4 -w 1.2")
   #r = Rouge155()
   model_name_suffix = global_conf.get('name_pattern', 'model_name_suffix')
   r.system_dir = sysdoc_dir
@@ -573,7 +580,7 @@ def ScoreTable(sum_dict, snum):
 def ProcessAllFile(input_dir, output_dir, model_dir, vtype='tfidf'):
   word2vec_file = global_conf.get('config', 'w2v_feature_file')
   w2vec_data= LoadWordVector(word2vec_file)
-  run_one_case = global_conf.get('debug', 'run_one_case')
+  run_cases = int(global_conf.get('debug', 'run_cases'))
 
   dirlist = os.listdir(input_dir)
   cnt = 0
@@ -598,7 +605,7 @@ def ProcessAllFile(input_dir, output_dir, model_dir, vtype='tfidf'):
           sum_dict[k] += v
 
       cnt += 1
-      if run_one_case == '1':
+      if run_cases > 0 and cnt >= run_cases:
         break
   ScoreTable(sum_dict, cnt)
 
