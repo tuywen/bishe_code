@@ -6,6 +6,7 @@ import numpy as np
 import os
 from scipy.sparse import coo_matrix
 from sklearn.cluster import KMeans
+from sklearn.cluster import AgglomerativeClustering
 from pyrouge import Rouge155
 from sklearn.decomposition import TruncatedSVD
 from nltk import word_tokenize
@@ -14,6 +15,7 @@ import codecs
 import ConfigParser
 
 global_conf = ConfigParser.ConfigParser()
+idf_dict = {}
 
 class sen_elems:
   def __init__(self):
@@ -96,7 +98,8 @@ def TfIdfVector(osen):
     #  osen[i].word_dict[word] /= osen[i].sen_len
  
   #IDF
-  idf_dict = {}
+  #idf_dict = {}
+  idf_dict.clear()
   idf_cnt = 0
   for i in range(0, slen):
     for word in osen[i].word_dict:
@@ -144,16 +147,29 @@ def TranSenToSparseMatrix(senlist, f_swap = False):
   return sparse_matrix
 
 def LSA_Vector(senlist, dim=100):
-  sparse_matrix = TranSenToSparseMatrix(senlist, True)
+  if len(senlist) < dim:
+    dim = int(0.8 * len(senlist))
+  sparse_matrix = TranSenToSparseMatrix(senlist)
   svd = TruncatedSVD(n_components=dim, random_state=1)
-  svd.fit(sparse_matrix)
+  omatrix = svd.fit_transform(sparse_matrix)
   #print(svd.explained_variance_ratio_)
   #print(svd.explained_variance_ratio_.sum())
   #print(svd.components_.shape)
+  print len(senlist),omatrix.shape
   slen = len(senlist)
   for i in range(0, slen):
-    senlist[i].con_vector = svd.components_[:,i]
+    senlist[i].con_vector = omatrix[i,:]
   return
+
+def NormalizeVector(vec):
+  vlen = len(vec)
+  vsum = 0
+  for i in range(0, vlen):
+    vsum +=  vec[i] * vec[i]
+  vsum = math.sqrt(vsum)
+  for i in range(0, vlen):
+    vec[i] = vec[i] / vsum
+  return vec
 
 def LoadWordVector(filepath):
   infile = open(filepath, 'r')
@@ -170,10 +186,10 @@ def LoadWordVector(filepath):
   #print w2vec['what']
   return [w2vec,dim]
 
-def AddVector(avec, bvec):
+def AddVector(avec, bvec, weight=1):
   alen = len(avec)
   for i in range(0, alen):
-    avec[i] += bvec[i]
+    avec[i] += bvec[i] * weight
   return 
 
 def Word2Vec_Vector(senlist, w2vec, dim):
@@ -187,6 +203,7 @@ def Word2Vec_Vector(senlist, w2vec, dim):
         #if tags[word][0] not in ['N','V', 'J']:
         #  continue
         AddVector(senlist[i].con_vector, w2vec[word])    
+        #AddVector(senlist[i].con_vector, w2vec[word], senlist[i].sen_vector[idf_dict[word][0]])    
         cnt += 1
         senlist[i].word_found += 1
         senlist[i].word_used.append(word)
@@ -233,6 +250,17 @@ def ConBaseSentenceClustering(senlist):
     #print senlist[i].sen_id,senlist[i].sen_label
   return
 
+def SimSentenceClustering(pre_matrix, senlist):
+  slen = len(senlist)
+  nclusters = int(0.2 * slen)
+  AgloCluster = AgglomerativeClustering(n_clusters=nclusters,linkage="average", affinity='precomputed')
+  AgloCluster.fit(pre_matrix)
+  AgloCluster_labels = AgloCluster.labels_
+  
+  for i in range(0, slen):
+    senlist[i].sen_label = AgloCluster_labels[i]
+    #print senlist[i].sen_id,senlist[i].sen_label
+  return
 
 def BagOfWordSim(asen, bsen):
   cos_sum = 0
@@ -526,10 +554,10 @@ def AutoSum(input_file, output_file, vtype='tfidf', w2vec_data=None):
     #print Nsim
     if Nsim == False:
       ConBaseSentenceClustering(senlist)
-      smatrix = GetSimMatrix(senlist, 'euc')
+      smatrix = GetSimMatrix(senlist, 'cos')
     else:
-      ConBaseSentenceClustering(senlist)
       smatrix = GetNSimMatrix(senlist, w2vec_data[0], 'cos')
+      SimSentenceClustering(smatrix,senlist)
     #print smatrix
   res_sum = GreedySearch(senlist, 2, smatrix)
   out_pid = codecs.open(output_file, 'w', 'utf-8')
@@ -539,7 +567,8 @@ def AutoSum(input_file, output_file, vtype='tfidf', w2vec_data=None):
   return res_sum
 
 def ROUGE(sysdoc_dir, modeldoc_dir, prefix_name, vtype='tfidf'):
-  r = Rouge155(rouge_args=u"-a -c 95 -l 100 -m -n 4 -w 1.2")
+  r = Rouge155(rouge_args=u"-n 4 -w 1.2 -m  -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d")
+  #r = Rouge155(rouge_args=u"-a -c 95 -l 100 -m -n 4 -w 1.2")
   #r = Rouge155(rouge_args=u"-a -c 95 -b 665 -m -n 4 -w 1.2")
   #r = Rouge155()
   model_name_suffix = global_conf.get('name_pattern', 'model_name_suffix')
