@@ -60,7 +60,7 @@ def ReadText(in_path):
   cnt = 0
   for line in file_in:
     asen = line.lower().strip()
-    sens = [asen]#SplitSen(asen)
+    sens = [asen] #SplitSen(asen)
     for sen in sens:
       if sen != None and sen != '':
         senelem = sen_elems()
@@ -220,6 +220,16 @@ def Word2Vec_Vector(senlist, w2vec, dim):
     """
     #print word
     #print senlist[i].con_vector
+  return
+
+def Load_RAE_vector(rae_file, senlist):
+  infile = open(rae_file, 'r')
+  i = 0
+  for line in infile:
+    senlist[i].con_vector = map(float, line.strip().split(','))
+    i += 1
+  infile.close()
+  print i
   return
 
 def TfIdfBaseSentenceClustering(senlist):
@@ -388,10 +398,12 @@ def N_WordSim(asen, bsen, w2v_dict, dtype='all'):
 def GetNSimMatrix(sens, w2v_dict, dis='cos'):
   slen = len(sens)
   smatrix = [ [0 for i in range(0, slen)] for j in range(0, slen)]
+  
+  Nsim_type = global_conf.get('w2v', 'Nsim_type')
   for i in range(0, slen):
     smatrix[i][i] = 1
     for j in range(0, i):
-      smatrix[i][j] = N_WordSim(sens[i], sens[j],  w2v_dict, 'all')
+      smatrix[i][j] = N_WordSim(sens[i], sens[j],  w2v_dict, Nsim_type)
       smatrix[j][i] = smatrix[i][j]
   
   if dis == 'euc':
@@ -551,13 +563,21 @@ def AutoSum(input_file, output_file, vtype='tfidf', w2vec_data=None):
     dim = w2vec_data[1]
     Word2Vec_Vector(senlist, w2vec, dim)
     Nsim = (global_conf.get('w2v', 'Nsim') == 'True')
+    w2v_similarity = global_conf.get('w2v', 'w2v_similarity')
     #print Nsim
     if Nsim == False:
       ConBaseSentenceClustering(senlist)
-      smatrix = GetSimMatrix(senlist, 'cos')
+      smatrix = GetSimMatrix(senlist, w2v_similarity)
     else:
-      smatrix = GetNSimMatrix(senlist, w2vec_data[0], 'cos')
-      SimSentenceClustering(smatrix,senlist)
+      smatrix = GetNSimMatrix(senlist, w2vec_data[0], w2v_similarity)
+      #SimSentenceClustering(smatrix,senlist)
+      ConBaseSentenceClustering(senlist)
+  elif vtype == 'RAE':
+    rae_dir = global_conf.get('rae', 'rae_dir')
+    rae_file = rae_dir + input_file.split('/')[-1]
+    Load_RAE_vector(rae_file, senlist)
+    ConBaseSentenceClustering(senlist)
+    smatrix = GetSimMatrix(senlist, 'cos')
     #print smatrix
   res_sum = GreedySearch(senlist, 2, smatrix)
   out_pid = codecs.open(output_file, 'w', 'utf-8')
