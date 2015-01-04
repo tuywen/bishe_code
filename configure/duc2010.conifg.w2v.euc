@@ -1,0 +1,22 @@
+[config]
+docset_dir = /home/tuywen/code/summarization/data/duc2010/topic/
+goldsum_dir = /home/tuywen/code/summarization/data/duc2010/gold/
+sysout_dir = /home/tuywen/code/summarization/duc_out/duc2010/
+method = w2v
+lsa_dim = 100
+w2v_feature_file= /home/tuywen/code/summarization/tools/w2vec/out_words/duc2010.w2v
+similarity= cos
+
+[debug]
+run_cases = -1
+
+[name_pattern]
+model_name_suffix = .M.100.[A-Z]
+
+[greedysearch]
+max_sents = -1
+max_words = 100
+
+[w2v]
+Nsim = False
+w2v_similarity = euc

@@ -1,0 +1,7 @@
+#!/bin/sh
+
+python duc_data.py /home/tuywen/MyShare/bishe/DUC_data/duc08/UpdateSumm08_test_docs_files/ /home/tuywen/MyShare/bishe/DUC_data/duc08/UpdateSumm08_eval/ROUGE/models/ /home/tuywen/code/summarization/data/duc2008/
+
+python duc_data.py /home/tuywen/MyShare/bishe/DUC_data/duc09/UpdateSumm09_test_docs_files/ /home/tuywen/MyShare/bishe/DUC_data/duc09/UpdateSumm09_eval/ROUGE/models/ /home/tuywen/code/summarization/data/duc2009/
+
+python duc_data.py /home/tuywen/MyShare/bishe/DUC_data/duc10/GuidedSumm10_test_docs_files/ /home/tuywen/MyShare/bishe/DUC_data/duc10/GuidedSumm2010_eval/ROUGE/models/ /home/tuywen/code/summarization/data/duc2010/

@@ -1,0 +1,2766 @@
+load word2vec vectors: 15205 300
+0 D1020D-A
+WORD SIZE: 1332
+2014-12-29 16:17:24,061 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:17:24,062 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpABpRt8/system and model files to /tmp/tmpABpRt8/model.
+2014-12-29 16:17:24,062 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1020D-A/.
+2014-12-29 16:17:24,062 [MainThread  ] [INFO ]  Processing D1020D-A.tfidf001.txt.
+2014-12-29 16:17:24,063 [MainThread  ] [INFO ]  Processing D1020D-A.LSA001.txt.
+2014-12-29 16:17:24,063 [MainThread  ] [INFO ]  Processing D1020D-A.w2v001.txt.
+2014-12-29 16:17:24,063 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpABpRt8/system.
+2014-12-29 16:17:24,063 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1020D-A.
+2014-12-29 16:17:24,063 [MainThread  ] [INFO ]  Processing D1020D-A.M.100.H.
+2014-12-29 16:17:24,063 [MainThread  ] [INFO ]  Processing D1020D-A.M.100.A.
+2014-12-29 16:17:24,064 [MainThread  ] [INFO ]  Processing D1020D-A.M.100.G.
+2014-12-29 16:17:24,064 [MainThread  ] [INFO ]  Processing D1020D-A.M.100.D.
+2014-12-29 16:17:24,064 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpABpRt8/model.
+2014-12-29 16:17:24,065 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmp9HtAvw/rouge_conf.xml
+2014-12-29 16:17:24,065 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmp9HtAvw/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.40250 (95%-conf.int. 0.40250 - 0.40250)
+1 ROUGE-1 Average_P: 0.21875 (95%-conf.int. 0.21875 - 0.21875)
+1 ROUGE-1 Average_F: 0.28345 (95%-conf.int. 0.28345 - 0.28345)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.40250 P:0.21875 F:0.28345
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.05556 (95%-conf.int. 0.05556 - 0.05556)
+1 ROUGE-2 Average_P: 0.03005 (95%-conf.int. 0.03005 - 0.03005)
+1 ROUGE-2 Average_F: 0.03900 (95%-conf.int. 0.03900 - 0.03900)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.05556 P:0.03005 F:0.03900
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.01020 (95%-conf.int. 0.01020 - 0.01020)
+1 ROUGE-3 Average_P: 0.00549 (95%-conf.int. 0.00549 - 0.00549)
+1 ROUGE-3 Average_F: 0.00714 (95%-conf.int. 0.00714 - 0.00714)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.01020 P:0.00549 F:0.00714
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00258 (95%-conf.int. 0.00258 - 0.00258)
+1 ROUGE-4 Average_P: 0.00138 (95%-conf.int. 0.00138 - 0.00138)
+1 ROUGE-4 Average_F: 0.00180 (95%-conf.int. 0.00180 - 0.00180)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00258 P:0.00138 F:0.00180
+---------------------------------------------
+1 ROUGE-L Average_R: 0.35750 (95%-conf.int. 0.35750 - 0.35750)
+1 ROUGE-L Average_P: 0.19429 (95%-conf.int. 0.19429 - 0.19429)
+1 ROUGE-L Average_F: 0.25176 (95%-conf.int. 0.25176 - 0.25176)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.35750 P:0.19429 F:0.25176
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.12056 (95%-conf.int. 0.12056 - 0.12056)
+1 ROUGE-W-1.2 Average_P: 0.12089 (95%-conf.int. 0.12089 - 0.12089)
+1 ROUGE-W-1.2 Average_F: 0.12072 (95%-conf.int. 0.12072 - 0.12072)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.12056 P:0.12089 F:0.12072
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.11901 (95%-conf.int. 0.11901 - 0.11901)
+1 ROUGE-SU4 Average_P: 0.06388 (95%-conf.int. 0.06388 - 0.06388)
+1 ROUGE-SU4 Average_F: 0.08314 (95%-conf.int. 0.08314 - 0.08314)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.11901 P:0.06388 F:0.08314
+
+1 D1029F-A
+WORD SIZE: 835
+2014-12-29 16:17:39,054 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:17:39,055 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpqJDvbZ/system and model files to /tmp/tmpqJDvbZ/model.
+2014-12-29 16:17:39,055 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1029F-A/.
+2014-12-29 16:17:39,055 [MainThread  ] [INFO ]  Processing D1029F-A.w2v001.txt.
+2014-12-29 16:17:39,055 [MainThread  ] [INFO ]  Processing D1029F-A.LSA001.txt.
+2014-12-29 16:17:39,055 [MainThread  ] [INFO ]  Processing D1029F-A.tfidf001.txt.
+2014-12-29 16:17:39,055 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpqJDvbZ/system.
+2014-12-29 16:17:39,055 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1029F-A.
+2014-12-29 16:17:39,055 [MainThread  ] [INFO ]  Processing D1029F-A.M.100.F.
+2014-12-29 16:17:39,055 [MainThread  ] [INFO ]  Processing D1029F-A.M.100.A.
+2014-12-29 16:17:39,056 [MainThread  ] [INFO ]  Processing D1029F-A.M.100.H.
+2014-12-29 16:17:39,056 [MainThread  ] [INFO ]  Processing D1029F-A.M.100.C.
+2014-12-29 16:17:39,056 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpqJDvbZ/model.
+2014-12-29 16:17:39,056 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpe3jewL/rouge_conf.xml
+2014-12-29 16:17:39,056 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpe3jewL/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.42537 (95%-conf.int. 0.42537 - 0.42537)
+1 ROUGE-1 Average_P: 0.23883 (95%-conf.int. 0.23883 - 0.23883)
+1 ROUGE-1 Average_F: 0.30591 (95%-conf.int. 0.30591 - 0.30591)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.42537 P:0.23883 F:0.30591
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.09045 (95%-conf.int. 0.09045 - 0.09045)
+1 ROUGE-2 Average_P: 0.05056 (95%-conf.int. 0.05056 - 0.05056)
+1 ROUGE-2 Average_F: 0.06486 (95%-conf.int. 0.06486 - 0.06486)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.09045 P:0.05056 F:0.06486
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.02284 (95%-conf.int. 0.02284 - 0.02284)
+1 ROUGE-3 Average_P: 0.01271 (95%-conf.int. 0.01271 - 0.01271)
+1 ROUGE-3 Average_F: 0.01633 (95%-conf.int. 0.01633 - 0.01633)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.02284 P:0.01271 F:0.01633
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00513 (95%-conf.int. 0.00513 - 0.00513)
+1 ROUGE-4 Average_P: 0.00284 (95%-conf.int. 0.00284 - 0.00284)
+1 ROUGE-4 Average_F: 0.00366 (95%-conf.int. 0.00366 - 0.00366)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00513 P:0.00284 F:0.00366
+---------------------------------------------
+1 ROUGE-L Average_R: 0.39552 (95%-conf.int. 0.39552 - 0.39552)
+1 ROUGE-L Average_P: 0.22207 (95%-conf.int. 0.22207 - 0.22207)
+1 ROUGE-L Average_F: 0.28444 (95%-conf.int. 0.28444 - 0.28444)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.39552 P:0.22207 F:0.28444
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.12864 (95%-conf.int. 0.12864 - 0.12864)
+1 ROUGE-W-1.2 Average_P: 0.13554 (95%-conf.int. 0.13554 - 0.13554)
+1 ROUGE-W-1.2 Average_F: 0.13200 (95%-conf.int. 0.13200 - 0.13200)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.12864 P:0.13554 F:0.13200
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.14225 (95%-conf.int. 0.14225 - 0.14225)
+1 ROUGE-SU4 Average_P: 0.07892 (95%-conf.int. 0.07892 - 0.07892)
+1 ROUGE-SU4 Average_F: 0.10152 (95%-conf.int. 0.10152 - 0.10152)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.14225 P:0.07892 F:0.10152
+
+2 D1045H-A
+WORD SIZE: 646
+2014-12-29 16:17:44,401 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:17:44,402 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpbBTPGE/system and model files to /tmp/tmpbBTPGE/model.
+2014-12-29 16:17:44,402 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1045H-A/.
+2014-12-29 16:17:44,402 [MainThread  ] [INFO ]  Processing D1045H-A.LSA001.txt.
+2014-12-29 16:17:44,402 [MainThread  ] [INFO ]  Processing D1045H-A.w2v001.txt.
+2014-12-29 16:17:44,402 [MainThread  ] [INFO ]  Processing D1045H-A.tfidf001.txt.
+2014-12-29 16:17:44,402 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpbBTPGE/system.
+2014-12-29 16:17:44,403 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1045H-A.
+2014-12-29 16:17:44,403 [MainThread  ] [INFO ]  Processing D1045H-A.M.100.E.
+2014-12-29 16:17:44,403 [MainThread  ] [INFO ]  Processing D1045H-A.M.100.C.
+2014-12-29 16:17:44,403 [MainThread  ] [INFO ]  Processing D1045H-A.M.100.H.
+2014-12-29 16:17:44,403 [MainThread  ] [INFO ]  Processing D1045H-A.M.100.F.
+2014-12-29 16:17:44,404 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpbBTPGE/model.
+2014-12-29 16:17:44,404 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpEXTx4x/rouge_conf.xml
+2014-12-29 16:17:44,404 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpEXTx4x/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.50864 (95%-conf.int. 0.50864 - 0.50864)
+1 ROUGE-1 Average_P: 0.33226 (95%-conf.int. 0.33226 - 0.33226)
+1 ROUGE-1 Average_F: 0.40195 (95%-conf.int. 0.40195 - 0.40195)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.50864 P:0.33226 F:0.40195
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.16708 (95%-conf.int. 0.16708 - 0.16708)
+1 ROUGE-2 Average_P: 0.10877 (95%-conf.int. 0.10877 - 0.10877)
+1 ROUGE-2 Average_F: 0.13176 (95%-conf.int. 0.13176 - 0.13176)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.16708 P:0.10877 F:0.13176
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.03778 (95%-conf.int. 0.03778 - 0.03778)
+1 ROUGE-3 Average_P: 0.02451 (95%-conf.int. 0.02451 - 0.02451)
+1 ROUGE-3 Average_F: 0.02973 (95%-conf.int. 0.02973 - 0.02973)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.03778 P:0.02451 F:0.02973
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00763 (95%-conf.int. 0.00763 - 0.00763)
+1 ROUGE-4 Average_P: 0.00493 (95%-conf.int. 0.00493 - 0.00493)
+1 ROUGE-4 Average_F: 0.00599 (95%-conf.int. 0.00599 - 0.00599)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00763 P:0.00493 F:0.00599
+---------------------------------------------
+1 ROUGE-L Average_R: 0.45926 (95%-conf.int. 0.45926 - 0.45926)
+1 ROUGE-L Average_P: 0.30000 (95%-conf.int. 0.30000 - 0.30000)
+1 ROUGE-L Average_F: 0.36293 (95%-conf.int. 0.36293 - 0.36293)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.45926 P:0.30000 F:0.36293
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.15930 (95%-conf.int. 0.15930 - 0.15930)
+1 ROUGE-W-1.2 Average_P: 0.18519 (95%-conf.int. 0.18519 - 0.18519)
+1 ROUGE-W-1.2 Average_F: 0.17127 (95%-conf.int. 0.17127 - 0.17127)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.15930 P:0.18519 F:0.17127
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.20541 (95%-conf.int. 0.20541 - 0.20541)
+1 ROUGE-SU4 Average_P: 0.13293 (95%-conf.int. 0.13293 - 0.13293)
+1 ROUGE-SU4 Average_F: 0.16141 (95%-conf.int. 0.16141 - 0.16141)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.20541 P:0.13293 F:0.16141
+
+3 D1004A-A
+WORD SIZE: 545
+2014-12-29 16:17:58,354 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:17:58,354 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpVyDVbf/system and model files to /tmp/tmpVyDVbf/model.
+2014-12-29 16:17:58,354 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1004A-A/.
+2014-12-29 16:17:58,354 [MainThread  ] [INFO ]  Processing D1004A-A.tfidf001.txt.
+2014-12-29 16:17:58,354 [MainThread  ] [INFO ]  Processing D1004A-A.LSA001.txt.
+2014-12-29 16:17:58,355 [MainThread  ] [INFO ]  Processing D1004A-A.w2v001.txt.
+2014-12-29 16:17:58,355 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpVyDVbf/system.
+2014-12-29 16:17:58,355 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1004A-A.
+2014-12-29 16:17:58,355 [MainThread  ] [INFO ]  Processing D1004A-A.M.100.A.
+2014-12-29 16:17:58,355 [MainThread  ] [INFO ]  Processing D1004A-A.M.100.H.
+2014-12-29 16:17:58,355 [MainThread  ] [INFO ]  Processing D1004A-A.M.100.D.
+2014-12-29 16:17:58,356 [MainThread  ] [INFO ]  Processing D1004A-A.M.100.F.
+2014-12-29 16:17:58,356 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpVyDVbf/model.
+2014-12-29 16:17:58,356 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpYwiMWF/rouge_conf.xml
+2014-12-29 16:17:58,357 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpYwiMWF/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.43672 (95%-conf.int. 0.43672 - 0.43672)
+1 ROUGE-1 Average_P: 0.25581 (95%-conf.int. 0.25581 - 0.25581)
+1 ROUGE-1 Average_F: 0.32264 (95%-conf.int. 0.32264 - 0.32264)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.43672 P:0.25581 F:0.32264
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.10777 (95%-conf.int. 0.10777 - 0.10777)
+1 ROUGE-2 Average_P: 0.06287 (95%-conf.int. 0.06287 - 0.06287)
+1 ROUGE-2 Average_F: 0.07941 (95%-conf.int. 0.07941 - 0.07941)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.10777 P:0.06287 F:0.07941
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.03544 (95%-conf.int. 0.03544 - 0.03544)
+1 ROUGE-3 Average_P: 0.02059 (95%-conf.int. 0.02059 - 0.02059)
+1 ROUGE-3 Average_F: 0.02605 (95%-conf.int. 0.02605 - 0.02605)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.03544 P:0.02059 F:0.02605
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00512 (95%-conf.int. 0.00512 - 0.00512)
+1 ROUGE-4 Average_P: 0.00296 (95%-conf.int. 0.00296 - 0.00296)
+1 ROUGE-4 Average_F: 0.00375 (95%-conf.int. 0.00375 - 0.00375)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00512 P:0.00296 F:0.00375
+---------------------------------------------
+1 ROUGE-L Average_R: 0.39454 (95%-conf.int. 0.39454 - 0.39454)
+1 ROUGE-L Average_P: 0.23110 (95%-conf.int. 0.23110 - 0.23110)
+1 ROUGE-L Average_F: 0.29147 (95%-conf.int. 0.29147 - 0.29147)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.39454 P:0.23110 F:0.29147
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.13273 (95%-conf.int. 0.13273 - 0.13273)
+1 ROUGE-W-1.2 Average_P: 0.14250 (95%-conf.int. 0.14250 - 0.14250)
+1 ROUGE-W-1.2 Average_F: 0.13744 (95%-conf.int. 0.13744 - 0.13744)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.13273 P:0.14250 F:0.13744
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.14911 (95%-conf.int. 0.14911 - 0.14911)
+1 ROUGE-SU4 Average_P: 0.08637 (95%-conf.int. 0.08637 - 0.08637)
+1 ROUGE-SU4 Average_F: 0.10938 (95%-conf.int. 0.10938 - 0.10938)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.14911 P:0.08637 F:0.10938
+
+4 D1019D-A
+WORD SIZE: 918
+2014-12-29 16:18:28,372 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:18:28,373 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpkya6N3/system and model files to /tmp/tmpkya6N3/model.
+2014-12-29 16:18:28,373 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1019D-A/.
+2014-12-29 16:18:28,373 [MainThread  ] [INFO ]  Processing D1019D-A.LSA001.txt.
+2014-12-29 16:18:28,373 [MainThread  ] [INFO ]  Processing D1019D-A.w2v001.txt.
+2014-12-29 16:18:28,373 [MainThread  ] [INFO ]  Processing D1019D-A.tfidf001.txt.
+2014-12-29 16:18:28,374 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpkya6N3/system.
+2014-12-29 16:18:28,374 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1019D-A.
+2014-12-29 16:18:28,374 [MainThread  ] [INFO ]  Processing D1019D-A.M.100.D.
+2014-12-29 16:18:28,374 [MainThread  ] [INFO ]  Processing D1019D-A.M.100.F.
+2014-12-29 16:18:28,374 [MainThread  ] [INFO ]  Processing D1019D-A.M.100.C.
+2014-12-29 16:18:28,374 [MainThread  ] [INFO ]  Processing D1019D-A.M.100.H.
+2014-12-29 16:18:28,375 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpkya6N3/model.
+2014-12-29 16:18:28,376 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpbN85zk/rouge_conf.xml
+2014-12-29 16:18:28,376 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpbN85zk/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.45013 (95%-conf.int. 0.45013 - 0.45013)
+1 ROUGE-1 Average_P: 0.28387 (95%-conf.int. 0.28387 - 0.28387)
+1 ROUGE-1 Average_F: 0.34817 (95%-conf.int. 0.34817 - 0.34817)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.45013 P:0.28387 F:0.34817
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.13178 (95%-conf.int. 0.13178 - 0.13178)
+1 ROUGE-2 Average_P: 0.08279 (95%-conf.int. 0.08279 - 0.08279)
+1 ROUGE-2 Average_F: 0.10169 (95%-conf.int. 0.10169 - 0.10169)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.13178 P:0.08279 F:0.10169
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.05483 (95%-conf.int. 0.05483 - 0.05483)
+1 ROUGE-3 Average_P: 0.03431 (95%-conf.int. 0.03431 - 0.03431)
+1 ROUGE-3 Average_F: 0.04221 (95%-conf.int. 0.04221 - 0.04221)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.05483 P:0.03431 F:0.04221
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.02375 (95%-conf.int. 0.02375 - 0.02375)
+1 ROUGE-4 Average_P: 0.01480 (95%-conf.int. 0.01480 - 0.01480)
+1 ROUGE-4 Average_F: 0.01824 (95%-conf.int. 0.01824 - 0.01824)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.02375 P:0.01480 F:0.01824
+---------------------------------------------
+1 ROUGE-L Average_R: 0.41688 (95%-conf.int. 0.41688 - 0.41688)
+1 ROUGE-L Average_P: 0.26290 (95%-conf.int. 0.26290 - 0.26290)
+1 ROUGE-L Average_F: 0.32245 (95%-conf.int. 0.32245 - 0.32245)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.41688 P:0.26290 F:0.32245
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.14756 (95%-conf.int. 0.14756 - 0.14756)
+1 ROUGE-W-1.2 Average_P: 0.16820 (95%-conf.int. 0.16820 - 0.16820)
+1 ROUGE-W-1.2 Average_F: 0.15721 (95%-conf.int. 0.15721 - 0.15721)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.14756 P:0.16820 F:0.15721
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.16564 (95%-conf.int. 0.16564 - 0.16564)
+1 ROUGE-SU4 Average_P: 0.10339 (95%-conf.int. 0.10339 - 0.10339)
+1 ROUGE-SU4 Average_F: 0.12731 (95%-conf.int. 0.12731 - 0.12731)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.16564 P:0.10339 F:0.12731
+
+5 D1041H-A
+WORD SIZE: 1320
+2014-12-29 16:18:50,331 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:18:50,331 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpPwllLx/system and model files to /tmp/tmpPwllLx/model.
+2014-12-29 16:18:50,331 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1041H-A/.
+2014-12-29 16:18:50,331 [MainThread  ] [INFO ]  Processing D1041H-A.w2v001.txt.
+2014-12-29 16:18:50,331 [MainThread  ] [INFO ]  Processing D1041H-A.LSA001.txt.
+2014-12-29 16:18:50,332 [MainThread  ] [INFO ]  Processing D1041H-A.tfidf001.txt.
+2014-12-29 16:18:50,332 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpPwllLx/system.
+2014-12-29 16:18:50,332 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1041H-A.
+2014-12-29 16:18:50,332 [MainThread  ] [INFO ]  Processing D1041H-A.M.100.G.
+2014-12-29 16:18:50,332 [MainThread  ] [INFO ]  Processing D1041H-A.M.100.H.
+2014-12-29 16:18:50,333 [MainThread  ] [INFO ]  Processing D1041H-A.M.100.D.
+2014-12-29 16:18:50,333 [MainThread  ] [INFO ]  Processing D1041H-A.M.100.E.
+2014-12-29 16:18:50,333 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpPwllLx/model.
+2014-12-29 16:18:50,334 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpUuseze/rouge_conf.xml
+2014-12-29 16:18:50,334 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpUuseze/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.38575 (95%-conf.int. 0.38575 - 0.38575)
+1 ROUGE-1 Average_P: 0.23645 (95%-conf.int. 0.23645 - 0.23645)
+1 ROUGE-1 Average_F: 0.29319 (95%-conf.int. 0.29319 - 0.29319)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.38575 P:0.23645 F:0.29319
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.13151 (95%-conf.int. 0.13151 - 0.13151)
+1 ROUGE-2 Average_P: 0.08030 (95%-conf.int. 0.08030 - 0.08030)
+1 ROUGE-2 Average_F: 0.09971 (95%-conf.int. 0.09971 - 0.09971)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.13151 P:0.08030 F:0.09971
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.07018 (95%-conf.int. 0.07018 - 0.07018)
+1 ROUGE-3 Average_P: 0.04268 (95%-conf.int. 0.04268 - 0.04268)
+1 ROUGE-3 Average_F: 0.05308 (95%-conf.int. 0.05308 - 0.05308)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.07018 P:0.04268 F:0.05308
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.03291 (95%-conf.int. 0.03291 - 0.03291)
+1 ROUGE-4 Average_P: 0.01994 (95%-conf.int. 0.01994 - 0.01994)
+1 ROUGE-4 Average_F: 0.02483 (95%-conf.int. 0.02483 - 0.02483)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.03291 P:0.01994 F:0.02483
+---------------------------------------------
+1 ROUGE-L Average_R: 0.33661 (95%-conf.int. 0.33661 - 0.33661)
+1 ROUGE-L Average_P: 0.20633 (95%-conf.int. 0.20633 - 0.20633)
+1 ROUGE-L Average_F: 0.25584 (95%-conf.int. 0.25584 - 0.25584)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.33661 P:0.20633 F:0.25584
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.11761 (95%-conf.int. 0.11761 - 0.11761)
+1 ROUGE-W-1.2 Average_P: 0.12909 (95%-conf.int. 0.12909 - 0.12909)
+1 ROUGE-W-1.2 Average_F: 0.12308 (95%-conf.int. 0.12308 - 0.12308)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.11761 P:0.12909 F:0.12308
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.13961 (95%-conf.int. 0.13961 - 0.13961)
+1 ROUGE-SU4 Average_P: 0.08469 (95%-conf.int. 0.08469 - 0.08469)
+1 ROUGE-SU4 Average_F: 0.10543 (95%-conf.int. 0.10543 - 0.10543)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.13961 P:0.08469 F:0.10543
+
+6 D1008B-A
+WORD SIZE: 2232
+2014-12-29 16:23:50,166 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:23:50,166 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpOvhWCn/system and model files to /tmp/tmpOvhWCn/model.
+2014-12-29 16:23:50,166 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1008B-A/.
+2014-12-29 16:23:50,166 [MainThread  ] [INFO ]  Processing D1008B-A.tfidf001.txt.
+2014-12-29 16:23:50,167 [MainThread  ] [INFO ]  Processing D1008B-A.w2v001.txt.
+2014-12-29 16:23:50,167 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpOvhWCn/system.
+2014-12-29 16:23:50,167 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1008B-A.
+2014-12-29 16:23:50,167 [MainThread  ] [INFO ]  Processing D1008B-A.M.100.E.
+2014-12-29 16:23:50,167 [MainThread  ] [INFO ]  Processing D1008B-A.M.100.H.
+2014-12-29 16:23:50,168 [MainThread  ] [INFO ]  Processing D1008B-A.M.100.D.
+2014-12-29 16:23:50,168 [MainThread  ] [INFO ]  Processing D1008B-A.M.100.B.
+2014-12-29 16:23:50,168 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpOvhWCn/model.
+2014-12-29 16:23:50,169 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpRu1wLi/rouge_conf.xml
+2014-12-29 16:23:50,169 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpRu1wLi/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.31553 (95%-conf.int. 0.31553 - 0.31553)
+1 ROUGE-1 Average_P: 0.20440 (95%-conf.int. 0.20440 - 0.20440)
+1 ROUGE-1 Average_F: 0.24809 (95%-conf.int. 0.24809 - 0.24809)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.31553 P:0.20440 F:0.24809
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.05882 (95%-conf.int. 0.05882 - 0.05882)
+1 ROUGE-2 Average_P: 0.03797 (95%-conf.int. 0.03797 - 0.03797)
+1 ROUGE-2 Average_F: 0.04615 (95%-conf.int. 0.04615 - 0.04615)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.05882 P:0.03797 F:0.04615
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.01733 (95%-conf.int. 0.01733 - 0.01733)
+1 ROUGE-3 Average_P: 0.01115 (95%-conf.int. 0.01115 - 0.01115)
+1 ROUGE-3 Average_F: 0.01357 (95%-conf.int. 0.01357 - 0.01357)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.01733 P:0.01115 F:0.01357
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_P: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_F: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00000 P:0.00000 F:0.00000
+---------------------------------------------
+1 ROUGE-L Average_R: 0.28883 (95%-conf.int. 0.28883 - 0.28883)
+1 ROUGE-L Average_P: 0.18711 (95%-conf.int. 0.18711 - 0.18711)
+1 ROUGE-L Average_F: 0.22710 (95%-conf.int. 0.22710 - 0.22710)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.28883 P:0.18711 F:0.22710
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.09514 (95%-conf.int. 0.09514 - 0.09514)
+1 ROUGE-W-1.2 Average_P: 0.11561 (95%-conf.int. 0.11561 - 0.11561)
+1 ROUGE-W-1.2 Average_F: 0.10438 (95%-conf.int. 0.10438 - 0.10438)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.09514 P:0.11561 F:0.10438
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.09842 (95%-conf.int. 0.09842 - 0.09842)
+1 ROUGE-SU4 Average_P: 0.06317 (95%-conf.int. 0.06317 - 0.06317)
+1 ROUGE-SU4 Average_F: 0.07695 (95%-conf.int. 0.07695 - 0.07695)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.09842 P:0.06317 F:0.07695
+
+7 D1040G-A
+WORD SIZE: 1298
+2014-12-29 16:25:25,410 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:25:25,410 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpojbBGu/system and model files to /tmp/tmpojbBGu/model.
+2014-12-29 16:25:25,410 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1040G-A/.
+2014-12-29 16:25:25,410 [MainThread  ] [INFO ]  Processing D1040G-A.tfidf001.txt.
+2014-12-29 16:25:25,410 [MainThread  ] [INFO ]  Processing D1040G-A.w2v001.txt.
+2014-12-29 16:25:25,411 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpojbBGu/system.
+2014-12-29 16:25:25,411 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1040G-A.
+2014-12-29 16:25:25,411 [MainThread  ] [INFO ]  Processing D1040G-A.M.100.B.
+2014-12-29 16:25:25,411 [MainThread  ] [INFO ]  Processing D1040G-A.M.100.G.
+2014-12-29 16:25:25,411 [MainThread  ] [INFO ]  Processing D1040G-A.M.100.C.
+2014-12-29 16:25:25,412 [MainThread  ] [INFO ]  Processing D1040G-A.M.100.F.
+2014-12-29 16:25:25,412 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpojbBGu/model.
+2014-12-29 16:25:25,412 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpXFhepO/rouge_conf.xml
+2014-12-29 16:25:25,413 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpXFhepO/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.41481 (95%-conf.int. 0.41481 - 0.41481)
+1 ROUGE-1 Average_P: 0.23333 (95%-conf.int. 0.23333 - 0.23333)
+1 ROUGE-1 Average_F: 0.29866 (95%-conf.int. 0.29866 - 0.29866)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.41481 P:0.23333 F:0.29866
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.06983 (95%-conf.int. 0.06983 - 0.06983)
+1 ROUGE-2 Average_P: 0.03911 (95%-conf.int. 0.03911 - 0.03911)
+1 ROUGE-2 Average_F: 0.05014 (95%-conf.int. 0.05014 - 0.05014)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.06983 P:0.03911 F:0.05014
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.01763 (95%-conf.int. 0.01763 - 0.01763)
+1 ROUGE-3 Average_P: 0.00983 (95%-conf.int. 0.00983 - 0.00983)
+1 ROUGE-3 Average_F: 0.01262 (95%-conf.int. 0.01262 - 0.01262)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.01763 P:0.00983 F:0.01262
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.01272 (95%-conf.int. 0.01272 - 0.01272)
+1 ROUGE-4 Average_P: 0.00706 (95%-conf.int. 0.00706 - 0.00706)
+1 ROUGE-4 Average_F: 0.00908 (95%-conf.int. 0.00908 - 0.00908)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.01272 P:0.00706 F:0.00908
+---------------------------------------------
+1 ROUGE-L Average_R: 0.35802 (95%-conf.int. 0.35802 - 0.35802)
+1 ROUGE-L Average_P: 0.20139 (95%-conf.int. 0.20139 - 0.20139)
+1 ROUGE-L Average_F: 0.25778 (95%-conf.int. 0.25778 - 0.25778)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.35802 P:0.20139 F:0.25778
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.12017 (95%-conf.int. 0.12017 - 0.12017)
+1 ROUGE-W-1.2 Average_P: 0.12272 (95%-conf.int. 0.12272 - 0.12272)
+1 ROUGE-W-1.2 Average_F: 0.12143 (95%-conf.int. 0.12143 - 0.12143)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.12017 P:0.12272 F:0.12143
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.12680 (95%-conf.int. 0.12680 - 0.12680)
+1 ROUGE-SU4 Average_P: 0.07049 (95%-conf.int. 0.07049 - 0.07049)
+1 ROUGE-SU4 Average_F: 0.09061 (95%-conf.int. 0.09061 - 0.09061)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.12680 P:0.07049 F:0.09061
+
+8 D1042H-A
+WORD SIZE: 1007
+2014-12-29 16:26:19,746 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:26:19,746 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpLW2K99/system and model files to /tmp/tmpLW2K99/model.
+2014-12-29 16:26:19,746 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1042H-A/.
+2014-12-29 16:26:19,746 [MainThread  ] [INFO ]  Processing D1042H-A.w2v001.txt.
+2014-12-29 16:26:19,747 [MainThread  ] [INFO ]  Processing D1042H-A.tfidf001.txt.
+2014-12-29 16:26:19,747 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpLW2K99/system.
+2014-12-29 16:26:19,747 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1042H-A.
+2014-12-29 16:26:19,747 [MainThread  ] [INFO ]  Processing D1042H-A.M.100.H.
+2014-12-29 16:26:19,747 [MainThread  ] [INFO ]  Processing D1042H-A.M.100.C.
+2014-12-29 16:26:19,747 [MainThread  ] [INFO ]  Processing D1042H-A.M.100.F.
+2014-12-29 16:26:19,748 [MainThread  ] [INFO ]  Processing D1042H-A.M.100.B.
+2014-12-29 16:26:19,748 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpLW2K99/model.
+2014-12-29 16:26:19,749 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpMvn6p_/rouge_conf.xml
+2014-12-29 16:26:19,749 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpMvn6p_/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.45570 (95%-conf.int. 0.45570 - 0.45570)
+1 ROUGE-1 Average_P: 0.25424 (95%-conf.int. 0.25424 - 0.25424)
+1 ROUGE-1 Average_F: 0.32639 (95%-conf.int. 0.32639 - 0.32639)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.45570 P:0.25424 F:0.32639
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.13299 (95%-conf.int. 0.13299 - 0.13299)
+1 ROUGE-2 Average_P: 0.07386 (95%-conf.int. 0.07386 - 0.07386)
+1 ROUGE-2 Average_F: 0.09497 (95%-conf.int. 0.09497 - 0.09497)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.13299 P:0.07386 F:0.09497
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.05426 (95%-conf.int. 0.05426 - 0.05426)
+1 ROUGE-3 Average_P: 0.03000 (95%-conf.int. 0.03000 - 0.03000)
+1 ROUGE-3 Average_F: 0.03864 (95%-conf.int. 0.03864 - 0.03864)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.05426 P:0.03000 F:0.03864
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.01828 (95%-conf.int. 0.01828 - 0.01828)
+1 ROUGE-4 Average_P: 0.01006 (95%-conf.int. 0.01006 - 0.01006)
+1 ROUGE-4 Average_F: 0.01298 (95%-conf.int. 0.01298 - 0.01298)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.01828 P:0.01006 F:0.01298
+---------------------------------------------
+1 ROUGE-L Average_R: 0.42278 (95%-conf.int. 0.42278 - 0.42278)
+1 ROUGE-L Average_P: 0.23588 (95%-conf.int. 0.23588 - 0.23588)
+1 ROUGE-L Average_F: 0.30281 (95%-conf.int. 0.30281 - 0.30281)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.42278 P:0.23588 F:0.30281
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.14601 (95%-conf.int. 0.14601 - 0.14601)
+1 ROUGE-W-1.2 Average_P: 0.14865 (95%-conf.int. 0.14865 - 0.14865)
+1 ROUGE-W-1.2 Average_F: 0.14732 (95%-conf.int. 0.14732 - 0.14732)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.14601 P:0.14865 F:0.14732
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.16999 (95%-conf.int. 0.16999 - 0.16999)
+1 ROUGE-SU4 Average_P: 0.09369 (95%-conf.int. 0.09369 - 0.09369)
+1 ROUGE-SU4 Average_F: 0.12080 (95%-conf.int. 0.12080 - 0.12080)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.16999 P:0.09369 F:0.12080
+
+9 D1039G-A
+WORD SIZE: 1265
+2014-12-29 16:27:36,680 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:27:36,680 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmp4Imcqe/system and model files to /tmp/tmp4Imcqe/model.
+2014-12-29 16:27:36,680 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1039G-A/.
+2014-12-29 16:27:36,681 [MainThread  ] [INFO ]  Processing D1039G-A.w2v001.txt.
+2014-12-29 16:27:36,681 [MainThread  ] [INFO ]  Processing D1039G-A.tfidf001.txt.
+2014-12-29 16:27:36,681 [MainThread  ] [INFO ]  Processing D1039G-A.LSA001.txt.
+2014-12-29 16:27:36,681 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmp4Imcqe/system.
+2014-12-29 16:27:36,681 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1039G-A.
+2014-12-29 16:27:36,682 [MainThread  ] [INFO ]  Processing D1039G-A.M.100.A.
+2014-12-29 16:27:36,682 [MainThread  ] [INFO ]  Processing D1039G-A.M.100.D.
+2014-12-29 16:27:36,682 [MainThread  ] [INFO ]  Processing D1039G-A.M.100.E.
+2014-12-29 16:27:36,682 [MainThread  ] [INFO ]  Processing D1039G-A.M.100.G.
+2014-12-29 16:27:36,682 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmp4Imcqe/model.
+2014-12-29 16:27:36,683 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpPCaHDt/rouge_conf.xml
+2014-12-29 16:27:36,683 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpPCaHDt/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.41832 (95%-conf.int. 0.41832 - 0.41832)
+1 ROUGE-1 Average_P: 0.26080 (95%-conf.int. 0.26080 - 0.26080)
+1 ROUGE-1 Average_F: 0.32129 (95%-conf.int. 0.32129 - 0.32129)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.41832 P:0.26080 F:0.32129
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.06250 (95%-conf.int. 0.06250 - 0.06250)
+1 ROUGE-2 Average_P: 0.03882 (95%-conf.int. 0.03882 - 0.03882)
+1 ROUGE-2 Average_F: 0.04789 (95%-conf.int. 0.04789 - 0.04789)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.06250 P:0.03882 F:0.04789
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.00253 (95%-conf.int. 0.00253 - 0.00253)
+1 ROUGE-3 Average_P: 0.00156 (95%-conf.int. 0.00156 - 0.00156)
+1 ROUGE-3 Average_F: 0.00193 (95%-conf.int. 0.00193 - 0.00193)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.00253 P:0.00156 F:0.00193
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_P: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_F: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00000 P:0.00000 F:0.00000
+---------------------------------------------
+1 ROUGE-L Average_R: 0.38119 (95%-conf.int. 0.38119 - 0.38119)
+1 ROUGE-L Average_P: 0.23765 (95%-conf.int. 0.23765 - 0.23765)
+1 ROUGE-L Average_F: 0.29277 (95%-conf.int. 0.29277 - 0.29277)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.38119 P:0.23765 F:0.29277
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.12625 (95%-conf.int. 0.12625 - 0.12625)
+1 ROUGE-W-1.2 Average_P: 0.14166 (95%-conf.int. 0.14166 - 0.14166)
+1 ROUGE-W-1.2 Average_F: 0.13351 (95%-conf.int. 0.13351 - 0.13351)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.12625 P:0.14166 F:0.13351
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.11398 (95%-conf.int. 0.11398 - 0.11398)
+1 ROUGE-SU4 Average_P: 0.07035 (95%-conf.int. 0.07035 - 0.07035)
+1 ROUGE-SU4 Average_F: 0.08700 (95%-conf.int. 0.08700 - 0.08700)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.11398 P:0.07035 F:0.08700
+
+10 D1027E-A
+WORD SIZE: 666
+2014-12-29 16:28:08,876 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:28:08,876 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpNPP6iM/system and model files to /tmp/tmpNPP6iM/model.
+2014-12-29 16:28:08,876 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1027E-A/.
+2014-12-29 16:28:08,876 [MainThread  ] [INFO ]  Processing D1027E-A.LSA001.txt.
+2014-12-29 16:28:08,876 [MainThread  ] [INFO ]  Processing D1027E-A.tfidf001.txt.
+2014-12-29 16:28:08,876 [MainThread  ] [INFO ]  Processing D1027E-A.w2v001.txt.
+2014-12-29 16:28:08,877 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpNPP6iM/system.
+2014-12-29 16:28:08,877 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1027E-A.
+2014-12-29 16:28:08,877 [MainThread  ] [INFO ]  Processing D1027E-A.M.100.D.
+2014-12-29 16:28:08,877 [MainThread  ] [INFO ]  Processing D1027E-A.M.100.E.
+2014-12-29 16:28:08,877 [MainThread  ] [INFO ]  Processing D1027E-A.M.100.B.
+2014-12-29 16:28:08,877 [MainThread  ] [INFO ]  Processing D1027E-A.M.100.G.
+2014-12-29 16:28:08,877 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpNPP6iM/model.
+2014-12-29 16:28:08,878 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpWhUFMi/rouge_conf.xml
+2014-12-29 16:28:08,878 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpWhUFMi/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.47677 (95%-conf.int. 0.47677 - 0.47677)
+1 ROUGE-1 Average_P: 0.32072 (95%-conf.int. 0.32072 - 0.32072)
+1 ROUGE-1 Average_F: 0.38348 (95%-conf.int. 0.38348 - 0.38348)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.47677 P:0.32072 F:0.38348
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.11605 (95%-conf.int. 0.11605 - 0.11605)
+1 ROUGE-2 Average_P: 0.07781 (95%-conf.int. 0.07781 - 0.07781)
+1 ROUGE-2 Average_F: 0.09316 (95%-conf.int. 0.09316 - 0.09316)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.11605 P:0.07781 F:0.09316
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.02244 (95%-conf.int. 0.02244 - 0.02244)
+1 ROUGE-3 Average_P: 0.01500 (95%-conf.int. 0.01500 - 0.01500)
+1 ROUGE-3 Average_F: 0.01798 (95%-conf.int. 0.01798 - 0.01798)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.02244 P:0.01500 F:0.01798
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00756 (95%-conf.int. 0.00756 - 0.00756)
+1 ROUGE-4 Average_P: 0.00503 (95%-conf.int. 0.00503 - 0.00503)
+1 ROUGE-4 Average_F: 0.00604 (95%-conf.int. 0.00604 - 0.00604)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00756 P:0.00503 F:0.00604
+---------------------------------------------
+1 ROUGE-L Average_R: 0.43276 (95%-conf.int. 0.43276 - 0.43276)
+1 ROUGE-L Average_P: 0.29112 (95%-conf.int. 0.29112 - 0.29112)
+1 ROUGE-L Average_F: 0.34808 (95%-conf.int. 0.34808 - 0.34808)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.43276 P:0.29112 F:0.34808
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.14898 (95%-conf.int. 0.14898 - 0.14898)
+1 ROUGE-W-1.2 Average_P: 0.17614 (95%-conf.int. 0.17614 - 0.17614)
+1 ROUGE-W-1.2 Average_F: 0.16143 (95%-conf.int. 0.16143 - 0.16143)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.14898 P:0.17614 F:0.16143
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.17071 (95%-conf.int. 0.17071 - 0.17071)
+1 ROUGE-SU4 Average_P: 0.11384 (95%-conf.int. 0.11384 - 0.11384)
+1 ROUGE-SU4 Average_F: 0.13659 (95%-conf.int. 0.13659 - 0.13659)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.17071 P:0.11384 F:0.13659
+
+11 D1017D-A
+WORD SIZE: 1295
+2014-12-29 16:29:26,224 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:29:26,224 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpA64ve7/system and model files to /tmp/tmpA64ve7/model.
+2014-12-29 16:29:26,224 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1017D-A/.
+2014-12-29 16:29:26,224 [MainThread  ] [INFO ]  Processing D1017D-A.w2v001.txt.
+2014-12-29 16:29:26,224 [MainThread  ] [INFO ]  Processing D1017D-A.tfidf001.txt.
+2014-12-29 16:29:26,225 [MainThread  ] [INFO ]  Processing D1017D-A.LSA001.txt.
+2014-12-29 16:29:26,225 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpA64ve7/system.
+2014-12-29 16:29:26,225 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1017D-A.
+2014-12-29 16:29:26,225 [MainThread  ] [INFO ]  Processing D1017D-A.M.100.G.
+2014-12-29 16:29:26,225 [MainThread  ] [INFO ]  Processing D1017D-A.M.100.B.
+2014-12-29 16:29:26,225 [MainThread  ] [INFO ]  Processing D1017D-A.M.100.A.
+2014-12-29 16:29:26,226 [MainThread  ] [INFO ]  Processing D1017D-A.M.100.D.
+2014-12-29 16:29:26,226 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpA64ve7/model.
+2014-12-29 16:29:26,226 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpIht8hY/rouge_conf.xml
+2014-12-29 16:29:26,227 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpIht8hY/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.39798 (95%-conf.int. 0.39798 - 0.39798)
+1 ROUGE-1 Average_P: 0.25000 (95%-conf.int. 0.25000 - 0.25000)
+1 ROUGE-1 Average_F: 0.30709 (95%-conf.int. 0.30709 - 0.30709)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.39798 P:0.25000 F:0.30709
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.04580 (95%-conf.int. 0.04580 - 0.04580)
+1 ROUGE-2 Average_P: 0.02866 (95%-conf.int. 0.02866 - 0.02866)
+1 ROUGE-2 Average_F: 0.03526 (95%-conf.int. 0.03526 - 0.03526)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.04580 P:0.02866 F:0.03526
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.00514 (95%-conf.int. 0.00514 - 0.00514)
+1 ROUGE-3 Average_P: 0.00321 (95%-conf.int. 0.00321 - 0.00321)
+1 ROUGE-3 Average_F: 0.00395 (95%-conf.int. 0.00395 - 0.00395)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.00514 P:0.00321 F:0.00395
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_P: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_F: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00000 P:0.00000 F:0.00000
+---------------------------------------------
+1 ROUGE-L Average_R: 0.33249 (95%-conf.int. 0.33249 - 0.33249)
+1 ROUGE-L Average_P: 0.20886 (95%-conf.int. 0.20886 - 0.20886)
+1 ROUGE-L Average_F: 0.25656 (95%-conf.int. 0.25656 - 0.25656)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.33249 P:0.20886 F:0.25656
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.11056 (95%-conf.int. 0.11056 - 0.11056)
+1 ROUGE-W-1.2 Average_P: 0.12748 (95%-conf.int. 0.12748 - 0.12748)
+1 ROUGE-W-1.2 Average_F: 0.11842 (95%-conf.int. 0.11842 - 0.11842)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.11056 P:0.12748 F:0.11842
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.11562 (95%-conf.int. 0.11562 - 0.11562)
+1 ROUGE-SU4 Average_P: 0.07189 (95%-conf.int. 0.07189 - 0.07189)
+1 ROUGE-SU4 Average_F: 0.08866 (95%-conf.int. 0.08866 - 0.08866)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.11562 P:0.07189 F:0.08866
+
+12 D1043H-A
+WORD SIZE: 860
+2014-12-29 16:29:39,626 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:29:39,627 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpcgKrQd/system and model files to /tmp/tmpcgKrQd/model.
+2014-12-29 16:29:39,627 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1043H-A/.
+2014-12-29 16:29:39,627 [MainThread  ] [INFO ]  Processing D1043H-A.w2v001.txt.
+2014-12-29 16:29:39,627 [MainThread  ] [INFO ]  Processing D1043H-A.tfidf001.txt.
+2014-12-29 16:29:39,627 [MainThread  ] [INFO ]  Processing D1043H-A.LSA001.txt.
+2014-12-29 16:29:39,627 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpcgKrQd/system.
+2014-12-29 16:29:39,627 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1043H-A.
+2014-12-29 16:29:39,627 [MainThread  ] [INFO ]  Processing D1043H-A.M.100.A.
+2014-12-29 16:29:39,628 [MainThread  ] [INFO ]  Processing D1043H-A.M.100.B.
+2014-12-29 16:29:39,628 [MainThread  ] [INFO ]  Processing D1043H-A.M.100.H.
+2014-12-29 16:29:39,628 [MainThread  ] [INFO ]  Processing D1043H-A.M.100.G.
+2014-12-29 16:29:39,628 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpcgKrQd/model.
+2014-12-29 16:29:39,628 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmp4zu6Le/rouge_conf.xml
+2014-12-29 16:29:39,629 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmp4zu6Le/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.49877 (95%-conf.int. 0.49877 - 0.49877)
+1 ROUGE-1 Average_P: 0.30208 (95%-conf.int. 0.30208 - 0.30208)
+1 ROUGE-1 Average_F: 0.37627 (95%-conf.int. 0.37627 - 0.37627)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.49877 P:0.30208 F:0.37627
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.14640 (95%-conf.int. 0.14640 - 0.14640)
+1 ROUGE-2 Average_P: 0.08832 (95%-conf.int. 0.08832 - 0.08832)
+1 ROUGE-2 Average_F: 0.11017 (95%-conf.int. 0.11017 - 0.11017)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.14640 P:0.08832 F:0.11017
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.07769 (95%-conf.int. 0.07769 - 0.07769)
+1 ROUGE-3 Average_P: 0.04669 (95%-conf.int. 0.04669 - 0.04669)
+1 ROUGE-3 Average_F: 0.05833 (95%-conf.int. 0.05833 - 0.05833)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.07769 P:0.04669 F:0.05833
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.05316 (95%-conf.int. 0.05316 - 0.05316)
+1 ROUGE-4 Average_P: 0.03182 (95%-conf.int. 0.03182 - 0.03182)
+1 ROUGE-4 Average_F: 0.03981 (95%-conf.int. 0.03981 - 0.03981)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.05316 P:0.03182 F:0.03981
+---------------------------------------------
+1 ROUGE-L Average_R: 0.47174 (95%-conf.int. 0.47174 - 0.47174)
+1 ROUGE-L Average_P: 0.28571 (95%-conf.int. 0.28571 - 0.28571)
+1 ROUGE-L Average_F: 0.35588 (95%-conf.int. 0.35588 - 0.35588)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.47174 P:0.28571 F:0.35588
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.16742 (95%-conf.int. 0.16742 - 0.16742)
+1 ROUGE-W-1.2 Average_P: 0.18133 (95%-conf.int. 0.18133 - 0.18133)
+1 ROUGE-W-1.2 Average_F: 0.17410 (95%-conf.int. 0.17410 - 0.17410)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.16742 P:0.18133 F:0.17410
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.20059 (95%-conf.int. 0.20059 - 0.20059)
+1 ROUGE-SU4 Average_P: 0.12021 (95%-conf.int. 0.12021 - 0.12021)
+1 ROUGE-SU4 Average_F: 0.15033 (95%-conf.int. 0.15033 - 0.15033)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.20059 P:0.12021 F:0.15033
+
+13 D1025E-A
+WORD SIZE: 1642
+2014-12-29 16:31:38,235 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:31:38,236 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpTSRTB9/system and model files to /tmp/tmpTSRTB9/model.
+2014-12-29 16:31:38,236 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1025E-A/.
+2014-12-29 16:31:38,236 [MainThread  ] [INFO ]  Processing D1025E-A.w2v001.txt.
+2014-12-29 16:31:38,236 [MainThread  ] [INFO ]  Processing D1025E-A.LSA001.txt.
+2014-12-29 16:31:38,236 [MainThread  ] [INFO ]  Processing D1025E-A.tfidf001.txt.
+2014-12-29 16:31:38,236 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpTSRTB9/system.
+2014-12-29 16:31:38,237 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1025E-A.
+2014-12-29 16:31:38,237 [MainThread  ] [INFO ]  Processing D1025E-A.M.100.D.
+2014-12-29 16:31:38,237 [MainThread  ] [INFO ]  Processing D1025E-A.M.100.E.
+2014-12-29 16:31:38,237 [MainThread  ] [INFO ]  Processing D1025E-A.M.100.A.
+2014-12-29 16:31:38,237 [MainThread  ] [INFO ]  Processing D1025E-A.M.100.H.
+2014-12-29 16:31:38,237 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpTSRTB9/model.
+2014-12-29 16:31:38,238 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpwvaVWQ/rouge_conf.xml
+2014-12-29 16:31:38,238 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpwvaVWQ/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.49127 (95%-conf.int. 0.49127 - 0.49127)
+1 ROUGE-1 Average_P: 0.27514 (95%-conf.int. 0.27514 - 0.27514)
+1 ROUGE-1 Average_F: 0.35273 (95%-conf.int. 0.35273 - 0.35273)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.49127 P:0.27514 F:0.35273
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.13350 (95%-conf.int. 0.13350 - 0.13350)
+1 ROUGE-2 Average_P: 0.07444 (95%-conf.int. 0.07444 - 0.07444)
+1 ROUGE-2 Average_F: 0.09558 (95%-conf.int. 0.09558 - 0.09558)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.13350 P:0.07444 F:0.09558
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.04071 (95%-conf.int. 0.04071 - 0.04071)
+1 ROUGE-3 Average_P: 0.02260 (95%-conf.int. 0.02260 - 0.02260)
+1 ROUGE-3 Average_F: 0.02906 (95%-conf.int. 0.02906 - 0.02906)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.04071 P:0.02260 F:0.02906
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.01285 (95%-conf.int. 0.01285 - 0.01285)
+1 ROUGE-4 Average_P: 0.00710 (95%-conf.int. 0.00710 - 0.00710)
+1 ROUGE-4 Average_F: 0.00915 (95%-conf.int. 0.00915 - 0.00915)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.01285 P:0.00710 F:0.00915
+---------------------------------------------
+1 ROUGE-L Average_R: 0.41895 (95%-conf.int. 0.41895 - 0.41895)
+1 ROUGE-L Average_P: 0.23464 (95%-conf.int. 0.23464 - 0.23464)
+1 ROUGE-L Average_F: 0.30081 (95%-conf.int. 0.30081 - 0.30081)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.41895 P:0.23464 F:0.30081
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.14044 (95%-conf.int. 0.14044 - 0.14044)
+1 ROUGE-W-1.2 Average_P: 0.14682 (95%-conf.int. 0.14682 - 0.14682)
+1 ROUGE-W-1.2 Average_F: 0.14356 (95%-conf.int. 0.14356 - 0.14356)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.14044 P:0.14682 F:0.14356
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.18232 (95%-conf.int. 0.18232 - 0.18232)
+1 ROUGE-SU4 Average_P: 0.10090 (95%-conf.int. 0.10090 - 0.10090)
+1 ROUGE-SU4 Average_F: 0.12991 (95%-conf.int. 0.12991 - 0.12991)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.18232 P:0.10090 F:0.12991
+
+14 D1028E-A
+WORD SIZE: 692
+2014-12-29 16:31:44,587 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:31:44,588 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpLagcTt/system and model files to /tmp/tmpLagcTt/model.
+2014-12-29 16:31:44,588 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1028E-A/.
+2014-12-29 16:31:44,588 [MainThread  ] [INFO ]  Processing D1028E-A.LSA001.txt.
+2014-12-29 16:31:44,588 [MainThread  ] [INFO ]  Processing D1028E-A.tfidf001.txt.
+2014-12-29 16:31:44,588 [MainThread  ] [INFO ]  Processing D1028E-A.w2v001.txt.
+2014-12-29 16:31:44,589 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpLagcTt/system.
+2014-12-29 16:31:44,589 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1028E-A.
+2014-12-29 16:31:44,589 [MainThread  ] [INFO ]  Processing D1028E-A.M.100.A.
+2014-12-29 16:31:44,589 [MainThread  ] [INFO ]  Processing D1028E-A.M.100.D.
+2014-12-29 16:31:44,589 [MainThread  ] [INFO ]  Processing D1028E-A.M.100.E.
+2014-12-29 16:31:44,590 [MainThread  ] [INFO ]  Processing D1028E-A.M.100.B.
+2014-12-29 16:31:44,590 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpLagcTt/model.
+2014-12-29 16:31:44,590 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpI_GPTI/rouge_conf.xml
+2014-12-29 16:31:44,591 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpI_GPTI/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.53285 (95%-conf.int. 0.53285 - 0.53285)
+1 ROUGE-1 Average_P: 0.36258 (95%-conf.int. 0.36258 - 0.36258)
+1 ROUGE-1 Average_F: 0.43153 (95%-conf.int. 0.43153 - 0.43153)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.53285 P:0.36258 F:0.43153
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.20147 (95%-conf.int. 0.20147 - 0.20147)
+1 ROUGE-2 Average_P: 0.13667 (95%-conf.int. 0.13667 - 0.13667)
+1 ROUGE-2 Average_F: 0.16286 (95%-conf.int. 0.16286 - 0.16286)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.20147 P:0.13667 F:0.16286
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.08437 (95%-conf.int. 0.08437 - 0.08437)
+1 ROUGE-3 Average_P: 0.05705 (95%-conf.int. 0.05705 - 0.05705)
+1 ROUGE-3 Average_F: 0.06807 (95%-conf.int. 0.06807 - 0.06807)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.08437 P:0.05705 F:0.06807
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.04511 (95%-conf.int. 0.04511 - 0.04511)
+1 ROUGE-4 Average_P: 0.03041 (95%-conf.int. 0.03041 - 0.03041)
+1 ROUGE-4 Average_F: 0.03633 (95%-conf.int. 0.03633 - 0.03633)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.04511 P:0.03041 F:0.03633
+---------------------------------------------
+1 ROUGE-L Average_R: 0.48905 (95%-conf.int. 0.48905 - 0.48905)
+1 ROUGE-L Average_P: 0.33278 (95%-conf.int. 0.33278 - 0.33278)
+1 ROUGE-L Average_F: 0.39606 (95%-conf.int. 0.39606 - 0.39606)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.48905 P:0.33278 F:0.39606
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.17411 (95%-conf.int. 0.17411 - 0.17411)
+1 ROUGE-W-1.2 Average_P: 0.21566 (95%-conf.int. 0.21566 - 0.21566)
+1 ROUGE-W-1.2 Average_F: 0.19267 (95%-conf.int. 0.19267 - 0.19267)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.17411 P:0.21566 F:0.19267
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.22023 (95%-conf.int. 0.22023 - 0.22023)
+1 ROUGE-SU4 Average_P: 0.14860 (95%-conf.int. 0.14860 - 0.14860)
+1 ROUGE-SU4 Average_F: 0.17746 (95%-conf.int. 0.17746 - 0.17746)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.22023 P:0.14860 F:0.17746
+
+15 D1003A-A
+WORD SIZE: 681
+2014-12-29 16:31:52,130 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:31:52,130 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpuUU9iu/system and model files to /tmp/tmpuUU9iu/model.
+2014-12-29 16:31:52,130 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1003A-A/.
+2014-12-29 16:31:52,130 [MainThread  ] [INFO ]  Processing D1003A-A.w2v001.txt.
+2014-12-29 16:31:52,131 [MainThread  ] [INFO ]  Processing D1003A-A.tfidf001.txt.
+2014-12-29 16:31:52,131 [MainThread  ] [INFO ]  Processing D1003A-A.LSA001.txt.
+2014-12-29 16:31:52,131 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpuUU9iu/system.
+2014-12-29 16:31:52,131 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1003A-A.
+2014-12-29 16:31:52,131 [MainThread  ] [INFO ]  Processing D1003A-A.M.100.G.
+2014-12-29 16:31:52,131 [MainThread  ] [INFO ]  Processing D1003A-A.M.100.C.
+2014-12-29 16:31:52,132 [MainThread  ] [INFO ]  Processing D1003A-A.M.100.A.
+2014-12-29 16:31:52,132 [MainThread  ] [INFO ]  Processing D1003A-A.M.100.E.
+2014-12-29 16:31:52,132 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpuUU9iu/model.
+2014-12-29 16:31:52,133 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpVOZTj5/rouge_conf.xml
+2014-12-29 16:31:52,133 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpVOZTj5/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.42821 (95%-conf.int. 0.42821 - 0.42821)
+1 ROUGE-1 Average_P: 0.26258 (95%-conf.int. 0.26258 - 0.26258)
+1 ROUGE-1 Average_F: 0.32554 (95%-conf.int. 0.32554 - 0.32554)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.42821 P:0.26258 F:0.32554
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.06477 (95%-conf.int. 0.06477 - 0.06477)
+1 ROUGE-2 Average_P: 0.03956 (95%-conf.int. 0.03956 - 0.03956)
+1 ROUGE-2 Average_F: 0.04912 (95%-conf.int. 0.04912 - 0.04912)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.06477 P:0.03956 F:0.04912
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.01047 (95%-conf.int. 0.01047 - 0.01047)
+1 ROUGE-3 Average_P: 0.00637 (95%-conf.int. 0.00637 - 0.00637)
+1 ROUGE-3 Average_F: 0.00792 (95%-conf.int. 0.00792 - 0.00792)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.01047 P:0.00637 F:0.00792
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_P: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_F: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00000 P:0.00000 F:0.00000
+---------------------------------------------
+1 ROUGE-L Average_R: 0.37436 (95%-conf.int. 0.37436 - 0.37436)
+1 ROUGE-L Average_P: 0.22956 (95%-conf.int. 0.22956 - 0.22956)
+1 ROUGE-L Average_F: 0.28460 (95%-conf.int. 0.28460 - 0.28460)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.37436 P:0.22956 F:0.28460
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.12429 (95%-conf.int. 0.12429 - 0.12429)
+1 ROUGE-W-1.2 Average_P: 0.13810 (95%-conf.int. 0.13810 - 0.13810)
+1 ROUGE-W-1.2 Average_F: 0.13083 (95%-conf.int. 0.13083 - 0.13083)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.12429 P:0.13810 F:0.13083
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.12566 (95%-conf.int. 0.12566 - 0.12566)
+1 ROUGE-SU4 Average_P: 0.07623 (95%-conf.int. 0.07623 - 0.07623)
+1 ROUGE-SU4 Average_F: 0.09489 (95%-conf.int. 0.09489 - 0.09489)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.12566 P:0.07623 F:0.09489
+
+16 D1001A-A
+WORD SIZE: 1513
+2014-12-29 16:33:38,348 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:33:38,348 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmplU25M7/system and model files to /tmp/tmplU25M7/model.
+2014-12-29 16:33:38,348 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1001A-A/.
+2014-12-29 16:33:38,348 [MainThread  ] [INFO ]  Processing D1001A-A.LSA001.txt.
+2014-12-29 16:33:38,349 [MainThread  ] [INFO ]  Processing D1001A-A.w2v001.txt.
+2014-12-29 16:33:38,349 [MainThread  ] [INFO ]  Processing D1001A-A.tfidf001.txt.
+2014-12-29 16:33:38,349 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmplU25M7/system.
+2014-12-29 16:33:38,349 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1001A-A.
+2014-12-29 16:33:38,349 [MainThread  ] [INFO ]  Processing D1001A-A.M.100.A.
+2014-12-29 16:33:38,350 [MainThread  ] [INFO ]  Processing D1001A-A.M.100.B.
+2014-12-29 16:33:38,350 [MainThread  ] [INFO ]  Processing D1001A-A.M.100.H.
+2014-12-29 16:33:38,350 [MainThread  ] [INFO ]  Processing D1001A-A.M.100.F.
+2014-12-29 16:33:38,350 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmplU25M7/model.
+2014-12-29 16:33:38,351 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpatH7dy/rouge_conf.xml
+2014-12-29 16:33:38,351 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpatH7dy/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.31671 (95%-conf.int. 0.31671 - 0.31671)
+1 ROUGE-1 Average_P: 0.18247 (95%-conf.int. 0.18247 - 0.18247)
+1 ROUGE-1 Average_F: 0.23154 (95%-conf.int. 0.23154 - 0.23154)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.31671 P:0.18247 F:0.23154
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.04786 (95%-conf.int. 0.04786 - 0.04786)
+1 ROUGE-2 Average_P: 0.02746 (95%-conf.int. 0.02746 - 0.02746)
+1 ROUGE-2 Average_F: 0.03490 (95%-conf.int. 0.03490 - 0.03490)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.04786 P:0.02746 F:0.03490
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.01527 (95%-conf.int. 0.01527 - 0.01527)
+1 ROUGE-3 Average_P: 0.00872 (95%-conf.int. 0.00872 - 0.00872)
+1 ROUGE-3 Average_F: 0.01110 (95%-conf.int. 0.01110 - 0.01110)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.01527 P:0.00872 F:0.01110
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_P: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_F: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00000 P:0.00000 F:0.00000
+---------------------------------------------
+1 ROUGE-L Average_R: 0.31172 (95%-conf.int. 0.31172 - 0.31172)
+1 ROUGE-L Average_P: 0.17960 (95%-conf.int. 0.17960 - 0.17960)
+1 ROUGE-L Average_F: 0.22790 (95%-conf.int. 0.22790 - 0.22790)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.31172 P:0.17960 F:0.22790
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.10788 (95%-conf.int. 0.10788 - 0.10788)
+1 ROUGE-W-1.2 Average_P: 0.11142 (95%-conf.int. 0.11142 - 0.11142)
+1 ROUGE-W-1.2 Average_F: 0.10962 (95%-conf.int. 0.10962 - 0.10962)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.10788 P:0.11142 F:0.10962
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.09479 (95%-conf.int. 0.09479 - 0.09479)
+1 ROUGE-SU4 Average_P: 0.05399 (95%-conf.int. 0.05399 - 0.05399)
+1 ROUGE-SU4 Average_F: 0.06880 (95%-conf.int. 0.06880 - 0.06880)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.09479 P:0.05399 F:0.06880
+
+17 D1014C-A
+WORD SIZE: 764
+2014-12-29 16:33:42,576 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:33:42,576 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpclerNS/system and model files to /tmp/tmpclerNS/model.
+2014-12-29 16:33:42,576 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1014C-A/.
+2014-12-29 16:33:42,576 [MainThread  ] [INFO ]  Processing D1014C-A.tfidf001.txt.
+2014-12-29 16:33:42,577 [MainThread  ] [INFO ]  Processing D1014C-A.LSA001.txt.
+2014-12-29 16:33:42,577 [MainThread  ] [INFO ]  Processing D1014C-A.w2v001.txt.
+2014-12-29 16:33:42,577 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpclerNS/system.
+2014-12-29 16:33:42,577 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1014C-A.
+2014-12-29 16:33:42,577 [MainThread  ] [INFO ]  Processing D1014C-A.M.100.G.
+2014-12-29 16:33:42,577 [MainThread  ] [INFO ]  Processing D1014C-A.M.100.E.
+2014-12-29 16:33:42,577 [MainThread  ] [INFO ]  Processing D1014C-A.M.100.C.
+2014-12-29 16:33:42,578 [MainThread  ] [INFO ]  Processing D1014C-A.M.100.H.
+2014-12-29 16:33:42,578 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpclerNS/model.
+2014-12-29 16:33:42,578 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpwgLkY2/rouge_conf.xml
+2014-12-29 16:33:42,578 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpwgLkY2/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.32412 (95%-conf.int. 0.32412 - 0.32412)
+1 ROUGE-1 Average_P: 0.20156 (95%-conf.int. 0.20156 - 0.20156)
+1 ROUGE-1 Average_F: 0.24855 (95%-conf.int. 0.24855 - 0.24855)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.32412 P:0.20156 F:0.24855
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.03807 (95%-conf.int. 0.03807 - 0.03807)
+1 ROUGE-2 Average_P: 0.02358 (95%-conf.int. 0.02358 - 0.02358)
+1 ROUGE-2 Average_F: 0.02912 (95%-conf.int. 0.02912 - 0.02912)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.03807 P:0.02358 F:0.02912
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.00256 (95%-conf.int. 0.00256 - 0.00256)
+1 ROUGE-3 Average_P: 0.00158 (95%-conf.int. 0.00158 - 0.00158)
+1 ROUGE-3 Average_F: 0.00195 (95%-conf.int. 0.00195 - 0.00195)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.00256 P:0.00158 F:0.00195
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_P: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_F: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00000 P:0.00000 F:0.00000
+---------------------------------------------
+1 ROUGE-L Average_R: 0.30402 (95%-conf.int. 0.30402 - 0.30402)
+1 ROUGE-L Average_P: 0.18906 (95%-conf.int. 0.18906 - 0.18906)
+1 ROUGE-L Average_F: 0.23314 (95%-conf.int. 0.23314 - 0.23314)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.30402 P:0.18906 F:0.23314
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.10587 (95%-conf.int. 0.10587 - 0.10587)
+1 ROUGE-W-1.2 Average_P: 0.11613 (95%-conf.int. 0.11613 - 0.11613)
+1 ROUGE-W-1.2 Average_F: 0.11076 (95%-conf.int. 0.11076 - 0.11076)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.10587 P:0.11613 F:0.11076
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.09940 (95%-conf.int. 0.09940 - 0.09940)
+1 ROUGE-SU4 Average_P: 0.06118 (95%-conf.int. 0.06118 - 0.06118)
+1 ROUGE-SU4 Average_F: 0.07574 (95%-conf.int. 0.07574 - 0.07574)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.09940 P:0.06118 F:0.07574
+
+18 D1009B-A
+WORD SIZE: 1246
+2014-12-29 16:34:39,553 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:34:39,553 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpnIA5OK/system and model files to /tmp/tmpnIA5OK/model.
+2014-12-29 16:34:39,553 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1009B-A/.
+2014-12-29 16:34:39,554 [MainThread  ] [INFO ]  Processing D1009B-A.LSA001.txt.
+2014-12-29 16:34:39,554 [MainThread  ] [INFO ]  Processing D1009B-A.w2v001.txt.
+2014-12-29 16:34:39,554 [MainThread  ] [INFO ]  Processing D1009B-A.tfidf001.txt.
+2014-12-29 16:34:39,554 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpnIA5OK/system.
+2014-12-29 16:34:39,554 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1009B-A.
+2014-12-29 16:34:39,555 [MainThread  ] [INFO ]  Processing D1009B-A.M.100.F.
+2014-12-29 16:34:39,555 [MainThread  ] [INFO ]  Processing D1009B-A.M.100.C.
+2014-12-29 16:34:39,555 [MainThread  ] [INFO ]  Processing D1009B-A.M.100.G.
+2014-12-29 16:34:39,555 [MainThread  ] [INFO ]  Processing D1009B-A.M.100.B.
+2014-12-29 16:34:39,555 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpnIA5OK/model.
+2014-12-29 16:34:39,556 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpMYmMCs/rouge_conf.xml
+2014-12-29 16:34:39,556 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpMYmMCs/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.44872 (95%-conf.int. 0.44872 - 0.44872)
+1 ROUGE-1 Average_P: 0.23777 (95%-conf.int. 0.23777 - 0.23777)
+1 ROUGE-1 Average_F: 0.31083 (95%-conf.int. 0.31083 - 0.31083)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.44872 P:0.23777 F:0.31083
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.10622 (95%-conf.int. 0.10622 - 0.10622)
+1 ROUGE-2 Average_P: 0.05601 (95%-conf.int. 0.05601 - 0.05601)
+1 ROUGE-2 Average_F: 0.07335 (95%-conf.int. 0.07335 - 0.07335)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.10622 P:0.05601 F:0.07335
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.02880 (95%-conf.int. 0.02880 - 0.02880)
+1 ROUGE-3 Average_P: 0.01511 (95%-conf.int. 0.01511 - 0.01511)
+1 ROUGE-3 Average_F: 0.01982 (95%-conf.int. 0.01982 - 0.01982)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.02880 P:0.01511 F:0.01982
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.01323 (95%-conf.int. 0.01323 - 0.01323)
+1 ROUGE-4 Average_P: 0.00691 (95%-conf.int. 0.00691 - 0.00691)
+1 ROUGE-4 Average_F: 0.00908 (95%-conf.int. 0.00908 - 0.00908)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.01323 P:0.00691 F:0.00908
+---------------------------------------------
+1 ROUGE-L Average_R: 0.42051 (95%-conf.int. 0.42051 - 0.42051)
+1 ROUGE-L Average_P: 0.22283 (95%-conf.int. 0.22283 - 0.22283)
+1 ROUGE-L Average_F: 0.29130 (95%-conf.int. 0.29130 - 0.29130)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.42051 P:0.22283 F:0.29130
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.14832 (95%-conf.int. 0.14832 - 0.14832)
+1 ROUGE-W-1.2 Average_P: 0.13960 (95%-conf.int. 0.13960 - 0.13960)
+1 ROUGE-W-1.2 Average_F: 0.14383 (95%-conf.int. 0.14383 - 0.14383)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.14832 P:0.13960 F:0.14383
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.15026 (95%-conf.int. 0.15026 - 0.15026)
+1 ROUGE-SU4 Average_P: 0.07858 (95%-conf.int. 0.07858 - 0.07858)
+1 ROUGE-SU4 Average_F: 0.10319 (95%-conf.int. 0.10319 - 0.10319)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.15026 P:0.07858 F:0.10319
+
+19 D1018D-A
+WORD SIZE: 1529
+2014-12-29 16:37:18,010 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:37:18,010 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpYgD6ox/system and model files to /tmp/tmpYgD6ox/model.
+2014-12-29 16:37:18,010 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1018D-A/.
+2014-12-29 16:37:18,010 [MainThread  ] [INFO ]  Processing D1018D-A.w2v001.txt.
+2014-12-29 16:37:18,010 [MainThread  ] [INFO ]  Processing D1018D-A.tfidf001.txt.
+2014-12-29 16:37:18,010 [MainThread  ] [INFO ]  Processing D1018D-A.LSA001.txt.
+2014-12-29 16:37:18,011 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpYgD6ox/system.
+2014-12-29 16:37:18,011 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1018D-A.
+2014-12-29 16:37:18,011 [MainThread  ] [INFO ]  Processing D1018D-A.M.100.B.
+2014-12-29 16:37:18,011 [MainThread  ] [INFO ]  Processing D1018D-A.M.100.D.
+2014-12-29 16:37:18,011 [MainThread  ] [INFO ]  Processing D1018D-A.M.100.G.
+2014-12-29 16:37:18,011 [MainThread  ] [INFO ]  Processing D1018D-A.M.100.C.
+2014-12-29 16:37:18,011 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpYgD6ox/model.
+2014-12-29 16:37:18,012 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpShI6tU/rouge_conf.xml
+2014-12-29 16:37:18,012 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpShI6tU/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.37838 (95%-conf.int. 0.37838 - 0.37838)
+1 ROUGE-1 Average_P: 0.24367 (95%-conf.int. 0.24367 - 0.24367)
+1 ROUGE-1 Average_F: 0.29644 (95%-conf.int. 0.29644 - 0.29644)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.37838 P:0.24367 F:0.29644
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.07692 (95%-conf.int. 0.07692 - 0.07692)
+1 ROUGE-2 Average_P: 0.04936 (95%-conf.int. 0.04936 - 0.04936)
+1 ROUGE-2 Average_F: 0.06013 (95%-conf.int. 0.06013 - 0.06013)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.07692 P:0.04936 F:0.06013
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.03759 (95%-conf.int. 0.03759 - 0.03759)
+1 ROUGE-3 Average_P: 0.02404 (95%-conf.int. 0.02404 - 0.02404)
+1 ROUGE-3 Average_F: 0.02933 (95%-conf.int. 0.02933 - 0.02933)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.03759 P:0.02404 F:0.02933
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.01519 (95%-conf.int. 0.01519 - 0.01519)
+1 ROUGE-4 Average_P: 0.00968 (95%-conf.int. 0.00968 - 0.00968)
+1 ROUGE-4 Average_F: 0.01182 (95%-conf.int. 0.01182 - 0.01182)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.01519 P:0.00968 F:0.01182
+---------------------------------------------
+1 ROUGE-L Average_R: 0.35381 (95%-conf.int. 0.35381 - 0.35381)
+1 ROUGE-L Average_P: 0.22785 (95%-conf.int. 0.22785 - 0.22785)
+1 ROUGE-L Average_F: 0.27719 (95%-conf.int. 0.27719 - 0.27719)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.35381 P:0.22785 F:0.27719
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.12579 (95%-conf.int. 0.12579 - 0.12579)
+1 ROUGE-W-1.2 Average_P: 0.14151 (95%-conf.int. 0.14151 - 0.14151)
+1 ROUGE-W-1.2 Average_F: 0.13319 (95%-conf.int. 0.13319 - 0.13319)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.12579 P:0.14151 F:0.13319
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.10934 (95%-conf.int. 0.10934 - 0.10934)
+1 ROUGE-SU4 Average_P: 0.06974 (95%-conf.int. 0.06974 - 0.06974)
+1 ROUGE-SU4 Average_F: 0.08516 (95%-conf.int. 0.08516 - 0.08516)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.10934 P:0.06974 F:0.08516
+
+20 D1038G-A
+WORD SIZE: 1381
+2014-12-29 16:38:14,238 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:38:14,238 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpvNC3xl/system and model files to /tmp/tmpvNC3xl/model.
+2014-12-29 16:38:14,239 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1038G-A/.
+2014-12-29 16:38:14,239 [MainThread  ] [INFO ]  Processing D1038G-A.w2v001.txt.
+2014-12-29 16:38:14,239 [MainThread  ] [INFO ]  Processing D1038G-A.LSA001.txt.
+2014-12-29 16:38:14,239 [MainThread  ] [INFO ]  Processing D1038G-A.tfidf001.txt.
+2014-12-29 16:38:14,239 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpvNC3xl/system.
+2014-12-29 16:38:14,240 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1038G-A.
+2014-12-29 16:38:14,240 [MainThread  ] [INFO ]  Processing D1038G-A.M.100.G.
+2014-12-29 16:38:14,240 [MainThread  ] [INFO ]  Processing D1038G-A.M.100.A.
+2014-12-29 16:38:14,240 [MainThread  ] [INFO ]  Processing D1038G-A.M.100.F.
+2014-12-29 16:38:14,240 [MainThread  ] [INFO ]  Processing D1038G-A.M.100.C.
+2014-12-29 16:38:14,241 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpvNC3xl/model.
+2014-12-29 16:38:14,241 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpBVvcrX/rouge_conf.xml
+2014-12-29 16:38:14,241 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpBVvcrX/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.35366 (95%-conf.int. 0.35366 - 0.35366)
+1 ROUGE-1 Average_P: 0.18495 (95%-conf.int. 0.18495 - 0.18495)
+1 ROUGE-1 Average_F: 0.24288 (95%-conf.int. 0.24288 - 0.24288)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.35366 P:0.18495 F:0.24288
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.06897 (95%-conf.int. 0.06897 - 0.06897)
+1 ROUGE-2 Average_P: 0.03590 (95%-conf.int. 0.03590 - 0.03590)
+1 ROUGE-2 Average_F: 0.04722 (95%-conf.int. 0.04722 - 0.04722)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.06897 P:0.03590 F:0.04722
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.02488 (95%-conf.int. 0.02488 - 0.02488)
+1 ROUGE-3 Average_P: 0.01289 (95%-conf.int. 0.01289 - 0.01289)
+1 ROUGE-3 Average_F: 0.01698 (95%-conf.int. 0.01698 - 0.01698)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.02488 P:0.01289 F:0.01698
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.01508 (95%-conf.int. 0.01508 - 0.01508)
+1 ROUGE-4 Average_P: 0.00777 (95%-conf.int. 0.00777 - 0.00777)
+1 ROUGE-4 Average_F: 0.01026 (95%-conf.int. 0.01026 - 0.01026)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.01508 P:0.00777 F:0.01026
+---------------------------------------------
+1 ROUGE-L Average_R: 0.32439 (95%-conf.int. 0.32439 - 0.32439)
+1 ROUGE-L Average_P: 0.16964 (95%-conf.int. 0.16964 - 0.16964)
+1 ROUGE-L Average_F: 0.22278 (95%-conf.int. 0.22278 - 0.22278)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.32439 P:0.16964 F:0.22278
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.10790 (95%-conf.int. 0.10790 - 0.10790)
+1 ROUGE-W-1.2 Average_P: 0.10024 (95%-conf.int. 0.10024 - 0.10024)
+1 ROUGE-W-1.2 Average_F: 0.10393 (95%-conf.int. 0.10393 - 0.10393)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.10790 P:0.10024 F:0.10393
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.11060 (95%-conf.int. 0.11060 - 0.11060)
+1 ROUGE-SU4 Average_P: 0.05711 (95%-conf.int. 0.05711 - 0.05711)
+1 ROUGE-SU4 Average_F: 0.07532 (95%-conf.int. 0.07532 - 0.07532)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.11060 P:0.05711 F:0.07532
+
+21 D1033F-A
+WORD SIZE: 680
+2014-12-29 16:38:31,960 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:38:31,961 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpogyCBZ/system and model files to /tmp/tmpogyCBZ/model.
+2014-12-29 16:38:31,961 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1033F-A/.
+2014-12-29 16:38:31,961 [MainThread  ] [INFO ]  Processing D1033F-A.LSA001.txt.
+2014-12-29 16:38:31,961 [MainThread  ] [INFO ]  Processing D1033F-A.tfidf001.txt.
+2014-12-29 16:38:31,961 [MainThread  ] [INFO ]  Processing D1033F-A.w2v001.txt.
+2014-12-29 16:38:31,962 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpogyCBZ/system.
+2014-12-29 16:38:31,962 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1033F-A.
+2014-12-29 16:38:31,962 [MainThread  ] [INFO ]  Processing D1033F-A.M.100.F.
+2014-12-29 16:38:31,962 [MainThread  ] [INFO ]  Processing D1033F-A.M.100.C.
+2014-12-29 16:38:31,962 [MainThread  ] [INFO ]  Processing D1033F-A.M.100.E.
+2014-12-29 16:38:31,962 [MainThread  ] [INFO ]  Processing D1033F-A.M.100.H.
+2014-12-29 16:38:31,963 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpogyCBZ/model.
+2014-12-29 16:38:31,963 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpVK7PvZ/rouge_conf.xml
+2014-12-29 16:38:31,963 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpVK7PvZ/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.52439 (95%-conf.int. 0.52439 - 0.52439)
+1 ROUGE-1 Average_P: 0.31994 (95%-conf.int. 0.31994 - 0.31994)
+1 ROUGE-1 Average_F: 0.39741 (95%-conf.int. 0.39741 - 0.39741)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.52439 P:0.31994 F:0.39741
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.11084 (95%-conf.int. 0.11084 - 0.11084)
+1 ROUGE-2 Average_P: 0.06737 (95%-conf.int. 0.06737 - 0.06737)
+1 ROUGE-2 Average_F: 0.08380 (95%-conf.int. 0.08380 - 0.08380)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.11084 P:0.06737 F:0.08380
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.02736 (95%-conf.int. 0.02736 - 0.02736)
+1 ROUGE-3 Average_P: 0.01657 (95%-conf.int. 0.01657 - 0.01657)
+1 ROUGE-3 Average_F: 0.02064 (95%-conf.int. 0.02064 - 0.02064)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.02736 P:0.01657 F:0.02064
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00754 (95%-conf.int. 0.00754 - 0.00754)
+1 ROUGE-4 Average_P: 0.00455 (95%-conf.int. 0.00455 - 0.00455)
+1 ROUGE-4 Average_F: 0.00568 (95%-conf.int. 0.00568 - 0.00568)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00754 P:0.00455 F:0.00568
+---------------------------------------------
+1 ROUGE-L Average_R: 0.47317 (95%-conf.int. 0.47317 - 0.47317)
+1 ROUGE-L Average_P: 0.28869 (95%-conf.int. 0.28869 - 0.28869)
+1 ROUGE-L Average_F: 0.35859 (95%-conf.int. 0.35859 - 0.35859)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.47317 P:0.28869 F:0.35859
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.15436 (95%-conf.int. 0.15436 - 0.15436)
+1 ROUGE-W-1.2 Average_P: 0.18017 (95%-conf.int. 0.18017 - 0.18017)
+1 ROUGE-W-1.2 Average_F: 0.16627 (95%-conf.int. 0.16627 - 0.16627)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.15436 P:0.18017 F:0.16627
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.17821 (95%-conf.int. 0.17821 - 0.17821)
+1 ROUGE-SU4 Average_P: 0.10761 (95%-conf.int. 0.10761 - 0.10761)
+1 ROUGE-SU4 Average_F: 0.13419 (95%-conf.int. 0.13419 - 0.13419)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.17821 P:0.10761 F:0.13419
+
+22 D1007B-A
+WORD SIZE: 539
+2014-12-29 16:38:38,087 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:38:38,087 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpPwieK0/system and model files to /tmp/tmpPwieK0/model.
+2014-12-29 16:38:38,088 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1007B-A/.
+2014-12-29 16:38:38,088 [MainThread  ] [INFO ]  Processing D1007B-A.w2v001.txt.
+2014-12-29 16:38:38,088 [MainThread  ] [INFO ]  Processing D1007B-A.tfidf001.txt.
+2014-12-29 16:38:38,088 [MainThread  ] [INFO ]  Processing D1007B-A.LSA001.txt.
+2014-12-29 16:38:38,088 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpPwieK0/system.
+2014-12-29 16:38:38,088 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1007B-A.
+2014-12-29 16:38:38,089 [MainThread  ] [INFO ]  Processing D1007B-A.M.100.A.
+2014-12-29 16:38:38,089 [MainThread  ] [INFO ]  Processing D1007B-A.M.100.E.
+2014-12-29 16:38:38,089 [MainThread  ] [INFO ]  Processing D1007B-A.M.100.B.
+2014-12-29 16:38:38,089 [MainThread  ] [INFO ]  Processing D1007B-A.M.100.H.
+2014-12-29 16:38:38,090 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpPwieK0/model.
+2014-12-29 16:38:38,090 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpDKldPP/rouge_conf.xml
+2014-12-29 16:38:38,090 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpDKldPP/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.48223 (95%-conf.int. 0.48223 - 0.48223)
+1 ROUGE-1 Average_P: 0.27616 (95%-conf.int. 0.27616 - 0.27616)
+1 ROUGE-1 Average_F: 0.35120 (95%-conf.int. 0.35120 - 0.35120)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.48223 P:0.27616 F:0.35120
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.10769 (95%-conf.int. 0.10769 - 0.10769)
+1 ROUGE-2 Average_P: 0.06140 (95%-conf.int. 0.06140 - 0.06140)
+1 ROUGE-2 Average_F: 0.07821 (95%-conf.int. 0.07821 - 0.07821)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.10769 P:0.06140 F:0.07821
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.03109 (95%-conf.int. 0.03109 - 0.03109)
+1 ROUGE-3 Average_P: 0.01765 (95%-conf.int. 0.01765 - 0.01765)
+1 ROUGE-3 Average_F: 0.02252 (95%-conf.int. 0.02252 - 0.02252)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.03109 P:0.01765 F:0.02252
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00785 (95%-conf.int. 0.00785 - 0.00785)
+1 ROUGE-4 Average_P: 0.00444 (95%-conf.int. 0.00444 - 0.00444)
+1 ROUGE-4 Average_F: 0.00567 (95%-conf.int. 0.00567 - 0.00567)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00785 P:0.00444 F:0.00567
+---------------------------------------------
+1 ROUGE-L Average_R: 0.42893 (95%-conf.int. 0.42893 - 0.42893)
+1 ROUGE-L Average_P: 0.24564 (95%-conf.int. 0.24564 - 0.24564)
+1 ROUGE-L Average_F: 0.31238 (95%-conf.int. 0.31238 - 0.31238)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.42893 P:0.24564 F:0.31238
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.14535 (95%-conf.int. 0.14535 - 0.14535)
+1 ROUGE-W-1.2 Average_P: 0.15501 (95%-conf.int. 0.15501 - 0.15501)
+1 ROUGE-W-1.2 Average_F: 0.15002 (95%-conf.int. 0.15002 - 0.15002)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.14535 P:0.15501 F:0.15002
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.17000 (95%-conf.int. 0.17000 - 0.17000)
+1 ROUGE-SU4 Average_P: 0.09621 (95%-conf.int. 0.09621 - 0.09621)
+1 ROUGE-SU4 Average_F: 0.12288 (95%-conf.int. 0.12288 - 0.12288)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.17000 P:0.09621 F:0.12288
+
+23 D1026E-A
+WORD SIZE: 1941
+2014-12-29 16:40:21,826 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:40:21,826 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpxSucaf/system and model files to /tmp/tmpxSucaf/model.
+2014-12-29 16:40:21,826 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1026E-A/.
+2014-12-29 16:40:21,826 [MainThread  ] [INFO ]  Processing D1026E-A.tfidf001.txt.
+2014-12-29 16:40:21,827 [MainThread  ] [INFO ]  Processing D1026E-A.LSA001.txt.
+2014-12-29 16:40:21,827 [MainThread  ] [INFO ]  Processing D1026E-A.w2v001.txt.
+2014-12-29 16:40:21,827 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpxSucaf/system.
+2014-12-29 16:40:21,827 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1026E-A.
+2014-12-29 16:40:21,827 [MainThread  ] [INFO ]  Processing D1026E-A.M.100.F.
+2014-12-29 16:40:21,828 [MainThread  ] [INFO ]  Processing D1026E-A.M.100.G.
+2014-12-29 16:40:21,828 [MainThread  ] [INFO ]  Processing D1026E-A.M.100.C.
+2014-12-29 16:40:21,828 [MainThread  ] [INFO ]  Processing D1026E-A.M.100.E.
+2014-12-29 16:40:21,828 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpxSucaf/model.
+2014-12-29 16:40:21,829 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpEAzmcp/rouge_conf.xml
+2014-12-29 16:40:21,829 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpEAzmcp/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.35176 (95%-conf.int. 0.35176 - 0.35176)
+1 ROUGE-1 Average_P: 0.19337 (95%-conf.int. 0.19337 - 0.19337)
+1 ROUGE-1 Average_F: 0.24955 (95%-conf.int. 0.24955 - 0.24955)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.35176 P:0.19337 F:0.24955
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.02284 (95%-conf.int. 0.02284 - 0.02284)
+1 ROUGE-2 Average_P: 0.01250 (95%-conf.int. 0.01250 - 0.01250)
+1 ROUGE-2 Average_F: 0.01616 (95%-conf.int. 0.01616 - 0.01616)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.02284 P:0.01250 F:0.01616
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.00513 (95%-conf.int. 0.00513 - 0.00513)
+1 ROUGE-3 Average_P: 0.00279 (95%-conf.int. 0.00279 - 0.00279)
+1 ROUGE-3 Average_F: 0.00361 (95%-conf.int. 0.00361 - 0.00361)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.00513 P:0.00279 F:0.00361
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_P: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_F: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00000 P:0.00000 F:0.00000
+---------------------------------------------
+1 ROUGE-L Average_R: 0.32412 (95%-conf.int. 0.32412 - 0.32412)
+1 ROUGE-L Average_P: 0.17818 (95%-conf.int. 0.17818 - 0.17818)
+1 ROUGE-L Average_F: 0.22995 (95%-conf.int. 0.22995 - 0.22995)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.32412 P:0.17818 F:0.22995
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.10589 (95%-conf.int. 0.10589 - 0.10589)
+1 ROUGE-W-1.2 Average_P: 0.10154 (95%-conf.int. 0.10154 - 0.10154)
+1 ROUGE-W-1.2 Average_F: 0.10367 (95%-conf.int. 0.10367 - 0.10367)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.10589 P:0.10154 F:0.10367
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.08778 (95%-conf.int. 0.08778 - 0.08778)
+1 ROUGE-SU4 Average_P: 0.04766 (95%-conf.int. 0.04766 - 0.04766)
+1 ROUGE-SU4 Average_F: 0.06178 (95%-conf.int. 0.06178 - 0.06178)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.08778 P:0.04766 F:0.06178
+
+24 D1032F-A
+WORD SIZE: 615
+2014-12-29 16:40:31,150 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:40:31,150 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpDohTbw/system and model files to /tmp/tmpDohTbw/model.
+2014-12-29 16:40:31,150 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1032F-A/.
+2014-12-29 16:40:31,151 [MainThread  ] [INFO ]  Processing D1032F-A.w2v001.txt.
+2014-12-29 16:40:31,151 [MainThread  ] [INFO ]  Processing D1032F-A.LSA001.txt.
+2014-12-29 16:40:31,151 [MainThread  ] [INFO ]  Processing D1032F-A.tfidf001.txt.
+2014-12-29 16:40:31,151 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpDohTbw/system.
+2014-12-29 16:40:31,151 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1032F-A.
+2014-12-29 16:40:31,151 [MainThread  ] [INFO ]  Processing D1032F-A.M.100.F.
+2014-12-29 16:40:31,152 [MainThread  ] [INFO ]  Processing D1032F-A.M.100.D.
+2014-12-29 16:40:31,152 [MainThread  ] [INFO ]  Processing D1032F-A.M.100.G.
+2014-12-29 16:40:31,152 [MainThread  ] [INFO ]  Processing D1032F-A.M.100.B.
+2014-12-29 16:40:31,152 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpDohTbw/model.
+2014-12-29 16:40:31,153 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmp_BTLj2/rouge_conf.xml
+2014-12-29 16:40:31,153 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmp_BTLj2/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.49398 (95%-conf.int. 0.49398 - 0.49398)
+1 ROUGE-1 Average_P: 0.30689 (95%-conf.int. 0.30689 - 0.30689)
+1 ROUGE-1 Average_F: 0.37858 (95%-conf.int. 0.37858 - 0.37858)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.49398 P:0.30689 F:0.37858
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.11922 (95%-conf.int. 0.11922 - 0.11922)
+1 ROUGE-2 Average_P: 0.07380 (95%-conf.int. 0.07380 - 0.07380)
+1 ROUGE-2 Average_F: 0.09117 (95%-conf.int. 0.09117 - 0.09117)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.11922 P:0.07380 F:0.09117
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.05405 (95%-conf.int. 0.05405 - 0.05405)
+1 ROUGE-3 Average_P: 0.03333 (95%-conf.int. 0.03333 - 0.03333)
+1 ROUGE-3 Average_F: 0.04123 (95%-conf.int. 0.04123 - 0.04123)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.05405 P:0.03333 F:0.04123
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.02730 (95%-conf.int. 0.02730 - 0.02730)
+1 ROUGE-4 Average_P: 0.01677 (95%-conf.int. 0.01677 - 0.01677)
+1 ROUGE-4 Average_F: 0.02078 (95%-conf.int. 0.02078 - 0.02078)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.02730 P:0.01677 F:0.02078
+---------------------------------------------
+1 ROUGE-L Average_R: 0.45060 (95%-conf.int. 0.45060 - 0.45060)
+1 ROUGE-L Average_P: 0.27994 (95%-conf.int. 0.27994 - 0.27994)
+1 ROUGE-L Average_F: 0.34534 (95%-conf.int. 0.34534 - 0.34534)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.45060 P:0.27994 F:0.34534
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.15491 (95%-conf.int. 0.15491 - 0.15491)
+1 ROUGE-W-1.2 Average_P: 0.17652 (95%-conf.int. 0.17652 - 0.17652)
+1 ROUGE-W-1.2 Average_F: 0.16501 (95%-conf.int. 0.16501 - 0.16501)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.15491 P:0.17652 F:0.16501
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.17395 (95%-conf.int. 0.17395 - 0.17395)
+1 ROUGE-SU4 Average_P: 0.10700 (95%-conf.int. 0.10700 - 0.10700)
+1 ROUGE-SU4 Average_F: 0.13250 (95%-conf.int. 0.13250 - 0.13250)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.17395 P:0.10700 F:0.13250
+
+25 D1034F-A
+WORD SIZE: 1582
+2014-12-29 16:41:08,069 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:41:08,069 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpo4xDYq/system and model files to /tmp/tmpo4xDYq/model.
+2014-12-29 16:41:08,069 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1034F-A/.
+2014-12-29 16:41:08,069 [MainThread  ] [INFO ]  Processing D1034F-A.LSA001.txt.
+2014-12-29 16:41:08,069 [MainThread  ] [INFO ]  Processing D1034F-A.w2v001.txt.
+2014-12-29 16:41:08,069 [MainThread  ] [INFO ]  Processing D1034F-A.tfidf001.txt.
+2014-12-29 16:41:08,070 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpo4xDYq/system.
+2014-12-29 16:41:08,070 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1034F-A.
+2014-12-29 16:41:08,070 [MainThread  ] [INFO ]  Processing D1034F-A.M.100.A.
+2014-12-29 16:41:08,070 [MainThread  ] [INFO ]  Processing D1034F-A.M.100.F.
+2014-12-29 16:41:08,070 [MainThread  ] [INFO ]  Processing D1034F-A.M.100.B.
+2014-12-29 16:41:08,070 [MainThread  ] [INFO ]  Processing D1034F-A.M.100.H.
+2014-12-29 16:41:08,070 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpo4xDYq/model.
+2014-12-29 16:41:08,071 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpRXlxC9/rouge_conf.xml
+2014-12-29 16:41:08,071 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpRXlxC9/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.36693 (95%-conf.int. 0.36693 - 0.36693)
+1 ROUGE-1 Average_P: 0.18490 (95%-conf.int. 0.18490 - 0.18490)
+1 ROUGE-1 Average_F: 0.24589 (95%-conf.int. 0.24589 - 0.24589)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.36693 P:0.18490 F:0.24589
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.04961 (95%-conf.int. 0.04961 - 0.04961)
+1 ROUGE-2 Average_P: 0.02487 (95%-conf.int. 0.02487 - 0.02487)
+1 ROUGE-2 Average_F: 0.03313 (95%-conf.int. 0.03313 - 0.03313)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.04961 P:0.02487 F:0.03313
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.02111 (95%-conf.int. 0.02111 - 0.02111)
+1 ROUGE-3 Average_P: 0.01053 (95%-conf.int. 0.01053 - 0.01053)
+1 ROUGE-3 Average_F: 0.01405 (95%-conf.int. 0.01405 - 0.01405)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.02111 P:0.01053 F:0.01405
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.01067 (95%-conf.int. 0.01067 - 0.01067)
+1 ROUGE-4 Average_P: 0.00529 (95%-conf.int. 0.00529 - 0.00529)
+1 ROUGE-4 Average_F: 0.00707 (95%-conf.int. 0.00707 - 0.00707)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.01067 P:0.00529 F:0.00707
+---------------------------------------------
+1 ROUGE-L Average_R: 0.31525 (95%-conf.int. 0.31525 - 0.31525)
+1 ROUGE-L Average_P: 0.15885 (95%-conf.int. 0.15885 - 0.15885)
+1 ROUGE-L Average_F: 0.21125 (95%-conf.int. 0.21125 - 0.21125)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.31525 P:0.15885 F:0.21125
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.10687 (95%-conf.int. 0.10687 - 0.10687)
+1 ROUGE-W-1.2 Average_P: 0.09948 (95%-conf.int. 0.09948 - 0.09948)
+1 ROUGE-W-1.2 Average_F: 0.10304 (95%-conf.int. 0.10304 - 0.10304)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.10687 P:0.09948 F:0.10304
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.11072 (95%-conf.int. 0.11072 - 0.11072)
+1 ROUGE-SU4 Average_P: 0.05502 (95%-conf.int. 0.05502 - 0.05502)
+1 ROUGE-SU4 Average_F: 0.07351 (95%-conf.int. 0.07351 - 0.07351)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.11072 P:0.05502 F:0.07351
+
+26 D1037G-A
+WORD SIZE: 2078
+2014-12-29 16:45:03,951 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:45:03,951 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpBuZ2pH/system and model files to /tmp/tmpBuZ2pH/model.
+2014-12-29 16:45:03,952 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1037G-A/.
+2014-12-29 16:45:03,952 [MainThread  ] [INFO ]  Processing D1037G-A.w2v001.txt.
+2014-12-29 16:45:03,952 [MainThread  ] [INFO ]  Processing D1037G-A.LSA001.txt.
+2014-12-29 16:45:03,952 [MainThread  ] [INFO ]  Processing D1037G-A.tfidf001.txt.
+2014-12-29 16:45:03,952 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpBuZ2pH/system.
+2014-12-29 16:45:03,952 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1037G-A.
+2014-12-29 16:45:03,952 [MainThread  ] [INFO ]  Processing D1037G-A.M.100.G.
+2014-12-29 16:45:03,952 [MainThread  ] [INFO ]  Processing D1037G-A.M.100.C.
+2014-12-29 16:45:03,953 [MainThread  ] [INFO ]  Processing D1037G-A.M.100.B.
+2014-12-29 16:45:03,953 [MainThread  ] [INFO ]  Processing D1037G-A.M.100.H.
+2014-12-29 16:45:03,953 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpBuZ2pH/model.
+2014-12-29 16:45:03,953 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmppKPtgO/rouge_conf.xml
+2014-12-29 16:45:03,953 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmppKPtgO/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.36829 (95%-conf.int. 0.36829 - 0.36829)
+1 ROUGE-1 Average_P: 0.23018 (95%-conf.int. 0.23018 - 0.23018)
+1 ROUGE-1 Average_F: 0.28330 (95%-conf.int. 0.28330 - 0.28330)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.36829 P:0.23018 F:0.28330
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.05419 (95%-conf.int. 0.05419 - 0.05419)
+1 ROUGE-2 Average_P: 0.03374 (95%-conf.int. 0.03374 - 0.03374)
+1 ROUGE-2 Average_F: 0.04159 (95%-conf.int. 0.04159 - 0.04159)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.05419 P:0.03374 F:0.04159
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.01244 (95%-conf.int. 0.01244 - 0.01244)
+1 ROUGE-3 Average_P: 0.00772 (95%-conf.int. 0.00772 - 0.00772)
+1 ROUGE-3 Average_F: 0.00953 (95%-conf.int. 0.00953 - 0.00953)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.01244 P:0.00772 F:0.00953
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_P: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_F: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00000 P:0.00000 F:0.00000
+---------------------------------------------
+1 ROUGE-L Average_R: 0.34634 (95%-conf.int. 0.34634 - 0.34634)
+1 ROUGE-L Average_P: 0.21646 (95%-conf.int. 0.21646 - 0.21646)
+1 ROUGE-L Average_F: 0.26641 (95%-conf.int. 0.26641 - 0.26641)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.34634 P:0.21646 F:0.26641
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.11790 (95%-conf.int. 0.11790 - 0.11790)
+1 ROUGE-W-1.2 Average_P: 0.13324 (95%-conf.int. 0.13324 - 0.13324)
+1 ROUGE-W-1.2 Average_F: 0.12510 (95%-conf.int. 0.12510 - 0.12510)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.11790 P:0.13324 F:0.12510
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.11060 (95%-conf.int. 0.11060 - 0.11060)
+1 ROUGE-SU4 Average_P: 0.06844 (95%-conf.int. 0.06844 - 0.06844)
+1 ROUGE-SU4 Average_F: 0.08456 (95%-conf.int. 0.08456 - 0.08456)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.11060 P:0.06844 F:0.08456
+
+27 D1046H-A
+WORD SIZE: 393
+2014-12-29 16:45:05,896 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:45:05,896 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpINfeCO/system and model files to /tmp/tmpINfeCO/model.
+2014-12-29 16:45:05,896 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1046H-A/.
+2014-12-29 16:45:05,896 [MainThread  ] [INFO ]  Processing D1046H-A.tfidf001.txt.
+2014-12-29 16:45:05,897 [MainThread  ] [INFO ]  Processing D1046H-A.LSA001.txt.
+2014-12-29 16:45:05,897 [MainThread  ] [INFO ]  Processing D1046H-A.w2v001.txt.
+2014-12-29 16:45:05,897 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpINfeCO/system.
+2014-12-29 16:45:05,897 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1046H-A.
+2014-12-29 16:45:05,897 [MainThread  ] [INFO ]  Processing D1046H-A.M.100.E.
+2014-12-29 16:45:05,897 [MainThread  ] [INFO ]  Processing D1046H-A.M.100.H.
+2014-12-29 16:45:05,897 [MainThread  ] [INFO ]  Processing D1046H-A.M.100.D.
+2014-12-29 16:45:05,898 [MainThread  ] [INFO ]  Processing D1046H-A.M.100.G.
+2014-12-29 16:45:05,898 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpINfeCO/model.
+2014-12-29 16:45:05,898 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpRxKUlS/rouge_conf.xml
+2014-12-29 16:45:05,898 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpRxKUlS/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.49265 (95%-conf.int. 0.49265 - 0.49265)
+1 ROUGE-1 Average_P: 0.27917 (95%-conf.int. 0.27917 - 0.27917)
+1 ROUGE-1 Average_F: 0.35639 (95%-conf.int. 0.35639 - 0.35639)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.49265 P:0.27917 F:0.35639
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.09653 (95%-conf.int. 0.09653 - 0.09653)
+1 ROUGE-2 Average_P: 0.05447 (95%-conf.int. 0.05447 - 0.05447)
+1 ROUGE-2 Average_F: 0.06964 (95%-conf.int. 0.06964 - 0.06964)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.09653 P:0.05447 F:0.06964
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.01750 (95%-conf.int. 0.01750 - 0.01750)
+1 ROUGE-3 Average_P: 0.00983 (95%-conf.int. 0.00983 - 0.00983)
+1 ROUGE-3 Average_F: 0.01259 (95%-conf.int. 0.01259 - 0.01259)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.01750 P:0.00983 F:0.01259
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00253 (95%-conf.int. 0.00253 - 0.00253)
+1 ROUGE-4 Average_P: 0.00141 (95%-conf.int. 0.00141 - 0.00141)
+1 ROUGE-4 Average_F: 0.00181 (95%-conf.int. 0.00181 - 0.00181)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00253 P:0.00141 F:0.00181
+---------------------------------------------
+1 ROUGE-L Average_R: 0.43873 (95%-conf.int. 0.43873 - 0.43873)
+1 ROUGE-L Average_P: 0.24861 (95%-conf.int. 0.24861 - 0.24861)
+1 ROUGE-L Average_F: 0.31738 (95%-conf.int. 0.31738 - 0.31738)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.43873 P:0.24861 F:0.31738
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.14402 (95%-conf.int. 0.14402 - 0.14402)
+1 ROUGE-W-1.2 Average_P: 0.14910 (95%-conf.int. 0.14910 - 0.14910)
+1 ROUGE-W-1.2 Average_F: 0.14652 (95%-conf.int. 0.14652 - 0.14652)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.14402 P:0.14910 F:0.14652
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.15185 (95%-conf.int. 0.15185 - 0.15185)
+1 ROUGE-SU4 Average_P: 0.08506 (95%-conf.int. 0.08506 - 0.08506)
+1 ROUGE-SU4 Average_F: 0.10904 (95%-conf.int. 0.10904 - 0.10904)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.15185 P:0.08506 F:0.10904
+
+28 D1024E-A
+WORD SIZE: 1150
+2014-12-29 16:45:53,279 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:45:53,280 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpPArVCN/system and model files to /tmp/tmpPArVCN/model.
+2014-12-29 16:45:53,280 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1024E-A/.
+2014-12-29 16:45:53,280 [MainThread  ] [INFO ]  Processing D1024E-A.LSA001.txt.
+2014-12-29 16:45:53,280 [MainThread  ] [INFO ]  Processing D1024E-A.w2v001.txt.
+2014-12-29 16:45:53,280 [MainThread  ] [INFO ]  Processing D1024E-A.tfidf001.txt.
+2014-12-29 16:45:53,280 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpPArVCN/system.
+2014-12-29 16:45:53,280 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1024E-A.
+2014-12-29 16:45:53,280 [MainThread  ] [INFO ]  Processing D1024E-A.M.100.E.
+2014-12-29 16:45:53,281 [MainThread  ] [INFO ]  Processing D1024E-A.M.100.C.
+2014-12-29 16:45:53,281 [MainThread  ] [INFO ]  Processing D1024E-A.M.100.F.
+2014-12-29 16:45:53,281 [MainThread  ] [INFO ]  Processing D1024E-A.M.100.H.
+2014-12-29 16:45:53,281 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpPArVCN/model.
+2014-12-29 16:45:53,282 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmp_zwnNP/rouge_conf.xml
+2014-12-29 16:45:53,282 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmp_zwnNP/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.44096 (95%-conf.int. 0.44096 - 0.44096)
+1 ROUGE-1 Average_P: 0.26754 (95%-conf.int. 0.26754 - 0.26754)
+1 ROUGE-1 Average_F: 0.33303 (95%-conf.int. 0.33303 - 0.33303)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.44096 P:0.26754 F:0.33303
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.07056 (95%-conf.int. 0.07056 - 0.07056)
+1 ROUGE-2 Average_P: 0.04265 (95%-conf.int. 0.04265 - 0.04265)
+1 ROUGE-2 Average_F: 0.05316 (95%-conf.int. 0.05316 - 0.05316)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.07056 P:0.04265 F:0.05316
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.01474 (95%-conf.int. 0.01474 - 0.01474)
+1 ROUGE-3 Average_P: 0.00888 (95%-conf.int. 0.00888 - 0.00888)
+1 ROUGE-3 Average_F: 0.01108 (95%-conf.int. 0.01108 - 0.01108)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.01474 P:0.00888 F:0.01108
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00496 (95%-conf.int. 0.00496 - 0.00496)
+1 ROUGE-4 Average_P: 0.00298 (95%-conf.int. 0.00298 - 0.00298)
+1 ROUGE-4 Average_F: 0.00372 (95%-conf.int. 0.00372 - 0.00372)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00496 P:0.00298 F:0.00372
+---------------------------------------------
+1 ROUGE-L Average_R: 0.38795 (95%-conf.int. 0.38795 - 0.38795)
+1 ROUGE-L Average_P: 0.23538 (95%-conf.int. 0.23538 - 0.23538)
+1 ROUGE-L Average_F: 0.29299 (95%-conf.int. 0.29299 - 0.29299)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.38795 P:0.23538 F:0.29299
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.13283 (95%-conf.int. 0.13283 - 0.13283)
+1 ROUGE-W-1.2 Average_P: 0.14696 (95%-conf.int. 0.14696 - 0.14696)
+1 ROUGE-W-1.2 Average_F: 0.13954 (95%-conf.int. 0.13954 - 0.13954)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.13283 P:0.14696 F:0.13954
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.14345 (95%-conf.int. 0.14345 - 0.14345)
+1 ROUGE-SU4 Average_P: 0.08614 (95%-conf.int. 0.08614 - 0.08614)
+1 ROUGE-SU4 Average_F: 0.10764 (95%-conf.int. 0.10764 - 0.10764)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.14345 P:0.08614 F:0.10764
+
+29 D1044H-A
+WORD SIZE: 580
+2014-12-29 16:45:57,959 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:45:57,959 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmptzz1Er/system and model files to /tmp/tmptzz1Er/model.
+2014-12-29 16:45:57,959 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1044H-A/.
+2014-12-29 16:45:57,959 [MainThread  ] [INFO ]  Processing D1044H-A.tfidf001.txt.
+2014-12-29 16:45:57,960 [MainThread  ] [INFO ]  Processing D1044H-A.w2v001.txt.
+2014-12-29 16:45:57,960 [MainThread  ] [INFO ]  Processing D1044H-A.LSA001.txt.
+2014-12-29 16:45:57,960 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmptzz1Er/system.
+2014-12-29 16:45:57,960 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1044H-A.
+2014-12-29 16:45:57,960 [MainThread  ] [INFO ]  Processing D1044H-A.M.100.D.
+2014-12-29 16:45:57,961 [MainThread  ] [INFO ]  Processing D1044H-A.M.100.A.
+2014-12-29 16:45:57,961 [MainThread  ] [INFO ]  Processing D1044H-A.M.100.G.
+2014-12-29 16:45:57,961 [MainThread  ] [INFO ]  Processing D1044H-A.M.100.H.
+2014-12-29 16:45:57,961 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmptzz1Er/model.
+2014-12-29 16:45:57,962 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpawG8gp/rouge_conf.xml
+2014-12-29 16:45:57,962 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpawG8gp/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.53367 (95%-conf.int. 0.53367 - 0.53367)
+1 ROUGE-1 Average_P: 0.28610 (95%-conf.int. 0.28610 - 0.28610)
+1 ROUGE-1 Average_F: 0.37250 (95%-conf.int. 0.37250 - 0.37250)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.53367 P:0.28610 F:0.37250
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.14106 (95%-conf.int. 0.14106 - 0.14106)
+1 ROUGE-2 Average_P: 0.07527 (95%-conf.int. 0.07527 - 0.07527)
+1 ROUGE-2 Average_F: 0.09816 (95%-conf.int. 0.09816 - 0.09816)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.14106 P:0.07527 F:0.09816
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.05344 (95%-conf.int. 0.05344 - 0.05344)
+1 ROUGE-3 Average_P: 0.02838 (95%-conf.int. 0.02838 - 0.02838)
+1 ROUGE-3 Average_F: 0.03707 (95%-conf.int. 0.03707 - 0.03707)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.05344 P:0.02838 F:0.03707
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.01799 (95%-conf.int. 0.01799 - 0.01799)
+1 ROUGE-4 Average_P: 0.00951 (95%-conf.int. 0.00951 - 0.00951)
+1 ROUGE-4 Average_F: 0.01244 (95%-conf.int. 0.01244 - 0.01244)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.01799 P:0.00951 F:0.01244
+---------------------------------------------
+1 ROUGE-L Average_R: 0.47132 (95%-conf.int. 0.47132 - 0.47132)
+1 ROUGE-L Average_P: 0.25267 (95%-conf.int. 0.25267 - 0.25267)
+1 ROUGE-L Average_F: 0.32898 (95%-conf.int. 0.32898 - 0.32898)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.47132 P:0.25267 F:0.32898
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.16704 (95%-conf.int. 0.16704 - 0.16704)
+1 ROUGE-W-1.2 Average_P: 0.15841 (95%-conf.int. 0.15841 - 0.15841)
+1 ROUGE-W-1.2 Average_F: 0.16261 (95%-conf.int. 0.16261 - 0.16261)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.16704 P:0.15841 F:0.16261
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.20154 (95%-conf.int. 0.20154 - 0.20154)
+1 ROUGE-SU4 Average_P: 0.10669 (95%-conf.int. 0.10669 - 0.10669)
+1 ROUGE-SU4 Average_F: 0.13952 (95%-conf.int. 0.13952 - 0.13952)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.20154 P:0.10669 F:0.13952
+
+30 D1035G-A
+WORD SIZE: 1265
+2014-12-29 16:46:30,993 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:46:30,993 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpfZ9XDk/system and model files to /tmp/tmpfZ9XDk/model.
+2014-12-29 16:46:30,993 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1035G-A/.
+2014-12-29 16:46:30,993 [MainThread  ] [INFO ]  Processing D1035G-A.tfidf001.txt.
+2014-12-29 16:46:30,993 [MainThread  ] [INFO ]  Processing D1035G-A.w2v001.txt.
+2014-12-29 16:46:30,994 [MainThread  ] [INFO ]  Processing D1035G-A.LSA001.txt.
+2014-12-29 16:46:30,994 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpfZ9XDk/system.
+2014-12-29 16:46:30,994 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1035G-A.
+2014-12-29 16:46:30,994 [MainThread  ] [INFO ]  Processing D1035G-A.M.100.D.
+2014-12-29 16:46:30,994 [MainThread  ] [INFO ]  Processing D1035G-A.M.100.E.
+2014-12-29 16:46:30,994 [MainThread  ] [INFO ]  Processing D1035G-A.M.100.F.
+2014-12-29 16:46:30,995 [MainThread  ] [INFO ]  Processing D1035G-A.M.100.G.
+2014-12-29 16:46:30,995 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpfZ9XDk/model.
+2014-12-29 16:46:30,996 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpEKG4r2/rouge_conf.xml
+2014-12-29 16:46:30,996 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpEKG4r2/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.46043 (95%-conf.int. 0.46043 - 0.46043)
+1 ROUGE-1 Average_P: 0.27907 (95%-conf.int. 0.27907 - 0.27907)
+1 ROUGE-1 Average_F: 0.34751 (95%-conf.int. 0.34751 - 0.34751)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.46043 P:0.27907 F:0.34751
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.11380 (95%-conf.int. 0.11380 - 0.11380)
+1 ROUGE-2 Average_P: 0.06871 (95%-conf.int. 0.06871 - 0.06871)
+1 ROUGE-2 Average_F: 0.08569 (95%-conf.int. 0.08569 - 0.08569)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.11380 P:0.06871 F:0.08569
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.03178 (95%-conf.int. 0.03178 - 0.03178)
+1 ROUGE-3 Average_P: 0.01912 (95%-conf.int. 0.01912 - 0.01912)
+1 ROUGE-3 Average_F: 0.02388 (95%-conf.int. 0.02388 - 0.02388)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.03178 P:0.01912 F:0.02388
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.01235 (95%-conf.int. 0.01235 - 0.01235)
+1 ROUGE-4 Average_P: 0.00740 (95%-conf.int. 0.00740 - 0.00740)
+1 ROUGE-4 Average_F: 0.00925 (95%-conf.int. 0.00925 - 0.00925)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.01235 P:0.00740 F:0.00925
+---------------------------------------------
+1 ROUGE-L Average_R: 0.40288 (95%-conf.int. 0.40288 - 0.40288)
+1 ROUGE-L Average_P: 0.24419 (95%-conf.int. 0.24419 - 0.24419)
+1 ROUGE-L Average_F: 0.30408 (95%-conf.int. 0.30408 - 0.30408)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.40288 P:0.24419 F:0.30408
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.13674 (95%-conf.int. 0.13674 - 0.13674)
+1 ROUGE-W-1.2 Average_P: 0.15394 (95%-conf.int. 0.15394 - 0.15394)
+1 ROUGE-W-1.2 Average_F: 0.14483 (95%-conf.int. 0.14483 - 0.14483)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.13674 P:0.15394 F:0.14483
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.14520 (95%-conf.int. 0.14520 - 0.14520)
+1 ROUGE-SU4 Average_P: 0.08711 (95%-conf.int. 0.08711 - 0.08711)
+1 ROUGE-SU4 Average_F: 0.10889 (95%-conf.int. 0.10889 - 0.10889)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.14520 P:0.08711 F:0.10889
+
+31 D1031F-A
+WORD SIZE: 1304
+2014-12-29 16:47:02,601 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:47:02,601 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpQBlhOo/system and model files to /tmp/tmpQBlhOo/model.
+2014-12-29 16:47:02,601 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1031F-A/.
+2014-12-29 16:47:02,601 [MainThread  ] [INFO ]  Processing D1031F-A.tfidf001.txt.
+2014-12-29 16:47:02,601 [MainThread  ] [INFO ]  Processing D1031F-A.w2v001.txt.
+2014-12-29 16:47:02,602 [MainThread  ] [INFO ]  Processing D1031F-A.LSA001.txt.
+2014-12-29 16:47:02,602 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpQBlhOo/system.
+2014-12-29 16:47:02,602 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1031F-A.
+2014-12-29 16:47:02,602 [MainThread  ] [INFO ]  Processing D1031F-A.M.100.A.
+2014-12-29 16:47:02,602 [MainThread  ] [INFO ]  Processing D1031F-A.M.100.C.
+2014-12-29 16:47:02,603 [MainThread  ] [INFO ]  Processing D1031F-A.M.100.F.
+2014-12-29 16:47:02,603 [MainThread  ] [INFO ]  Processing D1031F-A.M.100.H.
+2014-12-29 16:47:02,603 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpQBlhOo/model.
+2014-12-29 16:47:02,604 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmp8JMfqT/rouge_conf.xml
+2014-12-29 16:47:02,604 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmp8JMfqT/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.33501 (95%-conf.int. 0.33501 - 0.33501)
+1 ROUGE-1 Average_P: 0.20781 (95%-conf.int. 0.20781 - 0.20781)
+1 ROUGE-1 Average_F: 0.25651 (95%-conf.int. 0.25651 - 0.25651)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.33501 P:0.20781 F:0.25651
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.02799 (95%-conf.int. 0.02799 - 0.02799)
+1 ROUGE-2 Average_P: 0.01730 (95%-conf.int. 0.01730 - 0.01730)
+1 ROUGE-2 Average_F: 0.02138 (95%-conf.int. 0.02138 - 0.02138)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.02799 P:0.01730 F:0.02138
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.00514 (95%-conf.int. 0.00514 - 0.00514)
+1 ROUGE-3 Average_P: 0.00316 (95%-conf.int. 0.00316 - 0.00316)
+1 ROUGE-3 Average_F: 0.00391 (95%-conf.int. 0.00391 - 0.00391)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.00514 P:0.00316 F:0.00391
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_P: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_F: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00000 P:0.00000 F:0.00000
+---------------------------------------------
+1 ROUGE-L Average_R: 0.30982 (95%-conf.int. 0.30982 - 0.30982)
+1 ROUGE-L Average_P: 0.19219 (95%-conf.int. 0.19219 - 0.19219)
+1 ROUGE-L Average_F: 0.23722 (95%-conf.int. 0.23722 - 0.23722)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.30982 P:0.19219 F:0.23722
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.10564 (95%-conf.int. 0.10564 - 0.10564)
+1 ROUGE-W-1.2 Average_P: 0.11867 (95%-conf.int. 0.11867 - 0.11867)
+1 ROUGE-W-1.2 Average_F: 0.11178 (95%-conf.int. 0.11178 - 0.11178)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.10564 P:0.11867 F:0.11178
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.08024 (95%-conf.int. 0.08024 - 0.08024)
+1 ROUGE-SU4 Average_P: 0.04926 (95%-conf.int. 0.04926 - 0.04926)
+1 ROUGE-SU4 Average_F: 0.06104 (95%-conf.int. 0.06104 - 0.06104)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.08024 P:0.04926 F:0.06104
+
+32 D1016C-A
+WORD SIZE: 925
+2014-12-29 16:47:12,343 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:47:12,343 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpSDTWz6/system and model files to /tmp/tmpSDTWz6/model.
+2014-12-29 16:47:12,344 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1016C-A/.
+2014-12-29 16:47:12,344 [MainThread  ] [INFO ]  Processing D1016C-A.tfidf001.txt.
+2014-12-29 16:47:12,344 [MainThread  ] [INFO ]  Processing D1016C-A.LSA001.txt.
+2014-12-29 16:47:12,344 [MainThread  ] [INFO ]  Processing D1016C-A.w2v001.txt.
+2014-12-29 16:47:12,344 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpSDTWz6/system.
+2014-12-29 16:47:12,344 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1016C-A.
+2014-12-29 16:47:12,344 [MainThread  ] [INFO ]  Processing D1016C-A.M.100.H.
+2014-12-29 16:47:12,345 [MainThread  ] [INFO ]  Processing D1016C-A.M.100.B.
+2014-12-29 16:47:12,345 [MainThread  ] [INFO ]  Processing D1016C-A.M.100.C.
+2014-12-29 16:47:12,345 [MainThread  ] [INFO ]  Processing D1016C-A.M.100.E.
+2014-12-29 16:47:12,345 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpSDTWz6/model.
+2014-12-29 16:47:12,346 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmptJG5rx/rouge_conf.xml
+2014-12-29 16:47:12,346 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmptJG5rx/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.50481 (95%-conf.int. 0.50481 - 0.50481)
+1 ROUGE-1 Average_P: 0.32012 (95%-conf.int. 0.32012 - 0.32012)
+1 ROUGE-1 Average_F: 0.39179 (95%-conf.int. 0.39179 - 0.39179)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.50481 P:0.32012 F:0.39179
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.17233 (95%-conf.int. 0.17233 - 0.17233)
+1 ROUGE-2 Average_P: 0.10890 (95%-conf.int. 0.10890 - 0.10890)
+1 ROUGE-2 Average_F: 0.13346 (95%-conf.int. 0.13346 - 0.13346)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.17233 P:0.10890 F:0.13346
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.06373 (95%-conf.int. 0.06373 - 0.06373)
+1 ROUGE-3 Average_P: 0.04012 (95%-conf.int. 0.04012 - 0.04012)
+1 ROUGE-3 Average_F: 0.04924 (95%-conf.int. 0.04924 - 0.04924)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.06373 P:0.04012 F:0.04924
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.02475 (95%-conf.int. 0.02475 - 0.02475)
+1 ROUGE-4 Average_P: 0.01553 (95%-conf.int. 0.01553 - 0.01553)
+1 ROUGE-4 Average_F: 0.01908 (95%-conf.int. 0.01908 - 0.01908)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.02475 P:0.01553 F:0.01908
+---------------------------------------------
+1 ROUGE-L Average_R: 0.45433 (95%-conf.int. 0.45433 - 0.45433)
+1 ROUGE-L Average_P: 0.28811 (95%-conf.int. 0.28811 - 0.28811)
+1 ROUGE-L Average_F: 0.35261 (95%-conf.int. 0.35261 - 0.35261)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.45433 P:0.28811 F:0.35261
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.15698 (95%-conf.int. 0.15698 - 0.15698)
+1 ROUGE-W-1.2 Average_P: 0.18680 (95%-conf.int. 0.18680 - 0.18680)
+1 ROUGE-W-1.2 Average_F: 0.17060 (95%-conf.int. 0.17060 - 0.17060)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.15698 P:0.18680 F:0.17060
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.21012 (95%-conf.int. 0.21012 - 0.21012)
+1 ROUGE-SU4 Average_P: 0.13197 (95%-conf.int. 0.13197 - 0.13197)
+1 ROUGE-SU4 Average_F: 0.16212 (95%-conf.int. 0.16212 - 0.16212)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.21012 P:0.13197 F:0.16212
+
+33 D1013C-A
+WORD SIZE: 2111
+2014-12-29 16:51:55,452 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:51:55,452 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpN1GN6Q/system and model files to /tmp/tmpN1GN6Q/model.
+2014-12-29 16:51:55,452 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1013C-A/.
+2014-12-29 16:51:55,452 [MainThread  ] [INFO ]  Processing D1013C-A.tfidf001.txt.
+2014-12-29 16:51:55,452 [MainThread  ] [INFO ]  Processing D1013C-A.w2v001.txt.
+2014-12-29 16:51:55,453 [MainThread  ] [INFO ]  Processing D1013C-A.LSA001.txt.
+2014-12-29 16:51:55,453 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpN1GN6Q/system.
+2014-12-29 16:51:55,453 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1013C-A.
+2014-12-29 16:51:55,453 [MainThread  ] [INFO ]  Processing D1013C-A.M.100.C.
+2014-12-29 16:51:55,453 [MainThread  ] [INFO ]  Processing D1013C-A.M.100.A.
+2014-12-29 16:51:55,454 [MainThread  ] [INFO ]  Processing D1013C-A.M.100.B.
+2014-12-29 16:51:55,454 [MainThread  ] [INFO ]  Processing D1013C-A.M.100.D.
+2014-12-29 16:51:55,454 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpN1GN6Q/model.
+2014-12-29 16:51:55,455 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmplPgjc4/rouge_conf.xml
+2014-12-29 16:51:55,455 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmplPgjc4/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.36658 (95%-conf.int. 0.36658 - 0.36658)
+1 ROUGE-1 Average_P: 0.20646 (95%-conf.int. 0.20646 - 0.20646)
+1 ROUGE-1 Average_F: 0.26415 (95%-conf.int. 0.26415 - 0.26415)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.36658 P:0.20646 F:0.26415
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.03275 (95%-conf.int. 0.03275 - 0.03275)
+1 ROUGE-2 Average_P: 0.01836 (95%-conf.int. 0.01836 - 0.01836)
+1 ROUGE-2 Average_F: 0.02353 (95%-conf.int. 0.02353 - 0.02353)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.03275 P:0.01836 F:0.02353
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.00254 (95%-conf.int. 0.00254 - 0.00254)
+1 ROUGE-3 Average_P: 0.00142 (95%-conf.int. 0.00142 - 0.00142)
+1 ROUGE-3 Average_F: 0.00182 (95%-conf.int. 0.00182 - 0.00182)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.00254 P:0.00142 F:0.00182
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_P: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_F: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00000 P:0.00000 F:0.00000
+---------------------------------------------
+1 ROUGE-L Average_R: 0.34414 (95%-conf.int. 0.34414 - 0.34414)
+1 ROUGE-L Average_P: 0.19382 (95%-conf.int. 0.19382 - 0.19382)
+1 ROUGE-L Average_F: 0.24798 (95%-conf.int. 0.24798 - 0.24798)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.34414 P:0.19382 F:0.24798
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.10966 (95%-conf.int. 0.10966 - 0.10966)
+1 ROUGE-W-1.2 Average_P: 0.10971 (95%-conf.int. 0.10971 - 0.10971)
+1 ROUGE-W-1.2 Average_F: 0.10968 (95%-conf.int. 0.10968 - 0.10968)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.10966 P:0.10971 F:0.10968
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.09949 (95%-conf.int. 0.09949 - 0.09949)
+1 ROUGE-SU4 Average_P: 0.05537 (95%-conf.int. 0.05537 - 0.05537)
+1 ROUGE-SU4 Average_F: 0.07115 (95%-conf.int. 0.07115 - 0.07115)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.09949 P:0.05537 F:0.07115
+
+34 D1022D-A
+WORD SIZE: 788
+2014-12-29 16:52:03,860 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:52:03,860 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpR1an4f/system and model files to /tmp/tmpR1an4f/model.
+2014-12-29 16:52:03,860 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1022D-A/.
+2014-12-29 16:52:03,860 [MainThread  ] [INFO ]  Processing D1022D-A.tfidf001.txt.
+2014-12-29 16:52:03,861 [MainThread  ] [INFO ]  Processing D1022D-A.w2v001.txt.
+2014-12-29 16:52:03,861 [MainThread  ] [INFO ]  Processing D1022D-A.LSA001.txt.
+2014-12-29 16:52:03,861 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpR1an4f/system.
+2014-12-29 16:52:03,861 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1022D-A.
+2014-12-29 16:52:03,861 [MainThread  ] [INFO ]  Processing D1022D-A.M.100.H.
+2014-12-29 16:52:03,861 [MainThread  ] [INFO ]  Processing D1022D-A.M.100.D.
+2014-12-29 16:52:03,861 [MainThread  ] [INFO ]  Processing D1022D-A.M.100.F.
+2014-12-29 16:52:03,861 [MainThread  ] [INFO ]  Processing D1022D-A.M.100.C.
+2014-12-29 16:52:03,862 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpR1an4f/model.
+2014-12-29 16:52:03,862 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpV9qsb0/rouge_conf.xml
+2014-12-29 16:52:03,862 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpV9qsb0/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.49751 (95%-conf.int. 0.49751 - 0.49751)
+1 ROUGE-1 Average_P: 0.28409 (95%-conf.int. 0.28409 - 0.28409)
+1 ROUGE-1 Average_F: 0.36166 (95%-conf.int. 0.36166 - 0.36166)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.49751 P:0.28409 F:0.36166
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.08291 (95%-conf.int. 0.08291 - 0.08291)
+1 ROUGE-2 Average_P: 0.04714 (95%-conf.int. 0.04714 - 0.04714)
+1 ROUGE-2 Average_F: 0.06011 (95%-conf.int. 0.06011 - 0.06011)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.08291 P:0.04714 F:0.06011
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.02030 (95%-conf.int. 0.02030 - 0.02030)
+1 ROUGE-3 Average_P: 0.01149 (95%-conf.int. 0.01149 - 0.01149)
+1 ROUGE-3 Average_F: 0.01467 (95%-conf.int. 0.01467 - 0.01467)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.02030 P:0.01149 F:0.01467
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00513 (95%-conf.int. 0.00513 - 0.00513)
+1 ROUGE-4 Average_P: 0.00289 (95%-conf.int. 0.00289 - 0.00289)
+1 ROUGE-4 Average_F: 0.00370 (95%-conf.int. 0.00370 - 0.00370)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00513 P:0.00289 F:0.00370
+---------------------------------------------
+1 ROUGE-L Average_R: 0.42537 (95%-conf.int. 0.42537 - 0.42537)
+1 ROUGE-L Average_P: 0.24290 (95%-conf.int. 0.24290 - 0.24290)
+1 ROUGE-L Average_F: 0.30922 (95%-conf.int. 0.30922 - 0.30922)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.42537 P:0.24290 F:0.30922
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.14019 (95%-conf.int. 0.14019 - 0.14019)
+1 ROUGE-W-1.2 Average_P: 0.14794 (95%-conf.int. 0.14794 - 0.14794)
+1 ROUGE-W-1.2 Average_F: 0.14396 (95%-conf.int. 0.14396 - 0.14396)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.14019 P:0.14794 F:0.14396
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.17760 (95%-conf.int. 0.17760 - 0.17760)
+1 ROUGE-SU4 Average_P: 0.10024 (95%-conf.int. 0.10024 - 0.10024)
+1 ROUGE-SU4 Average_F: 0.12815 (95%-conf.int. 0.12815 - 0.12815)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.17760 P:0.10024 F:0.12815
+
+35 D1006A-A
+WORD SIZE: 1772
+2014-12-29 16:54:47,756 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:54:47,756 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpO_KrrC/system and model files to /tmp/tmpO_KrrC/model.
+2014-12-29 16:54:47,757 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1006A-A/.
+2014-12-29 16:54:47,757 [MainThread  ] [INFO ]  Processing D1006A-A.tfidf001.txt.
+2014-12-29 16:54:47,757 [MainThread  ] [INFO ]  Processing D1006A-A.w2v001.txt.
+2014-12-29 16:54:47,757 [MainThread  ] [INFO ]  Processing D1006A-A.LSA001.txt.
+2014-12-29 16:54:47,757 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpO_KrrC/system.
+2014-12-29 16:54:47,757 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1006A-A.
+2014-12-29 16:54:47,757 [MainThread  ] [INFO ]  Processing D1006A-A.M.100.F.
+2014-12-29 16:54:47,758 [MainThread  ] [INFO ]  Processing D1006A-A.M.100.A.
+2014-12-29 16:54:47,758 [MainThread  ] [INFO ]  Processing D1006A-A.M.100.D.
+2014-12-29 16:54:47,758 [MainThread  ] [INFO ]  Processing D1006A-A.M.100.B.
+2014-12-29 16:54:47,758 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpO_KrrC/model.
+2014-12-29 16:54:47,759 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpQ70NhO/rouge_conf.xml
+2014-12-29 16:54:47,759 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpQ70NhO/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.44254 (95%-conf.int. 0.44254 - 0.44254)
+1 ROUGE-1 Average_P: 0.25000 (95%-conf.int. 0.25000 - 0.25000)
+1 ROUGE-1 Average_F: 0.31951 (95%-conf.int. 0.31951 - 0.31951)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.44254 P:0.25000 F:0.31951
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.07160 (95%-conf.int. 0.07160 - 0.07160)
+1 ROUGE-2 Average_P: 0.04028 (95%-conf.int. 0.04028 - 0.04028)
+1 ROUGE-2 Average_F: 0.05156 (95%-conf.int. 0.05156 - 0.05156)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.07160 P:0.04028 F:0.05156
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.02494 (95%-conf.int. 0.02494 - 0.02494)
+1 ROUGE-3 Average_P: 0.01397 (95%-conf.int. 0.01397 - 0.01397)
+1 ROUGE-3 Average_F: 0.01791 (95%-conf.int. 0.01791 - 0.01791)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.02494 P:0.01397 F:0.01791
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.01511 (95%-conf.int. 0.01511 - 0.01511)
+1 ROUGE-4 Average_P: 0.00843 (95%-conf.int. 0.00843 - 0.00843)
+1 ROUGE-4 Average_F: 0.01082 (95%-conf.int. 0.01082 - 0.01082)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.01511 P:0.00843 F:0.01082
+---------------------------------------------
+1 ROUGE-L Average_R: 0.38631 (95%-conf.int. 0.38631 - 0.38631)
+1 ROUGE-L Average_P: 0.21823 (95%-conf.int. 0.21823 - 0.21823)
+1 ROUGE-L Average_F: 0.27890 (95%-conf.int. 0.27890 - 0.27890)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.38631 P:0.21823 F:0.27890
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.12924 (95%-conf.int. 0.12924 - 0.12924)
+1 ROUGE-W-1.2 Average_P: 0.13400 (95%-conf.int. 0.13400 - 0.13400)
+1 ROUGE-W-1.2 Average_F: 0.13158 (95%-conf.int. 0.13158 - 0.13158)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.12924 P:0.13400 F:0.13158
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.13766 (95%-conf.int. 0.13766 - 0.13766)
+1 ROUGE-SU4 Average_P: 0.07687 (95%-conf.int. 0.07687 - 0.07687)
+1 ROUGE-SU4 Average_F: 0.09865 (95%-conf.int. 0.09865 - 0.09865)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.13766 P:0.07687 F:0.09865
+
+36 D1012C-A
+WORD SIZE: 1245
+2014-12-29 16:55:44,281 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 16:55:44,281 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmp3bzh67/system and model files to /tmp/tmp3bzh67/model.
+2014-12-29 16:55:44,281 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1012C-A/.
+2014-12-29 16:55:44,281 [MainThread  ] [INFO ]  Processing D1012C-A.w2v001.txt.
+2014-12-29 16:55:44,282 [MainThread  ] [INFO ]  Processing D1012C-A.LSA001.txt.
+2014-12-29 16:55:44,282 [MainThread  ] [INFO ]  Processing D1012C-A.tfidf001.txt.
+2014-12-29 16:55:44,282 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmp3bzh67/system.
+2014-12-29 16:55:44,282 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1012C-A.
+2014-12-29 16:55:44,282 [MainThread  ] [INFO ]  Processing D1012C-A.M.100.E.
+2014-12-29 16:55:44,282 [MainThread  ] [INFO ]  Processing D1012C-A.M.100.C.
+2014-12-29 16:55:44,283 [MainThread  ] [INFO ]  Processing D1012C-A.M.100.F.
+2014-12-29 16:55:44,283 [MainThread  ] [INFO ]  Processing D1012C-A.M.100.D.
+2014-12-29 16:55:44,283 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmp3bzh67/model.
+2014-12-29 16:55:44,284 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpQXeDOV/rouge_conf.xml
+2014-12-29 16:55:44,284 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpQXeDOV/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.37406 (95%-conf.int. 0.37406 - 0.37406)
+1 ROUGE-1 Average_P: 0.21802 (95%-conf.int. 0.21802 - 0.21802)
+1 ROUGE-1 Average_F: 0.27548 (95%-conf.int. 0.27548 - 0.27548)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.37406 P:0.21802 F:0.27548
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.06801 (95%-conf.int. 0.06801 - 0.06801)
+1 ROUGE-2 Average_P: 0.03947 (95%-conf.int. 0.03947 - 0.03947)
+1 ROUGE-2 Average_F: 0.04995 (95%-conf.int. 0.04995 - 0.04995)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.06801 P:0.03947 F:0.04995
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.01781 (95%-conf.int. 0.01781 - 0.01781)
+1 ROUGE-3 Average_P: 0.01029 (95%-conf.int. 0.01029 - 0.01029)
+1 ROUGE-3 Average_F: 0.01304 (95%-conf.int. 0.01304 - 0.01304)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.01781 P:0.01029 F:0.01304
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00771 (95%-conf.int. 0.00771 - 0.00771)
+1 ROUGE-4 Average_P: 0.00444 (95%-conf.int. 0.00444 - 0.00444)
+1 ROUGE-4 Average_F: 0.00563 (95%-conf.int. 0.00563 - 0.00563)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00771 P:0.00444 F:0.00563
+---------------------------------------------
+1 ROUGE-L Average_R: 0.33915 (95%-conf.int. 0.33915 - 0.33915)
+1 ROUGE-L Average_P: 0.19767 (95%-conf.int. 0.19767 - 0.19767)
+1 ROUGE-L Average_F: 0.24977 (95%-conf.int. 0.24977 - 0.24977)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.33915 P:0.19767 F:0.24977
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.11874 (95%-conf.int. 0.11874 - 0.11874)
+1 ROUGE-W-1.2 Average_P: 0.12320 (95%-conf.int. 0.12320 - 0.12320)
+1 ROUGE-W-1.2 Average_F: 0.12093 (95%-conf.int. 0.12093 - 0.12093)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.11874 P:0.12320 F:0.12093
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.11998 (95%-conf.int. 0.11998 - 0.11998)
+1 ROUGE-SU4 Average_P: 0.06914 (95%-conf.int. 0.06914 - 0.06914)
+1 ROUGE-SU4 Average_F: 0.08773 (95%-conf.int. 0.08773 - 0.08773)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.11998 P:0.06914 F:0.08773
+
+37 D1030F-A
+WORD SIZE: 2548
+2014-12-29 17:01:26,858 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 17:01:26,858 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpJSfWRg/system and model files to /tmp/tmpJSfWRg/model.
+2014-12-29 17:01:26,858 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1030F-A/.
+2014-12-29 17:01:26,858 [MainThread  ] [INFO ]  Processing D1030F-A.LSA001.txt.
+2014-12-29 17:01:26,859 [MainThread  ] [INFO ]  Processing D1030F-A.w2v001.txt.
+2014-12-29 17:01:26,859 [MainThread  ] [INFO ]  Processing D1030F-A.tfidf001.txt.
+2014-12-29 17:01:26,859 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpJSfWRg/system.
+2014-12-29 17:01:26,859 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1030F-A.
+2014-12-29 17:01:26,859 [MainThread  ] [INFO ]  Processing D1030F-A.M.100.G.
+2014-12-29 17:01:26,860 [MainThread  ] [INFO ]  Processing D1030F-A.M.100.F.
+2014-12-29 17:01:26,860 [MainThread  ] [INFO ]  Processing D1030F-A.M.100.D.
+2014-12-29 17:01:26,860 [MainThread  ] [INFO ]  Processing D1030F-A.M.100.E.
+2014-12-29 17:01:26,860 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpJSfWRg/model.
+2014-12-29 17:01:26,861 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpUJ4CmV/rouge_conf.xml
+2014-12-29 17:01:26,861 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpUJ4CmV/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.38821 (95%-conf.int. 0.38821 - 0.38821)
+1 ROUGE-1 Average_P: 0.21703 (95%-conf.int. 0.21703 - 0.21703)
+1 ROUGE-1 Average_F: 0.27841 (95%-conf.int. 0.27841 - 0.27841)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.38821 P:0.21703 F:0.27841
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.04963 (95%-conf.int. 0.04963 - 0.04963)
+1 ROUGE-2 Average_P: 0.02762 (95%-conf.int. 0.02762 - 0.02762)
+1 ROUGE-2 Average_F: 0.03549 (95%-conf.int. 0.03549 - 0.03549)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.04963 P:0.02762 F:0.03549
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.02256 (95%-conf.int. 0.02256 - 0.02256)
+1 ROUGE-3 Average_P: 0.01250 (95%-conf.int. 0.01250 - 0.01250)
+1 ROUGE-3 Average_F: 0.01609 (95%-conf.int. 0.01609 - 0.01609)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.02256 P:0.01250 F:0.01609
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.01519 (95%-conf.int. 0.01519 - 0.01519)
+1 ROUGE-4 Average_P: 0.00838 (95%-conf.int. 0.00838 - 0.00838)
+1 ROUGE-4 Average_F: 0.01080 (95%-conf.int. 0.01080 - 0.01080)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.01519 P:0.00838 F:0.01080
+---------------------------------------------
+1 ROUGE-L Average_R: 0.35872 (95%-conf.int. 0.35872 - 0.35872)
+1 ROUGE-L Average_P: 0.20055 (95%-conf.int. 0.20055 - 0.20055)
+1 ROUGE-L Average_F: 0.25727 (95%-conf.int. 0.25727 - 0.25727)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.35872 P:0.20055 F:0.25727
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.12562 (95%-conf.int. 0.12562 - 0.12562)
+1 ROUGE-W-1.2 Average_P: 0.12391 (95%-conf.int. 0.12391 - 0.12391)
+1 ROUGE-W-1.2 Average_F: 0.12476 (95%-conf.int. 0.12476 - 0.12476)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.12562 P:0.12391 F:0.12476
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.10892 (95%-conf.int. 0.10892 - 0.10892)
+1 ROUGE-SU4 Average_P: 0.06018 (95%-conf.int. 0.06018 - 0.06018)
+1 ROUGE-SU4 Average_F: 0.07753 (95%-conf.int. 0.07753 - 0.07753)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.10892 P:0.06018 F:0.07753
+
+38 D1002A-A
+WORD SIZE: 1243
+2014-12-29 17:02:25,588 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 17:02:25,588 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpXmi7ch/system and model files to /tmp/tmpXmi7ch/model.
+2014-12-29 17:02:25,589 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1002A-A/.
+2014-12-29 17:02:25,589 [MainThread  ] [INFO ]  Processing D1002A-A.w2v001.txt.
+2014-12-29 17:02:25,589 [MainThread  ] [INFO ]  Processing D1002A-A.LSA001.txt.
+2014-12-29 17:02:25,589 [MainThread  ] [INFO ]  Processing D1002A-A.tfidf001.txt.
+2014-12-29 17:02:25,589 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpXmi7ch/system.
+2014-12-29 17:02:25,589 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1002A-A.
+2014-12-29 17:02:25,589 [MainThread  ] [INFO ]  Processing D1002A-A.M.100.B.
+2014-12-29 17:02:25,590 [MainThread  ] [INFO ]  Processing D1002A-A.M.100.C.
+2014-12-29 17:02:25,590 [MainThread  ] [INFO ]  Processing D1002A-A.M.100.A.
+2014-12-29 17:02:25,590 [MainThread  ] [INFO ]  Processing D1002A-A.M.100.D.
+2014-12-29 17:02:25,590 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpXmi7ch/model.
+2014-12-29 17:02:25,591 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmp8cGnL2/rouge_conf.xml
+2014-12-29 17:02:25,591 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmp8cGnL2/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.45337 (95%-conf.int. 0.45337 - 0.45337)
+1 ROUGE-1 Average_P: 0.22906 (95%-conf.int. 0.22906 - 0.22906)
+1 ROUGE-1 Average_F: 0.30435 (95%-conf.int. 0.30435 - 0.30435)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.45337 P:0.22906 F:0.30435
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.10733 (95%-conf.int. 0.10733 - 0.10733)
+1 ROUGE-2 Average_P: 0.05395 (95%-conf.int. 0.05395 - 0.05395)
+1 ROUGE-2 Average_F: 0.07181 (95%-conf.int. 0.07181 - 0.07181)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.10733 P:0.05395 F:0.07181
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.03439 (95%-conf.int. 0.03439 - 0.03439)
+1 ROUGE-3 Average_P: 0.01720 (95%-conf.int. 0.01720 - 0.01720)
+1 ROUGE-3 Average_F: 0.02293 (95%-conf.int. 0.02293 - 0.02293)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.03439 P:0.01720 F:0.02293
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.01604 (95%-conf.int. 0.01604 - 0.01604)
+1 ROUGE-4 Average_P: 0.00798 (95%-conf.int. 0.00798 - 0.00798)
+1 ROUGE-4 Average_F: 0.01066 (95%-conf.int. 0.01066 - 0.01066)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.01604 P:0.00798 F:0.01066
+---------------------------------------------
+1 ROUGE-L Average_R: 0.41192 (95%-conf.int. 0.41192 - 0.41192)
+1 ROUGE-L Average_P: 0.20812 (95%-conf.int. 0.20812 - 0.20812)
+1 ROUGE-L Average_F: 0.27653 (95%-conf.int. 0.27653 - 0.27653)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.41192 P:0.20812 F:0.27653
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.14562 (95%-conf.int. 0.14562 - 0.14562)
+1 ROUGE-W-1.2 Average_P: 0.13279 (95%-conf.int. 0.13279 - 0.13279)
+1 ROUGE-W-1.2 Average_F: 0.13891 (95%-conf.int. 0.13891 - 0.13891)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.14562 P:0.13279 F:0.13891
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.15364 (95%-conf.int. 0.15364 - 0.15364)
+1 ROUGE-SU4 Average_P: 0.07655 (95%-conf.int. 0.07655 - 0.07655)
+1 ROUGE-SU4 Average_F: 0.10219 (95%-conf.int. 0.10219 - 0.10219)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.15364 P:0.07655 F:0.10219
+
+39 D1005A-A
+WORD SIZE: 915
+2014-12-29 17:02:34,978 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 17:02:34,979 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpTClgK2/system and model files to /tmp/tmpTClgK2/model.
+2014-12-29 17:02:34,979 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1005A-A/.
+2014-12-29 17:02:34,979 [MainThread  ] [INFO ]  Processing D1005A-A.tfidf001.txt.
+2014-12-29 17:02:34,979 [MainThread  ] [INFO ]  Processing D1005A-A.LSA001.txt.
+2014-12-29 17:02:34,979 [MainThread  ] [INFO ]  Processing D1005A-A.w2v001.txt.
+2014-12-29 17:02:34,979 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpTClgK2/system.
+2014-12-29 17:02:34,979 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1005A-A.
+2014-12-29 17:02:34,979 [MainThread  ] [INFO ]  Processing D1005A-A.M.100.F.
+2014-12-29 17:02:34,980 [MainThread  ] [INFO ]  Processing D1005A-A.M.100.A.
+2014-12-29 17:02:34,980 [MainThread  ] [INFO ]  Processing D1005A-A.M.100.G.
+2014-12-29 17:02:34,980 [MainThread  ] [INFO ]  Processing D1005A-A.M.100.E.
+2014-12-29 17:02:34,980 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpTClgK2/model.
+2014-12-29 17:02:34,980 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmp9jxbys/rouge_conf.xml
+2014-12-29 17:02:34,980 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmp9jxbys/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.38293 (95%-conf.int. 0.38293 - 0.38293)
+1 ROUGE-1 Average_P: 0.23225 (95%-conf.int. 0.23225 - 0.23225)
+1 ROUGE-1 Average_F: 0.28914 (95%-conf.int. 0.28914 - 0.28914)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.38293 P:0.23225 F:0.28914
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.07389 (95%-conf.int. 0.07389 - 0.07389)
+1 ROUGE-2 Average_P: 0.04464 (95%-conf.int. 0.04464 - 0.04464)
+1 ROUGE-2 Average_F: 0.05566 (95%-conf.int. 0.05566 - 0.05566)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.07389 P:0.04464 F:0.05566
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.02736 (95%-conf.int. 0.02736 - 0.02736)
+1 ROUGE-3 Average_P: 0.01647 (95%-conf.int. 0.01647 - 0.01647)
+1 ROUGE-3 Average_F: 0.02056 (95%-conf.int. 0.02056 - 0.02056)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.02736 P:0.01647 F:0.02056
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.01005 (95%-conf.int. 0.01005 - 0.01005)
+1 ROUGE-4 Average_P: 0.00602 (95%-conf.int. 0.00602 - 0.00602)
+1 ROUGE-4 Average_F: 0.00753 (95%-conf.int. 0.00753 - 0.00753)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.01005 P:0.00602 F:0.00753
+---------------------------------------------
+1 ROUGE-L Average_R: 0.35610 (95%-conf.int. 0.35610 - 0.35610)
+1 ROUGE-L Average_P: 0.21598 (95%-conf.int. 0.21598 - 0.21598)
+1 ROUGE-L Average_F: 0.26888 (95%-conf.int. 0.26888 - 0.26888)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.35610 P:0.21598 F:0.26888
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.12439 (95%-conf.int. 0.12439 - 0.12439)
+1 ROUGE-W-1.2 Average_P: 0.13467 (95%-conf.int. 0.13467 - 0.13467)
+1 ROUGE-W-1.2 Average_F: 0.12933 (95%-conf.int. 0.12933 - 0.12933)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.12439 P:0.13467 F:0.12933
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.11644 (95%-conf.int. 0.11644 - 0.11644)
+1 ROUGE-SU4 Average_P: 0.06989 (95%-conf.int. 0.06989 - 0.06989)
+1 ROUGE-SU4 Average_F: 0.08735 (95%-conf.int. 0.08735 - 0.08735)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.11644 P:0.06989 F:0.08735
+
+40 D1010B-A
+WORD SIZE: 661
+2014-12-29 17:02:38,118 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 17:02:38,118 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpX7IOpW/system and model files to /tmp/tmpX7IOpW/model.
+2014-12-29 17:02:38,118 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1010B-A/.
+2014-12-29 17:02:38,118 [MainThread  ] [INFO ]  Processing D1010B-A.tfidf001.txt.
+2014-12-29 17:02:38,118 [MainThread  ] [INFO ]  Processing D1010B-A.w2v001.txt.
+2014-12-29 17:02:38,119 [MainThread  ] [INFO ]  Processing D1010B-A.LSA001.txt.
+2014-12-29 17:02:38,119 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpX7IOpW/system.
+2014-12-29 17:02:38,119 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1010B-A.
+2014-12-29 17:02:38,119 [MainThread  ] [INFO ]  Processing D1010B-A.M.100.H.
+2014-12-29 17:02:38,119 [MainThread  ] [INFO ]  Processing D1010B-A.M.100.G.
+2014-12-29 17:02:38,119 [MainThread  ] [INFO ]  Processing D1010B-A.M.100.B.
+2014-12-29 17:02:38,119 [MainThread  ] [INFO ]  Processing D1010B-A.M.100.C.
+2014-12-29 17:02:38,119 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpX7IOpW/model.
+2014-12-29 17:02:38,120 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmp102CSk/rouge_conf.xml
+2014-12-29 17:02:38,120 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmp102CSk/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.38945 (95%-conf.int. 0.38945 - 0.38945)
+1 ROUGE-1 Average_P: 0.26182 (95%-conf.int. 0.26182 - 0.26182)
+1 ROUGE-1 Average_F: 0.31313 (95%-conf.int. 0.31313 - 0.31313)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.38945 P:0.26182 F:0.31313
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.09391 (95%-conf.int. 0.09391 - 0.09391)
+1 ROUGE-2 Average_P: 0.06293 (95%-conf.int. 0.06293 - 0.06293)
+1 ROUGE-2 Average_F: 0.07536 (95%-conf.int. 0.07536 - 0.07536)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.09391 P:0.06293 F:0.07536
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.04359 (95%-conf.int. 0.04359 - 0.04359)
+1 ROUGE-3 Average_P: 0.02911 (95%-conf.int. 0.02911 - 0.02911)
+1 ROUGE-3 Average_F: 0.03491 (95%-conf.int. 0.03491 - 0.03491)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.04359 P:0.02911 F:0.03491
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.02332 (95%-conf.int. 0.02332 - 0.02332)
+1 ROUGE-4 Average_P: 0.01552 (95%-conf.int. 0.01552 - 0.01552)
+1 ROUGE-4 Average_F: 0.01864 (95%-conf.int. 0.01864 - 0.01864)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.02332 P:0.01552 F:0.01864
+---------------------------------------------
+1 ROUGE-L Average_R: 0.33920 (95%-conf.int. 0.33920 - 0.33920)
+1 ROUGE-L Average_P: 0.22804 (95%-conf.int. 0.22804 - 0.22804)
+1 ROUGE-L Average_F: 0.27273 (95%-conf.int. 0.27273 - 0.27273)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.33920 P:0.22804 F:0.27273
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.12249 (95%-conf.int. 0.12249 - 0.12249)
+1 ROUGE-W-1.2 Average_P: 0.14952 (95%-conf.int. 0.14952 - 0.14952)
+1 ROUGE-W-1.2 Average_F: 0.13466 (95%-conf.int. 0.13466 - 0.13466)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.12249 P:0.14952 F:0.13466
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.12694 (95%-conf.int. 0.12694 - 0.12694)
+1 ROUGE-SU4 Average_P: 0.08458 (95%-conf.int. 0.08458 - 0.08458)
+1 ROUGE-SU4 Average_F: 0.10152 (95%-conf.int. 0.10152 - 0.10152)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.12694 P:0.08458 F:0.10152
+
+41 D1021D-A
+WORD SIZE: 1638
+2014-12-29 17:04:30,573 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 17:04:30,573 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpFRbCmw/system and model files to /tmp/tmpFRbCmw/model.
+2014-12-29 17:04:30,573 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1021D-A/.
+2014-12-29 17:04:30,574 [MainThread  ] [INFO ]  Processing D1021D-A.LSA001.txt.
+2014-12-29 17:04:30,574 [MainThread  ] [INFO ]  Processing D1021D-A.tfidf001.txt.
+2014-12-29 17:04:30,574 [MainThread  ] [INFO ]  Processing D1021D-A.w2v001.txt.
+2014-12-29 17:04:30,574 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpFRbCmw/system.
+2014-12-29 17:04:30,574 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1021D-A.
+2014-12-29 17:04:30,574 [MainThread  ] [INFO ]  Processing D1021D-A.M.100.D.
+2014-12-29 17:04:30,574 [MainThread  ] [INFO ]  Processing D1021D-A.M.100.A.
+2014-12-29 17:04:30,574 [MainThread  ] [INFO ]  Processing D1021D-A.M.100.B.
+2014-12-29 17:04:30,575 [MainThread  ] [INFO ]  Processing D1021D-A.M.100.E.
+2014-12-29 17:04:30,575 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpFRbCmw/model.
+2014-12-29 17:04:30,575 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpauplK5/rouge_conf.xml
+2014-12-29 17:04:30,575 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpauplK5/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.33981 (95%-conf.int. 0.33981 - 0.33981)
+1 ROUGE-1 Average_P: 0.19444 (95%-conf.int. 0.19444 - 0.19444)
+1 ROUGE-1 Average_F: 0.24735 (95%-conf.int. 0.24735 - 0.24735)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.33981 P:0.19444 F:0.24735
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.04657 (95%-conf.int. 0.04657 - 0.04657)
+1 ROUGE-2 Average_P: 0.02654 (95%-conf.int. 0.02654 - 0.02654)
+1 ROUGE-2 Average_F: 0.03381 (95%-conf.int. 0.03381 - 0.03381)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.04657 P:0.02654 F:0.03381
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.00990 (95%-conf.int. 0.00990 - 0.00990)
+1 ROUGE-3 Average_P: 0.00562 (95%-conf.int. 0.00562 - 0.00562)
+1 ROUGE-3 Average_F: 0.00717 (95%-conf.int. 0.00717 - 0.00717)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.00990 P:0.00562 F:0.00717
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00250 (95%-conf.int. 0.00250 - 0.00250)
+1 ROUGE-4 Average_P: 0.00141 (95%-conf.int. 0.00141 - 0.00141)
+1 ROUGE-4 Average_F: 0.00180 (95%-conf.int. 0.00180 - 0.00180)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00250 P:0.00141 F:0.00180
+---------------------------------------------
+1 ROUGE-L Average_R: 0.30583 (95%-conf.int. 0.30583 - 0.30583)
+1 ROUGE-L Average_P: 0.17500 (95%-conf.int. 0.17500 - 0.17500)
+1 ROUGE-L Average_F: 0.22262 (95%-conf.int. 0.22262 - 0.22262)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.30583 P:0.17500 F:0.22262
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.09830 (95%-conf.int. 0.09830 - 0.09830)
+1 ROUGE-W-1.2 Average_P: 0.10675 (95%-conf.int. 0.10675 - 0.10675)
+1 ROUGE-W-1.2 Average_F: 0.10235 (95%-conf.int. 0.10235 - 0.10235)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.09830 P:0.10675 F:0.10235
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.08929 (95%-conf.int. 0.08929 - 0.08929)
+1 ROUGE-SU4 Average_P: 0.05052 (95%-conf.int. 0.05052 - 0.05052)
+1 ROUGE-SU4 Average_F: 0.06453 (95%-conf.int. 0.06453 - 0.06453)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.08929 P:0.05052 F:0.06453
+
+42 D1011C-A
+WORD SIZE: 2173
+2014-12-29 17:11:44,093 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 17:11:44,094 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpP9wzOK/system and model files to /tmp/tmpP9wzOK/model.
+2014-12-29 17:11:44,094 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1011C-A/.
+2014-12-29 17:11:44,094 [MainThread  ] [INFO ]  Processing D1011C-A.LSA001.txt.
+2014-12-29 17:11:44,094 [MainThread  ] [INFO ]  Processing D1011C-A.tfidf001.txt.
+2014-12-29 17:11:44,094 [MainThread  ] [INFO ]  Processing D1011C-A.w2v001.txt.
+2014-12-29 17:11:44,094 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpP9wzOK/system.
+2014-12-29 17:11:44,094 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1011C-A.
+2014-12-29 17:11:44,094 [MainThread  ] [INFO ]  Processing D1011C-A.M.100.E.
+2014-12-29 17:11:44,095 [MainThread  ] [INFO ]  Processing D1011C-A.M.100.A.
+2014-12-29 17:11:44,095 [MainThread  ] [INFO ]  Processing D1011C-A.M.100.B.
+2014-12-29 17:11:44,095 [MainThread  ] [INFO ]  Processing D1011C-A.M.100.C.
+2014-12-29 17:11:44,095 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpP9wzOK/model.
+2014-12-29 17:11:44,096 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpo_e96c/rouge_conf.xml
+2014-12-29 17:11:44,096 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpo_e96c/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.37221 (95%-conf.int. 0.37221 - 0.37221)
+1 ROUGE-1 Average_P: 0.20380 (95%-conf.int. 0.20380 - 0.20380)
+1 ROUGE-1 Average_F: 0.26339 (95%-conf.int. 0.26339 - 0.26339)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.37221 P:0.20380 F:0.26339
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.04762 (95%-conf.int. 0.04762 - 0.04762)
+1 ROUGE-2 Average_P: 0.02596 (95%-conf.int. 0.02596 - 0.02596)
+1 ROUGE-2 Average_F: 0.03360 (95%-conf.int. 0.03360 - 0.03360)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.04762 P:0.02596 F:0.03360
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.01013 (95%-conf.int. 0.01013 - 0.01013)
+1 ROUGE-3 Average_P: 0.00549 (95%-conf.int. 0.00549 - 0.00549)
+1 ROUGE-3 Average_F: 0.00712 (95%-conf.int. 0.00712 - 0.00712)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.01013 P:0.00549 F:0.00712
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_P: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_F: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00000 P:0.00000 F:0.00000
+---------------------------------------------
+1 ROUGE-L Average_R: 0.34243 (95%-conf.int. 0.34243 - 0.34243)
+1 ROUGE-L Average_P: 0.18750 (95%-conf.int. 0.18750 - 0.18750)
+1 ROUGE-L Average_F: 0.24232 (95%-conf.int. 0.24232 - 0.24232)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.34243 P:0.18750 F:0.24232
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.11814 (95%-conf.int. 0.11814 - 0.11814)
+1 ROUGE-W-1.2 Average_P: 0.11342 (95%-conf.int. 0.11342 - 0.11342)
+1 ROUGE-W-1.2 Average_F: 0.11573 (95%-conf.int. 0.11573 - 0.11573)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.11814 P:0.11342 F:0.11573
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.09261 (95%-conf.int. 0.09261 - 0.09261)
+1 ROUGE-SU4 Average_P: 0.05009 (95%-conf.int. 0.05009 - 0.05009)
+1 ROUGE-SU4 Average_F: 0.06502 (95%-conf.int. 0.06502 - 0.06502)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.09261 P:0.05009 F:0.06502
+
+43 D1023E-A
+WORD SIZE: 2105
+2014-12-29 17:16:19,037 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 17:16:19,038 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpRQUZxz/system and model files to /tmp/tmpRQUZxz/model.
+2014-12-29 17:16:19,038 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1023E-A/.
+2014-12-29 17:16:19,038 [MainThread  ] [INFO ]  Processing D1023E-A.tfidf001.txt.
+2014-12-29 17:16:19,038 [MainThread  ] [INFO ]  Processing D1023E-A.w2v001.txt.
+2014-12-29 17:16:19,038 [MainThread  ] [INFO ]  Processing D1023E-A.LSA001.txt.
+2014-12-29 17:16:19,038 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpRQUZxz/system.
+2014-12-29 17:16:19,039 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1023E-A.
+2014-12-29 17:16:19,039 [MainThread  ] [INFO ]  Processing D1023E-A.M.100.D.
+2014-12-29 17:16:19,039 [MainThread  ] [INFO ]  Processing D1023E-A.M.100.E.
+2014-12-29 17:16:19,039 [MainThread  ] [INFO ]  Processing D1023E-A.M.100.G.
+2014-12-29 17:16:19,039 [MainThread  ] [INFO ]  Processing D1023E-A.M.100.B.
+2014-12-29 17:16:19,039 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpRQUZxz/model.
+2014-12-29 17:16:19,040 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpX1UzGQ/rouge_conf.xml
+2014-12-29 17:16:19,040 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpX1UzGQ/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.26382 (95%-conf.int. 0.26382 - 0.26382)
+1 ROUGE-1 Average_P: 0.19737 (95%-conf.int. 0.19737 - 0.19737)
+1 ROUGE-1 Average_F: 0.22581 (95%-conf.int. 0.22581 - 0.22581)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.26382 P:0.19737 F:0.22581
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.02284 (95%-conf.int. 0.02284 - 0.02284)
+1 ROUGE-2 Average_P: 0.01705 (95%-conf.int. 0.01705 - 0.01705)
+1 ROUGE-2 Average_F: 0.01952 (95%-conf.int. 0.01952 - 0.01952)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.02284 P:0.01705 F:0.01952
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.00256 (95%-conf.int. 0.00256 - 0.00256)
+1 ROUGE-3 Average_P: 0.00191 (95%-conf.int. 0.00191 - 0.00191)
+1 ROUGE-3 Average_F: 0.00219 (95%-conf.int. 0.00219 - 0.00219)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.00256 P:0.00191 F:0.00219
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_P: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_F: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00000 P:0.00000 F:0.00000
+---------------------------------------------
+1 ROUGE-L Average_R: 0.23367 (95%-conf.int. 0.23367 - 0.23367)
+1 ROUGE-L Average_P: 0.17481 (95%-conf.int. 0.17481 - 0.17481)
+1 ROUGE-L Average_F: 0.20000 (95%-conf.int. 0.20000 - 0.20000)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.23367 P:0.17481 F:0.20000
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.08231 (95%-conf.int. 0.08231 - 0.08231)
+1 ROUGE-W-1.2 Average_P: 0.11093 (95%-conf.int. 0.11093 - 0.11093)
+1 ROUGE-W-1.2 Average_F: 0.09450 (95%-conf.int. 0.09450 - 0.09450)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.08231 P:0.11093 F:0.09450
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.06928 (95%-conf.int. 0.06928 - 0.06928)
+1 ROUGE-SU4 Average_P: 0.05147 (95%-conf.int. 0.05147 - 0.05147)
+1 ROUGE-SU4 Average_F: 0.05906 (95%-conf.int. 0.05906 - 0.05906)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.06928 P:0.05147 F:0.05906
+
+44 D1036G-A
+WORD SIZE: 1480
+2014-12-29 17:17:39,081 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 17:17:39,081 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpG9Z1u4/system and model files to /tmp/tmpG9Z1u4/model.
+2014-12-29 17:17:39,081 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1036G-A/.
+2014-12-29 17:17:39,081 [MainThread  ] [INFO ]  Processing D1036G-A.tfidf001.txt.
+2014-12-29 17:17:39,081 [MainThread  ] [INFO ]  Processing D1036G-A.w2v001.txt.
+2014-12-29 17:17:39,082 [MainThread  ] [INFO ]  Processing D1036G-A.LSA001.txt.
+2014-12-29 17:17:39,082 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpG9Z1u4/system.
+2014-12-29 17:17:39,082 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1036G-A.
+2014-12-29 17:17:39,082 [MainThread  ] [INFO ]  Processing D1036G-A.M.100.A.
+2014-12-29 17:17:39,082 [MainThread  ] [INFO ]  Processing D1036G-A.M.100.B.
+2014-12-29 17:17:39,082 [MainThread  ] [INFO ]  Processing D1036G-A.M.100.F.
+2014-12-29 17:17:39,082 [MainThread  ] [INFO ]  Processing D1036G-A.M.100.G.
+2014-12-29 17:17:39,082 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpG9Z1u4/model.
+2014-12-29 17:17:39,083 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpz4fK6x/rouge_conf.xml
+2014-12-29 17:17:39,083 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpz4fK6x/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.36776 (95%-conf.int. 0.36776 - 0.36776)
+1 ROUGE-1 Average_P: 0.21988 (95%-conf.int. 0.21988 - 0.21988)
+1 ROUGE-1 Average_F: 0.27521 (95%-conf.int. 0.27521 - 0.27521)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.36776 P:0.21988 F:0.27521
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.02799 (95%-conf.int. 0.02799 - 0.02799)
+1 ROUGE-2 Average_P: 0.01667 (95%-conf.int. 0.01667 - 0.01667)
+1 ROUGE-2 Average_F: 0.02090 (95%-conf.int. 0.02090 - 0.02090)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.02799 P:0.01667 F:0.02090
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.00257 (95%-conf.int. 0.00257 - 0.00257)
+1 ROUGE-3 Average_P: 0.00152 (95%-conf.int. 0.00152 - 0.00152)
+1 ROUGE-3 Average_F: 0.00191 (95%-conf.int. 0.00191 - 0.00191)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.00257 P:0.00152 F:0.00191
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_P: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+1 ROUGE-4 Average_F: 0.00000 (95%-conf.int. 0.00000 - 0.00000)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00000 P:0.00000 F:0.00000
+---------------------------------------------
+1 ROUGE-L Average_R: 0.34005 (95%-conf.int. 0.34005 - 0.34005)
+1 ROUGE-L Average_P: 0.20331 (95%-conf.int. 0.20331 - 0.20331)
+1 ROUGE-L Average_F: 0.25447 (95%-conf.int. 0.25447 - 0.25447)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.34005 P:0.20331 F:0.25447
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.11672 (95%-conf.int. 0.11672 - 0.11672)
+1 ROUGE-W-1.2 Average_P: 0.12304 (95%-conf.int. 0.12304 - 0.12304)
+1 ROUGE-W-1.2 Average_F: 0.11980 (95%-conf.int. 0.11980 - 0.11980)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.11672 P:0.12304 F:0.11980
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.09103 (95%-conf.int. 0.09103 - 0.09103)
+1 ROUGE-SU4 Average_P: 0.05383 (95%-conf.int. 0.05383 - 0.05383)
+1 ROUGE-SU4 Average_F: 0.06765 (95%-conf.int. 0.06765 - 0.06765)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.09103 P:0.05383 F:0.06765
+
+45 D1015C-A
+WORD SIZE: 737
+2014-12-29 17:17:41,631 [MainThread  ] [INFO ]  Writing summaries.
+2014-12-29 17:17:41,631 [MainThread  ] [INFO ]  Processing summaries. Saving system files to /tmp/tmpApeCEU/system and model files to /tmp/tmpApeCEU/model.
+2014-12-29 17:17:41,631 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/duc_out/duc2010/D1015C-A/.
+2014-12-29 17:17:41,631 [MainThread  ] [INFO ]  Processing D1015C-A.LSA001.txt.
+2014-12-29 17:17:41,631 [MainThread  ] [INFO ]  Processing D1015C-A.tfidf001.txt.
+2014-12-29 17:17:41,631 [MainThread  ] [INFO ]  Processing D1015C-A.w2v001.txt.
+2014-12-29 17:17:41,632 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpApeCEU/system.
+2014-12-29 17:17:41,632 [MainThread  ] [INFO ]  Processing files in /home/tuywen/code/summarization/data/duc2010/gold/D1015C-A.
+2014-12-29 17:17:41,632 [MainThread  ] [INFO ]  Processing D1015C-A.M.100.E.
+2014-12-29 17:17:41,632 [MainThread  ] [INFO ]  Processing D1015C-A.M.100.A.
+2014-12-29 17:17:41,632 [MainThread  ] [INFO ]  Processing D1015C-A.M.100.F.
+2014-12-29 17:17:41,632 [MainThread  ] [INFO ]  Processing D1015C-A.M.100.C.
+2014-12-29 17:17:41,632 [MainThread  ] [INFO ]  Saved processed files to /tmp/tmpApeCEU/model.
+2014-12-29 17:17:41,633 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpEmMqVd/rouge_conf.xml
+2014-12-29 17:17:41,633 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpEmMqVd/rouge_conf.xml
+---------------------------------------------
+1 ROUGE-1 Average_R: 0.44643 (95%-conf.int. 0.44643 - 0.44643)
+1 ROUGE-1 Average_P: 0.23396 (95%-conf.int. 0.23396 - 0.23396)
+1 ROUGE-1 Average_F: 0.30702 (95%-conf.int. 0.30702 - 0.30702)
+.............................................
+1 ROUGE-1 Eval 1.1 R:0.44643 P:0.23396 F:0.30702
+---------------------------------------------
+1 ROUGE-2 Average_R: 0.08763 (95%-conf.int. 0.08763 - 0.08763)
+1 ROUGE-2 Average_P: 0.04570 (95%-conf.int. 0.04570 - 0.04570)
+1 ROUGE-2 Average_F: 0.06007 (95%-conf.int. 0.06007 - 0.06007)
+.............................................
+1 ROUGE-2 Eval 1.1 R:0.08763 P:0.04570 F:0.06007
+---------------------------------------------
+1 ROUGE-3 Average_R: 0.03125 (95%-conf.int. 0.03125 - 0.03125)
+1 ROUGE-3 Average_P: 0.01622 (95%-conf.int. 0.01622 - 0.01622)
+1 ROUGE-3 Average_F: 0.02136 (95%-conf.int. 0.02136 - 0.02136)
+.............................................
+1 ROUGE-3 Eval 1.1 R:0.03125 P:0.01622 F:0.02136
+---------------------------------------------
+1 ROUGE-4 Average_R: 0.00789 (95%-conf.int. 0.00789 - 0.00789)
+1 ROUGE-4 Average_P: 0.00408 (95%-conf.int. 0.00408 - 0.00408)
+1 ROUGE-4 Average_F: 0.00538 (95%-conf.int. 0.00538 - 0.00538)
+.............................................
+1 ROUGE-4 Eval 1.1 R:0.00789 P:0.00408 F:0.00538
+---------------------------------------------
+1 ROUGE-L Average_R: 0.41071 (95%-conf.int. 0.41071 - 0.41071)
+1 ROUGE-L Average_P: 0.21524 (95%-conf.int. 0.21524 - 0.21524)
+1 ROUGE-L Average_F: 0.28245 (95%-conf.int. 0.28245 - 0.28245)
+.............................................
+1 ROUGE-L Eval 1.1 R:0.41071 P:0.21524 F:0.28245
+---------------------------------------------
+1 ROUGE-W-1.2 Average_R: 0.13398 (95%-conf.int. 0.13398 - 0.13398)
+1 ROUGE-W-1.2 Average_P: 0.12824 (95%-conf.int. 0.12824 - 0.12824)
+1 ROUGE-W-1.2 Average_F: 0.13105 (95%-conf.int. 0.13105 - 0.13105)
+.............................................
+1 ROUGE-W-1.2 Eval 1.1 R:0.13398 P:0.12824 F:0.13105
+---------------------------------------------
+1 ROUGE-SU4 Average_R: 0.13942 (95%-conf.int. 0.13942 - 0.13942)
+1 ROUGE-SU4 Average_P: 0.07211 (95%-conf.int. 0.07211 - 0.07211)
+1 ROUGE-SU4 Average_F: 0.09506 (95%-conf.int. 0.09506 - 0.09506)
+.............................................
+1 ROUGE-SU4 Eval 1.1 R:0.13942 P:0.07211 F:0.09506
+
+
+R-1 	0.312 0.249 0.420
+R-2 	0.064 0.051 0.086
+R-3 	0.020 0.016 0.027
+R-4 	0.008 0.006 0.011
+R-l 	0.282 0.225 0.379
+R-su4 	0.101 0.080 0.137
+R-w 	0.134 0.139 0.129
