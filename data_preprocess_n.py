@@ -16,6 +16,8 @@ import ConfigParser
 
 global_conf = ConfigParser.ConfigParser()
 idf_dict = {}
+topic_sen = ''
+topic_bwords = set([])
 
 class sen_elems:
   def __init__(self):
@@ -30,10 +32,12 @@ class sen_elems:
     self.sen_label = -1
     self.word_found = 0
     self.word_used = []
+    self.sen_bwords = []
+    self.topic_diversity = 0
 
 stoplist = set(nltk.corpus.stopwords.words('english'))
 pattern = re.compile('[.,!]')
-def CutWords(sen_str):
+def CutWords(sen_str, stem=False):
   #cut words
   #sen_str = pattern.sub(' ', sen_str)
   #words = sen_str.split(' ')
@@ -41,11 +45,20 @@ def CutWords(sen_str):
   words = word_tokenize(sen_str.lower())
   final_words = []
   for word in words:
-    if word != None and word != '' and word not in [',','.','!','\'']:
+    if word != None and word != '' and word not in [',','.','!','\'', '"']:
       if word in stoplist:
         continue
       final_words.append(word)
   return final_words
+
+def Bigram_words(words):
+  wset = set([])
+  wlen = len(words)
+  for w in words:
+    wset.add(w)
+  for i in range(0, wlen - 1):
+    wset.add(words[i] + '@' + words[i+1])
+  return wset
 
 spattern = re.compile('[.,]')
 def SplitSen(sen_str):
@@ -56,6 +69,8 @@ def SplitSen(sen_str):
 def ReadText(in_path):
   # read sentences
   file_in = codecs.open(in_path, 'r', 'utf-8')
+  fkey = in_path.split('/')[-1].split('-')[0]
+  print fkey
   senlist = []
   cnt = 0
   for line in file_in:
@@ -69,8 +84,30 @@ def ReadText(in_path):
         senelem.sen_str = sen
         senelem.sen_words = CutWords(sen)
         senelem.sen_len = len(senelem.sen_words)
+        senelem.sen_bwords = Bigram_words(senelem.sen_words)
         senlist.append(senelem)
   file_in.close()
+  has_topic = global_conf.has_option('topic', 'topic_on')
+  if has_topic:
+    topic_file = global_conf.get('topic', 'topic_file')
+    tfile = codecs.open(topic_file, 'r', 'utf-8')
+    for line in tfile:
+      vals = line.strip().split('####')
+      if vals[0] == fkey:
+        topic_sen = vals[1] + ' ' + vals[2]
+        topic_bwords = Bigram_words(CutWords(topic_sen))
+        print topic_sen
+        print topic_bwords
+        break
+    tfile.close()
+    slen = len(senlist)
+    max_d = -1
+    for i in range(0, slen):
+      senlist[i].topic_diversity = len(topic_bwords & senlist[i].sen_bwords)
+      max_d = max(senlist[i].topic_diversity, max_d)
+      #print senlist[i].topic_diversity
+    for i in range(0, slen):
+      senlist[i].topic_diversity /= max_d
   return senlist
 
 def PrintSenlist(senlist):
@@ -488,8 +525,37 @@ def CompDiversity(sums, sens, smatrix):
 
   return div_sum 
 
-def SubmodularFunction(sums, sens, smatrix):
-  return CompCovery(sums, sens, smatrix) + 6 * CompDiversity(sums, sens, smatrix)
+def CompTopicDiversity(sums, sens, smatrix):
+  div_sum = 0
+  beta = 0.9
+  slen = len(sens)
+  part = {}
+  for i in range(0, slen):
+    if sens[i].sen_label != -1:
+      if sens[i].sen_label not in part:
+        part[sens[i].sen_label] = set([i])
+      else:
+        part[sens[i].sen_label].add(i)
+  
+  sum_set = set([ sen.sen_id for sen in sums])
+
+  for k in part:
+    same_part = part[k] & sum_set
+    d_sum = 0
+    for j in same_part:
+      for i in range(0, slen):
+        d_sum += smatrix[i][j]
+      d_sum = d_sum / slen * beta + (1 - beta) * sens[j].topic_diversity
+    div_sum += math.sqrt(d_sum)
+
+  return div_sum 
+
+
+def SubmodularFunction(sums, sens, smatrix, topic_on=False):
+  if topic_on:
+    return CompCovery(sums, sens, smatrix) + 6 * CompTopicDiversity(sums, sens, smatrix)
+  else:
+    return CompCovery(sums, sens, smatrix) + 6 * CompDiversity(sums, sens, smatrix)
 
 def GreedySearch(sens, limit, smatrix):
   slen = len(sens)
@@ -498,6 +564,9 @@ def GreedySearch(sens, limit, smatrix):
   tmpinfo = {}
   max_sents = int(global_conf.get('greedysearch', 'max_sents'))
   max_words = int(global_conf.get('greedysearch', 'max_words'))
+  topic_on = False
+  if global_conf.has_option('topic', 'topic_on'):
+    topic_on = global_conf.getboolean('topic', 'topic_on')
   sents_cnt = 0
   words_cnt = 0
   #for lim in range(0, limit):
@@ -510,7 +579,7 @@ def GreedySearch(sens, limit, smatrix):
       #if sens[i].sen_len > 10:
       #  continue
       sums.append(sens[i])
-      subfunc = SubmodularFunction(sums, sens, smatrix)
+      subfunc = SubmodularFunction(sums, sens, smatrix, topic_on)
       tmpinfo[i] = subfunc
       if subfunc > max_subfunc:
         max_subfunc = subfunc
@@ -596,7 +665,7 @@ def ROUGE(sysdoc_dir, modeldoc_dir, prefix_name, vtype='tfidf'):
   r.model_dir = modeldoc_dir + prefix_name
   r.system_filename_pattern = prefix_name + '.' + vtype + '(\d+).txt'
   r.model_filename_pattern = prefix_name + model_name_suffix #'.(\d).gold'
-  output = r.convert_and_evaluate()
+  output = r.evaluate()
   print(output)
   output_dict = r.output_to_dict(output)
   return output_dict
