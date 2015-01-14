@@ -1,6 +1,6 @@
 [config]
-docset_dir = /home/tuywen/code/summarization/data/duc2009/topic/
-goldsum_dir = /home/tuywen/code/summarization/data/duc2009/gold/
+docset_dir = /home/tuywen/code/summarization/data/duc2009/topic2/
+goldsum_dir = /home/tuywen/code/summarization/data/duc2009/gold2/
 sysout_dir = /home/tuywen/code/summarization/duc_out/duc2009/
 method = w2v
 lsa_dim = 100

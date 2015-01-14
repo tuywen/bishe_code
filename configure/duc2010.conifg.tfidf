@@ -8,6 +8,10 @@ w2v_feature_file= /home/tuywen/code/summarization/tools/w2vec/out_words/duc2010.
 w2v_similarity= cos 
 similarity= cos
 
+[topic]
+topic_on = True
+topic_file = /home/tuywen/code/summarization/data/duc2010/topic.txt
+
 [debug]
 run_cases = -1
 

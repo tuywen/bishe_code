@@ -1,0 +1,16 @@
+nohup: ignoring input
+load word2vec vectors: 16359 300
+0 D0923D-A
+D0923D
+Traceback (most recent call last):
+  File "data_preprocess_n.py", line 932, in <module>
+    ProcessAllFile(docset_dir,sysout_dir, goldsum_dir, method)
+  File "data_preprocess_n.py", line 846, in ProcessAllFile
+    res_sum = AutoSum(input_file, output_file, vtype, w2vec_data)
+  File "data_preprocess_n.py", line 742, in AutoSum
+    senlist = ReadText(input_file)
+  File "data_preprocess_n.py", line 101, in ReadText
+    topic_bwords = Bigram_words(CutWords(topic_sen))
+  File "data_preprocess_n.py", line 61, in Bigram_words
+    wset.add(w)
+TypeError: unhashable type: 'list'

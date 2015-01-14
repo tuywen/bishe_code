@@ -13,37 +13,19 @@ from nltk import word_tokenize
 import nltk 
 import codecs
 import ConfigParser
-import pickle
-from nltk.stem.porter import PorterStemmer
-import copy
-import random
 
 global_conf = ConfigParser.ConfigParser()
 idf_dict = {}
-df_dict = {}
-
-class TopicInfo:
-  def __init__(self):
-    self.topic_sen = ''
-    self.topic_words = []
-    self.topic_bwords = set([])
-    self.global_task_id = ''
-    self.topic_sim = []
-    self.word_used = []
-    self.stemwords = []
-    self.smatrix = None
-
-tpinfo = TopicInfo()
+topic_sen = ''
+topic_bwords = set([])
 
 class sen_elems:
   def __init__(self):
     self.sen_id = 0
     self.sen_str = ''
     self.sen_len = 0
-    self.tol_words = 0
     self.uniq_word_num = 0
     self.sen_words = []
-    self.stemwords = []
     self.word_dict = {}
     self.sen_vector = {}
     self.con_vector = []
@@ -53,9 +35,6 @@ class sen_elems:
     self.word_notused = []
     self.sen_bwords = []
     self.topic_diversity = 0
-    self.weight = 1
-    self.sen_order = ''
-    self.rank_weight = 0
 
 stoplist = set(nltk.corpus.stopwords.words('english'))
 pattern = re.compile('[.,!]')
@@ -65,18 +44,13 @@ def CutWords(sen_str, stem=False):
   #words = sen_str.split(' ')
   
   words = word_tokenize(sen_str.lower())
-  wlen = len(words)
   final_words = []
   for word in words:
     if word != None and word != '' and word not in [',','.','!','\'', '"']:
       if word in stoplist:
         continue
       final_words.append(word)
-  return final_words, wlen
-st = PorterStemmer()
-def StemWords(words):
-  swords = [st.stem(w) for w in words]
-  return swords
+  return final_words
 
 def Bigram_words(words):
   wset = set([])
@@ -93,82 +67,11 @@ def SplitSen(sen_str):
   sens = sen_str.split('@@')
   return sens
 
-def ReadDucText(in_path):
-  # read sentences
-  file_in = codecs.open(in_path, 'r', 'utf-8')
-  fkey = in_path.split('/')[-1].split('-')[0]
-  senlist = []
-  cnt = 0
-  tmp_date = ''
-  weight_sum = 0
-  for line in file_in:
-    asen = line.lower().strip()
-    sens = [asen] #SplitSen(asen)
-    for tsen in sens:
-      svals = tsen.split('#@#')
-      p_or_h = svals[0]
-      ph_cnt = '-1'
-      if p_or_h == 'h':
-        tmp_date = svals[1]
-        ph_cnt = '1'
-      elif p_or_h == 'p':
-        ph_cnt = svals[1]
-      st_cnt = svals[2]
-      sen = svals[3]
-      if sen != None and sen != '':
-        senelem = sen_elems()
-        senelem.sen_id = cnt
-        cnt += 1
-        senelem.sen_str = sen
-        senelem.sen_words, senelem.tol_words = CutWords(sen)
-        senelem.sen_len = len(senelem.sen_words)
-        senelem.stemwords = StemWords(senelem.sen_words)
-        senelem.sen_bwords = Bigram_words(senelem.stemwords)
-        senelem.sen_order = tmp_date + p_or_h + ph_cnt.zfill(3) + st_cnt.zfill(3)
-        senelem.weight = 10 if p_or_h == 'h' else 1
-        senelem.weight = senelem.weight / math.log(int(st_cnt)+1,2)
-        weight_sum += senelem.weight
-        senlist.append(senelem)
-  file_in.close()
-  slen = len(senlist)
-  for i in range(0, slen):
-    senlist[i].weight *= (slen/weight_sum)
-
-  has_topic = global_conf.has_option('topic', 'topic_on')
-  if has_topic:
-    topic_file = global_conf.get('topic', 'topic_file')
-    tfile = codecs.open(topic_file, 'r', 'utf-8')
-    for line in tfile:
-      vals = line.strip().split('####')
-      if vals[0] == fkey:
-        tpinfo.topic_sen = vals[1] + ' ' + vals[2]
-        tpinfo.topic_words, tmp_len = CutWords(tpinfo.topic_sen)
-        tpinfo.stemwords = StemWords(tpinfo.topic_words)
-        tpinfo.topic_bwords = Bigram_words(tpinfo.stemwords)
-        print "[Topic]:",tpinfo.topic_sen
-        print "[Words]:",tpinfo.stemwords
-        break
-    tfile.close()
-    slen = len(senlist)
-    max_d = -1
-    for i in range(0, slen):
-      senlist[i].topic_diversity = len(tpinfo.topic_bwords & senlist[i].sen_bwords)
-      max_d = max(senlist[i].topic_diversity, max_d)
-      #print senlist[i].topic_diversity
-    filter_senlist = []
-    for i in range(0, slen):
-      senlist[i].topic_diversity /= max_d
-      if senlist[i].topic_diversity > 0.0:
-        filter_senlist.append(senlist[i])
-    #for i in range(0, len(filter_senlist)):
-    #  filter_senlist[i].sen_id = i
-    #senlist = filter_senlist
-  return senlist
-
 def ReadText(in_path):
   # read sentences
   file_in = codecs.open(in_path, 'r', 'utf-8')
   fkey = in_path.split('/')[-1].split('-')[0]
+  print fkey
   senlist = []
   cnt = 0
   for line in file_in:
@@ -180,10 +83,9 @@ def ReadText(in_path):
         senelem.sen_id = cnt
         cnt += 1
         senelem.sen_str = sen
-        senelem.sen_words, senelem.tol_words = CutWords(sen)
+        senelem.sen_words = CutWords(sen)
         senelem.sen_len = len(senelem.sen_words)
-        senelem.stemwords = StemWords(senelem.sen_words)
-        senelem.sen_bwords = Bigram_words(senelem.stemwords)
+        senelem.sen_bwords = Bigram_words(senelem.sen_words)
         senlist.append(senelem)
   file_in.close()
   has_topic = global_conf.has_option('topic', 'topic_on')
@@ -193,29 +95,20 @@ def ReadText(in_path):
     for line in tfile:
       vals = line.strip().split('####')
       if vals[0] == fkey:
-        tpinfo.topic_sen = vals[1] + ' ' + vals[2]
-        tpinfo.topic_words, tmp_len = CutWords(tpinfo.topic_sen)
-        tpinfo.stemwords = StemWords(tpinfo.topic_words)
-        tpinfo.topic_bwords = Bigram_words(tpinfo.stemwords)
-        print "[Topic]:",tpinfo.topic_sen
-        print "[Words]:",tpinfo.stemwords
+        topic_sen = vals[1] + ' ' + vals[2]
+        topic_bwords = Bigram_words(CutWords(topic_sen))
+        print topic_sen
+        print topic_bwords
         break
     tfile.close()
-    
     slen = len(senlist)
     max_d = -1
     for i in range(0, slen):
-      senlist[i].topic_diversity = len(tpinfo.topic_bwords & senlist[i].sen_bwords)
+      senlist[i].topic_diversity = len(topic_bwords & senlist[i].sen_bwords)
       max_d = max(senlist[i].topic_diversity, max_d)
       #print senlist[i].topic_diversity
-    filter_senlist = []
     for i in range(0, slen):
       senlist[i].topic_diversity /= max_d
-      if senlist[i].topic_diversity > 0.0:
-        filter_senlist.append(senlist[i])
-    #for i in range(0, len(filter_senlist)):
-    #  filter_senlist[i].sen_id = i
-    #senlist = filter_senlist
   return senlist
 
 def PrintSenlist(senlist):
@@ -245,17 +138,14 @@ def TfIdfVector(osen):
   #IDF
   #idf_dict = {}
   idf_dict.clear()
-  df_dict.clear()
   idf_cnt = 0
   for i in range(0, slen):
     for word in osen[i].word_dict:
       if word not in idf_dict:
         idf_dict[word] = [idf_cnt,1]
-        df_dict[word] = 1
         idf_cnt += 1
       else:
         idf_dict[word][1] += 1
-        df_dict[word] += 1
   
   ofile = codecs.open('idf.txt','w','utf-8')
   for word in idf_dict:
@@ -264,7 +154,7 @@ def TfIdfVector(osen):
     ofile.write(ostr)
   ofile.close()
   
-  print '[IDF WORD SIZE]: %d'%(len(idf_dict))
+  print 'WORD SIZE: %d'%(len(idf_dict))
   #TF*IDF
   for i in range(0, slen):
     for word in osen[i].word_dict:
@@ -372,7 +262,7 @@ def Word2Vec_Vector(senlist, w2vec, dim):
     """
     #print word
     #print senlist[i].con_vector
-  print '[not found word cnt in w2v]:',not_found
+  print 'not found word cnt:',not_found
   return
 
 def Word2VecReduction(senlist, w2vec, ratio):
@@ -497,21 +387,6 @@ def ConVectorSim(asen, bsen, dis='cos'):
     return math.sqrt(euc_sum)
 
 cache_dis = {}
-
-def LoadCachedis(ftype):
-  cachedir = '../cache/'
-  cachefile = cachedir + global_task_id + '-' + ftype +'.dat'
-  if os.path.exists(cachefile):
-    global cache_dis
-    cache_dis = pickle.load(open(cachefile, 'rb'))
-  return
-
-def DumpCachedis(ftype):
-  cachedir = '../cache/'
-  cachefile = cachedir + global_task_id + '-' + ftype +'.dat'
-  pickle.dump(cache_dis, open(cachefile, 'wb'))
-  return
-
 def WordSim(aword, bword, w2v_dict, dis='cos'):
   akey = aword + u'@@' + bword
   bkey = bword + u'@@' + aword
@@ -519,7 +394,7 @@ def WordSim(aword, bword, w2v_dict, dis='cos'):
     return cache_dis[akey]
   elif bkey in cache_dis:
     return cache_dis[bkey]
-  
+
   avector = w2v_dict[aword]
   bvector = w2v_dict[bword]
   vlen = len(avector)
@@ -561,10 +436,10 @@ def N_WordSim(asen, bsen, w2v_dict, dtype='all', dis_method='cos'):
         if bword not in bused:
           wsim = WordSim(aword, bword, w2v_dict, dis_method)
           if wsim > tmp_closed:
-            tmp_closed = wsim 
+            tmp_closed = wsim
             fword = bword
       if tmp_closed > 0 and fword != '':
-        sim += tmp_closed #* math.sqrt(df_dict[aword] * df_dict[fword])
+        sim += tmp_closed
         #bused.add(fword)
         wcnt += 1
 
@@ -578,7 +453,7 @@ def N_WordSim(asen, bsen, w2v_dict, dtype='all', dis_method='cos'):
             tmp_closed = wsim
             fword = aword
       if tmp_closed > 0 and fword != '':
-        sim += tmp_closed #* math.sqrt(df_dict[aword] * df_dict[fword])
+        sim += tmp_closed
         #aused.add(fword)
         wcnt += 1
     if wcnt > 0:
@@ -626,39 +501,17 @@ def GetNSimMatrixWithUnusedWord(sens, w2v_dict, dis='cos'):
   beta = 0.8
   slen = len(sens)
   smatrix = [ [0 for i in range(0, slen)] for j in range(0, slen)]
-
+  
   Nsim_type = global_conf.get('w2v', 'Nsim_type')
   Nsim_dis_method = 'cos'
   if global_conf.has_option('w2v', 'Nsim_dis_method'):
     Nsim_dis_method = global_conf.get('w2v', 'Nsim_dis_method')
-  ftype = Nsim_type + '-' + Nsim_dis_method
-  
-  cache_dis.clear()
-  LoadCachedis(ftype)
-  
   for i in range(0, slen):
     smatrix[i][i] = 1
     for j in range(0, i):
-      smatrix[i][j] = N_WordSim(sens[i], sens[j],  w2v_dict, Nsim_type, Nsim_dis_method) #* beta + (1 - beta) * UnusedWordSim(sens[i], sens[j])
+      smatrix[i][j] = N_WordSim(sens[i], sens[j],  w2v_dict, Nsim_type, Nsim_dis_method) * beta + (1 - beta) * UnusedWordSim(sens[i], sens[j])
       smatrix[j][i] = smatrix[i][j]
   
-  # copy the similarty matrix to the topic info
-  tpinfo.smatrix = copy.deepcopy(smatrix)
-
-  max_sim = 0
-  min_sim = smatrix[0][0]
-  for i in range(0, slen):
-    smatrix[i][i] = 0
-    for j in range(0, i):
-      max_sim = max(max_sim, smatrix[i][j])
-      min_sim = min(min_sim, smatrix[i][j])
-
-  for i in range(0, slen):
-    for j in range(0, i):
-      smatrix[i][j] = (smatrix[i][j] - min_sim) / (max_sim - min_sim) * beta +(1 - beta) * UnusedWordSim(sens[i], sens[j])
-      smatrix[j][i] = smatrix[i][j]
-
-
   if dis == 'euc':
     max_dis = 0
     for i in range(0, slen):
@@ -669,9 +522,7 @@ def GetNSimMatrixWithUnusedWord(sens, w2v_dict, dis='cos'):
     for i in range(0, slen):
       for j in range(0, slen):
         smatrix[i][j] = 1 - smatrix[i][j] / max_dis
-  
-  DumpCachedis(ftype)
-  
+
   return smatrix
 
 
@@ -736,6 +587,7 @@ def GetSimMatrixWithUnusedWord(sens, dis='tfidf'):
   #  print ' '.join([str(round(x,2)) for x in smatrix[i]])
   return smatrix
 
+
 def CompCovery(sums, sens, smatrix):
   a_cov = 10 / len(sens)
   cov_sum = 0
@@ -749,7 +601,7 @@ def CompCovery(sums, sens, smatrix):
     for s in sens:
       tol_sim += smatrix[sen.sen_id][s.sen_id]
 
-    cov_sum +=  min(part_sim, a_cov * tol_sim)
+    cov_sum += min(part_sim, a_cov * tol_sim)
   return cov_sum
 
 def CompDiversity(sums, sens, smatrix):
@@ -801,84 +653,15 @@ def CompTopicDiversity(sums, sens, smatrix):
 
   return div_sum 
 
+
 def SubmodularFunction(sums, sens, smatrix, topic_on=False):
   if topic_on:
-    return CompCovery(sums, sens, smatrix) , 20 * CompTopicDiversity(sums, sens, smatrix)
+    return CompCovery(sums, sens, smatrix) + 6 * CompTopicDiversity(sums, sens, smatrix)
   else:
-    return CompCovery(sums, sens, smatrix) , 20 * CompDiversity(sums, sens, smatrix)
+    return CompCovery(sums, sens, smatrix) + 6 * CompDiversity(sums, sens, smatrix)
 
-def BagOfStemWordSim(asen, bsen):
-  cos_sum = 0
-  for wid in asen.sen_vector:
-    if wid in bsen.sen_vector:
-      cos_sum += asen.sen_vector[wid] * bsen.sen_vector[wid]
-
-  asum = 0
-  bsum = 0
-  for wid in asen.sen_vector:
-    asum += asen.sen_vector[wid] * asen.sen_vector[wid]
-  
-  for wid in bsen.sen_vector:
-    bsum += bsen.sen_vector[wid] * bsen.sen_vector[wid]
-  if asum == 0 or bsum == 0:
-    return 0
-  else: 
-    return (cos_sum / math.sqrt(asum * bsum) + 1 ) / 2
-
-def ManiFoldRanking(senlist, w2vec):
-  for w in tpinfo.topic_words:
-    if w in w2vec:
-      tpinfo.word_used.append(w)
-  slen = len(senlist)
-  max_sim = -1
-  rmatrix = [ [0 for i in range(0, slen+1)] for j in range(0, slen+1)]
-  for i in range(0, slen):
-    rmatrix[i][slen] = N_WordSim(tpinfo, senlist[i], w2vec, 'match', 'cos')
-    rmatrix[slen][i] = rmatrix[i][slen]
-    max_sim = max(max_sim, rmatrix[i][slen])
-    for j in range(0, i):
-      rmatrix[i][j] = tpinfo.smatrix[i][j]
-      rmatrix[j][i] = rmatrix[i][j]
-      max_sim = max(max_sim, rmatrix[i][j])
-  
-  #normalize
-  #"""
-  max_sim = 0.65 * max_sim
-  for i in range(0, slen+1):
-    for j in range(0, i):
-      if rmatrix[i][j] < max_sim:
-        rmatrix[i][j] = rmatrix[j][i] = 0
-  #"""
-  for i in range(0, slen+1):
-    rsum = sum(rmatrix[i])
-    if rsum == 0.0:
-      continue
-    for j in range(0, slen+1):
-      rmatrix[i][j] /= rsum
-  #print rmatrix[slen]
-  #page rank
-  rmatrix = np.mat(rmatrix)
-  y = [ 0 for i in range(0, slen) ] + [1]
-  y = np.mat(y)
-  y = y.T
-  a_ = 0.6
-  ft = np.mat([1 for i in range(0, slen+1)])
-  ft = ft.T
-  for itr in range(0, 250):
-    nft =  rmatrix * ft * a_+ (1 - a_) * y
-    ft = nft 
-    #print 'itr',itr
-  n_min = 10
-  n_max = 0
-  for i in range(0, slen):
-    n_min = min(n_min, float(ft[i][0]))
-    n_max = max(n_max, float(ft[i][0]))
-    
-  for i in range(0, slen):
-    senlist[i].rank_weight = (float(ft[i][0]) - n_min) / (n_max - n_min)
-    #print i,senlist[i].rank_weight
-  return
-
+def W2vSubmodularFunction():
+    return
 def GreedySearch(sens, limit, smatrix):
   slen = len(sens)
   sums = []
@@ -892,45 +675,36 @@ def GreedySearch(sens, limit, smatrix):
   sents_cnt = 0
   words_cnt = 0
   #for lim in range(0, limit):
-  pre_scores = 0
-  print '[Sen Nums]:',slen
   while True:
     max_senid = -1
     max_subfunc = -1
     for i in range(0, slen):
       if i in sel:
         continue
-      #if sens[i].topic_diversity <= 0.0:
+      #if sens[i].sen_len > 10:
       #  continue
       sums.append(sens[i])
-      covery, diversity = SubmodularFunction(sums, sens, smatrix, topic_on)
-      subfunc = covery + diversity + 10 * sens[i].topic_diversity 
-      tmpinfo[i] = subfunc #(covery, diversity) 
+      subfunc = SubmodularFunction(sums, sens, smatrix, topic_on)
+      tmpinfo[i] = subfunc
       if subfunc > max_subfunc:
         max_subfunc = subfunc
         max_senid = i
       del sums[-1]
-    if max_senid == -1:
-      break
     sums.append(sens[max_senid])
     sel.add(max_senid)
     sents_cnt += 1
     words_cnt += sens[max_senid].sen_len
-    #words_cnt += sens[max_senid].tol_words
-    print '[In search]:', max_subfunc, max_subfunc - pre_scores, tmpinfo[max_senid]
-    pre_scores = max_subfunc
     if max_sents > 0  and sents_cnt >= max_sents:
       break
     if max_words > 0  and words_cnt >= max_words:
       del sums[-1]
-      sents_cnt -= 1
-      words_cnt -= sens[max_senid].sen_len
       break
+    
     """
     print 'sel:',max_senid,sens[max_senid].sen_str
     titems = tmpinfo.items()
     slist = sorted(titems, lambda x, y: cmp(x[1], y[1]), reverse=True) 
-    print '======= iteration ========'
+    print '======= iteration %d ========'%(lim)
     for (key,val) in slist:
       acnt = 0
       bcnt = 0
@@ -939,25 +713,16 @@ def GreedySearch(sens, limit, smatrix):
           acnt += 1
         else:
           bcnt += 1
-      print sens[key].topic_diversity,val,sens[key].sen_id, sens[key].word_found, len(sens[key].word_dict),sens[key].sen_str
+      print val,sens[key].sen_id, sens[key].word_found, len(sens[key].word_dict),sens[key].sen_str
       for wrd in sens[key].word_used:
         print wrd,
       print smatrix[0][sens[key].sen_id],sum(smatrix[sens[key].sen_id])
       print '\n'
     """
-  print '[summary]:'
-  ocnt = 1
-  for sen in sums:
-    print '[%d] %s diversity:'%(ocnt,sen.sen_order),sen.topic_diversity, 'weight:', sen.weight,'tol_words:', sen.tol_words, 'sen_len:', sen.sen_len, 'rank:', sen.rank_weight
-    print sen.sen_str
-    ocnt += 1
-
-  print '[GreedySearch] ','sents:',sents_cnt, 'words:',words_cnt
   return sums
 
 def AutoSum(input_file, output_file, vtype='tfidf', w2vec_data=None):
   senlist = ReadText(input_file)
-  #senlist = ReadDucText(input_file)
   TfIdfVector(senlist)
   smatrix = None
   if vtype == 'tfidf':
@@ -979,14 +744,12 @@ def AutoSum(input_file, output_file, vtype='tfidf', w2vec_data=None):
     #TfIdfBaseSentenceClustering(senlist)
     #smatrix = GetSimMatrix(senlist, 'tfidf')
     if Nsim == False:
-      #ConBaseSentenceClustering(senlist)
-      TfIdfBaseSentenceClustering(senlist)
+      ConBaseSentenceClustering(senlist)
       #smatrix = GetSimMatrix(senlist, w2v_similarity)
       smatrix = GetSimMatrixWithUnusedWord(senlist, w2v_similarity)
     else:
       #smatrix = GetNSimMatrix(senlist, w2vec_data[0], w2v_similarity)
       smatrix = GetNSimMatrixWithUnusedWord(senlist, w2vec_data[0], w2v_similarity)
-      ManiFoldRanking(senlist, w2vec_data[0])
       #SimSentenceClustering(smatrix,senlist)
       #ConBaseSentenceClustering(senlist)
       TfIdfBaseSentenceClustering(senlist)
@@ -1015,11 +778,7 @@ def ROUGE(sysdoc_dir, modeldoc_dir, prefix_name, vtype='tfidf'):
   r.system_filename_pattern = prefix_name + '.' + vtype + '(\d+).txt'
   r.model_filename_pattern = prefix_name + model_name_suffix #'.(\d).gold'
   output = r.evaluate()
-  #print(output)
-  lines = output.split('\n')
-  for line in lines:
-    if line.find(u'Eval 1.1') > 0:
-      print global_task_id,line
+  print(output)
   output_dict = r.output_to_dict(output)
   return output_dict
 
@@ -1060,11 +819,7 @@ def ProcessAllFile(input_dir, output_dir, model_dir, vtype='tfidf'):
     input_file = input_dir + filename
     if os.path.isfile(input_file):
       prefix_name = filename.split('.')[0]
-      global global_task_id
-      global_task_id = prefix_name
-      #if prefix_name != 'D0942H-A':
-      #  continue
-      print '================='*3,cnt,prefix_name,'================='*3
+      print cnt,prefix_name
       output_path = output_dir + prefix_name + '/'
       output_file = output_path + prefix_name + '.' + vtype + '001.txt'
       if not os.path.exists(output_path):
@@ -1078,7 +833,7 @@ def ProcessAllFile(input_dir, output_dir, model_dir, vtype='tfidf'):
           sum_dict[k] = v
         else:
           sum_dict[k] += v
-      print '======================================'*3,'\n'
+
       cnt += 1
       if run_cases > 0 and cnt >= run_cases:
         break

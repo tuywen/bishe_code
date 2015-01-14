@@ -1,0 +1,1369 @@
+nohup: ignoring input
+/usr/local/lib/python2.7/dist-packages/numpy/core/fromnumeric.py:2499: VisibleDeprecationWarning: `rank` is deprecated; use the `ndim` attribute or function instead. To find the rank of a matrix see `numpy.linalg.matrix_rank`.
+  VisibleDeprecationWarning)
+load word2vec vectors: 16359 300
+=================================================== 0 D0923D-A ===================================================
+[Topic]: Real ID Act Report on issues regarding the Real ID Act, both intended and unintended.
+[Words]: [u'real', u'id', u'act', u'report', u'issu', u'regard', u'real', u'id', u'act', u'intend', u'unintend']
+[IDF WORD SIZE]: 688
+[not found word cnt in w2v]: 24
+2015-01-08 16:40:56,254 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpLWq6iC/rouge_conf.xml
+2015-01-08 16:40:56,254 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpLWq6iC/rouge_conf.xml
+[In search]: 36.8558322545 36.8558322545 36.8558322545
+[In search]: 65.6362868531 28.7804545985 65.6362868531
+[In search]: 92.6438732954 27.0075864423 92.6438732954
+[In search]: 118.427529667 25.7836563714 118.427529667
+[In search]: 142.919424891 24.4918952244 142.919424891
+[summary]:
+[1] diversity: 0.833333333333 tol_words: 29 sen_len: 21
+touted as an antiterrorism measure, the "real id act" would also overturn laws in nine states that allow illegal immigrants to obtain driver's licenses.
+[2] diversity: 0.833333333333 tol_words: 24 sen_len: 14
+the real id act would require states to verify that people who apply for a driver's license are in the country legally.
+[3] diversity: 0.833333333333 tol_words: 47 sen_len: 28
+jeff lungren, a sensenbrenner spokesman, monday rejected the notion that the bill could use further debate, arguing that the policy proposals contained in the real id act have been public since sensenbrenner tried unsuccessfully to include them in the 2004 intelligence overhaul law.
+[4] diversity: 0.833333333333 tol_words: 31 sen_len: 17
+the real id act was added to the spending bill in the house in an effort spearheaded by rep. james sensenbrenner, r-wis., chairman of the house judiciary committee.
+[GreedySearch]  sents: 4 words: 80
+D0923D-A 1 ROUGE-1 Eval 1.1 R:0.35732 P:0.30000 F:0.32616
+D0923D-A 1 ROUGE-2 Eval 1.1 R:0.09023 P:0.07563 F:0.08229
+D0923D-A 1 ROUGE-3 Eval 1.1 R:0.03797 P:0.03178 F:0.03460
+D0923D-A 1 ROUGE-4 Eval 1.1 R:0.01279 P:0.01068 F:0.01164
+D0923D-A 1 ROUGE-L Eval 1.1 R:0.22084 P:0.18542 F:0.20159
+D0923D-A 1 ROUGE-W-1.2 Eval 1.1 R:0.05981 P:0.12634 F:0.08119
+D0923D-A 1 ROUGE-SU4 Eval 1.1 R:0.11767 P:0.09837 F:0.10716
+============================================================================================================================================= 
+
+=================================================== 1 D0913C-A ===================================================
+[Topic]: Ten Commandments Describe developments in the two cases before the U.S. Supreme Court regarding the public display of the Ten Commandments.
+[Words]: [u'ten', u'command', u'describ', u'develop', u'two', u'case', u'u.s.', u'suprem', u'court', u'regard', u'public', u'display', u'ten', u'command']
+[IDF WORD SIZE]: 1267
+[not found word cnt in w2v]: 55
+2015-01-08 16:41:22,165 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpmrH7eZ/rouge_conf.xml
+2015-01-08 16:41:22,165 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpmrH7eZ/rouge_conf.xml
+[In search]: 83.6755703962 83.6755703962 83.6755703962
+[In search]: 154.449022806 70.7734524098 154.449022806
+[In search]: 226.370347513 71.9213247068 226.370347513
+[In search]: 294.982711582 68.6123640693 294.982711582
+[In search]: 364.321433573 69.3387219906 364.321433573
+[summary]:
+[1] diversity: 1.0 tol_words: 29 sen_len: 17
+the justices of the supreme court appeared to wrestle with contradictory impulses as they heard arguments on wednesday in two cases challenging government displays of the ten commandments.
+[2] diversity: 0.818181818182 tol_words: 45 sen_len: 24
+the us supreme court on wednesday  was to review the displaying in public spaces of the ten  commandments, the fundamental moral precepts of judeo-christian  religions, in a case that could define the extent of separation of  church and state in american society.
+[3] diversity: 0.909090909091 tol_words: 38 sen_len: 22
+wednesday, the supreme court reviewed two cases, one a challenge  to the display of framed copies of the ten commandments in two  kentucky courthouses, among other documents that form the basis of  us laws.
+[4] diversity: 0.545454545455 tol_words: 15 sen_len: 10
+the kentucky case involves the constitutionality of ten commandments displays in two county courthouses.
+[GreedySearch]  sents: 4 words: 73
+D0913C-A 1 ROUGE-1 Eval 1.1 R:0.48861 P:0.40546 F:0.44317
+D0913C-A 1 ROUGE-2 Eval 1.1 R:0.17647 P:0.14619 F:0.15991
+D0913C-A 1 ROUGE-3 Eval 1.1 R:0.10336 P:0.08547 F:0.09357
+D0913C-A 1 ROUGE-4 Eval 1.1 R:0.05744 P:0.04741 F:0.05195
+D0913C-A 1 ROUGE-L Eval 1.1 R:0.29873 P:0.24790 F:0.27095
+D0913C-A 1 ROUGE-W-1.2 Eval 1.1 R:0.08176 P:0.17000 F:0.11042
+D0913C-A 1 ROUGE-SU4 Eval 1.1 R:0.22246 P:0.18374 F:0.20125
+============================================================================================================================================= 
+
+=================================================== 2 D0931F-A ===================================================
+[Topic]: A.Q. Khan nuclear technology transfer Report information on the activities, motives, and connections of Dr. Abdul Qadeer Khan relating to the transfer of nuclear technology. Also report relevant government responses.
+[Words]: [u'a.q', u'khan', u'nuclear', u'technolog', u'transfer', u'report', u'inform', u'activ', u'motiv', u'connect', u'dr.', u'abdul', u'qadeer', u'khan', u'relat', u'transfer', u'nuclear', u'technolog', u'also', u'report', u'relev', u'govern', u'respons']
+[IDF WORD SIZE]: 1692
+[not found word cnt in w2v]: 122
+2015-01-08 16:42:06,016 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpINUesi/rouge_conf.xml
+2015-01-08 16:42:06,016 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpINUesi/rouge_conf.xml
+[In search]: 206.337374463 206.337374463 206.337374463
+[In search]: 403.239235258 196.901860795 403.239235258
+[In search]: 600.626236202 197.387000944 600.626236202
+[In search]: 796.581104899 195.954868697 796.581104899
+[summary]:
+[1] diversity: 1.0 tol_words: 41 sen_len: 24
+the government expressed skepticism thursday over a claim by an iranian opposition group that abdul qadeer khan, the disgraced father of pakistan's nuclear program, had given iran a blueprint for a nuclear bomb and some weapons-grade uranium.
+[2] diversity: 0.857142857143 tol_words: 43 sen_len: 28
+abdul qadeer khan, the father of the pakistani atomic bomb, delivered weapons grade highly enriched uranium to iran in 2001, and iran aims at getting a nuclear bomb next year, an iranian opposition group said in vienna wednesday.
+[3] diversity: 0.571428571429 tol_words: 27 sen_len: 17
+"pakistan has been cooperating with the iaea and the international community to thwart international black-marketeers from proliferating sensitive nuclear technology," masood khan said.
+[GreedySearch]  sents: 3 words: 69
+D0931F-A 1 ROUGE-1 Eval 1.1 R:0.34146 P:0.34653 F:0.34398
+D0931F-A 1 ROUGE-2 Eval 1.1 R:0.05911 P:0.06000 F:0.05955
+D0931F-A 1 ROUGE-3 Eval 1.1 R:0.01990 P:0.02020 F:0.02005
+D0931F-A 1 ROUGE-4 Eval 1.1 R:0.00503 P:0.00510 F:0.00506
+D0931F-A 1 ROUGE-L Eval 1.1 R:0.20000 P:0.20297 F:0.20147
+D0931F-A 1 ROUGE-W-1.2 Eval 1.1 R:0.05476 P:0.14029 F:0.07877
+D0931F-A 1 ROUGE-SU4 Eval 1.1 R:0.12020 P:0.12203 F:0.12111
+============================================================================================================================================= 
+
+=================================================== 3 D0905A-A ===================================================
+[Topic]: wind turbines Describe arguments for and against wind turbines, noting any growth of opposition to wind farms.
+[Words]: [u'wind', u'turbin', u'describ', u'argument', u'wind', u'turbin', u'note', u'growth', u'opposit', u'wind', u'farm']
+[IDF WORD SIZE]: 1032
+[not found word cnt in w2v]: 55
+2015-01-08 16:42:23,849 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpjEpgIA/rouge_conf.xml
+2015-01-08 16:42:23,850 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpjEpgIA/rouge_conf.xml
+[In search]: 54.224587392 54.224587392 54.224587392
+[In search]: 98.2169197776 43.9923323855 98.2169197776
+[In search]: 139.673893523 41.4569737453 139.673893523
+[In search]: 181.609047779 41.935154256 181.609047779
+[In search]: 222.978425541 41.3693777622 222.978425541
+[summary]:
+[1] diversity: 0.75 tol_words: 15 sen_len: 11
+the proposed nantucket sound project would be the country's first offshore wind farm.
+[2] diversity: 1.0 tol_words: 44 sen_len: 25
+under the current plan, "a year from now, turbine number 16 will be the third highest point in massachusetts," says eleanor tillinghast, co-founder of green berkshires, inc., a group formed to oppose wind farm power.
+[3] diversity: 0.75 tol_words: 45 sen_len: 30
+in new york, the long island power authority (lipa) plans to build 40 wind turbines off southern long island as part of a state program that requires utilities to produce 25 percent of their energy portfolio from renewable sources by 2013.
+[4] diversity: 0.75 tol_words: 42 sen_len: 24
+advocates of wind power cite denmark as an example, saying the country generates 20 percent or more of its energy from wind, and davies of greenpeace says the record there suggests that offshore wind farms can become tourism destinations.
+[GreedySearch]  sents: 4 words: 90
+D0905A-A 1 ROUGE-1 Eval 1.1 R:0.33162 P:0.24808 F:0.28383
+D0905A-A 1 ROUGE-2 Eval 1.1 R:0.05714 P:0.04264 F:0.04884
+D0905A-A 1 ROUGE-3 Eval 1.1 R:0.01575 P:0.01172 F:0.01344
+D0905A-A 1 ROUGE-4 Eval 1.1 R:0.00531 P:0.00394 F:0.00452
+D0905A-A 1 ROUGE-L Eval 1.1 R:0.21080 P:0.15769 F:0.18042
+D0905A-A 1 ROUGE-W-1.2 Eval 1.1 R:0.05509 P:0.10299 F:0.07178
+D0905A-A 1 ROUGE-SU4 Eval 1.1 R:0.10220 P:0.07592 F:0.08712
+============================================================================================================================================= 
+
+=================================================== 4 D0936G-A ===================================================
+[Topic]: filling Sandra Day O'Connor's Supreme Court seat Discuss the resignation of Sandra Day O'Connor from the Supreme Court and the selection of her replacement.
+[Words]: [u'fill', u'sandra', u'day', u"o'connor", u"'s", u'suprem', u'court', u'seat', u'discuss', u'resign', u'sandra', u'day', u"o'connor", u'suprem', u'court', u'select', u'replac']
+[IDF WORD SIZE]: 870
+[not found word cnt in w2v]: 43
+2015-01-08 16:42:35,779 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpumcah5/rouge_conf.xml
+2015-01-08 16:42:35,779 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpumcah5/rouge_conf.xml
+[In search]: 55.0004029652 55.0004029652 55.0004029652
+[In search]: 100.979267114 45.9788641491 100.979267114
+[In search]: 138.902550114 37.9232829994 138.902550114
+[In search]: 177.128948507 38.2263983932 177.128948507
+[In search]: 210.290848155 33.1618996482 210.290848155
+[In search]: 247.53214021 37.2412920551 247.53214021
+[summary]:
+[1] diversity: 0.727272727273 tol_words: 36 sen_len: 23
+sandra day o'connor, the first  woman ever appointed to the us supreme court, said friday that she is retiring, giving us president george w. bush his first  opportunity to appoint a justice.
+[2] diversity: 0.727272727273 tol_words: 29 sen_len: 17
+republicans and democrats are geared up for a major political  fight over a successor to supreme court justice sandra day o'connor,  who announced her retirement last friday.
+[3] diversity: 0.454545454545 tol_words: 15 sen_len: 14
+first female us supreme court justice o'connor resigns by stephen collinson attention - updates ///
+[4] diversity: 1.0 tol_words: 29 sen_len: 16
+just when we thought there was no new speculation about president bush's pending replacement of sandra day o'connor on the supreme court, along comes a surprise.
+[5] diversity: 0.454545454545 tol_words: 41 sen_len: 25
+the new supreme court justice must be a strong advocate for civil rights, and naacp members are pressuring lawmakers to make that a priority in the selection process, naacp officials said at the group's annual convention saturday.
+[GreedySearch]  sents: 5 words: 95
+D0936G-A 1 ROUGE-1 Eval 1.1 R:0.43596 P:0.31383 F:0.36495
+D0936G-A 1 ROUGE-2 Eval 1.1 R:0.12189 P:0.08750 F:0.10187
+D0936G-A 1 ROUGE-3 Eval 1.1 R:0.05276 P:0.03777 F:0.04402
+D0936G-A 1 ROUGE-4 Eval 1.1 R:0.02538 P:0.01812 F:0.02114
+D0936G-A 1 ROUGE-L Eval 1.1 R:0.25616 P:0.18440 F:0.21444
+D0936G-A 1 ROUGE-W-1.2 Eval 1.1 R:0.06923 P:0.12556 F:0.08925
+D0936G-A 1 ROUGE-SU4 Eval 1.1 R:0.15304 P:0.10934 F:0.12755
+============================================================================================================================================= 
+
+=================================================== 5 D0921D-A ===================================================
+[Topic]: Michael Jackson Report on events involving Michael Jackson after his arrest for alleged child molestation.  Include the effect on Jackson, people's reactions to the arrest, and investigations and other preparations for the trial.
+[Words]: [u'michael', u'jackson', u'report', u'event', u'involv', u'michael', u'jackson', u'arrest', u'alleg', u'child', u'molest', u'includ', u'effect', u'jackson', u'peopl', u"'s", u'reaction', u'arrest', u'investig', u'prepar', u'trial']
+[IDF WORD SIZE]: 704
+[not found word cnt in w2v]: 40
+2015-01-08 16:42:40,624 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpr_u3pu/rouge_conf.xml
+2015-01-08 16:42:40,624 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpr_u3pu/rouge_conf.xml
+[In search]: 47.5162876422 47.5162876422 47.5162876422
+[In search]: 83.2600838636 35.7437962214 83.2600838636
+[In search]: 117.593125343 34.3330414796 117.593125343
+[In search]: 153.19572161 35.6025962672 153.19572161
+[In search]: 186.224909211 33.0291876007 186.224909211
+[In search]: 218.75438932 32.5294801089 218.75438932
+[summary]:
+[1] diversity: 1.0 tol_words: 35 sen_len: 23
+investigators took dna from pop star michael jackson's mouth saturday, a day after raiding his neverland ranch to prepare for his trial on child molestation charges, a family source said sunday.
+[2] diversity: 0.636363636364 tol_words: 26 sen_len: 18
+police and investigators probing child molestation charges against superstar michael jackson on friday launched a fresh search on his famed neverland ranch, detectives said.
+[3] diversity: 0.363636363636 tol_words: 38 sen_len: 26
+steve cochran took a "temporary leave of absence" from the team defending jackson from child molestation charges, but will continue to "collaborate" with lead attorney thomas mesereau jr., jackson said friday.
+[4] diversity: 0.545454545455 tol_words: 30 sen_len: 19
+the bombshell was dropped during a pre-trial hearing in jackson's child molestation case when prosecutors revealed they had recently discovered documents linking miko brando with the alleged crime.
+[5] diversity: 0.363636363636 tol_words: 30 sen_len: 13
+his lawyers have complained that investigations and searches are still being carried out more than a year after jackson was arrested and charged, delaying progress in the case.
+[GreedySearch]  sents: 5 words: 99
+D0921D-A 1 ROUGE-1 Eval 1.1 R:0.46683 P:0.32759 F:0.38501
+D0921D-A 1 ROUGE-2 Eval 1.1 R:0.07692 P:0.05382 F:0.06333
+D0921D-A 1 ROUGE-3 Eval 1.1 R:0.02005 P:0.01399 F:0.01648
+D0921D-A 1 ROUGE-4 Eval 1.1 R:0.00000 P:0.00000 F:0.00000
+D0921D-A 1 ROUGE-L Eval 1.1 R:0.27027 P:0.18966 F:0.22290
+D0921D-A 1 ROUGE-W-1.2 Eval 1.1 R:0.07152 P:0.12652 F:0.09138
+D0921D-A 1 ROUGE-SU4 Eval 1.1 R:0.13457 P:0.09368 F:0.11046
+============================================================================================================================================= 
+
+=================================================== 6 D0906B-A ===================================================
+[Topic]: rains and mudslides in Southern California Describe the effects and responses to the heavy rainfall and mudslides in Southern California.
+[Words]: [u'rain', u'mudslid', u'southern', u'california', u'describ', u'effect', u'respons', u'heavi', u'rainfal', u'mudslid', u'southern', u'california']
+[IDF WORD SIZE]: 721
+[not found word cnt in w2v]: 47
+2015-01-08 16:42:51,127 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpaXziKB/rouge_conf.xml
+2015-01-08 16:42:51,127 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpaXziKB/rouge_conf.xml
+[In search]: 41.7753601711 41.7753601711 41.7753601711
+[In search]: 69.3069751425 27.5316149714 69.3069751425
+[In search]: 100.554687425 31.247712282 100.554687425
+[In search]: 131.251004088 30.6963166639 131.251004088
+[summary]:
+[1] diversity: 1.0 tol_words: 43 sen_len: 27
+a fourth day of thrashing thunderstorms began to take a heavier toll on southern california on sunday with at least three deaths blamed on the rain, as flooding and mudslides forced road closures and emergency crews carried out harrowing rescue operations.
+[2] diversity: 0.4 tol_words: 40 sen_len: 21
+roads were clogged with rain and mud, and at least 720 crashes were reported sunday, more than three times the number of accidents during the previous sunday when streets were dry, the california highway patrol said.
+[3] diversity: 0.4 tol_words: 40 sen_len: 22
+downtown los angeles has had more than 15 inches of rain since jan. 1, more than its average rainfall for an entire year, including 2.6 inches on sunday, a record, the national weather service said.
+[GreedySearch]  sents: 3 words: 70
+D0906B-A 1 ROUGE-1 Eval 1.1 R:0.34673 P:0.30531 F:0.32470
+D0906B-A 1 ROUGE-2 Eval 1.1 R:0.07868 P:0.06920 F:0.07364
+D0906B-A 1 ROUGE-3 Eval 1.1 R:0.01795 P:0.01577 F:0.01679
+D0906B-A 1 ROUGE-4 Eval 1.1 R:0.00777 P:0.00682 F:0.00726
+D0906B-A 1 ROUGE-L Eval 1.1 R:0.22111 P:0.19469 F:0.20706
+D0906B-A 1 ROUGE-W-1.2 Eval 1.1 R:0.05913 P:0.13067 F:0.08142
+D0906B-A 1 ROUGE-SU4 Eval 1.1 R:0.10671 P:0.09366 F:0.09976
+============================================================================================================================================= 
+
+=================================================== 7 D0909B-A ===================================================
+[Topic]: Northern Ireland Peace Process Outline developments in the Northern Ireland Peace Process.
+[Words]: [u'northern', u'ireland', u'peac', u'process', u'outlin', u'develop', u'northern', u'ireland', u'peac', u'process']
+[IDF WORD SIZE]: 470
+[not found word cnt in w2v]: 43
+2015-01-08 16:42:55,041 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpFlKSgO/rouge_conf.xml
+2015-01-08 16:42:55,041 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpFlKSgO/rouge_conf.xml
+[In search]: 32.8961525827 32.8961525827 32.8961525827
+[In search]: 56.5709929079 23.6748403251 56.5709929079
+[In search]: 82.6482118681 26.0772189602 82.6482118681
+[In search]: 105.144384466 22.4961725983 105.144384466
+[summary]:
+[1] diversity: 1.0 tol_words: 41 sen_len: 24
+irish prime minister bertie ahern  admitted on tuesday that he had held a series of private one-on-one  meetings on the northern ireland peace process with sinn fein leader  gerry adams, but denied they had been secret in any way.
+[2] diversity: 0.571428571429 tol_words: 48 sen_len: 28
+the irish and british governments hope for an answer before the  august holiday period from the ira, which declared a ceasefire in  its campaign to end british rule in northern ireland ahead of a 1998  good friday peace deal which largely ended 30 years of violence.
+[3] diversity: 0.857142857143 tol_words: 41 sen_len: 28
+he said it would also put "enormous pressure" on northern  ireland's largest party, the hardline democratic unionist party led  by ian paisley, "to come on board the peace process" for the first  time.
+[GreedySearch]  sents: 3 words: 80
+D0909B-A 1 ROUGE-1 Eval 1.1 R:0.41604 P:0.34298 F:0.37599
+D0909B-A 1 ROUGE-2 Eval 1.1 R:0.11392 P:0.09375 F:0.10286
+D0909B-A 1 ROUGE-3 Eval 1.1 R:0.04092 P:0.03361 F:0.03691
+D0909B-A 1 ROUGE-4 Eval 1.1 R:0.01034 P:0.00847 F:0.00931
+D0909B-A 1 ROUGE-L Eval 1.1 R:0.24060 P:0.19835 F:0.21744
+D0909B-A 1 ROUGE-W-1.2 Eval 1.1 R:0.06410 P:0.13268 F:0.08644
+D0909B-A 1 ROUGE-SU4 Eval 1.1 R:0.13820 P:0.11338 F:0.12457
+============================================================================================================================================= 
+
+=================================================== 8 D0925E-A ===================================================
+[Topic]: Apple Computer switch to Intel chips Trace plans for and progress of the switch to Intel chips by Apple Computer.
+[Words]: [u'appl', u'comput', u'switch', u'intel', u'chip', u'trace', u'plan', u'progress', u'switch', u'intel', u'chip', u'appl', u'comput']
+[IDF WORD SIZE]: 1018
+[not found word cnt in w2v]: 94
+2015-01-08 16:43:06,661 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpyskNPQ/rouge_conf.xml
+2015-01-08 16:43:06,661 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpyskNPQ/rouge_conf.xml
+[In search]: 69.0842391198 69.0842391198 69.0842391198
+[In search]: 124.843451056 55.7592119364 124.843451056
+[In search]: 180.428259018 55.5848079623 180.428259018
+[In search]: 238.234830811 57.8065717923 238.234830811
+[In search]: 292.512347864 54.2775170534 292.512347864
+[summary]:
+[1] diversity: 1.0 tol_words: 41 sen_len: 25
+in a risky move that could further shrink its minuscule slice of the pc market, apple computer inc. announced plans monday to switch its macintosh computers to the same intel corp. chips used in systems that run microsoft windows.
+[2] diversity: 0.714285714286 tol_words: 43 sen_len: 28
+steven p. jobs is preparing to take an unprecedented gamble by abandoning apple computer's 14-year commitment to chips developed by ibm and motorola in favor of intel processors for his macintosh computers, industry executives informed of the decision said sunday.
+[3] diversity: 0.428571428571 tol_words: 42 sen_len: 27
+"it's been 10 years since our transition to the powerpc, and we think intel's technology will help us create the best personal  computers for the next 10 years," said steve jobs, apple's ceo.
+[4] diversity: 0.714285714286 tol_words: 30 sen_len: 15
+by switching to intel, they said, apple may be able to cut prices on its computers and compete more directly against low-cost sellers such as dell inc.
+[GreedySearch]  sents: 4 words: 95
+D0925E-A 1 ROUGE-1 Eval 1.1 R:0.51471 P:0.36207 F:0.42510
+D0925E-A 1 ROUGE-2 Eval 1.1 R:0.13119 P:0.09201 F:0.10816
+D0925E-A 1 ROUGE-3 Eval 1.1 R:0.07500 P:0.05245 F:0.06173
+D0925E-A 1 ROUGE-4 Eval 1.1 R:0.05808 P:0.04049 F:0.04772
+D0925E-A 1 ROUGE-L Eval 1.1 R:0.33088 P:0.23276 F:0.27328
+D0925E-A 1 ROUGE-W-1.2 Eval 1.1 R:0.09000 P:0.15969 F:0.11512
+D0925E-A 1 ROUGE-SU4 Eval 1.1 R:0.21015 P:0.14666 F:0.17276
+============================================================================================================================================= 
+
+=================================================== 9 D0944H-A ===================================================
+[Topic]: Roper vs. Simmons Supreme Court case Track developments in the Supreme Court's consideration of the juvenile death penalty in the Roper vs. Simmons case.
+[Words]: [u'roper', u'vs.', u'simmon', u'suprem', u'court', u'case', u'track', u'develop', u'suprem', u'court', u"'s", u'consider', u'juvenil', u'death', u'penalti', u'roper', u'vs.', u'simmon', u'case']
+[IDF WORD SIZE]: 1424
+[not found word cnt in w2v]: 92
+2015-01-08 16:43:36,086 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpuS2Jan/rouge_conf.xml
+2015-01-08 16:43:36,086 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpuS2Jan/rouge_conf.xml
+[In search]: 111.071286955 111.071286955 111.071286955
+[In search]: 210.470969463 99.3996825084 210.470969463
+[In search]: 311.78301159 101.312042127 311.78301159
+[In search]: 407.662318915 95.8793073254 407.662318915
+[In search]: 504.451789821 96.7894709055 504.451789821
+[In search]: 597.053860404 92.602070583 597.053860404
+[summary]:
+[1] diversity: 0.875 tol_words: 30 sen_len: 16
+using the simmons case, the u.s. supreme court will hear arguments wednesday on whether it is constitutional to execute killers who were juveniles when the crimes were committed.
+[2] diversity: 0.625 tol_words: 25 sen_len: 14
+last year, the court actually reinstated the death penalty of a juvenile offender in oklahoma after a federal appeals court had blocked it.
+[3] diversity: 0.75 tol_words: 43 sen_len: 25
+the court agreed to hear the case after the missouri supreme court last year struck down executions of juveniles and re-sentenced simmons, now 28, to life in prison, deciding that such executions violate "evolving standards of decency."
+[4] diversity: 0.625 tol_words: 34 sen_len: 17
+his advocates have said that executing people who kill as juveniles would be just as wrong as putting to death the mentally challenged, a practice outlawed by the supreme court in 2002.
+[5] diversity: 0.875 tol_words: 22 sen_len: 12
+roper v. simmons presents the court with an opportunity to strike down the death penalty for crimes committed by a juvenile.
+[GreedySearch]  sents: 5 words: 84
+D0944H-A 1 ROUGE-1 Eval 1.1 R:0.45679 P:0.32343 F:0.37871
+D0944H-A 1 ROUGE-2 Eval 1.1 R:0.14464 P:0.10211 F:0.11971
+D0944H-A 1 ROUGE-3 Eval 1.1 R:0.07557 P:0.05319 F:0.06244
+D0944H-A 1 ROUGE-4 Eval 1.1 R:0.02799 P:0.01964 F:0.02308
+D0944H-A 1 ROUGE-L Eval 1.1 R:0.31605 P:0.22378 F:0.26203
+D0944H-A 1 ROUGE-W-1.2 Eval 1.1 R:0.08559 P:0.15260 F:0.10967
+D0944H-A 1 ROUGE-SU4 Eval 1.1 R:0.18428 P:0.12945 F:0.15207
+============================================================================================================================================= 
+
+=================================================== 10 D0924D-A ===================================================
+[Topic]: Vioxx Report on events that occurred following Merck's decision to take Vioxx off the market.
+[Words]: [u'vioxx', u'report', u'event', u'occur', u'follow', u'merck', u"'s", u'decis', u'take', u'vioxx', u'market']
+[IDF WORD SIZE]: 1105
+[not found word cnt in w2v]: 84
+2015-01-08 16:43:49,139 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpfNmg2n/rouge_conf.xml
+2015-01-08 16:43:49,139 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpfNmg2n/rouge_conf.xml
+[In search]: 65.2160045106 65.2160045106 65.2160045106
+[In search]: 114.919318236 49.7033137254 114.919318236
+[In search]: 167.884715342 52.9653971064 167.884715342
+[In search]: 222.337962022 54.4532466797 222.337962022
+[In search]: 268.894023573 46.5560615507 268.894023573
+[summary]:
+[1] diversity: 1.0 tol_words: 49 sen_len: 29
+the pharmaceutical firm merck faces a new class-action lawsuit in canada, filed on behalf of two people who suffered heart attacks after taking the company's pain medication vioxx, which was taken off the market worldwide because of such risks, plaintiffs' lawyers said friday.
+[2] diversity: 0.6 tol_words: 38 sen_len: 22
+a study sponsored by the us food and drug administration estimates that merck painkiller vioxx, withdrawn from the market in september, could have caused 27,785 heart attacks or deaths since it was approved in 1999.
+[3] diversity: 0.4 tol_words: 33 sen_len: 18
+the european medicines agency is to review all drugs in the same class as vioxx after us pharmaceutical giant merck withdrew the arthritis drug, a spokesman for the agency said friday.
+[4] diversity: 1.0 tol_words: 38 sen_len: 22
+merck announced that it would withdraw vioxx from the market after it learned on sept. 23 that the drug's users were twice as likely to suffer heart attacks or strokes as test subjects receiving a placebo.
+[GreedySearch]  sents: 4 words: 91
+D0924D-A 1 ROUGE-1 Eval 1.1 R:0.50122 P:0.34396 F:0.40796
+D0924D-A 1 ROUGE-2 Eval 1.1 R:0.14568 P:0.09966 F:0.11835
+D0924D-A 1 ROUGE-3 Eval 1.1 R:0.07232 P:0.04932 F:0.05865
+D0924D-A 1 ROUGE-4 Eval 1.1 R:0.04534 P:0.03082 F:0.03670
+D0924D-A 1 ROUGE-L Eval 1.1 R:0.33252 P:0.22819 F:0.27065
+D0924D-A 1 ROUGE-W-1.2 Eval 1.1 R:0.09047 P:0.15665 F:0.11470
+D0924D-A 1 ROUGE-SU4 Eval 1.1 R:0.19331 P:0.13155 F:0.15656
+============================================================================================================================================= 
+
+=================================================== 11 D0928E-A ===================================================
+[Topic]: trials of Tyco's Dennis Kozlowski Follow the legal proceedings in the criminal trials of Tyco Chief Dennis Kozlowski.
+[Words]: [u'trial', u'tyco', u"'s", u'denni', u'kozlowski', u'follow', u'legal', u'proceed', u'crimin', u'trial', u'tyco', u'chief', u'denni', u'kozlowski']
+[IDF WORD SIZE]: 869
+[not found word cnt in w2v]: 76
+2015-01-08 16:43:58,304 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpSIx7z4/rouge_conf.xml
+2015-01-08 16:43:58,304 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpSIx7z4/rouge_conf.xml
+[In search]: 49.2621350641 49.2621350641 49.2621350641
+[In search]: 88.0893330135 38.8271979494 88.0893330135
+[In search]: 127.371322289 39.2819892755 127.371322289
+[In search]: 164.773453297 37.4021310085 164.773453297
+[summary]:
+[1] diversity: 0.857142857143 tol_words: 40 sen_len: 26
+a judge refused to combine a retrial of larceny charges against former tyco international ltd. chief executive l. dennis kozlowski with a trial on charges that he failed to pay sales taxes on $13 million worth of art.
+[2] diversity: 0.714285714286 tol_words: 40 sen_len: 29
+in denying the prosecution's consolidation request on monday, state supreme court justice michael obus noted that the larceny trial, set to begin jan. 18, includes tyco's former chief financial officer mark swartz, 44.
+[3] diversity: 0.714285714286 tol_words: 38 sen_len: 23
+the first trial of kozlowski and tyco chief financial officer mark swartz ended in a sensational mistrial after a juror favoring acquittal found herself in the middle of a media frenzy and ultimately received a threatening note.
+[GreedySearch]  sents: 3 words: 78
+D0928E-A 1 ROUGE-1 Eval 1.1 R:0.41582 P:0.37045 F:0.39183
+D0928E-A 1 ROUGE-2 Eval 1.1 R:0.13918 P:0.12385 F:0.13107
+D0928E-A 1 ROUGE-3 Eval 1.1 R:0.06510 P:0.05787 F:0.06127
+D0928E-A 1 ROUGE-4 Eval 1.1 R:0.04737 P:0.04206 F:0.04456
+D0928E-A 1 ROUGE-L Eval 1.1 R:0.29337 P:0.26136 F:0.27644
+D0928E-A 1 ROUGE-W-1.2 Eval 1.1 R:0.08546 P:0.19056 F:0.11800
+D0928E-A 1 ROUGE-SU4 Eval 1.1 R:0.17439 P:0.15489 F:0.16406
+============================================================================================================================================= 
+
+=================================================== 12 D0934G-A ===================================================
+[Topic]: death of Yassar Arafat Discuss the final illness and death of Yassar Arafat and the funeral preparations.
+[Words]: [u'death', u'yassar', u'arafat', u'discuss', u'final', u'ill', u'death', u'yassar', u'arafat', u'funer', u'prepar']
+[IDF WORD SIZE]: 481
+[not found word cnt in w2v]: 18
+2015-01-08 16:44:00,845 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpRqMLSm/rouge_conf.xml
+2015-01-08 16:44:00,845 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpRqMLSm/rouge_conf.xml
+[In search]: 45.4141707668 45.4141707668 45.4141707668
+[In search]: 74.625973175 29.2118024082 74.625973175
+[In search]: 105.711536812 31.0855636375 105.711536812
+[In search]: 136.460415848 30.7488790353 136.460415848
+[summary]:
+[1] diversity: 1.0 tol_words: 35 sen_len: 20
+an agreement on funeral arrangements to be made in the aftermath of yasser arafat's death was reached tuesday by israeli and palestinian officials, a senior palestinian official said on condition of anonymity.
+[2] diversity: 0.333333333333 tol_words: 48 sen_len: 30
+arafat's deputy in the palestine liberation organization, mahmoud abbas, and palestinian prime minister, ahmed qurei, were asked by the fatah central committee on sunday to speak directly to arafat's doctors, nabil shaath, a palestinian minister, said sunday evening.
+[3] diversity: 0.333333333333 tol_words: 37 sen_len: 30
+nov 9: arafat's spokeswoman leila shahid says the four leaders -- abbas, prime minister ahmed qorei, foreign minister nabil shaath and parliament speaker rawhi fattuh qorei -- will see the ailing arafat.
+[GreedySearch]  sents: 3 words: 80
+D0934G-A 1 ROUGE-1 Eval 1.1 R:0.31606 P:0.29327 F:0.30424
+D0934G-A 1 ROUGE-2 Eval 1.1 R:0.05497 P:0.05097 F:0.05289
+D0934G-A 1 ROUGE-3 Eval 1.1 R:0.01852 P:0.01716 F:0.01781
+D0934G-A 1 ROUGE-4 Eval 1.1 R:0.00535 P:0.00495 F:0.00514
+D0934G-A 1 ROUGE-L Eval 1.1 R:0.16580 P:0.15385 F:0.15960
+D0934G-A 1 ROUGE-W-1.2 Eval 1.1 R:0.04516 P:0.10457 F:0.06308
+D0934G-A 1 ROUGE-SU4 Eval 1.1 R:0.09059 P:0.08388 F:0.08711
+============================================================================================================================================= 
+
+=================================================== 13 D0920D-A ===================================================
+[Topic]: Cat Stevens Provide information about Cat Stevens, aka Yusuf Islam.
+[Words]: [u'cat', u'steven', u'provid', u'inform', u'cat', u'steven', u'aka', u'yusuf', u'islam']
+[IDF WORD SIZE]: 444
+[not found word cnt in w2v]: 26
+2015-01-08 16:44:09,161 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmp48G51U/rouge_conf.xml
+2015-01-08 16:44:09,161 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmp48G51U/rouge_conf.xml
+[In search]: 33.170525606 33.170525606 33.170525606
+[In search]: 53.6453201795 20.4747945735 53.6453201795
+[In search]: 70.4030330673 16.7577128878 70.4030330673
+[In search]: 89.2728453468 18.8698122795 89.2728453468
+[summary]:
+[1] diversity: 1.0 tol_words: 38 sen_len: 18
+the singer formerly known as cat stevens, now yusuf islam, is trying to get off the no-fly list after he was removed from a london-to-washington flight because the list said he had links to terrorists.
+[2] diversity: 1.0 tol_words: 68 sen_len: 38
+ask loeffler and his bandmates/siblings sam and pete to list the music that influenced the band's sound, and they'll list helmet, tool, sinead o'connor and yusuf islam -- the artist once known as cat stevens and most recently in the news as being on the united state's no-fly list for alleged ties to terrorism, an accusation the artist vehemently denies.
+[3] diversity: 0.5 tol_words: 25 sen_len: 14
+"yusuf islam has been placed on the watch lists because of activities that could potentially be related to terrorism," doyle said.
+[GreedySearch]  sents: 3 words: 70
+D0920D-A 1 ROUGE-1 Eval 1.1 R:0.38084 P:0.31250 F:0.34330
+D0920D-A 1 ROUGE-2 Eval 1.1 R:0.07444 P:0.06098 F:0.06704
+D0920D-A 1 ROUGE-3 Eval 1.1 R:0.02005 P:0.01639 F:0.01804
+D0920D-A 1 ROUGE-4 Eval 1.1 R:0.00253 P:0.00207 F:0.00228
+D0920D-A 1 ROUGE-L Eval 1.1 R:0.24816 P:0.20363 F:0.22370
+D0920D-A 1 ROUGE-W-1.2 Eval 1.1 R:0.06073 P:0.12560 F:0.08187
+D0920D-A 1 ROUGE-SU4 Eval 1.1 R:0.12237 P:0.09993 F:0.11002
+============================================================================================================================================= 
+
+=================================================== 14 D0937G-A ===================================================
+[Topic]: Vice President Cheney shooting Harry Whittington Discuss the shooting of Harry Whittington by Vice President Cheney and the results and reactions to this incident.
+[Words]: [u'vice', u'presid', u'cheney', u'shoot', u'harri', u'whittington', u'discuss', u'shoot', u'harri', u'whittington', u'vice', u'presid', u'cheney', u'result', u'reaction', u'incid']
+[IDF WORD SIZE]: 983
+[not found word cnt in w2v]: 71
+2015-01-08 16:44:26,720 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmp85Rv0K/rouge_conf.xml
+2015-01-08 16:44:26,721 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmp85Rv0K/rouge_conf.xml
+[In search]: 73.5123265866 73.5123265866 73.5123265866
+[In search]: 139.255522722 65.7431961358 139.255522722
+[In search]: 198.441381343 59.1858586204 198.441381343
+[In search]: 261.342464087 62.9010827439 261.342464087
+[In search]: 321.073370349 59.7309062626 321.073370349
+[summary]:
+[1] diversity: 0.714285714286 tol_words: 24 sen_len: 13
+cheney's spokeswoman, lea anne mcbride, said the vice president was with whittington and his wife at the hospital on sunday.
+[2] diversity: 1.0 tol_words: 35 sen_len: 21
+the accident occurred saturday when the vice president wheeled to shoot at a covey of quail and accidentally sprayed his hunting partner, 78-year-old attorney harry whittington, with bird shot, authorities said.
+[3] diversity: 0.285714285714 tol_words: 49 sen_len: 32
+mcclellan said president bush learned there had been a hunting accident from white house chief of staff andrew card about 7:30 p.m. est saturday and learned that cheney had been the shooter shortly before 8 p.m. est when updated by deputy white house chief of staff karl rove.
+[4] diversity: 0.571428571429 tol_words: 40 sen_len: 23
+harry whittington, cheney's hunting companion during a quail  hunting trip in texas on saturday, was mostly injured on his right side, with shotgun pellets hitting his cheek, neck and chest, the  reports said.
+[GreedySearch]  sents: 4 words: 89
+D0937G-A 1 ROUGE-1 Eval 1.1 R:0.48492 P:0.34712 F:0.40461
+D0937G-A 1 ROUGE-2 Eval 1.1 R:0.11421 P:0.08152 F:0.09514
+D0937G-A 1 ROUGE-3 Eval 1.1 R:0.02564 P:0.01825 F:0.02132
+D0937G-A 1 ROUGE-4 Eval 1.1 R:0.01036 P:0.00735 F:0.00860
+D0937G-A 1 ROUGE-L Eval 1.1 R:0.30151 P:0.21583 F:0.25157
+D0937G-A 1 ROUGE-W-1.2 Eval 1.1 R:0.07980 P:0.14335 F:0.10253
+D0937G-A 1 ROUGE-SU4 Eval 1.1 R:0.16007 P:0.11369 F:0.13295
+============================================================================================================================================= 
+
+=================================================== 15 D0911C-A ===================================================
+[Topic]: Bobby Fischer Describe efforts to secure asylum in Iceland for chess legend Bobby Fischer.
+[Words]: [u'bobbi', u'fischer', u'describ', u'effort', u'secur', u'asylum', u'iceland', u'chess', u'legend', u'bobbi', u'fischer']
+[IDF WORD SIZE]: 601
+[not found word cnt in w2v]: 48
+2015-01-08 16:44:33,881 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmphZWBfG/rouge_conf.xml
+2015-01-08 16:44:33,881 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmphZWBfG/rouge_conf.xml
+[In search]: 58.2529001938 58.2529001938 58.2529001938
+[In search]: 102.372491496 44.1195913026 102.372491496
+[In search]: 146.493698321 44.1212068246 146.493698321
+[In search]: 192.524315242 46.030616921 192.524315242
+[In search]: 237.509420781 44.9851055391 237.509420781
+[summary]:
+[1] diversity: 1.0 tol_words: 42 sen_len: 22
+chess legend bobby fischer was on  monday granted citizenship by the parliament of iceland, a move  which could allow him to avoid deportation from japan to the united  states where he is wanted for violating sanctions against the former  yugoslavia.
+[2] diversity: 0.625 tol_words: 41 sen_len: 24
+iceland's parliament voted monday to grant icelandic citizenship to the american chess champion bobby fischer, laying the groundwork, his supporters said, for his release from the japanese prison where he has been detained since last summer.
+[3] diversity: 0.25 tol_words: 34 sen_len: 21
+mizuho fukushima, leader of japan's opposition social democratic party, said senior immigration officials told her that fischer would be allowed to go to iceland if he is given citizenship there.
+[4] diversity: 0.25 tol_words: 48 sen_len: 24
+he said fischer, 62, would be informed of the vote tuesday morning in japan, where he has been detained awaiting deportation to the united states on a warrant for violating economic sanctions against the former yugoslavia by playing a chess match there in 1992.
+[GreedySearch]  sents: 4 words: 91
+D0911C-A 1 ROUGE-1 Eval 1.1 R:0.53266 P:0.34868 F:0.42147
+D0911C-A 1 ROUGE-2 Eval 1.1 R:0.16497 P:0.10762 F:0.13026
+D0911C-A 1 ROUGE-3 Eval 1.1 R:0.05641 P:0.03667 F:0.04445
+D0911C-A 1 ROUGE-4 Eval 1.1 R:0.01813 P:0.01174 F:0.01425
+D0911C-A 1 ROUGE-L Eval 1.1 R:0.31156 P:0.20395 F:0.24652
+D0911C-A 1 ROUGE-W-1.2 Eval 1.1 R:0.08614 P:0.14154 F:0.10710
+D0911C-A 1 ROUGE-SU4 Eval 1.1 R:0.20611 P:0.13365 F:0.16215
+============================================================================================================================================= 
+
+=================================================== 16 D0907B-A ===================================================
+[Topic]: John Yoo Describe the views and activities of John C. Yoo.
+[Words]: [u'john', u'yoo', u'describ', u'view', u'activ', u'john', u'c.', u'yoo']
+[IDF WORD SIZE]: 592
+[not found word cnt in w2v]: 24
+2015-01-08 16:44:45,094 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpMoI4u4/rouge_conf.xml
+2015-01-08 16:44:45,094 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpMoI4u4/rouge_conf.xml
+[In search]: 35.6929832528 35.6929832528 35.6929832528
+[In search]: 57.8063068765 22.1133236236 57.8063068765
+[In search]: 79.2505693836 21.4442625072 79.2505693836
+[In search]: 100.221395038 20.9708256542 100.221395038
+[summary]:
+[1] diversity: 1.0 tol_words: 46 sen_len: 28
+``what the administration is saying is we're not going to torture people,'' said john c. yoo, a university of california, berkeley law professor who as a deputy assistant attorney general during bush's first term worked on torture policies.
+[2] diversity: 0.8 tol_words: 52 sen_len: 36
+one item was described as a ``memorandum from james ho, attorney-advisor, (justice department) office of legal counsel, to john yoo, deputy assistant attorney general, olc, re: interpretation of geneva conventions' common article 3 (feb. 1, 2002).''
+[3] diversity: 0.6 tol_words: 50 sen_len: 29
+of all the claims of an electoral mandate made by president bush's supporters, none were as bizarre as the one offered by john yoo, a former justice department lawyer who helped draft the cynical justifications for the illegal detention and torture of "unlawful combatants."
+[GreedySearch]  sents: 3 words: 93
+D0907B-A 1 ROUGE-1 Eval 1.1 R:0.36543 P:0.30328 F:0.33147
+D0907B-A 1 ROUGE-2 Eval 1.1 R:0.09227 P:0.07645 F:0.08362
+D0907B-A 1 ROUGE-3 Eval 1.1 R:0.04030 P:0.03333 F:0.03649
+D0907B-A 1 ROUGE-4 Eval 1.1 R:0.01527 P:0.01261 F:0.01381
+D0907B-A 1 ROUGE-L Eval 1.1 R:0.21481 P:0.17828 F:0.19485
+D0907B-A 1 ROUGE-W-1.2 Eval 1.1 R:0.05869 P:0.12266 F:0.07939
+D0907B-A 1 ROUGE-SU4 Eval 1.1 R:0.12468 P:0.10300 F:0.11281
+============================================================================================================================================= 
+
+=================================================== 17 D0903A-A ===================================================
+[Topic]: solar power Track the growth of solar power worldwide in both plans for facilities and actual production of energy.
+[Words]: [u'solar', u'power', u'track', u'growth', u'solar', u'power', u'worldwid', u'plan', u'facil', u'actual', u'product', u'energi']
+[IDF WORD SIZE]: 991
+[not found word cnt in w2v]: 66
+2015-01-08 16:44:55,497 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpQcdEX_/rouge_conf.xml
+2015-01-08 16:44:55,497 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpQcdEX_/rouge_conf.xml
+[In search]: 69.4133205855 69.4133205855 69.4133205855
+[In search]: 131.495586922 62.0822663369 131.495586922
+[In search]: 191.145746718 59.6501597954 191.145746718
+[In search]: 249.53254815 58.3868014322 249.53254815
+[In search]: 306.473651715 56.9411035646 306.473651715
+[summary]:
+[1] diversity: 0.75 tol_words: 27 sen_len: 20
+solar energy systems, also called "pvs," short for photovoltaic cells, convert sunlight to electricity without combustion, creating power without pollution.
+[2] diversity: 1.0 tol_words: 44 sen_len: 24
+neely said that with the possibility of a solar power system paying for itself in fewer years, given the current energy price situation, he and his wife, nola, are seriously considering installing photovoltaic roof panels on their next house.
+[3] diversity: 1.0 tol_words: 41 sen_len: 24
+over the last year, the shares of evergreen solar, daystar technologies, energy conversion devices and spire -- all small domestic companies that make equipment for converting solar power into electricity -- have more than doubled in price.
+[4] diversity: 1.0 tol_words: 32 sen_len: 25
+using the sun to generate electricity is producing big energy savings for ok produce, said general manager brady matoian, whose massive commercial solar power system drew several visitors saturday.
+[GreedySearch]  sents: 4 words: 93
+D0903A-A 1 ROUGE-1 Eval 1.1 R:0.33249 P:0.26829 F:0.29696
+D0903A-A 1 ROUGE-2 Eval 1.1 R:0.04071 P:0.03279 F:0.03632
+D0903A-A 1 ROUGE-3 Eval 1.1 R:0.00514 P:0.00413 F:0.00458
+D0903A-A 1 ROUGE-4 Eval 1.1 R:0.00000 P:0.00000 F:0.00000
+D0903A-A 1 ROUGE-L Eval 1.1 R:0.23174 P:0.18699 F:0.20697
+D0903A-A 1 ROUGE-W-1.2 Eval 1.1 R:0.05719 P:0.11582 F:0.07657
+D0903A-A 1 ROUGE-SU4 Eval 1.1 R:0.10009 P:0.08033 F:0.08913
+============================================================================================================================================= 
+
+=================================================== 18 D0901A-A ===================================================
+[Topic]: Indian Pakistan conflict Describe efforts made toward peace in the India-Pakistan conflict over Kashmir.
+[Words]: [u'indian', u'pakistan', u'conflict', u'describ', u'effort', u'made', u'toward', u'peac', u'india-pakistan', u'conflict', u'kashmir']
+[IDF WORD SIZE]: 900
+[not found word cnt in w2v]: 92
+2015-01-08 16:45:04,673 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpjuFcKP/rouge_conf.xml
+2015-01-08 16:45:04,673 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpjuFcKP/rouge_conf.xml
+[In search]: 54.9060886941 54.9060886941 54.9060886941
+[In search]: 101.064548575 46.158459881 101.064548575
+[In search]: 148.964277369 47.8997287938 148.964277369
+[In search]: 191.819393302 42.855115933 191.819393302
+[In search]: 234.856323858 43.0369305561 234.856323858
+[summary]:
+[1] diversity: 0.8 tol_words: 42 sen_len: 24
+on wednesday, singh, the indian leader, expressed a commitment to make peace with pakistan, while islamabad hailed india's withdrawal of some of india's troops in kashmir _ a move hoped to spur the peace process.
+[2] diversity: 0.6 tol_words: 41 sen_len: 21
+when the british pulled out of the subcontinent in august 1947, they told the indian princes, including the hindu maharajah who ruled the mainly muslim territory of jammu and kashmir, to choose between joining india or pakistan.
+[3] diversity: 0.8 tol_words: 38 sen_len: 24
+india's prime minister will  personally flag off the first bus to travel between the indian and  pakistan zones of divided kashmir in almost six decades when the  service resumes next month, an official said saturday.
+[4] diversity: 0.6 tol_words: 43 sen_len: 27
+both countries have hinted that aziz's meeting with indian prime minister manmohan singh may produce agreement on opening bus service between the indian- and pakistani-controlled sections of kashmir for the first time in 57 years of conflict over the himalayan territory.
+[GreedySearch]  sents: 4 words: 96
+D0901A-A 1 ROUGE-1 Eval 1.1 R:0.46287 P:0.30757 F:0.36957
+D0901A-A 1 ROUGE-2 Eval 1.1 R:0.16000 P:0.10596 F:0.12749
+D0901A-A 1 ROUGE-3 Eval 1.1 R:0.08838 P:0.05833 F:0.07028
+D0901A-A 1 ROUGE-4 Eval 1.1 R:0.06378 P:0.04195 F:0.05061
+D0901A-A 1 ROUGE-L Eval 1.1 R:0.32921 P:0.21875 F:0.26285
+D0901A-A 1 ROUGE-W-1.2 Eval 1.1 R:0.08921 P:0.14921 F:0.11166
+D0901A-A 1 ROUGE-SU4 Eval 1.1 R:0.19153 P:0.12612 F:0.15209
+============================================================================================================================================= 
+
+=================================================== 19 D0914C-A ===================================================
+[Topic]: Egypt's Sinai resorts attacked Provide details of the attacks on Egypt's Sinai Penninsula resorts targetting Israeli tourists.
+[Words]: [u'egypt', u"'s", u'sinai', u'resort', u'attack', u'provid', u'detail', u'attack', u'egypt', u"'s", u'sinai', u'penninsula', u'resort', u'target', u'isra', u'tourist']
+[IDF WORD SIZE]: 658
+[not found word cnt in w2v]: 51
+2015-01-08 16:45:12,203 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpg03TsG/rouge_conf.xml
+2015-01-08 16:45:12,203 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpg03TsG/rouge_conf.xml
+[In search]: 51.0297105624 51.0297105624 51.0297105624
+[In search]: 92.5409783886 41.5112678263 92.5409783886
+[In search]: 134.854654295 42.3136759065 134.854654295
+[In search]: 173.256193348 38.4015390528 173.256193348
+[In search]: 213.001312236 39.7451188882 213.001312236
+[summary]:
+[1] diversity: 1.0 tol_words: 39 sen_len: 20
+he said there was vague but solid intelligence about a possible attack against israeli tourists in egypt's sinai, where as many as 12,000 israelis were traveling for the holidays, according to the israeli foreign ministry.
+[2] diversity: 0.888888888889 tol_words: 39 sen_len: 26
+a suspected car bomb ripped through a hotel on the red sea coast of egypt's sinai desert late thursday, one of three explosions targeting israelis that left at least 30 people dead and scores more wounded.
+[3] diversity: 0.777777777778 tol_words: 29 sen_len: 21
+at least 35 people were killed and 125 injured in three explosions targeting tourists in egypt's sinai desert region late thursday, an egyptian police source said.
+[4] diversity: 0.333333333333 tol_words: 39 sen_len: 23
+egyptian tourism minister ahmed al-maghrabi put the toll at more than 30 dead and 100 wounded from the three explosions in taba and two other resorts on the south sinai coast, an area popular with israeli holidaymakers.
+[GreedySearch]  sents: 4 words: 90
+D0914C-A 1 ROUGE-1 Eval 1.1 R:0.49123 P:0.35252 F:0.41047
+D0914C-A 1 ROUGE-2 Eval 1.1 R:0.11392 P:0.08152 F:0.09503
+D0914C-A 1 ROUGE-3 Eval 1.1 R:0.03581 P:0.02555 F:0.02982
+D0914C-A 1 ROUGE-4 Eval 1.1 R:0.01809 P:0.01287 F:0.01504
+D0914C-A 1 ROUGE-L Eval 1.1 R:0.26566 P:0.19065 F:0.22199
+D0914C-A 1 ROUGE-W-1.2 Eval 1.1 R:0.07120 P:0.12830 F:0.09158
+D0914C-A 1 ROUGE-SU4 Eval 1.1 R:0.16567 P:0.11797 F:0.13781
+============================================================================================================================================= 
+
+=================================================== 20 D0941H-A ===================================================
+[Topic]: Huygens probe Track the progress of the Huygen space probe.
+[Words]: [u'huygen', u'probe', u'track', u'progress', u'huygen', u'space', u'probe']
+[IDF WORD SIZE]: 785
+[not found word cnt in w2v]: 81
+2015-01-08 16:45:19,889 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpbEoU21/rouge_conf.xml
+2015-01-08 16:45:19,889 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpbEoU21/rouge_conf.xml
+[In search]: 50.3669235037 50.3669235037 50.3669235037
+[In search]: 86.2079792336 35.84105573 86.2079792336
+[In search]: 116.496915287 30.2889360531 116.496915287
+[In search]: 150.369017709 33.8721024221 150.369017709
+[summary]:
+[1] diversity: 0.8 tol_words: 25 sen_len: 16
+the european-made space probe huygens has successfully separated from the us spacecraft cassini and headed toward titan, a nasa official said on saturday.
+[2] diversity: 1.0 tol_words: 50 sen_len: 30
+applause burst out at the jet propulsion laboratory shortly after 7:24 p.m. pst, when scientists received word from nasa's deep space network tracking stations in spain and goldstone, calif., that the huygens probe had cast off after a seven-year piggyback ride on the cassini spacecraft.
+[3] diversity: 0.6 tol_words: 45 sen_len: 24
+the mission controllers also started timers on cassini to set the precise moment at which the huygens probe will be released from the orbiter and sent on its own ballistic trajectory -- with no ability to steer itself -- toward the planned landing site.
+[GreedySearch]  sents: 3 words: 70
+D0941H-A 1 ROUGE-1 Eval 1.1 R:0.39903 P:0.35652 F:0.37658
+D0941H-A 1 ROUGE-2 Eval 1.1 R:0.09828 P:0.08772 F:0.09270
+D0941H-A 1 ROUGE-3 Eval 1.1 R:0.03474 P:0.03097 F:0.03275
+D0941H-A 1 ROUGE-4 Eval 1.1 R:0.01253 P:0.01116 F:0.01181
+D0941H-A 1 ROUGE-L Eval 1.1 R:0.22871 P:0.20435 F:0.21584
+D0941H-A 1 ROUGE-W-1.2 Eval 1.1 R:0.06401 P:0.14448 F:0.08872
+D0941H-A 1 ROUGE-SU4 Eval 1.1 R:0.13988 P:0.12463 F:0.13182
+============================================================================================================================================= 
+
+=================================================== 21 D0939H-A ===================================================
+[Topic]: Glendale Describe the Glendale train crash, the cause of the crash, and the arrest and trial of the man accused of causing it.
+[Words]: [u'glendal', u'describ', u'glendal', u'train', u'crash', u'caus', u'crash', u'arrest', u'trial', u'man', u'accus', u'caus']
+[IDF WORD SIZE]: 972
+[not found word cnt in w2v]: 75
+2015-01-08 16:45:37,341 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpNUSFXf/rouge_conf.xml
+2015-01-08 16:45:37,341 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpNUSFXf/rouge_conf.xml
+[In search]: 69.7945684517 69.7945684517 69.7945684517
+[In search]: 130.824906618 61.0303381664 130.824906618
+[In search]: 191.248380097 60.4234734784 191.248380097
+[In search]: 253.224368939 61.9759888428 253.224368939
+[In search]: 314.798804914 61.5744359749 314.798804914
+[summary]:
+[1] diversity: 0.8 tol_words: 23 sen_len: 13
+police arrested a man who they said would be charged with homicide in the crash that left train cars mangled and seared.
+[2] diversity: 0.6 tol_words: 46 sen_len: 29
+a man intent on committing suicide left his car on a railroad track in glendale near downtown los angeles wednesday, where it set off a collision that derailed two commuter trains, killing at least 10 people and injuring nearly 200, authorities said.
+[3] diversity: 0.4 tol_words: 34 sen_len: 19
+"he exited the vehicle and stood  by as a southbound metrolink train struck his vehicle, causing the  train to derail and strike the northbound train," the police chief  said.
+[4] diversity: 0.4 tol_words: 52 sen_len: 29
+a "deranged" man abandoned his suv on railroad tracks when he aborted a suicide attempt, authorities said, and then watched as a metrolink commuter train slammed into it, setting off a spectacular three-train collision that left at 11 least dead and more than 180 injured wednesday.
+[GreedySearch]  sents: 4 words: 90
+D0939H-A 1 ROUGE-1 Eval 1.1 R:0.53885 P:0.38393 F:0.44839
+D0939H-A 1 ROUGE-2 Eval 1.1 R:0.19241 P:0.13669 F:0.15983
+D0939H-A 1 ROUGE-3 Eval 1.1 R:0.12020 P:0.08514 F:0.09968
+D0939H-A 1 ROUGE-4 Eval 1.1 R:0.09044 P:0.06387 F:0.07487
+D0939H-A 1 ROUGE-L Eval 1.1 R:0.30827 P:0.21964 F:0.25652
+D0939H-A 1 ROUGE-W-1.2 Eval 1.1 R:0.09763 P:0.17465 F:0.12525
+D0939H-A 1 ROUGE-SU4 Eval 1.1 R:0.24721 P:0.17476 F:0.20477
+============================================================================================================================================= 
+
+=================================================== 22 D0943H-A ===================================================
+[Topic]: trial for two suspects in Air India bombings Trace developments in the trial of Ripudaman Singh Malik and Ajaib Singh Bagri, two suspects in the Air India bombings.
+[Words]: [u'trial', u'two', u'suspect', u'air', u'india', u'bomb', u'trace', u'develop', u'trial', u'ripudaman', u'singh', u'malik', u'ajaib', u'singh', u'bagri', u'two', u'suspect', u'air', u'india', u'bomb']
+[IDF WORD SIZE]: 931
+[not found word cnt in w2v]: 159
+2015-01-08 16:45:53,417 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpBgF3Ca/rouge_conf.xml
+2015-01-08 16:45:53,417 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpBgF3Ca/rouge_conf.xml
+[In search]: 68.9863578882 68.9863578882 68.9863578882
+[In search]: 125.479857881 56.4934999931 125.479857881
+[In search]: 183.251649443 57.771791562 183.251649443
+[In search]: 240.796820223 57.5451707794 240.796820223
+[summary]:
+[1] diversity: 1.0 tol_words: 63 sen_len: 39
+both defendants -- ripudaman singh malik, a 57-year-old millionaire real estate entrepreneur, and ajaib singh bagri, a 56-year-old sawmill worker and sikh preacher -- pleaded not guilty to charges of first-degree murder and conspiracy in the bombing of the jet, air india flight 182 en route from toronto and montreal to india, on june 23, 1985.
+[2] diversity: 0.846153846154 tol_words: 50 sen_len: 33
+ripudaman singh malik, a 57-year-old millionaire, and ajaib singh bagri, 55, are charged with planting bombs that exploded june 23, 1985, aboard flight 182, killing 329 people, and 53 minutes earlier at tokyo's narita airport, killing two baggage handlers.
+[3] diversity: 0.846153846154 tol_words: 44 sen_len: 25
+the two sikh immigrants, ajaib singh bagri and ripudaman singh malik, are each charged with eight counts of murder and conspiracy in the bombing, the deadliest single terrorist act until the september 11, 2001 attacks in the united states.
+[GreedySearch]  sents: 3 words: 97
+D0943H-A 1 ROUGE-1 Eval 1.1 R:0.42040 P:0.30179 F:0.35135
+D0943H-A 1 ROUGE-2 Eval 1.1 R:0.07035 P:0.05036 F:0.05870
+D0943H-A 1 ROUGE-3 Eval 1.1 R:0.01777 P:0.01268 F:0.01480
+D0943H-A 1 ROUGE-4 Eval 1.1 R:0.00513 P:0.00365 F:0.00427
+D0943H-A 1 ROUGE-L Eval 1.1 R:0.25373 P:0.18214 F:0.21206
+D0943H-A 1 ROUGE-W-1.2 Eval 1.1 R:0.06628 P:0.11964 F:0.08530
+D0943H-A 1 ROUGE-SU4 Eval 1.1 R:0.13969 P:0.09951 F:0.11623
+============================================================================================================================================= 
+
+=================================================== 23 D0926E-A ===================================================
+[Topic]: Fossett and Global Flyer Trace Steve Fossett's flight around the world in the Global Flyer.
+[Words]: [u'fossett', u'global', u'flyer', u'trace', u'steve', u'fossett', u"'s", u'flight', u'around', u'world', u'global', u'flyer']
+[IDF WORD SIZE]: 1047
+[not found word cnt in w2v]: 133
+2015-01-08 16:46:10,048 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpBPLAkS/rouge_conf.xml
+2015-01-08 16:46:10,049 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpBPLAkS/rouge_conf.xml
+[In search]: 73.7146599642 73.7146599642 73.7146599642
+[In search]: 129.009229686 55.2945697217 129.009229686
+[In search]: 191.203504694 62.1942750076 191.203504694
+[In search]: 250.467343464 59.2638387706 250.467343464
+[In search]: 308.077623177 57.6102797133 308.077623177
+[In search]: 362.54039033 54.462767153 362.54039033
+[summary]:
+[1] diversity: 1.0 tol_words: 36 sen_len: 26
+the early stages of american  adventurer steve fossett's bid to make the first solo non-stop  flight around the world without refueling aboard the globalflyer  have gone "exactly as planned", organizers said.
+[2] diversity: 0.2 tol_words: 48 sen_len: 23
+fossett, who took off from here in the virgin atlantic  globalflyer on monday for a flight expected to last between 60 and  80 hours, said he had to deal with a number of "dramas" during  takeoff but the flight was going well overall.
+[3] diversity: 0.4 tol_words: 16 sen_len: 10
+"flying around the world has always been a great adventure," fossett says.
+[4] diversity: 0.5 tol_words: 36 sen_len: 20
+rutan also designed the voyager, which was used by his brother  dick rutan and jeanne yeager in 1986 to set a record of nine days  for a non-stop, non-refueled flight around the world.
+[5] diversity: 0.5 tol_words: 33 sen_len: 20
+one hundred one years after the wright brothers ushered in the age of powered flight, steve fossett is ready to tackle what may be the last great challenge in world aviation.
+[GreedySearch]  sents: 5 words: 99
+D0926E-A 1 ROUGE-1 Eval 1.1 R:0.41667 P:0.25974 F:0.32000
+D0926E-A 1 ROUGE-2 Eval 1.1 R:0.12105 P:0.07516 F:0.09274
+D0926E-A 1 ROUGE-3 Eval 1.1 R:0.05053 P:0.03125 F:0.03862
+D0926E-A 1 ROUGE-4 Eval 1.1 R:0.03226 P:0.01987 F:0.02459
+D0926E-A 1 ROUGE-L Eval 1.1 R:0.27865 P:0.17370 F:0.21400
+D0926E-A 1 ROUGE-W-1.2 Eval 1.1 R:0.07593 P:0.11816 F:0.09245
+D0926E-A 1 ROUGE-SU4 Eval 1.1 R:0.15848 P:0.09774 F:0.12091
+============================================================================================================================================= 
+
+=================================================== 24 D0912C-A ===================================================
+[Topic]: Cindy Sheehan Describe the anti-war protest efforts of Cindy Sheehan.
+[Words]: [u'cindi', u'sheehan', u'describ', u'anti-war', u'protest', u'effort', u'cindi', u'sheehan']
+[IDF WORD SIZE]: 843
+[not found word cnt in w2v]: 49
+2015-01-08 16:46:21,273 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmp0IHWIG/rouge_conf.xml
+2015-01-08 16:46:21,273 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmp0IHWIG/rouge_conf.xml
+[In search]: 44.5303042151 44.5303042151 44.5303042151
+[In search]: 77.7531320684 33.2228278533 77.7531320684
+[In search]: 107.812853254 30.0597211854 107.812853254
+[In search]: 137.362617413 29.5497641591 137.362617413
+[In search]: 171.410188754 34.0475713406 171.410188754
+[summary]:
+[1] diversity: 1.0 tol_words: 41 sen_len: 21
+i want the troops home," cindy sheehan, 48, of california, who staged a protest that she vowed on sunday to continue until she can personally ask bush: "why did you kill my son?
+[2] diversity: 1.0 tol_words: 50 sen_len: 27
+the mother, cindy sheehan, who has made regular public appearances in opposition to the war, was accompanied by several dozen chanting anti-war activists, including other parents who had lost children to the war, as she walked down a country road toward bush's ranch.
+[3] diversity: 0.75 tol_words: 42 sen_len: 24
+speaking to reporters after meeting with members of his national security team, bush said he has heard the voices of cindy sheehan and grieving family members who say the united states should leave iraq because of the mounting death toll.
+[4] diversity: 0.25 tol_words: 26 sen_len: 15
+sheehan did meet with bush in june 2004: she was among grieving military families who met with the president at fort lewis, washington.
+[GreedySearch]  sents: 4 words: 87
+D0912C-A 1 ROUGE-1 Eval 1.1 R:0.47631 P:0.33865 F:0.39585
+D0912C-A 1 ROUGE-2 Eval 1.1 R:0.08816 P:0.06250 F:0.07314
+D0912C-A 1 ROUGE-3 Eval 1.1 R:0.02036 P:0.01439 F:0.01686
+D0912C-A 1 ROUGE-4 Eval 1.1 R:0.00514 P:0.00362 F:0.00425
+D0912C-A 1 ROUGE-L Eval 1.1 R:0.28180 P:0.20035 F:0.23420
+D0912C-A 1 ROUGE-W-1.2 Eval 1.1 R:0.07385 P:0.13198 F:0.09471
+D0912C-A 1 ROUGE-SU4 Eval 1.1 R:0.15585 P:0.10994 F:0.12893
+============================================================================================================================================= 
+
+=================================================== 25 D0915C-A ===================================================
+[Topic]: Iraqi Elections Describe attacks on Iraqi voting stations intended to disrupt the January 30, 2005 elections.
+[Words]: [u'iraqi', u'elect', u'describ', u'attack', u'iraqi', u'vote', u'station', u'intend', u'disrupt', u'januari', u'30', u'2005', u'elect']
+[IDF WORD SIZE]: 959
+[not found word cnt in w2v]: 87
+2015-01-08 16:46:36,241 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpVbVp01/rouge_conf.xml
+2015-01-08 16:46:36,241 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpVbVp01/rouge_conf.xml
+[In search]: 69.5468451085 69.5468451085 69.5468451085
+[In search]: 129.051168695 59.5043235866 129.051168695
+[In search]: 190.024218253 60.9730495577 190.024218253
+[In search]: 245.974126966 55.9499087131 245.974126966
+[In search]: 301.06314827 55.0890213038 301.06314827
+[summary]:
+[1] diversity: 1.0 tol_words: 39 sen_len: 25
+insurgents set off a car bomb and  attacked voting stations and security forces in several iraqi cities  friday, killing at least six people as campaigning for the election  wrapped up and voters began casting their ballots abroad.
+[2] diversity: 0.833333333333 tol_words: 29 sen_len: 19
+four hundred iraqis have been killed so  far this month and dozens of voting stations attacked across iraq on  friday, a senior us military officer said saturday.
+[3] diversity: 1.0 tol_words: 38 sen_len: 23
+at least 30 people were killed in iraq  as insurgents intensified attacks on iraqi and us targets, and  election workers backed by troops started distributing ballot boxes  for the vote in just two days' time.
+[4] diversity: 0.833333333333 tol_words: 36 sen_len: 22
+an iraqi policeman was killed and two civilians wounded in a  host of attacks on buildings to be used as voting stations around  kirkuk, 250 kilometers (150 miles) north of the capital.
+[GreedySearch]  sents: 4 words: 89
+D0915C-A 1 ROUGE-1 Eval 1.1 R:0.35854 P:0.28053 F:0.31477
+D0915C-A 1 ROUGE-2 Eval 1.1 R:0.06158 P:0.04808 F:0.05400
+D0915C-A 1 ROUGE-3 Eval 1.1 R:0.01990 P:0.01550 F:0.01743
+D0915C-A 1 ROUGE-4 Eval 1.1 R:0.00503 P:0.00391 F:0.00440
+D0915C-A 1 ROUGE-L Eval 1.1 R:0.20976 P:0.16412 F:0.18415
+D0915C-A 1 ROUGE-W-1.2 Eval 1.1 R:0.05645 P:0.11153 F:0.07496
+D0915C-A 1 ROUGE-SU4 Eval 1.1 R:0.11185 P:0.08701 F:0.09788
+============================================================================================================================================= 
+
+=================================================== 26 D0910B-A ===================================================
+[Topic]: Tamil Tigers in Sri Lanka Describe developments in the struggle between Tamil rebels and the government of Sri Lanka.
+[Words]: [u'tamil', u'tiger', u'sri', u'lanka', u'describ', u'develop', u'struggl', u'tamil', u'rebel', u'govern', u'sri', u'lanka']
+[IDF WORD SIZE]: 451
+[not found word cnt in w2v]: 35
+2015-01-08 16:46:38,670 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpmnG_71/rouge_conf.xml
+2015-01-08 16:46:38,670 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpmnG_71/rouge_conf.xml
+[In search]: 38.2866045236 38.2866045236 38.2866045236
+[In search]: 67.460022972 29.1734184484 67.460022972
+[In search]: 95.1407071002 27.6806841283 95.1407071002
+[In search]: 123.176057506 28.035350406 123.176057506
+[In search]: 149.663834555 26.4877770489 149.663834555
+[summary]:
+[1] diversity: 1.0 tol_words: 40 sen_len: 26
+sri lanka's top tamil tiger rebel group on friday began a week-long meeting in switzerland which is meant to prepare for the next round of peace talks with the sri lankan government, the swiss foreign ministry said.
+[2] diversity: 0.875 tol_words: 27 sen_len: 17
+a total of 10 sri lanka's tamil tiger rebels were released on bail on thursday in the eastern batticaloa district, the pro-rebel tamilnet said.
+[3] diversity: 0.75 tol_words: 39 sen_len: 25
+japan's special envoy yasushi akashi arrived here on wednesday to start a seven-day visit to push for an early resumption of peace talks between the sri lankan government and the tamil tiger rebels, governmental sources said.
+[4] diversity: 0.75 tol_words: 38 sen_len: 24
+japanese special envoy yasushi akashi will arrive here later this month to push for the early resumption of peace talks between the sri lankan government and the tamil tiger rebels, the state-owned sunday observer newspaper reported.
+[GreedySearch]  sents: 4 words: 92
+D0910B-A 1 ROUGE-1 Eval 1.1 R:0.47980 P:0.33929 F:0.39749
+D0910B-A 1 ROUGE-2 Eval 1.1 R:0.16582 P:0.11691 F:0.13713
+D0910B-A 1 ROUGE-3 Eval 1.1 R:0.09021 P:0.06341 F:0.07447
+D0910B-A 1 ROUGE-4 Eval 1.1 R:0.06250 P:0.04380 F:0.05151
+D0910B-A 1 ROUGE-L Eval 1.1 R:0.30051 P:0.21250 F:0.24896
+D0910B-A 1 ROUGE-W-1.2 Eval 1.1 R:0.08179 P:0.14500 F:0.10459
+D0910B-A 1 ROUGE-SU4 Eval 1.1 R:0.21410 P:0.15018 F:0.17653
+============================================================================================================================================= 
+
+=================================================== 27 D0938G-A ===================================================
+[Topic]: preparations and planning for World Trade Center Memorial Discuss the planning, preparations, and funding issues for the memorial to the 9/11 World Trade Center disaster.
+[Words]: [u'prepar', u'plan', u'world', u'trade', u'center', u'memori', u'discuss', u'plan', u'prepar', u'fund', u'issu', u'memori', u'9/11', u'world', u'trade', u'center', u'disast']
+[IDF WORD SIZE]: 841
+[not found word cnt in w2v]: 63
+2015-01-08 16:46:48,100 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmp1Re9hA/rouge_conf.xml
+2015-01-08 16:46:48,100 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmp1Re9hA/rouge_conf.xml
+[In search]: 43.8275119995 43.8275119995 43.8275119995
+[In search]: 77.4762232087 33.6487112092 77.4762232087
+[In search]: 111.720731702 34.2445084937 111.720731702
+[In search]: 139.411629259 27.6908975566 139.411629259
+[In search]: 167.61981969 28.2081904313 167.61981969
+[summary]:
+[1] diversity: 0.875 tol_words: 26 sen_len: 18
+george e. pataki and mayor michael r. bloomberg were able wednesday to name 31 members of the board of the world trade center memorial foundation.
+[2] diversity: 0.75 tol_words: 35 sen_len: 20
+all four living former us presidents have agreed to become honorary directors of the project for a permanent memorial to the victims of the september 11, 2001 attack on the world trade center.
+[3] diversity: 1.0 tol_words: 53 sen_len: 30
+the task of raising half a billion dollars to build a world trade center memorial, a museum building and a performing arts center will fall to a foundation made up of captains of finance and real estate, cultural leaders, media heavyweights and seven relatives of those killed on 9/11.
+[4] diversity: 0.75 tol_words: 49 sen_len: 29
+"the construction of greenwich street through the world trade center site is another of the complex engineering issues that must be carefully studied and resolved as we move forward with the redevelopment," said kenneth j. ringler jr., the executive director of the port authority.
+[GreedySearch]  sents: 4 words: 97
+D0938G-A 1 ROUGE-1 Eval 1.1 R:0.50369 P:0.33717 F:0.40394
+D0938G-A 1 ROUGE-2 Eval 1.1 R:0.19851 P:0.13245 F:0.15889
+D0938G-A 1 ROUGE-3 Eval 1.1 R:0.11278 P:0.07500 F:0.09009
+D0938G-A 1 ROUGE-4 Eval 1.1 R:0.07089 P:0.04698 F:0.05651
+D0938G-A 1 ROUGE-L Eval 1.1 R:0.38084 P:0.25493 F:0.30542
+D0938G-A 1 ROUGE-W-1.2 Eval 1.1 R:0.10488 P:0.17698 F:0.13171
+D0938G-A 1 ROUGE-SU4 Eval 1.1 R:0.24895 P:0.16518 F:0.19859
+============================================================================================================================================= 
+
+=================================================== 28 D0927E-A ===================================================
+[Topic]: Peter Jennings Describe Peter Jennings' lung cancer and its effects.
+[Words]: [u'peter', u'jen', u'describ', u'peter', u'jen', u'lung', u'cancer', u'effect']
+[IDF WORD SIZE]: 946
+[not found word cnt in w2v]: 61
+2015-01-08 16:47:03,840 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpWoWhsS/rouge_conf.xml
+2015-01-08 16:47:03,840 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpWoWhsS/rouge_conf.xml
+[In search]: 64.6653996757 64.6653996757 64.6653996757
+[In search]: 110.672122222 46.0067225466 110.672122222
+[In search]: 156.061719127 45.389596905 156.061719127
+[In search]: 199.309180687 43.2474615598 199.309180687
+[In search]: 240.52953139 41.220350703 240.52953139
+[In search]: 282.357262247 41.8277308568 282.357262247
+[In search]: 328.199622437 45.8423601896 328.199622437
+[summary]:
+[1] diversity: 0.857142857143 tol_words: 26 sen_len: 14
+peter jennings, the last of the three long-dominant network anchors still on the job, said tuesday he has been diagnosed with lung cancer.
+[2] diversity: 0.857142857143 tol_words: 10 sen_len: 8
+abc news says peter jennings is diagnosed with lung cancer
+[3] diversity: 1.0 tol_words: 27 sen_len: 18
+"world news tonight" anchor peter jennings has lung cancer, abc announced tuesday, but plans to remain on the job throughout his treatment.
+[4] diversity: 1.0 tol_words: 8 sen_len: 7
+abc news anchorman peter jennings has lung cancer
+[5] diversity: 0.857142857143 tol_words: 26 sen_len: 16
+the first message was posted just six minutes after the news broke april 5 that abc anchor peter jennings had been diagnosed with lung cancer.
+[6] diversity: 0.142857142857 tol_words: 42 sen_len: 26
+after a four-month period in which tom brokaw retired at nbc, dan rather relinquished the anchor chair at cbs and ted koppel said he was leaving abc, jennings's illness underscored the generational shift underway at the broadcast networks.
+[GreedySearch]  sents: 6 words: 89
+D0927E-A 1 ROUGE-1 Eval 1.1 R:0.38168 P:0.29070 F:0.33003
+D0927E-A 1 ROUGE-2 Eval 1.1 R:0.11054 P:0.08398 F:0.09545
+D0927E-A 1 ROUGE-3 Eval 1.1 R:0.03896 P:0.02953 F:0.03360
+D0927E-A 1 ROUGE-4 Eval 1.1 R:0.02362 P:0.01786 F:0.02034
+D0927E-A 1 ROUGE-L Eval 1.1 R:0.23410 P:0.17829 F:0.20242
+D0927E-A 1 ROUGE-W-1.2 Eval 1.1 R:0.06511 P:0.12419 F:0.08543
+D0927E-A 1 ROUGE-SU4 Eval 1.1 R:0.13688 P:0.10356 F:0.11791
+============================================================================================================================================= 
+
+=================================================== 29 D0935G-A ===================================================
+[Topic]: return of Major League Baseball to Washington Describe the establishment of the MLB team in Washington and its initial impact.
+[Words]: [u'return', u'major', u'leagu', u'basebal', u'washington', u'describ', u'establish', u'mlb', u'team', u'washington', u'initi', u'impact']
+[IDF WORD SIZE]: 802
+[not found word cnt in w2v]: 47
+2015-01-08 16:47:12,201 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmp2InSGP/rouge_conf.xml
+2015-01-08 16:47:12,201 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmp2InSGP/rouge_conf.xml
+[In search]: 65.029558424 65.029558424 65.029558424
+[In search]: 116.858834884 51.8292764604 116.858834884
+[In search]: 164.425961294 47.5671264096 164.425961294
+[In search]: 215.642400202 51.2164389082 215.642400202
+[In search]: 266.327977424 50.6855772214 266.327977424
+[summary]:
+[1] diversity: 1.0 tol_words: 33 sen_len: 21
+the white house said thursday it hoped that the city of washington and major league baseball could still reach an agreement that would bring a professional team to the us capital city.
+[2] diversity: 0.857142857143 tol_words: 28 sen_len: 16
+critics of williams' plan said he was exaggerating the threat that major league baseball would take the team, renamed the nationals, to another city.
+[3] diversity: 0.285714285714 tol_words: 48 sen_len: 24
+the expos played their first regular-season game against the mets in 1969 and their last game against the mets on oct. 3, so it was only fitting that the washington nationals would play their first game against the mets on opening day in the grapefruit league.
+[4] diversity: 0.285714285714 tol_words: 38 sen_len: 20
+instead, the washington nationals would not have to pay $5.3 million (euro3.96 million) in rent if the ballpark is not ready for the 2008 season and the team has to remain at rfk.
+[GreedySearch]  sents: 4 words: 81
+D0935G-A 1 ROUGE-1 Eval 1.1 R:0.49254 P:0.35870 F:0.41510
+D0935G-A 1 ROUGE-2 Eval 1.1 R:0.13065 P:0.09489 F:0.10994
+D0935G-A 1 ROUGE-3 Eval 1.1 R:0.04822 P:0.03493 F:0.04051
+D0935G-A 1 ROUGE-4 Eval 1.1 R:0.01538 P:0.01111 F:0.01290
+D0935G-A 1 ROUGE-L Eval 1.1 R:0.30846 P:0.22464 F:0.25996
+D0935G-A 1 ROUGE-W-1.2 Eval 1.1 R:0.07818 P:0.14317 F:0.10113
+D0935G-A 1 ROUGE-SU4 Eval 1.1 R:0.18952 P:0.13701 F:0.15904
+============================================================================================================================================= 
+
+=================================================== 30 D0929E-A ===================================================
+[Topic]: Hurricane Rita Describe preparations for Hurricane Rita and estimates of its strength.
+[Words]: [u'hurrican', u'rita', u'describ', u'prepar', u'hurrican', u'rita', u'estim', u'strength']
+[IDF WORD SIZE]: 323
+[not found word cnt in w2v]: 23
+2015-01-08 16:47:14,052 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpGGD00k/rouge_conf.xml
+2015-01-08 16:47:14,052 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpGGD00k/rouge_conf.xml
+[In search]: 25.4783028268 25.4783028268 25.4783028268
+[In search]: 39.1900447001 13.7117418733 39.1900447001
+[In search]: 54.5118476659 15.3218029658 54.5118476659
+[In search]: 68.5908149941 14.0789673283 68.5908149941
+[In search]: 80.444825302 11.8540103079 80.444825302
+[In search]: 90.7335402461 10.2887149441 90.7335402461
+[summary]:
+[1] diversity: 1.0 tol_words: 27 sen_len: 16
+the texas coastal county of  galveston will order a mandatory evacuation on wednesday in  preparation for hurricane rita, the office of emergency management  said tuesday.
+[2] diversity: 0.6 tol_words: 31 sen_len: 23
+hurricane rita barreled near southern florida islands and headed  toward the gulf of mexico, threatening texas and louisiana with  winds of 160 kilometers per hour (100 mph).
+[3] diversity: 0.6 tol_words: 42 sen_len: 26
+hurricane rita was upgraded from a tropical storm as it  threatened the southeastern united states, forcing an alert in  southern florida and scuttling plans to repopulate new orleans after  hurricane katrina turned it into a ghost city three weeks earlier.
+[4] diversity: 0.6 tol_words: 33 sen_len: 21
+crude futures extended earlier losses, made on profit taking,  after surging more than four dollars on monday as rita looked set to  reach hurricane strength over the oil-rich gulf coast.
+[5] diversity: 0.6 tol_words: 10 sen_len: 9
+oil prices drop amid opec output pledge, hurricane rita
+[GreedySearch]  sents: 5 words: 95
+D0929E-A 1 ROUGE-1 Eval 1.1 R:0.46750 P:0.35417 F:0.40302
+D0929E-A 1 ROUGE-2 Eval 1.1 R:0.13889 P:0.10496 F:0.11956
+D0929E-A 1 ROUGE-3 Eval 1.1 R:0.06378 P:0.04808 F:0.05483
+D0929E-A 1 ROUGE-4 Eval 1.1 R:0.04639 P:0.03488 F:0.03982
+D0929E-A 1 ROUGE-L Eval 1.1 R:0.29000 P:0.21970 F:0.25000
+D0929E-A 1 ROUGE-W-1.2 Eval 1.1 R:0.07999 P:0.15222 F:0.10487
+D0929E-A 1 ROUGE-SU4 Eval 1.1 R:0.17123 P:0.12887 F:0.14706
+============================================================================================================================================= 
+
+=================================================== 31 D0919D-A ===================================================
+[Topic]: Marriage of Camilla Parker Bowles to Prince Charles Report on the marriage of Camilla Parker Bowles to Prince Charles.  Include engagement activities, planning for the wedding, and reaction to the engagement. Do not include Camilla's activities prior to her engagement.
+[Words]: [u'marriag', u'camilla', u'parker', u'bowl', u'princ', u'charl', u'report', u'marriag', u'camilla', u'parker', u'bowl', u'princ', u'charl', u'includ', u'engag', u'activ', u'plan', u'wed', u'reaction', u'engag', u'includ', u'camilla', u"'s", u'activ', u'prior', u'engag']
+[IDF WORD SIZE]: 872
+[not found word cnt in w2v]: 45
+2015-01-08 16:47:22,804 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpDBbwxo/rouge_conf.xml
+2015-01-08 16:47:22,804 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpDBbwxo/rouge_conf.xml
+[In search]: 68.0083297242 68.0083297242 68.0083297242
+[In search]: 125.618180196 57.6098504721 125.618180196
+[In search]: 177.028381823 51.4102016265 177.028381823
+[In search]: 229.807824234 52.7794424107 229.807824234
+[In search]: 276.92361443 47.1157901962 276.92361443
+[In search]: 322.882417756 45.9588033262 322.882417756
+[summary]:
+[1] diversity: 1.0 tol_words: 18 sen_len: 12
+prince charles is to marry his partner camilla parker bowles, the prince's office said thursday.
+[2] diversity: 0.9 tol_words: 33 sen_len: 20
+prince charles' sons william and harry are "delighted" at news he will marry camilla parker bowles, a spokesman for the heir to the throne's office said thursday.
+[3] diversity: 0.6 tol_words: 56 sen_len: 27
+charles and camilla _ divorcees and longtime lovers _ will marry in a civil ceremony, not in the church of england, and that parker bowles will be called her royal highness the duchess of cornwall after the marriage, and called the princess consort, not the queen, when charles becomes king.
+[4] diversity: 0.8 tol_words: 35 sen_len: 19
+"i am pleased that prince charles and mrs. camilla parker bowles have decided to take this important step," said the archbishop, who is the spiritual leader of the anglican communion.
+[5] diversity: 0.8 tol_words: 33 sen_len: 20
+many britons welcomed prince charles' surprise announcement that he would marry his lover camilla parker bowles, but some said she never will win their hearts the way princess diana did.
+[GreedySearch]  sents: 5 words: 98
+D0919D-A 1 ROUGE-1 Eval 1.1 R:0.51010 P:0.33224 F:0.40239
+D0919D-A 1 ROUGE-2 Eval 1.1 R:0.19388 P:0.12583 F:0.15261
+D0919D-A 1 ROUGE-3 Eval 1.1 R:0.09794 P:0.06333 F:0.07692
+D0919D-A 1 ROUGE-4 Eval 1.1 R:0.05469 P:0.03523 F:0.04285
+D0919D-A 1 ROUGE-L Eval 1.1 R:0.33081 P:0.21546 F:0.26096
+D0919D-A 1 ROUGE-W-1.2 Eval 1.1 R:0.09227 P:0.15067 F:0.11445
+D0919D-A 1 ROUGE-SU4 Eval 1.1 R:0.23227 P:0.14983 F:0.18216
+============================================================================================================================================= 
+
+=================================================== 32 D0940H-A ===================================================
+[Topic]: opening of Disneyland in Hong Kong Follow the developments connected with the opening of Disneyland in Hong Kong.
+[Words]: [u'open', u'disneyland', u'hong', u'kong', u'follow', u'develop', u'connect', u'open', u'disneyland', u'hong', u'kong']
+[IDF WORD SIZE]: 905
+[not found word cnt in w2v]: 77
+2015-01-08 16:47:31,431 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmptklGLS/rouge_conf.xml
+2015-01-08 16:47:31,432 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmptklGLS/rouge_conf.xml
+[In search]: 50.3406581982 50.3406581982 50.3406581982
+[In search]: 87.9559829637 37.6153247655 87.9559829637
+[In search]: 125.579383523 37.6234005594 125.579383523
+[In search]: 162.58013182 37.0007482965 162.58013182
+[In search]: 196.844009377 34.2638775571 196.844009377
+[summary]:
+[1] diversity: 1.0 tol_words: 48 sen_len: 27
+all of the 16,000 tickets for  the opening day of hong kong disneyland have been sold out and the park will open to the public from 1:00 p.m. (0300 gmt) on sept.  12, said eva cheng, hong kong commissioner for tourism here  thursday.
+[2] diversity: 0.8 tol_words: 21 sen_len: 13
+hong kong disneyland started its  on-line tickets selling friday and its spokesperson said the  process had been smooth so far.
+[3] diversity: 0.8 tol_words: 43 sen_len: 25
+but a disney spokeswoman, esther wong, said the company is "confident we can manage peak day attendance in the future and have designed our marketing and sales plan to manage attendance at hong kong disneyland throughout the year."
+[4] diversity: 1.0 tol_words: 33 sen_len: 21
+the government should enrich the tourist experience beyond shopping by developing more tourist sites and activities unique to hong kong, not just disneyland, market insights group director roland leung said.
+[GreedySearch]  sents: 4 words: 86
+D0940H-A 1 ROUGE-1 Eval 1.1 R:0.35840 P:0.26481 F:0.30458
+D0940H-A 1 ROUGE-2 Eval 1.1 R:0.07089 P:0.05224 F:0.06015
+D0940H-A 1 ROUGE-3 Eval 1.1 R:0.01535 P:0.01128 F:0.01300
+D0940H-A 1 ROUGE-4 Eval 1.1 R:0.00000 P:0.00000 F:0.00000
+D0940H-A 1 ROUGE-L Eval 1.1 R:0.21554 P:0.15926 F:0.18317
+D0940H-A 1 ROUGE-W-1.2 Eval 1.1 R:0.06049 P:0.11222 F:0.07861
+D0940H-A 1 ROUGE-SU4 Eval 1.1 R:0.11030 P:0.08092 F:0.09335
+============================================================================================================================================= 
+
+=================================================== 33 D0904A-A ===================================================
+[Topic]: white supremacists Describe the widespread activities of white supremacists and the efforts of those opposed to them to prevent violence.
+[Words]: [u'white', u'supremacist', u'describ', u'widespread', u'activ', u'white', u'supremacist', u'effort', u'oppos', u'prevent', u'violenc']
+[IDF WORD SIZE]: 556
+[not found word cnt in w2v]: 19
+2015-01-08 16:47:44,469 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpX_1gGk/rouge_conf.xml
+2015-01-08 16:47:44,469 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpX_1gGk/rouge_conf.xml
+[In search]: 45.3684968245 45.3684968245 45.3684968245
+[In search]: 78.3370029893 32.9685061648 78.3370029893
+[In search]: 113.424641544 35.0876385544 113.424641544
+[In search]: 145.137313873 31.7126723296 145.137313873
+[In search]: 174.598784686 29.4614708131 174.598784686
+[summary]:
+[1] diversity: 1.0 tol_words: 36 sen_len: 20
+the violence broke out after a group of nearly 80 white  supremacists of the virigina-based national socialist movement  assembled for a march against what they called black gang violence  against whites in the toledo neighborhood.
+[2] diversity: 0.75 tol_words: 42 sen_len: 19
+``there are black people who share the beliefs of white supremacists and who, by their actions, concede that white people hold the keys to everything we are and can become,'' he said in a telephone interview.
+[3] diversity: 0.75 tol_words: 31 sen_len: 12
+white supremacists, he said, "have more of a tendency to word of mouth, to say, 'hey, you ought to pick this up.'"
+[4] diversity: 0.75 tol_words: 41 sen_len: 25
+local and federal law enforcement officials said on tuesday that they were investigating possible connections between the double murder and matthew hale, the white supremacist currently in federal prison for soliciting lefkow's assassination, or his many sympathizers.
+[GreedySearch]  sents: 4 words: 76
+D0904A-A 1 ROUGE-1 Eval 1.1 R:0.37500 P:0.28977 F:0.32692
+D0904A-A 1 ROUGE-2 Eval 1.1 R:0.06683 P:0.05153 F:0.05819
+D0904A-A 1 ROUGE-3 Eval 1.1 R:0.01750 P:0.01346 F:0.01522
+D0904A-A 1 ROUGE-4 Eval 1.1 R:0.01010 P:0.00775 F:0.00877
+D0904A-A 1 ROUGE-L Eval 1.1 R:0.25245 P:0.19508 F:0.22009
+D0904A-A 1 ROUGE-W-1.2 Eval 1.1 R:0.06698 P:0.13055 F:0.08854
+D0904A-A 1 ROUGE-SU4 Eval 1.1 R:0.12122 P:0.09311 F:0.10532
+============================================================================================================================================= 
+
+=================================================== 34 D0922D-A ===================================================
+[Topic]: Patriot Act Provide information regarding the renewal of the US Patriot Act, passed shortly after the September 11, 2001 terrorist attacks.
+[Words]: [u'patriot', u'act', u'provid', u'inform', u'regard', u'renew', u'us', u'patriot', u'act', u'pass', u'shortli', u'septemb', u'11', u'2001', u'terrorist', u'attack']
+[IDF WORD SIZE]: 765
+[not found word cnt in w2v]: 47
+2015-01-08 16:47:50,849 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpcDXfF4/rouge_conf.xml
+2015-01-08 16:47:50,849 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpcDXfF4/rouge_conf.xml
+[In search]: 48.386475958 48.386475958 48.386475958
+[In search]: 88.0728252138 39.6863492558 88.0728252138
+[In search]: 124.325985014 36.2531598007 124.325985014
+[In search]: 161.188321052 36.8623360379 161.188321052
+[In search]: 196.585483002 35.3971619495 196.585483002
+[summary]:
+[1] diversity: 0.909090909091 tol_words: 41 sen_len: 23
+the patriot act, passed by congress a few weeks after the sept. 11, 2001, terror attacks, gave federal law enforcement officials broader powers of surveillance and prosecution against suspected terrorists, their financiers and their sympathizers.
+[2] diversity: 1.0 tol_words: 49 sen_len: 32
+washington -- an unusual left-right coalition opened a campaign tuesday to sharply curtail controversial provisions of the usa patriot act, showing that congress and president bush face a pointed debate over renewing the law enacted just 45 days after the sept. 11, 2001, terrorist attacks.
+[3] diversity: 0.727272727273 tol_words: 41 sen_len: 24
+president bush and attorney general alberto gonzales have called for renewal of the patriot act, the government's post-sept. 11, 2001, law that expanded its surveillance and prosecutorial powers against suspected terrorists, their associates and financiers.
+[4] diversity: 0.454545454545 tol_words: 33 sen_len: 18
+with key elements of the patriot act set to expire at the end of 2005, president bush has urged congress to renew the law as a valuable weapon in tracking terrorists.
+[GreedySearch]  sents: 4 words: 97
+D0922D-A 1 ROUGE-1 Eval 1.1 R:0.49492 P:0.32939 F:0.39553
+D0922D-A 1 ROUGE-2 Eval 1.1 R:0.14615 P:0.09694 F:0.11656
+D0922D-A 1 ROUGE-3 Eval 1.1 R:0.08031 P:0.05308 F:0.06392
+D0922D-A 1 ROUGE-4 Eval 1.1 R:0.03665 P:0.02414 F:0.02911
+D0922D-A 1 ROUGE-L Eval 1.1 R:0.31218 P:0.20777 F:0.24949
+D0922D-A 1 ROUGE-W-1.2 Eval 1.1 R:0.09047 P:0.15079 F:0.11309
+D0922D-A 1 ROUGE-SU4 Eval 1.1 R:0.19391 P:0.12787 F:0.15411
+============================================================================================================================================= 
+
+=================================================== 35 D0933F-A ===================================================
+[Topic]: cause of Schizophrenia Report theories, developments and progress in the search for a cause of schizophrenia. Include things that are found not to cause the disease.
+[Words]: [u'caus', u'schizophrenia', u'report', u'theori', u'develop', u'progress', u'search', u'caus', u'schizophrenia', u'includ', u'thing', u'found', u'caus', u'diseas']
+[IDF WORD SIZE]: 804
+[not found word cnt in w2v]: 32
+2015-01-08 16:48:03,872 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmp2rGC9r/rouge_conf.xml
+2015-01-08 16:48:03,872 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmp2rGC9r/rouge_conf.xml
+[In search]: 43.576328105 43.576328105 43.576328105
+[In search]: 80.8724687141 37.2961406091 80.8724687141
+[In search]: 117.574248286 36.7017795722 117.574248286
+[In search]: 154.876843607 37.3025953209 154.876843607
+[In search]: 188.129658182 33.252814575 188.129658182
+[summary]:
+[1] diversity: 0.4 tol_words: 27 sen_len: 16
+his study suggests that the epigenome may be involved in many diseases that can affect identical twins differently, like schizophrenia, bipolar disorder and cancer.
+[2] diversity: 0.4 tol_words: 33 sen_len: 20
+vaughan carr of the neuroscience institute of schizophrenia and  allied disorders said the discovery could provide a better  understanding of the genetic causes of the illness and eventually  lead to improved treatments.
+[3] diversity: 0.2 tol_words: 22 sen_len: 12
+researchers hope to pinpoint genes that may be turned on or off  in schizophrenia sufferers, leading to possible new treatments.
+[4] diversity: 0.6 tol_words: 52 sen_len: 30
+in a 2002 study published in the british medical journal bmj, murray reported that new zealand teenagers who started smoking marijuana before age 15 and continued doing so on a daily basis raised their risk of developing psychosis and schizophrenia from about 2 percent to as much as 10 percent.
+[GreedySearch]  sents: 4 words: 78
+D0933F-A 1 ROUGE-1 Eval 1.1 R:0.38107 P:0.29563 F:0.33296
+D0933F-A 1 ROUGE-2 Eval 1.1 R:0.08010 P:0.06200 F:0.06990
+D0933F-A 1 ROUGE-3 Eval 1.1 R:0.02089 P:0.01613 F:0.01820
+D0933F-A 1 ROUGE-4 Eval 1.1 R:0.00528 P:0.00407 F:0.00460
+D0933F-A 1 ROUGE-L Eval 1.1 R:0.23274 P:0.18056 F:0.20336
+D0933F-A 1 ROUGE-W-1.2 Eval 1.1 R:0.06321 P:0.12274 F:0.08345
+D0933F-A 1 ROUGE-SU4 Eval 1.1 R:0.12664 P:0.09764 F:0.11027
+============================================================================================================================================= 
+
+=================================================== 36 D0932F-A ===================================================
+[Topic]: plastic grocery bags What measures are governments taking to deal with the problem of plastic grocery bags? What are reactions to the measures?
+[Words]: [u'plastic', u'groceri', u'bag', u'measur', u'govern', u'take', u'deal', u'problem', u'plastic', u'groceri', u'bag', u'?', u'reaction', u'measur', u'?']
+[IDF WORD SIZE]: 1095
+[not found word cnt in w2v]: 49
+2015-01-08 16:48:16,709 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpmWyk2l/rouge_conf.xml
+2015-01-08 16:48:16,710 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpmWyk2l/rouge_conf.xml
+[In search]: 65.1698994366 65.1698994366 65.1698994366
+[In search]: 115.214785236 50.0448857998 115.214785236
+[In search]: 165.208933058 49.994147822 165.208933058
+[In search]: 217.664490159 52.4555571008 217.664490159
+[In search]: 269.445526492 51.7810363329 269.445526492
+[summary]:
+[1] diversity: 1.0 tol_words: 12 sen_len: 9
+"everybody i know uses plastic grocery bags for garbage bags.
+[2] diversity: 0.8 tol_words: 53 sen_len: 35
+my column explained that the san francisco department of the environment came up with the 17 cents by dividing the environmental cost of used grocery bags ($8.5 million annually) by the estimated number of plastic and paper bags distributed in san francisco supermarkets each year (50 million).
+[3] diversity: 0.4 tol_words: 44 sen_len: 24
+shestek, the american plastics council spokesman, said some of the costs attributed to plastic bags could be recouped by sending plastic bag waste to companies that can use it as a raw material, such as decking and composite lumber producers.
+[4] diversity: 0.4 tol_words: 26 sen_len: 15
+uganda will soon ban the  manufacture and importation of plastic bags and impose a hefty  levy on thicker ones, an environment official has said.
+[GreedySearch]  sents: 4 words: 83
+D0932F-A 1 ROUGE-1 Eval 1.1 R:0.30576 P:0.25000 F:0.27508
+D0932F-A 1 ROUGE-2 Eval 1.1 R:0.05063 P:0.04132 F:0.04550
+D0932F-A 1 ROUGE-3 Eval 1.1 R:0.00512 P:0.00417 F:0.00460
+D0932F-A 1 ROUGE-4 Eval 1.1 R:0.00000 P:0.00000 F:0.00000
+D0932F-A 1 ROUGE-L Eval 1.1 R:0.19799 P:0.16189 F:0.17813
+D0932F-A 1 ROUGE-W-1.2 Eval 1.1 R:0.05215 P:0.10705 F:0.07013
+D0932F-A 1 ROUGE-SU4 Eval 1.1 R:0.09399 P:0.07647 F:0.08433
+============================================================================================================================================= 
+
+=================================================== 37 D0917C-A ===================================================
+[Topic]: Pope election Describe developments in the process by which Roman Catholic cardinals choose a successor to Pope John Paul II.
+[Words]: [u'pope', u'elect', u'describ', u'develop', u'process', u'roman', u'cathol', u'cardin', u'choos', u'successor', u'pope', u'john', u'paul', u'ii']
+[IDF WORD SIZE]: 1417
+[not found word cnt in w2v]: 91
+2015-01-08 16:48:38,923 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmp7v7tyU/rouge_conf.xml
+2015-01-08 16:48:38,923 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmp7v7tyU/rouge_conf.xml
+[In search]: 76.0128226411 76.0128226411 76.0128226411
+[In search]: 140.062658206 64.0498355647 140.062658206
+[In search]: 205.532801017 65.4701428114 205.532801017
+[In search]: 266.22017573 60.6873747133 266.22017573
+[summary]:
+[1] diversity: 1.0 tol_words: 39 sen_len: 23
+black smoke rose from the chimney of the sistine chapel monday evening as cardinals of the roman catholic church signaled that they had voted inconclusively in their first attempt to elect a successor to pope john paul ii.
+[2] diversity: 0.714285714286 tol_words: 57 sen_len: 36
+cardinals from around the globe began their secret conclave to elect a new pope monday, filing into the sistine chapel in a solemn procession hours after the putative front-runner to succeed pope john paul ii, cardinal joseph ratzinger, inveighed against ideological fashions and urged his fellow cardinals to hold fast to church doctrine.
+[3] diversity: 0.785714285714 tol_words: 48 sen_len: 30
+in a historic gathering steeped in intrigue, cardinals from six continents on monday open their first conclave of the new millennium to elect a pope who will inherit john paul ii's mantle and guide the world's 1.1 billion roman catholics into a new era.
+[GreedySearch]  sents: 3 words: 89
+D0917C-A 1 ROUGE-1 Eval 1.1 R:0.40594 P:0.29496 F:0.34166
+D0917C-A 1 ROUGE-2 Eval 1.1 R:0.09000 P:0.06522 F:0.07563
+D0917C-A 1 ROUGE-3 Eval 1.1 R:0.04798 P:0.03467 F:0.04025
+D0917C-A 1 ROUGE-4 Eval 1.1 R:0.02551 P:0.01838 F:0.02137
+D0917C-A 1 ROUGE-L Eval 1.1 R:0.21782 P:0.15827 F:0.18333
+D0917C-A 1 ROUGE-W-1.2 Eval 1.1 R:0.06039 P:0.11045 F:0.07809
+D0917C-A 1 ROUGE-SU4 Eval 1.1 R:0.13941 P:0.10055 F:0.11683
+============================================================================================================================================= 
+
+=================================================== 38 D0916C-A ===================================================
+[Topic]: kidnapping of Jill Carroll Provide details of the kidnapping of journalist Jill Carroll in Baghdad and the efforts to secure her release.
+[Words]: [u'kidnap', u'jill', u'carrol', u'provid', u'detail', u'kidnap', u'journalist', u'jill', u'carrol', u'baghdad', u'effort', u'secur', u'releas']
+[IDF WORD SIZE]: 503
+[not found word cnt in w2v]: 37
+2015-01-08 16:48:44,303 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmp2Now_i/rouge_conf.xml
+2015-01-08 16:48:44,303 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmp2Now_i/rouge_conf.xml
+[In search]: 40.4399311179 40.4399311179 40.4399311179
+[In search]: 73.5034179596 33.0634868416 73.5034179596
+[In search]: 100.514518743 27.0111007838 100.514518743
+[In search]: 130.700568656 30.186049913 130.700568656
+[In search]: 160.695326723 29.9947580666 160.695326723
+[summary]:
+[1] diversity: 0.714285714286 tol_words: 29 sen_len: 17
+the christian science monitor  newspaper on monday pleaded for the release of american reporter  jill carroll, seized in baghdad by abductors who gunned down her  iraqi translator.
+[2] diversity: 1.0 tol_words: 40 sen_len: 27
+an arab television network ran a video showing kidnapped journalist jill carroll tuesday with an accompanying message from her unnamed captors that she would be killed unless the united states freed all female prisoners in iraq within 72 hours.
+[3] diversity: 0.571428571429 tol_words: 49 sen_len: 28
+"this raid was conducted as a direct result of a tip by an iraqi  civilian that activities related to the kidnapping were being  carried out inside the mosque," said lieutenant-colonel barry  johnson, speaking of the abduction saturday of christian science  monitor reporter jill carroll.
+[4] diversity: 0.285714285714 tol_words: 29 sen_len: 16
+carroll was the 31st media worker to have been kidnapped in iraq  since the start of the war in 2003, according to watchdog group  reporters without borders.
+[GreedySearch]  sents: 4 words: 88
+D0916C-A 1 ROUGE-1 Eval 1.1 R:0.57284 P:0.42029 F:0.48485
+D0916C-A 1 ROUGE-2 Eval 1.1 R:0.25187 P:0.18431 F:0.21286
+D0916C-A 1 ROUGE-3 Eval 1.1 R:0.15113 P:0.11029 F:0.12752
+D0916C-A 1 ROUGE-4 Eval 1.1 R:0.10178 P:0.07407 F:0.08574
+D0916C-A 1 ROUGE-L Eval 1.1 R:0.42222 P:0.30978 F:0.35736
+D0916C-A 1 ROUGE-W-1.2 Eval 1.1 R:0.11662 P:0.21547 F:0.15133
+D0916C-A 1 ROUGE-SU4 Eval 1.1 R:0.26458 P:0.19273 F:0.22301
+============================================================================================================================================= 
+
+=================================================== 39 D0918D-A ===================================================
+[Topic]: Betty Friedan Report on Betty Friedan's feminist activities.
+[Words]: [u'betti', u'friedan', u'report', u'betti', u'friedan', u"'s", u'feminist', u'activ']
+[IDF WORD SIZE]: 1781
+[not found word cnt in w2v]: 166
+2015-01-08 16:49:30,743 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmppSobhM/rouge_conf.xml
+2015-01-08 16:49:30,743 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmppSobhM/rouge_conf.xml
+[In search]: 89.9128468975 89.9128468975 89.9128468975
+[In search]: 170.367577858 80.4547309608 170.367577858
+[In search]: 254.298613778 83.9310359197 254.298613778
+[In search]: 333.773070478 79.4744566999 333.773070478
+[summary]:
+[1] diversity: 1.0 tol_words: 59 sen_len: 34
+betty friedan, the feminist crusader and author whose searing first book, "the feminine mystique," ignited the contemporary women's movement in 1963 and in so doing permanently transformed the social fabric of the united states and countries around the world, died saturday, her 85th birthday, at her home in washington.
+[2] diversity: 0.4 tol_words: 45 sen_len: 25
+``i never set out to write a book to change women's lives, to change history,'' said friedan, who always kept a sense of wonder about her place in history as the mother of the contemporary women's movement.
+[3] diversity: 0.8 tol_words: 57 sen_len: 30
+"the movement that friedan's energy sparked continues to grow,  and is bigger today than she could ever have dreamed when she helped  launch it in the 1960s," eleanor smeal, president of the feminist  majority foundation and a former president of the national  organization for women, said in a statement.
+[GreedySearch]  sents: 3 words: 89
+D0918D-A 1 ROUGE-1 Eval 1.1 R:0.47002 P:0.35252 F:0.40288
+D0918D-A 1 ROUGE-2 Eval 1.1 R:0.14770 P:0.11051 F:0.12643
+D0918D-A 1 ROUGE-3 Eval 1.1 R:0.04890 P:0.03650 F:0.04180
+D0918D-A 1 ROUGE-4 Eval 1.1 R:0.02469 P:0.01838 F:0.02107
+D0918D-A 1 ROUGE-L Eval 1.1 R:0.31175 P:0.23381 F:0.26721
+D0918D-A 1 ROUGE-W-1.2 Eval 1.1 R:0.08130 P:0.15447 F:0.10653
+D0918D-A 1 ROUGE-SU4 Eval 1.1 R:0.19032 P:0.14181 F:0.16252
+============================================================================================================================================= 
+
+=================================================== 40 D0908B-A ===================================================
+[Topic]: Nepali King Gyanendra seizes power Describe foreign reactions to Nepali King Gyanendra's seizure of power on February 1, 2005.
+[Words]: [u'nepali', u'king', u'gyanendra', u'seiz', u'power', u'describ', u'foreign', u'reaction', u'nepali', u'king', u'gyanendra', u"'s", u'seizur', u'power', u'februari', u'1', u'2005']
+[IDF WORD SIZE]: 563
+[not found word cnt in w2v]: 16
+2015-01-08 16:49:35,093 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmp8wxdAd/rouge_conf.xml
+2015-01-08 16:49:35,093 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmp8wxdAd/rouge_conf.xml
+[In search]: 46.7670645116 46.7670645116 46.7670645116
+[In search]: 81.2019916943 34.4349271827 81.2019916943
+[In search]: 114.629982778 33.4279910838 114.629982778
+[In search]: 147.980761281 33.3507785028 147.980761281
+[summary]:
+[1] diversity: 0.833333333333 tol_words: 39 sen_len: 24
+nepal's king gyanendra named a new cabinet wednesday, a day after dismissing the government and declaring absolute power in a surprise move that he said was aimed at restoring democracy and ending a nine-year maoist rebellion.
+[2] diversity: 0.666666666667 tol_words: 38 sen_len: 25
+un secretary general kofi annan on  tuesday expressed deep concern over events in nepal and urged a  return to democracy, after king gyanendra dismissed the country's  coalition government and imposed an indefinite state of emergency.
+[3] diversity: 0.666666666667 tol_words: 56 sen_len: 36
+china's reaction, coupled with a recent move by gyanendra to close the nepal office of the tibetan spiritual leader-in-exile, the dalai lama _ whom beijing despises and labels a dangerous separatist _ has prompted speculation among indian analysts that the king wants to enlist china's support in fighting the maoist rebels.
+[GreedySearch]  sents: 3 words: 85
+D0908B-A 1 ROUGE-1 Eval 1.1 R:0.41235 P:0.32874 F:0.36583
+D0908B-A 1 ROUGE-2 Eval 1.1 R:0.08229 P:0.06548 F:0.07293
+D0908B-A 1 ROUGE-3 Eval 1.1 R:0.03023 P:0.02400 F:0.02676
+D0908B-A 1 ROUGE-4 Eval 1.1 R:0.01527 P:0.01210 F:0.01350
+D0908B-A 1 ROUGE-L Eval 1.1 R:0.24198 P:0.19291 F:0.21468
+D0908B-A 1 ROUGE-W-1.2 Eval 1.1 R:0.06491 P:0.13032 F:0.08666
+D0908B-A 1 ROUGE-SU4 Eval 1.1 R:0.14370 P:0.11394 F:0.12710
+============================================================================================================================================= 
+
+=================================================== 41 D0930F-A ===================================================
+[Topic]: carbon sequestration Where and how has carbon sequestration been used? What are plans or support for using it in the future?
+[Words]: [u'carbon', u'sequestr', u'carbon', u'sequestr', u'use', u'?', u'plan', u'support', u'use', u'futur', u'?']
+[IDF WORD SIZE]: 940
+[not found word cnt in w2v]: 52
+2015-01-08 16:49:54,220 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpZW5SpS/rouge_conf.xml
+2015-01-08 16:49:54,221 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpZW5SpS/rouge_conf.xml
+[In search]: 58.574286657 58.574286657 58.574286657
+[In search]: 106.808420698 48.2341340412 106.808420698
+[In search]: 152.422316714 45.6138960157 152.422316714
+[In search]: 195.378751394 42.9564346798 195.378751394
+[In search]: 242.107258462 46.7285070687 242.107258462
+[summary]:
+[1] diversity: 0.75 tol_words: 26 sen_len: 16
+sequestrators say carbon dioxide (co2) would be captured using  solvents, either before or after the fossil fuel is burned in the  plant.
+[2] diversity: 0.75 tol_words: 44 sen_len: 28
+plants built with this technology release 15 percent less carbon dioxide and can be combined with a futuristic option called "carbon sequestration," in which the carbon dioxide byproduct is injected into oil and gas aquifers underground, eliminating emissions altogether.
+[3] diversity: 1.0 tol_words: 42 sen_len: 25
+one prominent environmental group, the natural resources defense council in washington, has estimated that the extra cost of using igcc and carbon sequestration in all plants being built in developing nations would be just $6 billion a year.
+[4] diversity: 0.5 tol_words: 44 sen_len: 30
+bp said the project, which would make use of a power station in northern scotland and export the carbon dioxide to a north sea oil reservoir, would require total capital investment of some us$600 million (euro497 million).
+[GreedySearch]  sents: 4 words: 99
+D0930F-A 1 ROUGE-1 Eval 1.1 R:0.39152 P:0.28650 F:0.33088
+D0930F-A 1 ROUGE-2 Eval 1.1 R:0.06549 P:0.04779 F:0.05526
+D0930F-A 1 ROUGE-3 Eval 1.1 R:0.00763 P:0.00556 F:0.00643
+D0930F-A 1 ROUGE-4 Eval 1.1 R:0.00257 P:0.00187 F:0.00216
+D0930F-A 1 ROUGE-L Eval 1.1 R:0.22195 P:0.16241 F:0.18757
+D0930F-A 1 ROUGE-W-1.2 Eval 1.1 R:0.05830 P:0.10721 F:0.07553
+D0930F-A 1 ROUGE-SU4 Eval 1.1 R:0.12084 P:0.08778 F:0.10169
+============================================================================================================================================= 
+
+=================================================== 42 D0942H-A ===================================================
+[Topic]: PRC's anti-secession law Report the developments in the PRC's enactment of an anti-secession law and reactions to that law.
+[Words]: [u'prc', u"'s", u'anti-secess', u'law', u'report', u'develop', u'prc', u"'s", u'enact', u'anti-secess', u'law', u'reaction', u'law']
+[IDF WORD SIZE]: 396
+[not found word cnt in w2v]: 56
+2015-01-08 16:49:56,030 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpEe4onx/rouge_conf.xml
+2015-01-08 16:49:56,030 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpEe4onx/rouge_conf.xml
+[In search]: 38.6554580647 38.6554580647 38.6554580647
+[In search]: 69.4321995428 30.7767414781 69.4321995428
+[In search]: 96.7279375954 27.2957380526 96.7279375954
+[In search]: 127.149981196 30.4220436006 127.149981196
+[summary]:
+[1] diversity: 0.857142857143 tol_words: 38 sen_len: 22
+the president reiterated remarks he made in his new year's address in which he condemned beijing's plans to enact an anti-secession law as a unilateral attempt to change the status quo in the taiwan strait.
+[2] diversity: 1.0 tol_words: 38 sen_len: 24
+an official of the cabinet-level mainland affairs council (mac) said wednesday that the government will closely monitor developments in mainland china's communications with the united states about its plan to enact an anti-secession law.
+[3] diversity: 0.428571428571 tol_words: 52 sen_len: 35
+mainland china is pushing taiwan to decide through a referendum whether to "separate from the mainland" if it makes the "one country, two systems" or "one china" principle a part of its proposed anti-secession law, mainland affairs council chairman joseph wu said tuesday.
+[GreedySearch]  sents: 3 words: 81
+D0942H-A 1 ROUGE-1 Eval 1.1 R:0.40488 P:0.34874 F:0.37472
+D0942H-A 1 ROUGE-2 Eval 1.1 R:0.14532 P:0.12500 F:0.13440
+D0942H-A 1 ROUGE-3 Eval 1.1 R:0.08458 P:0.07265 F:0.07816
+D0942H-A 1 ROUGE-4 Eval 1.1 R:0.04523 P:0.03879 F:0.04176
+D0942H-A 1 ROUGE-L Eval 1.1 R:0.26341 P:0.22689 F:0.24379
+D0942H-A 1 ROUGE-W-1.2 Eval 1.1 R:0.07112 P:0.15464 F:0.09743
+D0942H-A 1 ROUGE-SU4 Eval 1.1 R:0.16068 P:0.13789 F:0.14842
+============================================================================================================================================= 
+
+=================================================== 43 D0902A-A ===================================================
+[Topic]: morning-after pill Describe the debate over use of emergency contraceptives, also called the morning-after pill, and whether or not it should be available without a prescription.
+[Words]: [u'morning-aft', u'pill', u'describ', u'debat', u'use', u'emerg', u'contracept', u'also', u'call', u'morning-aft', u'pill', u'whether', u'avail', u'without', u'prescript']
+[IDF WORD SIZE]: 792
+[not found word cnt in w2v]: 56
+2015-01-08 16:50:05,904 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpUQcP11/rouge_conf.xml
+2015-01-08 16:50:05,904 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpUQcP11/rouge_conf.xml
+[In search]: 57.838498299 57.838498299 57.838498299
+[In search]: 109.642412217 51.8039139177 109.642412217
+[In search]: 158.325877645 48.6834654282 158.325877645
+[In search]: 208.763892694 50.4380150487 208.763892694
+[In search]: 258.104553078 49.3406603845 258.104553078
+[In search]: 305.742181759 47.6376286806 305.742181759
+[In search]: 353.732408402 47.9902266431 353.732408402
+[summary]:
+[1] diversity: 0.666666666667 tol_words: 20 sen_len: 11
+he also says some young women might not want to use emergency contraception if they knew how it worked.
+[2] diversity: 0.888888888889 tol_words: 31 sen_len: 15
+so, it seems, is the u.s. food and drug administration, which is stalling a decision on whether to make the morning-after pill available nationwide without a prescription.
+[3] diversity: 0.666666666667 tol_words: 28 sen_len: 16
+ultimately, it will be up to food and drug administration officials to decide: should older teens be able to buy emergency contraception without a prescription?
+[4] diversity: 0.777777777778 tol_words: 36 sen_len: 22
+the findings led the study authors to conclude that easy access to plan b, also called the morning-after pill, could cut the number of unwanted pregnancies while posing no apparent risk to women.
+[5] diversity: 0.888888888889 tol_words: 32 sen_len: 19
+the u.s. government is considering whether to make morning-after birth control available without a prescription, and like most issues that involve sex and pregnancy, it has generated heated debate.
+[6] diversity: 0.555555555556 tol_words: 24 sen_len: 16
+twelve states now allow pharmacists who oppose contraception to refuse to fill prescriptions for birth control, including the ``morning-after pill.''
+[GreedySearch]  sents: 6 words: 99
+D0902A-A 1 ROUGE-1 Eval 1.1 R:0.45340 P:0.28302 F:0.34850
+D0902A-A 1 ROUGE-2 Eval 1.1 R:0.07634 P:0.04747 F:0.05854
+D0902A-A 1 ROUGE-3 Eval 1.1 R:0.04113 P:0.02548 F:0.03147
+D0902A-A 1 ROUGE-4 Eval 1.1 R:0.02078 P:0.01282 F:0.01586
+D0902A-A 1 ROUGE-L Eval 1.1 R:0.27204 P:0.16981 F:0.20910
+D0902A-A 1 ROUGE-W-1.2 Eval 1.1 R:0.06944 P:0.10873 F:0.08475
+D0902A-A 1 ROUGE-SU4 Eval 1.1 R:0.15487 P:0.09568 F:0.11828
+============================================================================================================================================= 
+
+
+R-1 	0.368 0.323 0.430
+R-2 	0.097 0.084 0.114
+R-3 	0.041 0.036 0.049
+R-4 	0.022 0.019 0.026
+R-l 	0.230 0.202 0.269
+R-su4 	0.135 0.118 0.159
+R-w 	0.095 0.137 0.073
+550.97user 15.48system 9:21.71elapsed 100%CPU (0avgtext+0avgdata 1870768maxresident)k
+96inputs+3495728outputs (0major+7118242minor)pagefaults 0swaps

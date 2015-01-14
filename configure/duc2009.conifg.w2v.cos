@@ -10,6 +10,10 @@ similarity= cos
 [debug]
 run_cases = -1
 
+[topic]
+topic_on = True
+topic_file = /home/tuywen/code/summarization/data/duc2009/topic.txt
+
 [name_pattern]
 model_name_suffix = .M.100.[A-Z]
 

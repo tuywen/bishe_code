@@ -1,0 +1,168 @@
+nohup: ignoring input
+/usr/local/lib/python2.7/dist-packages/numpy/core/fromnumeric.py:2499: VisibleDeprecationWarning: `rank` is deprecated; use the `ndim` attribute or function instead. To find the rank of a matrix see `numpy.linalg.matrix_rank`.
+  VisibleDeprecationWarning)
+load word2vec vectors: 16359 300
+=================================================== 0 D0923D-A ===================================================
+[Topic]: Real ID Act Report on issues regarding the Real ID Act, both intended and unintended.
+[Words]: [u'real', u'id', u'act', u'report', u'issu', u'regard', u'real', u'id', u'act', u'intend', u'unintend']
+[IDF WORD SIZE]: 1585
+[not found word cnt in w2v]: 81
+2015-01-09 09:37:38,255 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpMq1Dw1/rouge_conf.xml
+2015-01-09 09:37:38,255 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpMq1Dw1/rouge_conf.xml
+[In search]: 190.045679498 190.045679498 190.045679498
+[In search]: 369.866584188 179.82090469 369.866584188
+[In search]: 548.694864512 178.828280324 548.694864512
+[In search]: 727.32658514 178.631720627 727.32658514
+[In search]: 905.234117083 177.907531944 905.234117083
+[In search]: 1082.25622079 177.022103709 1082.25622079
+[In search]: 1256.90208841 174.645867615 1256.90208841
+[summary]:
+[1] diversity: 0.833333333333 tol_words: 34 sen_len: 17
+but many critics of the real id act say that it goes too far and that its language is riddled with problems that might have been corrected through the normal legislative review process.
+[2] diversity: 0.833333333333 tol_words: 51 sen_len: 29
+state legislators and governors say that the real id act would lead to horrific delays at motor vehicle bureaus, that it would cost hundreds of millions of dollars more than congress thinks, and that it would impose an unrealistic three-year deadline for having the verification system in place.
+[3] diversity: 0.833333333333 tol_words: 13 sen_len: 7
+they should leave the real id act on the cutting room floor.
+[4] diversity: 0.833333333333 tol_words: 28 sen_len: 17
+"the real id act is the most blatant attack on immigrant rights since the last major overhaul of immigration law in 1996," he said.
+[5] diversity: 0.833333333333 tol_words: 23 sen_len: 17
+last month, house judiciary committee chairman james sensenbrenner succeeded in attaching his real id act to a must-pass iraq appropriations bill.
+[6] diversity: 1.0 tol_words: 18 sen_len: 10
+alexander and other lawmakers said the rules established in the real id act will have unintended consequences.
+[GreedySearch]  sents: 6 words: 97
+D0923D-A 1 ROUGE-1 Eval 1.1 R:0.42680 P:0.27389 F:0.33366
+D0923D-A 1 ROUGE-2 Eval 1.1 R:0.14286 P:0.09135 F:0.11144
+D0923D-A 1 ROUGE-3 Eval 1.1 R:0.08608 P:0.05484 F:0.06700
+D0923D-A 1 ROUGE-4 Eval 1.1 R:0.05627 P:0.03571 F:0.04369
+D0923D-A 1 ROUGE-L Eval 1.1 R:0.28784 P:0.18471 F:0.22502
+D0923D-A 1 ROUGE-W-1.2 Eval 1.1 R:0.07773 P:0.12549 F:0.09600
+D0923D-A 1 ROUGE-SU4 Eval 1.1 R:0.16737 P:0.10637 F:0.13007
+================================================================================================================== 
+
+=================================================== 1 D0913C-A ===================================================
+[Topic]: Ten Commandments Describe developments in the two cases before the U.S. Supreme Court regarding the public display of the Ten Commandments.
+[Words]: [u'ten', u'command', u'describ', u'develop', u'two', u'case', u'u.s.', u'suprem', u'court', u'regard', u'public', u'display', u'ten', u'command']
+[IDF WORD SIZE]: 1685
+[not found word cnt in w2v]: 93
+2015-01-09 09:38:39,950 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpbbg0Aa/rouge_conf.xml
+2015-01-09 09:38:39,950 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpbbg0Aa/rouge_conf.xml
+[In search]: 219.615082585 219.615082585 219.615082585
+[In search]: 429.845175577 210.230092992 429.845175577
+[In search]: 636.617082773 206.771907196 636.617082773
+[In search]: 848.831424471 212.214341697 848.831424471
+[In search]: 1056.70698247 207.875557996 1056.70698247
+[summary]:
+[1] diversity: 0.727272727273 tol_words: 30 sen_len: 20
+cols 2-5: the supreme court struggles with the politically charged issue of whether prominent display of the ten commandments at government buildings violates separation of church and state.
+[2] diversity: 0.818181818182 tol_words: 52 sen_len: 30
+washington - the supreme court wednesday wrestled with whether the constitution allows displays of the ten commandments on government property, bringing to a climax the latest battle in the culture war over the role of christianity in the nation's public life and the exact line between church and state.
+[3] diversity: 0.181818181818 tol_words: 38 sen_len: 22
+"in the texas case, they seemed more inclined to find the display ok," said steven freeman of new york, an attorney with the anti-defamation league, which supported van orden's challenge.
+[4] diversity: 0.636363636364 tol_words: 36 sen_len: 19
+the court will review, in the kentucky case, the legality of  displaying framed copies of the ten commandments in two courthouses  among copies of other documents that form the basis of us laws.
+[GreedySearch]  sents: 4 words: 91
+D0913C-A 1 ROUGE-1 Eval 1.1 R:0.50127 P:0.34615 F:0.40951
+D0913C-A 1 ROUGE-2 Eval 1.1 R:0.16368 P:0.11268 F:0.13347
+D0913C-A 1 ROUGE-3 Eval 1.1 R:0.07752 P:0.05319 F:0.06309
+D0913C-A 1 ROUGE-4 Eval 1.1 R:0.03655 P:0.02500 F:0.02969
+D0913C-A 1 ROUGE-L Eval 1.1 R:0.32405 P:0.22378 F:0.26474
+D0913C-A 1 ROUGE-W-1.2 Eval 1.1 R:0.08724 P:0.15096 F:0.11058
+D0913C-A 1 ROUGE-SU4 Eval 1.1 R:0.22507 P:0.15410 F:0.18294
+================================================================================================================== 
+
+=================================================== 2 D0931F-A ===================================================
+[Topic]: A.Q. Khan nuclear technology transfer Report information on the activities, motives, and connections of Dr. Abdul Qadeer Khan relating to the transfer of nuclear technology. Also report relevant government responses.
+[Words]: [u'a.q', u'khan', u'nuclear', u'technolog', u'transfer', u'report', u'inform', u'activ', u'motiv', u'connect', u'dr.', u'abdul', u'qadeer', u'khan', u'relat', u'transfer', u'nuclear', u'technolog', u'also', u'report', u'relev', u'govern', u'respons']
+[IDF WORD SIZE]: 2167
+[not found word cnt in w2v]: 166
+2015-01-09 09:40:35,648 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpZDweCY/rouge_conf.xml
+2015-01-09 09:40:35,648 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpZDweCY/rouge_conf.xml
+[In search]: 263.340416617 263.340416617 263.340416617
+[In search]: 519.413306772 256.072890155 519.413306772
+[In search]: 775.579129712 256.16582294 775.579129712
+[In search]: 1033.4194516 257.840321892 1033.4194516
+[In search]: 1287.94978089 254.53032929 1287.94978089
+[In search]: 1544.40380729 256.454026398 1544.40380729
+[summary]:
+[1] diversity: 0.714285714286 tol_words: 36 sen_len: 21
+khan research laboratories -- pakistan's top nuclear facility -- are also under investigation for trafficking, "there was never any kind of authorization for these activities by the government," he said.
+[2] diversity: 0.428571428571 tol_words: 31 sen_len: 17
+pakistani government said on monday that abdullah q. khan, the founder of the nation's nuclear program, will not be interrogated by concerned agencies from the united states.
+[3] diversity: 0.142857142857 tol_words: 16 sen_len: 9
+south african officials have disclosed only that they discovered nuclear components, the paper said.
+[4] diversity: 0.428571428571 tol_words: 58 sen_len: 32
+in a 2001 interview, khan said the longstanding rumors about his work in nuclear proliferation were "unsubstantiated and fabricated lies" fomented by foreign governments "because i disturbed all their strategic plans, the balance of power and blackmailing potential in this part of the world" by building a nuclear arsenal for pakistan.
+[5] diversity: 0.142857142857 tol_words: 39 sen_len: 19
+during a visit to the united states, the pakistani leader, a key bush administration ally in the war on terrorism, also said that in hindsight, the u.s. decision to invade iraq was a mistake.
+[GreedySearch]  sents: 5 words: 98
+D0931F-A 1 ROUGE-1 Eval 1.1 R:0.33171 P:0.21656 F:0.26204
+D0931F-A 1 ROUGE-2 Eval 1.1 R:0.03695 P:0.02404 F:0.02913
+D0931F-A 1 ROUGE-3 Eval 1.1 R:0.00746 P:0.00484 F:0.00587
+D0931F-A 1 ROUGE-4 Eval 1.1 R:0.00503 P:0.00325 F:0.00395
+D0931F-A 1 ROUGE-L Eval 1.1 R:0.20976 P:0.13694 F:0.16570
+D0931F-A 1 ROUGE-W-1.2 Eval 1.1 R:0.05445 P:0.08974 F:0.06778
+D0931F-A 1 ROUGE-SU4 Eval 1.1 R:0.09015 P:0.05832 F:0.07082
+================================================================================================================== 
+
+=================================================== 3 D0905A-A ===================================================
+[Topic]: wind turbines Describe arguments for and against wind turbines, noting any growth of opposition to wind farms.
+[Words]: [u'wind', u'turbin', u'describ', u'argument', u'wind', u'turbin', u'note', u'growth', u'opposit', u'wind', u'farm']
+[IDF WORD SIZE]: 1955
+[not found word cnt in w2v]: 130
+2015-01-09 09:41:49,852 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpJtPeVN/rouge_conf.xml
+2015-01-09 09:41:49,852 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpJtPeVN/rouge_conf.xml
+[In search]: 202.84386974 202.84386974 202.84386974
+[In search]: 395.977469751 193.133600011 395.977469751
+[In search]: 590.144137284 194.166667533 590.144137284
+[In search]: 780.324342166 190.180204882 780.324342166
+[In search]: 969.102079091 188.777736925 969.102079091
+[In search]: 1156.14647968 187.044400593 1156.14647968
+[In search]: 1345.12490389 188.978424209 1345.12490389
+[In search]: 1537.27283347 192.147929576 1537.27283347
+[summary]:
+[1] diversity: 1.0 tol_words: 27 sen_len: 17
+opposition to cape wind is organized through the alliance to protect nantucket sound, which spent $2.4 million fighting the proposed wind farm in 2003.
+[2] diversity: 0.75 tol_words: 23 sen_len: 10
+but that is no surprise, according to the alliance to protect nantucket sound, an organization that opposes the wind farm.
+[3] diversity: 1.0 tol_words: 27 sen_len: 16
+the simulated wind farm in the study consisted of 10,000 turbines, with rotor blades 165 feet long, in a 60-by-60-mile grid in north-central oklahoma.
+[4] diversity: 1.0 tol_words: 44 sen_len: 25
+under the current plan, "a year from now, turbine number 16 will be the third highest point in massachusetts," says eleanor tillinghast, co-founder of green berkshires, inc., a group formed to oppose wind farm power.
+[5] diversity: 1.0 tol_words: 22 sen_len: 12
+but a wind farm with hundreds or even thousands of large turbines removes an enormous amount of energy from the air.
+[6] diversity: 0.75 tol_words: 26 sen_len: 13
+he wouldn't recommend putting a wind farm in the middle of the grand canyon, or at the foot of mount rushmore, either.
+[7] diversity: 0.25 tol_words: 7 sen_len: 5
+so is wind power really benign?
+[GreedySearch]  sents: 7 words: 98
+D0905A-A 1 ROUGE-1 Eval 1.1 R:0.28535 P:0.17344 F:0.21575
+D0905A-A 1 ROUGE-2 Eval 1.1 R:0.03636 P:0.02201 F:0.02742
+D0905A-A 1 ROUGE-3 Eval 1.1 R:0.00000 P:0.00000 F:0.00000
+D0905A-A 1 ROUGE-4 Eval 1.1 R:0.00000 P:0.00000 F:0.00000
+D0905A-A 1 ROUGE-L Eval 1.1 R:0.21080 P:0.12812 F:0.15938
+D0905A-A 1 ROUGE-W-1.2 Eval 1.1 R:0.05328 P:0.08093 F:0.06426
+D0905A-A 1 ROUGE-SU4 Eval 1.1 R:0.08106 P:0.04873 F:0.06087
+================================================================================================================== 
+
+=================================================== 4 D0936G-A ===================================================
+[Topic]: filling Sandra Day O'Connor's Supreme Court seat Discuss the resignation of Sandra Day O'Connor from the Supreme Court and the selection of her replacement.
+[Words]: [u'fill', u'sandra', u'day', u"o'connor", u"'s", u'suprem', u'court', u'seat', u'discuss', u'resign', u'sandra', u'day', u"o'connor", u'suprem', u'court', u'select', u'replac']
+[IDF WORD SIZE]: 1288
+[not found word cnt in w2v]: 71
+Traceback (most recent call last):
+  File "data_preprocess_n.py", line 995, in <module>
+    ProcessAllFile(docset_dir,sysout_dir, goldsum_dir, method)
+  File "data_preprocess_n.py", line 909, in ProcessAllFile
+    res_sum = AutoSum(input_file, output_file, vtype, w2vec_data)
+  File "data_preprocess_n.py", line 824, in AutoSum
+    smatrix = GetNSimMatrixWithUnusedWord(senlist, w2vec_data[0], w2v_similarity)
+  File "data_preprocess_n.py", line 554, in GetNSimMatrixWithUnusedWord
+    smatrix[i][j] = N_WordSim(sens[i], sens[j],  w2v_dict, Nsim_type, Nsim_dis_method) #* beta + (1 - beta) * UnusedWordSim(sens[i], sens[j])
+  File "data_preprocess_n.py", line 474, in N_WordSim
+    wsim = WordSim(aword, bword, w2v_dict, dis_method)
+  File "data_preprocess_n.py", line 432, in WordSim
+    elif bkey in cache_dis:
+KeyboardInterrupt
+Command exited with non-zero status 1
+306.96user 1.96system 5:08.14elapsed 100%CPU (0avgtext+0avgdata 1077584maxresident)k
+24inputs+556120outputs (0major+1075075minor)pagefaults 0swaps

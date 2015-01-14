@@ -9,7 +9,7 @@ w2v_similarity= cos
 similarity= cos
 
 [topic]
-topic_on = False
+topic_on = True
 topic_file = /home/tuywen/code/summarization/data/duc2008/topic.txt
 
 [debug]
