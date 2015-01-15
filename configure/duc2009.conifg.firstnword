@@ -2,9 +2,9 @@
 docset_dir = /home/tuywen/code/summarization/data/duc2009/topic/
 goldsum_dir = /home/tuywen/code/summarization/data/duc2009/gold/
 sysout_dir = /home/tuywen/code/summarization/duc_out/duc2009/
-method = LSA
+method = firstnword
 lsa_dim = 100
-w2v_feature_file= /home/tuywen/code/summarization/tools/w2vec/out_words/duc2008.w2v
+w2v_feature_file= /home/tuywen/code/summarization/tools/w2vec/out_words/duc2009.w2v
 w2v_similarity= cos 
 similarity= cos
 

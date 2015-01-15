@@ -2,7 +2,7 @@
 docset_dir = /home/tuywen/code/summarization/data/OpinosisDataset1.0_0/topics_2/
 goldsum_dir = /home/tuywen/code/summarization/data/OpinosisDataset1.0_0/summaries-gold/
 sysout_dir = /home/tuywen/code/summarization/system_out/
-method = w2v
+method = firstnword
 lsa_dim = 40
 w2v_feature_file= /home/tuywen/code/summarization/tools/w2vec/out_words/Opinosis_u.vec
 w2v_similarity= cos 

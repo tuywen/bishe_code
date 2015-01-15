@@ -1,13 +1,16 @@
 import sys
 from nltk import word_tokenize
+from nltk.stem.porter import PorterStemmer
 
 def statfile(fname):
   infile = open(fname, 'r')
   wdict = {}
+  st = PorterStemmer()
   for line in infile:
     topic_str = ' '.join(line.strip().split('####')[1:])
     words = word_tokenize(topic_str.lower())
-    for w in words:
+    swords = [ st.stem(w) for w in words]
+    for w in swords:
       if w not in wdict:
         wdict[w] = 1
       else:
