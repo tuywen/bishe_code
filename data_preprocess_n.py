@@ -17,6 +17,7 @@ import pickle
 from nltk.stem.porter import PorterStemmer
 import copy
 import random
+from pyteaser import Summarize
 
 global_conf = ConfigParser.ConfigParser()
 idf_dict = {}
@@ -55,6 +56,9 @@ def StatConcepts(senlist):
     else:
       tpinfo.concepts[w] += 1
   
+  for w in tpinfo.concepts:
+    if w.find(u'@') < 0:
+      tpinfo.concepts[w] *= 0.4
   #del the bigram less than 3 times
   tmp_concepts = {}
   for w in tpinfo.concepts:
@@ -69,7 +73,7 @@ def StatConcepts(senlist):
   for sl in sortlist:
     print '%s:%d '%(sl[0], sl[1]),
   print ''
-  """
+  #"""
   slen = len(senlist)
   for i in range(0, slen):
     c_scores = 0
@@ -77,7 +81,13 @@ def StatConcepts(senlist):
       if w in tpinfo.concepts:
         c_scores += tpinfo.concepts[w]
     senlist[i].concepts_found = c_scores
-    #print i,c_scores,senlist[i].sen_order
+ 
+  """
+  sortlist = sorted(senlist, key=lambda x:x.concepts_found, reverse=True)
+  for i in range(0, 100):
+    print i,sortlist[i].concepts_found,sortlist[i].sen_order
+    print sortlist[i].sen_str
+    print 
   """
   return
 
@@ -157,8 +167,8 @@ def StemWords(words):
 def Bigram_words(words):
   wset = set([])
   wlen = len(words)
-  #for w in words:
-  #  wset.add(w)
+  for w in words:
+    wset.add(w)
   for i in range(0, wlen - 1):
     wset.add(words[i] + '@' + words[i+1])
   return wset
@@ -983,8 +993,19 @@ def GreedySearch(sens, limit, smatrix):
   while True:
     max_senid = -1
     max_subfunc = -1
+    
+    # a-star
+    can_set = set()
+    clist = []
     for i in range(0, slen):
-      if i in sel or (max_words > 0 and sens[i].tol_words > left_word):
+      clist.append((i, CalConceptScore(sens[i])))
+    sort_clist = sorted(clist, key=lambda x:x[1], reverse=True)
+    for i in range(0, int(0.1*slen)):
+      can_set.add(sort_clist[i][0])
+    #print can_set
+
+    for i in range(0, slen):
+      if i in sel or i not in can_set or (max_words > 0 and sens[i].tol_words > left_word):
         continue
       #if sens[i].topic_diversity <= 0.0:
       #  continue
@@ -1041,7 +1062,7 @@ def GreedySearch(sens, limit, smatrix):
   print '[summary]:'
   ocnt = 1
   for sen in sums:
-    print '[%d] %s diversity:'%(ocnt,sen.sen_order),sen.topic_diversity, 'weight:', sen.weight,'tol_words:', sen.tol_words, 'sen_len:', sen.sen_len, 'rank:', sen.rank_weight
+    print '[%d] %s diversity:'%(ocnt,sen.sen_order),sen.topic_diversity, 'weight:', sen.weight,'tol_words:', sen.tol_words, 'sen_len:', sen.sen_len, 'rank:', sen.rank_weight, 'bweight:',tmpinfo[sen.sen_id][3]
     print sen.sen_str
     ocnt += 1
 
@@ -1049,8 +1070,8 @@ def GreedySearch(sens, limit, smatrix):
   return sums
 
 def AutoSum(input_file, output_file, vtype='tfidf', w2vec_data=None):
-  senlist = ReadText(input_file)
-  #senlist = ReadDucText(input_file)
+  #senlist = ReadText(input_file)
+  senlist = ReadDucText(input_file)
   TfIdfVector(senlist)
   smatrix = None
   if vtype == 'tfidf':
@@ -1102,10 +1123,13 @@ def FirstNword(input_file, output_file):
   senlist = ReadText(input_file)
   N_word = 100
   cnt = 0
-  while N_word > 0:
-    res_sum.append(senlist[cnt])
-    N_word -= senlist[cnt].tol_words
-    cnt += 1
+  while True:
+    if N_word > senlist[cnt].tol_words:
+      res_sum.append(senlist[cnt])
+      N_word -= senlist[cnt].tol_words
+      cnt += 1
+    else:
+      break
     #if cnt >= 2:
     #  break
   #"""
@@ -1118,6 +1142,40 @@ def FirstNword(input_file, output_file):
     out_pid.write(sen.sen_str + '\n')
   out_pid.close()
   return res_sum
+
+def TeaserSum(input_file, output_file):
+  senlist = ReadText(input_file)
+  text = open(input_file).read()
+  title = tpinfo.topic_sen
+  print title
+  res_sum = Summarize(title, text)
+  out_pid = codecs.open(output_file, 'w')
+  """
+  cnt = 0
+  for sen in res_sum:
+    out_pid.write(sen + '\n')
+    cnt += 1
+    if cnt >= 2:
+      break
+  """
+  N_word = 100
+  cnt = 0
+  outsum = []
+  while cnt < len(res_sum):
+    if N_word > len(res_sum[cnt].split()):
+      outsum.append(res_sum[cnt])
+      N_word -= len(res_sum[cnt].split())
+      cnt += 1
+    else:
+      break
+
+  if N_word >= 0 and cnt < len(res_sum):
+    subset = ' '.join(res_sum[cnt].split()[:N_word])
+    outsum.append(subset)
+  for sen in outsum:
+    out_pid.write(sen + '\n')
+  out_pid.close()
+  return
 
 def ROUGE(sysdoc_dir, modeldoc_dir, prefix_name, vtype='tfidf'):
   r = Rouge155(rouge_args=u"-n 4 -w 1.2 -m  -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d")
@@ -1190,6 +1248,8 @@ def ProcessAllFile(input_dir, output_dir, model_dir, vtype='tfidf'):
       res_sum = []
       if vtype == 'firstnword':
         res_sum = FirstNword(input_file, output_file)
+      elif vtype == 'pyteaser':
+        res_sum = TeaserSum(input_file, output_file)
       else:
         res_sum = AutoSum(input_file, output_file, vtype, w2vec_data)
       odict = ROUGE(output_path, model_dir, prefix_name, vtype)

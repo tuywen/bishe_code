@@ -1,0 +1,24 @@
+[config]
+docset_dir = /home/tuywen/code/summarization/data/OpinosisDataset1.0_0/topics/
+goldsum_dir = /home/tuywen/code/summarization/data/OpinosisDataset1.0_0/summaries-gold/
+sysout_dir = /home/tuywen/code/summarization/system_out/
+method = pyteaser
+lsa_dim = 40
+w2v_feature_file= /home/tuywen/code/summarization/tools/w2vec/out_words/Opinosis_u.vec
+w2v_similarity= cos 
+similarity= cos
+
+[debug]
+run_cases =-1
+
+[name_pattern]
+model_name_suffix = .(\d).gold
+
+[greedysearch]
+max_sents = 2
+max_words = -1
+
+[w2v]
+Nsim = True
+Nsim_type = match
+w2v_similarity = cos

@@ -1,0 +1,107 @@
+[Stopwords]: 576
+w2v
+load word2vec vectors: 16359 300
+=================================================== 0 D0901A-A ===================================================
+[Topic]: Indian Pakistan conflict Describe efforts made toward peace in the India-Pakistan conflict over Kashmir.
+[Words]: [u'indian', u'pakistan', u'conflict', u'describ', u'effort', u'made', u'peac', u'india-pakistan', u'conflict', u'kashmir']
+[concepts]: 29
+india@pakistan:8  minist@manmohan:7  manmohan@singh:7  prime@minist:7  indian@prime:6  indian@pakistan:6  bu@servic:5  peac@process:5  pakistan:4  muzaffarabad@capit:4  india:4  pakistan@india:4  portion@kashmir:4  indian:4  pervez@musharraf:4  kashmir:4  divid:3  singh:3  region:3  bu@link:3  fought@war:3  talk@kashmir:3  accus@pakistan:3  kashmir@part:3  line@control:3  intern@border:3  divid@kashmir:3  unit@nation:3  indian@pakistani:3  
+[IDF WORD SIZE]: 1091
+[not found word cnt in w2v]: 115
+[Sen Nums]: 197
+set([36, 71, 168, 105, 10, 55, 13, 177, 111, 145, 106, 85, 186, 185, 58, 159, 28, 125, 117])
+[In search]: 119.123867261 119.123867261 (119.12386726104953, 111.59735392436488, 7.526513336684644, 24.2)
+set([36, 168, 105, 10, 55, 89, 13, 111, 145, 106, 116, 85, 73, 186, 185, 58, 28, 125, 117])
+[In search]: 237.985543957 118.861676696 (237.98554395703434, 222.94107508628704, 15.044468870747297, 22.64)
+set([36, 168, 105, 10, 55, 89, 13, 111, 145, 172, 116, 85, 73, 186, 185, 58, 28, 125, 117])
+[In search]: 355.847844659 117.862300702 (355.84784465948604, 333.3181262936493, 22.529718365836764, 37.48800000000001)
+set([36, 177, 168, 105, 10, 172, 13, 111, 145, 89, 186, 85, 73, 55, 185, 58, 28, 125, 117])
+[summary]:
+[1] 20041118p009001 diversity: 1.0 weight: 0.735626905752 tol_words: 35 sen_len: 22 rank: 0.565561931598 bweight: 24.2
+on wednesday, singh, the indian leader, expressed a commitment to make peace with pakistan, while islamabad hailed india's withdrawal of some of india's troops in kashmir _ a move hoped to spur the peace process.
+[2] 20041118p010001 diversity: 1.0 weight: 0.735626905752 tol_words: 29 sen_len: 18 rank: 0.565305897178 bweight: 22.64
+singh repeated here wednesday that kashmir is part of india and insisted any peace deal with pakistan could not redraw international borders or divide indian territory along religious lines.
+[3] 20041123p004001 diversity: 0.75 weight: 0.735626905752 tol_words: 41 sen_len: 24 rank: 0.55738355457 bweight: 37.488
+both countries have hinted that aziz's meeting with indian prime minister manmohan singh may produce agreement on opening bus service between the indian- and pakistani-controlled sections of kashmir for the first time in 57 years of conflict over the himalayan territory.
+[GreedySearch]  sents: 3 words: 64
+D0901A-A 1 ROUGE-1 Eval 1.1 R:0.43564 P:0.40741 F:0.42105
+D0901A-A 1 ROUGE-2 Eval 1.1 R:0.15750 P:0.14720 F:0.15218
+D0901A-A 1 ROUGE-3 Eval 1.1 R:0.08586 P:0.08019 F:0.08293
+D0901A-A 1 ROUGE-4 Eval 1.1 R:0.06122 P:0.05714 F:0.05911
+D0901A-A 1 ROUGE-L Eval 1.1 R:0.30198 P:0.28241 F:0.29187
+D0901A-A 1 ROUGE-W-1.2 Eval 1.1 R:0.08306 P:0.19551 F:0.11659
+D0901A-A 1 ROUGE-SU4 Eval 1.1 R:0.18008 P:0.16812 F:0.17389
+================================================================================================================== 
+
+=================================================== 1 D0902A-A ===================================================
+[Topic]: morning-after pill Describe the debate over use of emergency contraceptives, also called the morning-after pill, and whether or not it should be available without a prescription.
+[Words]: [u'morning-aft', u'pill', u'describ', u'debat', u'emerg', u'contracept', u'call', u'morning-aft', u'pill', u'prescript']
+[concepts]: 11
+morning-aft@pill:6  prevent@pregnanc:5  emerg@contracept:5  drug@administr:4  food@drug:4  birth@control:4  unprotect@sex:3  studi@publish:3  access@emerg:3  make@morning-aft:3  easi@access:3  
+[IDF WORD SIZE]: 1199
+[not found word cnt in w2v]: 94
+[Sen Nums]: 251
+set([13, 14, 16, 146, 147, 21, 157, 158, 32, 36, 39, 179, 182, 184, 59, 192, 65, 69, 76, 93, 225, 227, 228, 239, 149])
+[In search]: 70.6587659514 70.6587659514 (70.65876595141708, 65.54848849746598, 5.110277453951101, 13)
+set([13, 14, 16, 146, 147, 21, 157, 158, 32, 36, 39, 179, 182, 184, 59, 191, 192, 65, 69, 76, 93, 225, 227, 239, 149])
+[In search]: 139.095442743 68.4366767917 (139.09544274315593, 128.95892206553816, 10.13652067761777, 9)
+set([13, 14, 16, 146, 147, 21, 157, 158, 32, 36, 39, 179, 182, 184, 59, 191, 192, 65, 69, 76, 93, 225, 227, 239, 149])
+[In search]: 204.640254552 65.5448118091 (204.64025455225675, 194.4940826852159, 10.146171867040872, 9.1)
+set([13, 14, 16, 146, 147, 21, 157, 158, 32, 36, 39, 179, 182, 184, 59, 191, 192, 65, 69, 76, 93, 225, 227, 239, 149])
+[summary]:
+[1] 20050116p002001 diversity: 0.4 weight: 0.93281939902 tol_words: 42 sen_len: 19 rank: 0.216483756593 bweight: 13
+fierce arguments have gone on inside and outside the food and drug administration, which may decide as soon as this week whether drug stores can sell the emergency contraception known as plan b without a prescription to women age 16 and older.
+[2] 20050104p002002 diversity: 0.6 weight: 0.58854351355 tol_words: 33 sen_len: 19 rank: 0.22921710211 bweight: 9
+the findings led the study authors to conclude that easy access to plan b, also called the morning-after pill, could cut the number of unwanted pregnancies while posing no apparent risk to women.
+[3] 20041017p002001 diversity: 0.4 weight: 0.93281939902 tol_words: 25 sen_len: 14 rank: 0.232414596626 bweight: 9.1
+ultimately, it will be up to food and drug administration officials to decide: should older teens be able to buy emergency contraception without a prescription?
+[GreedySearch]  sents: 3 words: 52
+D0902A-A 1 ROUGE-1 Eval 1.1 R:0.32746 P:0.32178 F:0.32460
+D0902A-A 1 ROUGE-2 Eval 1.1 R:0.07379 P:0.07250 F:0.07314
+D0902A-A 1 ROUGE-3 Eval 1.1 R:0.03856 P:0.03788 F:0.03822
+D0902A-A 1 ROUGE-4 Eval 1.1 R:0.01818 P:0.01786 F:0.01802
+D0902A-A 1 ROUGE-L Eval 1.1 R:0.21159 P:0.20792 F:0.20974
+D0902A-A 1 ROUGE-W-1.2 Eval 1.1 R:0.05864 P:0.14453 F:0.08343
+D0902A-A 1 ROUGE-SU4 Eval 1.1 R:0.11562 P:0.11356 F:0.11458
+================================================================================================================== 
+
+=================================================== 2 D0903A-A ===================================================
+[Topic]: solar power Track the growth of solar power worldwide in both plans for facilities and actual production of energy.
+[Words]: [u'solar', u'power', u'track', u'growth', u'solar', u'power', u'worldwid', u'plan', u'facil', u'actual', u'product', u'energi']
+[concepts]: 9
+solar@panel:7  solar@power:7  solar@energi:6  interest@solar:4  power:3  solar:3  renew@energi:3  solar@cell:3  tax@credit:3  
+[IDF WORD SIZE]: 1237
+[not found word cnt in w2v]: 140
+[Sen Nums]: 218
+set([64, 66, 4, 5, 9, 10, 12, 77, 14, 15, 81, 19, 78, 87, 56, 25, 47, 156, 61, 88, 36])
+[In search]: 80.9604490928 80.9604490928 (80.96044909279321, 75.09141155412205, 5.869037538671159, 14.2)
+set([192, 33, 155, 4, 5, 6, 209, 72, 177, 10, 12, 77, 14, 15, 17, 19, 9, 36, 59, 156, 37])
+[In search]: 158.911688619 77.9512395262 (158.91168861895224, 147.28785861934466, 11.623829999607583, 19.939999999999998)
+set([192, 33, 70, 155, 4, 37, 6, 177, 72, 209, 71, 77, 15, 17, 82, 19, 23, 36, 59, 156, 5])
+[In search]: 236.349336973 77.4376483541 (236.3493369730661, 218.99043168517272, 17.35890528789339, 8.427999999999999)
+set([192, 33, 70, 155, 4, 37, 6, 177, 72, 161, 178, 71, 77, 176, 17, 82, 99, 117, 23, 59, 156])
+[summary]:
+[1] 20051008p005001 diversity: 1.0 weight: 0.830672269997 tol_words: 32 sen_len: 20 rank: 0.617823462745 bweight: 14.2
+lower prices for solar equipment, higher efficiency and tax and rebate incentives from government and utility companies have caused more long islanders to look to lower their energy costs with solar power.
+[2] 20051002p016001 diversity: 0.666666666667 weight: 0.830672269997 tol_words: 35 sen_len: 22 rank: 0.612948347874 bweight: 19.94
+given increasing electric rates, decreasing costs of solar panels and economic incentives available to homeowners through tax credits and rebates, stout expects installations of solar power systems to increase rapidly in the next few years.
+[3] 20051008p011001 diversity: 0.666666666667 weight: 0.830672269997 tol_words: 41 sen_len: 22 rank: 0.604269417657 bweight: 8.428
+such a system can reduce electric bills by 20 to 100 percent, according to sharon laudisi of the long island power authority, depending on the amount and duration of sunlight hitting the solar panels and on electricity use in the home.
+[GreedySearch]  sents: 3 words: 64
+D0903A-A 1 ROUGE-1 Eval 1.1 R:0.38287 P:0.35185 F:0.36671
+D0903A-A 1 ROUGE-2 Eval 1.1 R:0.08397 P:0.07710 F:0.08039
+D0903A-A 1 ROUGE-3 Eval 1.1 R:0.03342 P:0.03066 F:0.03198
+D0903A-A 1 ROUGE-4 Eval 1.1 R:0.02078 P:0.01905 F:0.01988
+D0903A-A 1 ROUGE-L Eval 1.1 R:0.23678 P:0.21759 F:0.22678
+D0903A-A 1 ROUGE-W-1.2 Eval 1.1 R:0.06335 P:0.14612 F:0.08838
+D0903A-A 1 ROUGE-SU4 Eval 1.1 R:0.12985 P:0.11907 F:0.12423
+================================================================================================================== 
+
+
+R-1 	0.371 0.360 0.382
+R-2 	0.102 0.099 0.105
+R-3 	0.051 0.050 0.053
+R-4 	0.032 0.031 0.033
+R-l 	0.243 0.236 0.250
+R-su4 	0.138 0.134 0.142
+R-w 	0.096 0.162 0.068
