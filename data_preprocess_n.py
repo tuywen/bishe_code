@@ -18,10 +18,17 @@ from nltk.stem.porter import PorterStemmer
 import copy
 import random
 from pyteaser import Summarize
+from nltk.tokenize import sent_tokenize
 
 global_conf = ConfigParser.ConfigParser()
 idf_dict = {}
 df_dict = {}
+
+class GlobalParms:
+  def __init__(self):
+    self.top_sens = 0.1
+    self.unigram_weight = 0.4
+    self.cluster_ratio = 0.2
 
 class TopicInfo:
   def __init__(self):
@@ -34,31 +41,41 @@ class TopicInfo:
     self.stemwords = []
     self.smatrix = None
     self.concepts = {}
+    self.mfrank = {}
+    self.origin_concepts = {}
 
 tpinfo = TopicInfo()
+gbparams = GlobalParms()
 
 def StatConcepts(senlist):
   tpinfo.concepts.clear()
+  tpinfo.origin_concepts.clear()
   cset = set()
+  #cnt = 0
+  #acnt = int(len(senlist) / 10)
   for sen in senlist:
-    if sen.sen_order.find('h') >= 0:
+    if sen.sen_order.find('h') > -1: # or cnt == acnt:
       for w in cset:
         if w not in tpinfo.concepts:
           tpinfo.concepts[w] = 1
         else:
           tpinfo.concepts[w] += 1
       cset.clear()
+      #cnt = 0
     if sen.topic_diversity > 0.0:
       cset = cset | sen.sen_bwords
+      #cnt += 1
   for w in cset:
     if w not in tpinfo.concepts:
       tpinfo.concepts[w] = 1
     else:
       tpinfo.concepts[w] += 1
   
+  tpinfo.origin_concepts = tpinfo.concepts
+
   for w in tpinfo.concepts:
     if w.find(u'@') < 0:
-      tpinfo.concepts[w] *= 0.4
+      tpinfo.concepts[w] *= 0.4 #gbparams.unigram_weight
   #del the bigram less than 3 times
   tmp_concepts = {}
   for w in tpinfo.concepts:
@@ -278,6 +295,7 @@ def ReadText(in_path):
         senlist.append(senelem)
   file_in.close()
   has_topic = global_conf.has_option('topic', 'topic_on')
+  StatConcepts(senlist)
   if has_topic:
     topic_file = global_conf.get('topic', 'topic_file')
     tfile = codecs.open(topic_file, 'r', 'utf-8')
@@ -513,7 +531,9 @@ def TfIdfBaseSentenceClustering(senlist):
   slen = len(senlist)
   sparse_matrix = TranSenToSparseMatrix(senlist)
   #print sparse_matrix.todense()
+  #clusters_num = int(gbparams.cluster_ratio * slen)
   k_means = KMeans(init='k-means++', n_clusters=int(0.2*slen), n_init=6, n_jobs=6, random_state=1)
+  #k_means = KMeans(init='k-means++', n_clusters=clusters_num, n_init=6, n_jobs=6, random_state=1)
   #k_means = KMeans(init='random', n_clusters=2, n_init=10)
   k_means.fit(sparse_matrix)
   k_means_labels = k_means.labels_
@@ -656,7 +676,7 @@ def N_WordSim(asen, bsen, w2v_dict, dtype='all', dis_method='cos'):
             tmp_closed = wsim 
             fword = bword
       if tmp_closed > 0 and fword != '':
-        sim += tmp_closed #* math.sqrt(df_dict[aword] * df_dict[fword])
+        sim += tmp_closed #* asen.sen_vector[idf_dict[aword][0]] * bsen.sen_vector[idf_dict[fword][0]]
         #bused.add(fword)
         wcnt += 1
 
@@ -670,7 +690,7 @@ def N_WordSim(asen, bsen, w2v_dict, dtype='all', dis_method='cos'):
             tmp_closed = wsim
             fword = aword
       if tmp_closed > 0 and fword != '':
-        sim += tmp_closed #* math.sqrt(df_dict[aword] * df_dict[fword])
+        sim += tmp_closed #* asen.sen_vector[idf_dict[fword][0]] * bsen.sen_vector[idf_dict[bword][0]]
         #aused.add(fword)
         wcnt += 1
     if wcnt > 0:
@@ -762,7 +782,7 @@ def GetNSimMatrixWithUnusedWord(sens, w2v_dict, dis='cos'):
       for j in range(0, slen):
         smatrix[i][j] = 1 - smatrix[i][j] / max_dis
   
-  DumpCachedis(ftype)
+  #DumpCachedis(ftype)
   
   return smatrix
 
@@ -973,6 +993,62 @@ def ManiFoldRanking(senlist, w2vec):
     #print i,senlist[i].rank_weight
   return
 
+def WordManiFoldRanking(senlist, smatrix):
+  concepts_id = {}
+  cnt = 0
+  y = []
+  cset = set()
+  for w in tpinfo.concepts:
+    concepts_id[w] = cnt
+    cnt += 1
+    y.append(tpinfo.concepts[w])
+    cset.add(w)
+
+  wmatrix = np.zeros((cnt,cnt))
+  slen = len(senlist)
+  for i in range(0, slen):
+    for j in range(0, slen):
+      aword_set = set(senlist[i].sen_bwords) & cset
+      bword_set = set(senlist[j].sen_bwords) & cset
+      if i == j:
+        for aword in aword_set:
+          for bword in bword_set:
+            if aword != bword:
+              aid = concepts_id[aword]
+              bid = concepts_id[bword]
+              wmatrix[aid][bid] += 1
+      elif smatrix[i][j] > 0.6:
+        for aword in aword_set:
+          for bword in bword_set:
+            if aword != bword:
+              aid = concepts_id[aword]
+              bid = concepts_id[bword]
+              wmatrix[aid][bid] += smatrix[i][j]
+  
+  for i in range(0, cnt):
+    rsum = sum(wmatrix[i])
+    if rsum == 0.0:
+      continue
+    for j in range(0, cnt):
+      wmatrix[i][j] /= rsum
+  
+  y = [ y[i] if y[i] >=5 else 0 for i in range(0, len(y))] 
+  y = np.mat(y)
+  y = y.T
+  a_ = 0.6
+  ft = np.mat([1 for i in range(0, cnt)])
+  ft = ft.T
+  for itr in range(0, 200):
+    nft =  wmatrix * ft * a_+ (1 - a_) * y
+    ft = nft 
+  
+  ocnt = 0
+  for w in tpinfo.concepts:
+    #print w,tpinfo.concepts[w],round(float(ft[ocnt][0]),3)
+    tpinfo.concepts[w] = float(ft[ocnt][0])
+    ocnt += 1
+  return
+
 def GreedySearch(sens, limit, smatrix):
   slen = len(sens)
   sums = []
@@ -990,6 +1066,7 @@ def GreedySearch(sens, limit, smatrix):
   print '[Sen Nums]:',slen
   left_word = max_words
   cused = set([])
+  tpsen = 0.1 #gbparams.top_sens
   while True:
     max_senid = -1
     max_subfunc = -1
@@ -1000,7 +1077,7 @@ def GreedySearch(sens, limit, smatrix):
     for i in range(0, slen):
       clist.append((i, CalConceptScore(sens[i])))
     sort_clist = sorted(clist, key=lambda x:x[1], reverse=True)
-    for i in range(0, int(0.1*slen)):
+    for i in range(0, int(tpsen*slen)):
       can_set.add(sort_clist[i][0])
     #print can_set
 
@@ -1100,7 +1177,8 @@ def AutoSum(input_file, output_file, vtype='tfidf', w2vec_data=None):
     else:
       #smatrix = GetNSimMatrix(senlist, w2vec_data[0], w2v_similarity)
       smatrix = GetNSimMatrixWithUnusedWord(senlist, w2vec_data[0], w2v_similarity)
-      ManiFoldRanking(senlist, w2vec_data[0])
+      #ManiFoldRanking(senlist, w2vec_data[0])
+      #WordManiFoldRanking(senlist, smatrix)
       #SimSentenceClustering(smatrix,senlist)
       #ConBaseSentenceClustering(senlist)
       TfIdfBaseSentenceClustering(senlist)
@@ -1113,6 +1191,7 @@ def AutoSum(input_file, output_file, vtype='tfidf', w2vec_data=None):
     #print smatrix
   res_sum = GreedySearch(senlist, 2, smatrix)
   out_pid = codecs.open(output_file, 'w', 'utf-8')
+  #sort_res = sorted(res_sum, key=lambda x:x.sen_order)
   for sen in res_sum:
     out_pid.write(sen.sen_str + '\n')
   out_pid.close()
@@ -1140,6 +1219,30 @@ def FirstNword(input_file, output_file):
   out_pid = codecs.open(output_file, 'w', 'utf-8')
   for sen in res_sum:
     out_pid.write(sen.sen_str + '\n')
+  out_pid.close()
+  return res_sum
+
+def TextRank(input_file, output_file):
+  res_sum = []
+  tfile = open(output_file, 'r')
+  N_word = 100
+  for line in tfile:
+    word_num = len(line.strip().split())
+    if word_num <= N_word:
+      res_sum.append(line.strip())
+      N_word -= word_num
+    else:
+      subsen = ' '.join(line.strip().split()[:N_word])
+      res_sum.append(subsen)
+      break
+  tfile.close()
+  out_pid = codecs.open(output_file, 'w', 'utf-8')
+  scnt = 0
+  for sen in res_sum:
+    out_pid.write(sen + '\n')
+    scnt += 1
+    if scnt >= 2:
+      break
   out_pid.close()
   return res_sum
 
@@ -1217,8 +1320,9 @@ def ScoreTable(sum_dict, snum):
       if cnt % 3 == 0:
         print
         print 'R-' + key.split('_')[1] + ' \t',
-      print "%.3f"%round(sum_dict[key] / snum, 3),
+      print "%.3f\t"%round(sum_dict[key] / snum, 3),
       cnt += 1
+  print ''
   return
 
 def ProcessAllFile(input_dir, output_dir, model_dir, vtype='tfidf'):
@@ -1250,6 +1354,8 @@ def ProcessAllFile(input_dir, output_dir, model_dir, vtype='tfidf'):
         res_sum = FirstNword(input_file, output_file)
       elif vtype == 'pyteaser':
         res_sum = TeaserSum(input_file, output_file)
+      elif vtype == 'textrank':
+        res_sum = TextRank(input_file, output_file)
       else:
         res_sum = AutoSum(input_file, output_file, vtype, w2vec_data)
       odict = ROUGE(output_path, model_dir, prefix_name, vtype)
@@ -1326,10 +1432,35 @@ def FindSen(input_file, output_file, vtype='tfidf', w2vec_data=None):
 def ReadConfigFile(fpath):
   global_conf.read(fpath)
 
+def ReadGoldBigram(model_dir, prefix_name):
+  model_dir = model_dir + prefix_name + '/'
+  goldfiles = os.listdir(model_dir)
+  bigramwords = set()
+  for gfile in goldfiles:
+    infile = codecs.open(model_dir+gfile, 'r', 'utf-8')
+    sents = sent_tokenize(infile.read())
+    for line in sents:
+      line = line.strip.lower()
+      bwords, blen = CutWords(line)
+      bwords = Bigram_words(StemWords(bwords))
+      bigramwords = bigramwords | set(bwords)
+    infile.close()
+  return bigramwords
+
+def StatBigrams(input_file, model_dir, prefix_name):
+  senlist = ReadDucText(input_file)
+  gbigrams = ReadGoldBigram(model_dir, prefix_name)
+  return
+
 if __name__=='__main__':
-  if len(sys.argv) < 1:
+  reload(sys)
+  sys.setdefaultencoding('utf-8')
+  if len(sys.argv) > 2:
     print "print choose config file to run"
-  
+    #gbparams.top_sens = float(sys.argv[2])
+    #gbparams.cluster_ratio = float(sys.argv[2])
+    #gbparams.unigram_weight = float(sys.argv[2])
+
   ReadConfigFile(sys.argv[1])
   ReadStoplist()
   method = global_conf.get('config', 'method')

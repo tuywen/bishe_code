@@ -1,0 +1,252 @@
+/usr/local/lib/python2.7/dist-packages/numpy/core/fromnumeric.py:2499: VisibleDeprecationWarning: `rank` is deprecated; use the `ndim` attribute or function instead. To find the rank of a matrix see `numpy.linalg.matrix_rank`.
+  VisibleDeprecationWarning)
+[Stopwords]: 576
+w2v
+load word2vec vectors: 16359 300
+=================================================== 0 D0901A-A ===================================================
+[Topic]: Indian Pakistan conflict Describe efforts made toward peace in the India-Pakistan conflict over Kashmir.
+[Words]: [u'indian', u'pakistan', u'conflict', u'describ', u'effort', u'made', u'peac', u'india-pakistan', u'conflict', u'kashmir']
+[concepts]: 29
+india@pakistan:8  minist@manmohan:7  manmohan@singh:7  prime@minist:7  indian@prime:6  indian@pakistan:6  bu@servic:5  peac@process:5  pakistan:4  muzaffarabad@capit:4  india:4  pakistan@india:4  portion@kashmir:4  indian:4  pervez@musharraf:4  kashmir:4  divid:3  singh:3  region:3  bu@link:3  fought@war:3  talk@kashmir:3  accus@pakistan:3  kashmir@part:3  line@control:3  intern@border:3  divid@kashmir:3  unit@nation:3  indian@pakistani:3  
+[IDF WORD SIZE]: 1091
+[not found word cnt in w2v]: 115
+2015-01-19 14:32:21,153 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmp3swI94/rouge_conf.xml
+2015-01-19 14:32:21,154 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmp3swI94/rouge_conf.xml
+[Sen Nums]: 197
+[In search]: 118.861676696 118.861676696 (118.86167669598485, 111.3437211619222, 7.5179555340626525, 28.4)
+[In search]: 236.723977398 117.862300702 (236.7239773984368, 221.72077236928467, 15.003205029152124, 39.839999999999996)
+[In search]: 354.373466844 117.649489446 (354.3734668440859, 331.8919947453847, 22.481472098701232, 25.66)
+[summary]:
+[1] 20041118p010001 diversity: 1.0 weight: 0.735626905752 tol_words: 29 sen_len: 18 rank: 0.565305897178 bweight: 28.4
+singh repeated here wednesday that kashmir is part of india and insisted any peace deal with pakistan could not redraw international borders or divide indian territory along religious lines.
+[2] 20041123p004001 diversity: 0.75 weight: 0.735626905752 tol_words: 41 sen_len: 24 rank: 0.55738355457 bweight: 39.84
+both countries have hinted that aziz's meeting with indian prime minister manmohan singh may produce agreement on opening bus service between the indian- and pakistani-controlled sections of kashmir for the first time in 57 years of conflict over the himalayan territory.
+[3] 20050312p001001 diversity: 0.75 weight: 0.735626905752 tol_words: 35 sen_len: 18 rank: 0.543579580251 bweight: 25.66
+india's prime minister will  personally flag off the first bus to travel between the indian and  pakistan zones of divided kashmir in almost six decades when the  service resumes next month, an official said saturday.
+[GreedySearch]  sents: 3 words: 60
+D0901A-A 1 ROUGE-1 Eval 1.1 R:0.38861 P:0.36343 F:0.37560
+D0901A-A 1 ROUGE-2 Eval 1.1 R:0.15750 P:0.14720 F:0.15218
+D0901A-A 1 ROUGE-3 Eval 1.1 R:0.08081 P:0.07547 F:0.07805
+D0901A-A 1 ROUGE-4 Eval 1.1 R:0.05612 P:0.05238 F:0.05419
+D0901A-A 1 ROUGE-L Eval 1.1 R:0.27228 P:0.25463 F:0.26316
+D0901A-A 1 ROUGE-W-1.2 Eval 1.1 R:0.07566 P:0.17811 F:0.10620
+D0901A-A 1 ROUGE-SU4 Eval 1.1 R:0.16271 P:0.15190 F:0.15712
+================================================================================================================== 
+
+=================================================== 1 D0902A-A ===================================================
+[Topic]: morning-after pill Describe the debate over use of emergency contraceptives, also called the morning-after pill, and whether or not it should be available without a prescription.
+[Words]: [u'morning-aft', u'pill', u'describ', u'debat', u'emerg', u'contracept', u'call', u'morning-aft', u'pill', u'prescript']
+[concepts]: 11
+morning-aft@pill:6  prevent@pregnanc:5  emerg@contracept:5  drug@administr:4  food@drug:4  birth@control:4  unprotect@sex:3  studi@publish:3  access@emerg:3  make@morning-aft:3  easi@access:3  
+[IDF WORD SIZE]: 1199
+[not found word cnt in w2v]: 94
+2015-01-19 14:32:47,245 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpzhX2bL/rouge_conf.xml
+2015-01-19 14:32:47,245 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpzhX2bL/rouge_conf.xml
+[Sen Nums]: 251
+[In search]: 70.6587659514 70.6587659514 (70.65876595141708, 65.54848849746598, 5.110277453951101, 13)
+[In search]: 136.203577761 65.5448118091 (136.20357776051807, 131.08364911714386, 5.119928643374204, 9.1)
+[In search]: 204.640254552 68.4366767917 (204.6402545522568, 194.49408268521594, 10.146171867040872, 9)
+[summary]:
+[1] 20050116p002001 diversity: 0.4 weight: 0.93281939902 tol_words: 42 sen_len: 19 rank: 0.216483756593 bweight: 13
+fierce arguments have gone on inside and outside the food and drug administration, which may decide as soon as this week whether drug stores can sell the emergency contraception known as plan b without a prescription to women age 16 and older.
+[2] 20041017p002001 diversity: 0.4 weight: 0.93281939902 tol_words: 25 sen_len: 14 rank: 0.232414596626 bweight: 9.1
+ultimately, it will be up to food and drug administration officials to decide: should older teens be able to buy emergency contraception without a prescription?
+[3] 20050104p002002 diversity: 0.6 weight: 0.58854351355 tol_words: 33 sen_len: 19 rank: 0.22921710211 bweight: 9
+the findings led the study authors to conclude that easy access to plan b, also called the morning-after pill, could cut the number of unwanted pregnancies while posing no apparent risk to women.
+[GreedySearch]  sents: 3 words: 52
+D0902A-A 1 ROUGE-1 Eval 1.1 R:0.32746 P:0.32178 F:0.32460
+D0902A-A 1 ROUGE-2 Eval 1.1 R:0.07379 P:0.07250 F:0.07314
+D0902A-A 1 ROUGE-3 Eval 1.1 R:0.03856 P:0.03788 F:0.03822
+D0902A-A 1 ROUGE-4 Eval 1.1 R:0.01818 P:0.01786 F:0.01802
+D0902A-A 1 ROUGE-L Eval 1.1 R:0.21159 P:0.20792 F:0.20974
+D0902A-A 1 ROUGE-W-1.2 Eval 1.1 R:0.05864 P:0.14453 F:0.08343
+D0902A-A 1 ROUGE-SU4 Eval 1.1 R:0.11562 P:0.11356 F:0.11458
+================================================================================================================== 
+
+=================================================== 2 D0903A-A ===================================================
+[Topic]: solar power Track the growth of solar power worldwide in both plans for facilities and actual production of energy.
+[Words]: [u'solar', u'power', u'track', u'growth', u'solar', u'power', u'worldwid', u'plan', u'facil', u'actual', u'product', u'energi']
+[concepts]: 9
+solar@panel:7  solar@power:7  solar@energi:6  interest@solar:4  power:3  solar:3  renew@energi:3  solar@cell:3  tax@credit:3  
+[IDF WORD SIZE]: 1237
+[not found word cnt in w2v]: 140
+2015-01-19 14:33:10,017 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpZalsIK/rouge_conf.xml
+2015-01-19 14:33:10,017 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpZalsIK/rouge_conf.xml
+[Sen Nums]: 218
+[In search]: 80.9604490928 80.9604490928 (80.96044909279321, 75.09141155412205, 5.869037538671159, 14.2)
+[In search]: 158.911688619 77.9512395262 (158.91168861895224, 147.28785861934466, 11.623829999607583, 19.939999999999998)
+[In search]: 235.558957139 76.6472685199 (235.55895713880614, 223.86407121298762, 11.694885925818523, 9.527999999999999)
+[In search]: 304.865474456 69.3065173176 (304.8654744564198, 293.171552039931, 11.693922416488833, 9.4348)
+[summary]:
+[1] 20051008p005001 diversity: 1.0 weight: 0.830672269997 tol_words: 32 sen_len: 20 rank: 0.617823462745 bweight: 14.2
+lower prices for solar equipment, higher efficiency and tax and rebate incentives from government and utility companies have caused more long islanders to look to lower their energy costs with solar power.
+[2] 20051002p016001 diversity: 0.666666666667 weight: 0.830672269997 tol_words: 35 sen_len: 22 rank: 0.612948347874 bweight: 19.94
+given increasing electric rates, decreasing costs of solar panels and economic incentives available to homeowners through tax credits and rebates, stout expects installations of solar power systems to increase rapidly in the next few years.
+[3] 20051008p012001 diversity: 1.0 weight: 0.830672269997 tol_words: 20 sen_len: 15 rank: 0.627031604245 bweight: 9.528
+solar energy systems, also called "pvs," short for photovoltaic cells, convert sunlight to electricity without combustion, creating power without pollution.
+[4] 20051002p003001 diversity: 0.666666666667 weight: 0.830672269997 tol_words: 20 sen_len: 11 rank: 0.613547518934 bweight: 9.4348
+"it's about cost and future costs," said randy neely of fresno, when asked about his interest in solar energy systems.
+[GreedySearch]  sents: 4 words: 68
+D0903A-A 1 ROUGE-1 Eval 1.1 R:0.34509 P:0.31713 F:0.33052
+D0903A-A 1 ROUGE-2 Eval 1.1 R:0.08397 P:0.07710 F:0.08039
+D0903A-A 1 ROUGE-3 Eval 1.1 R:0.03342 P:0.03066 F:0.03198
+D0903A-A 1 ROUGE-4 Eval 1.1 R:0.02078 P:0.01905 F:0.01988
+D0903A-A 1 ROUGE-L Eval 1.1 R:0.21411 P:0.19676 F:0.20507
+D0903A-A 1 ROUGE-W-1.2 Eval 1.1 R:0.05551 P:0.12804 F:0.07744
+D0903A-A 1 ROUGE-SU4 Eval 1.1 R:0.11648 P:0.10680 F:0.11143
+================================================================================================================== 
+
+=================================================== 3 D0904A-A ===================================================
+[Topic]: white supremacists Describe the widespread activities of white supremacists and the efforts of those opposed to them to prevent violence.
+[Words]: [u'white', u'supremacist', u'describ', u'widespread', u'activ', u'white', u'supremacist', u'effort', u'oppos', u'prevent', u'violenc']
+[concepts]: 4
+white@supremacist:10  white:4  supremacist:4  white@peopl:3  
+[IDF WORD SIZE]: 1687
+[not found word cnt in w2v]: 109
+2015-01-19 14:33:50,065 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmp2w04BU/rouge_conf.xml
+2015-01-19 14:33:50,065 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmp2w04BU/rouge_conf.xml
+[Sen Nums]: 288
+[In search]: 87.7446924616 87.7446924616 (87.74469246163034, 82.39589033914203, 5.3488021224883076, 18.0)
+[In search]: 169.133692941 81.3890004789 (169.13369294057983, 158.63964768898816, 10.494045251591677, 12.600000000000001)
+[In search]: 253.441570276 84.3078773358 (253.4415702763948, 237.70784607004103, 15.733724206353767, 8.819999999999999)
+[In search]: 326.757510525 73.3159402483 (326.75751052473527, 311.11143331392884, 15.646077210806432, 6.173999999999999)
+[In search]: 393.898203497 67.140692972 (393.8982034967424, 378.46458785647945, 15.433615640262929, 4.321799999999999)
+[summary]:
+[1] 20051015p004001 diversity: 1.0 weight: 0.862298950959 tol_words: 35 sen_len: 19 rank: 0.120277918834 bweight: 18.0
+the violence broke out after a group of nearly 80 white  supremacists of the virigina-based national socialist movement  assembled for a march against what they called black gang violence  against whites in the toledo neighborhood.
+[2] 20051016h001001 diversity: 0.666666666667 weight: 8.62298950959 tol_words: 13 sen_len: 9 rank: 0.125202284893 bweight: 12.6
+mayor declares state of emergency after riots break out over white supremacists march
+[3] 20050301p005001 diversity: 0.333333333333 weight: 0.862298950959 tol_words: 37 sen_len: 20 rank: 0.112630381644 bweight: 8.82
+local and federal law enforcement officials said on tuesday that they were investigating possible connections between the double murder and matthew hale, the white supremacist currently in federal prison for soliciting lefkow's assassination, or his many sympathizers.
+[4] 20050509h001001 diversity: 0.666666666667 weight: 8.62298950959 tol_words: 11 sen_len: 10 rank: 0.130131943556 bweight: 6.174
+two arrested outside boston holocaust gathering; crowd protests white supremacists' presence
+[5] 20050805p002002 diversity: 0.666666666667 weight: 0.544050064633 tol_words: 12 sen_len: 5 rank: 0.159387229922 bweight: 4.3218
+he said the book was also meant to appeal to white supremacists.
+[GreedySearch]  sents: 5 words: 63
+D0904A-A 1 ROUGE-1 Eval 1.1 R:0.35784 P:0.33182 F:0.34434
+D0904A-A 1 ROUGE-2 Eval 1.1 R:0.06188 P:0.05734 F:0.05952
+D0904A-A 1 ROUGE-3 Eval 1.1 R:0.01750 P:0.01620 F:0.01682
+D0904A-A 1 ROUGE-4 Eval 1.1 R:0.01010 P:0.00935 F:0.00971
+D0904A-A 1 ROUGE-L Eval 1.1 R:0.23529 P:0.21818 F:0.22641
+D0904A-A 1 ROUGE-W-1.2 Eval 1.1 R:0.06282 P:0.14694 F:0.08801
+D0904A-A 1 ROUGE-SU4 Eval 1.1 R:0.11493 P:0.10637 F:0.11048
+================================================================================================================== 
+
+=================================================== 4 D0905A-A ===================================================
+[Topic]: wind turbines Describe arguments for and against wind turbines, noting any growth of opposition to wind farms.
+[Words]: [u'wind', u'turbin', u'describ', u'argument', u'wind', u'turbin', u'note', u'growth', u'opposit', u'wind', u'farm']
+[concepts]: 14
+wind@power:7  wind@farm:6  offshor@wind:5  wind@energi:4  cape@wind:4  wind:3  power:3  turbin:3  renew@energi:3  wind@associ:3  power@gener:3  nantucket@sound:3  wind@turbin:3  armi@corp:3  
+[IDF WORD SIZE]: 1780
+[not found word cnt in w2v]: 129
+2015-01-19 14:34:40,535 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmp82mK_O/rouge_conf.xml
+2015-01-19 14:34:40,535 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmp82mK_O/rouge_conf.xml
+[Sen Nums]: 331
+[In search]: 187.271716773 187.271716773 (187.27171677317787, 179.89945201811344, 7.3722647550644425, 17.6)
+[In search]: 371.331906065 184.060189292 (371.33190606511147, 356.65213810797474, 14.679767957136711, 15.719999999999999)
+[In search]: 554.922492204 183.590586139 (554.9224922044477, 532.9447379375057, 21.977754266942043, 12.904)
+[summary]:
+[1] 20041214p005001 diversity: 0.333333333333 weight: 0.969692611743 tol_words: 13 sen_len: 8 rank: 0.214021392445 bweight: 17.6
+the proposed nantucket sound project would be the country's first offshore wind farm.
+[2] 20041107p003001 diversity: 0.333333333333 weight: 0.969692611743 tol_words: 43 sen_len: 23 rank: 0.218447031053 bweight: 15.72
+under the plan, taipower will install at least 200 wind power generators with a total installed capacity of 300,000 kilowatts, the spokesman said, adding that the wind power generators will first be set up in coastal regions in western part of the island.
+[3] 20041113p024002 diversity: 0.333333333333 weight: 0.611807920567 tol_words: 52 sen_len: 25 rank: 0.209082761065 bweight: 12.904
+"if we are not willing to accept that tradeoff, i think it says something pretty profound about our priorities and our commitment to moving to cleaner sources of electricity," said randy swisher, executive director of the american wind energy association, which represents developers, suppliers, consultants and others in the wind power industry.
+[GreedySearch]  sents: 3 words: 56
+D0905A-A 1 ROUGE-1 Eval 1.1 R:0.28021 P:0.24773 F:0.26297
+D0905A-A 1 ROUGE-2 Eval 1.1 R:0.03636 P:0.03211 F:0.03410
+D0905A-A 1 ROUGE-3 Eval 1.1 R:0.00000 P:0.00000 F:0.00000
+D0905A-A 1 ROUGE-4 Eval 1.1 R:0.00000 P:0.00000 F:0.00000
+D0905A-A 1 ROUGE-L Eval 1.1 R:0.17995 P:0.15909 F:0.16888
+D0905A-A 1 ROUGE-W-1.2 Eval 1.1 R:0.04774 P:0.10548 F:0.06573
+D0905A-A 1 ROUGE-SU4 Eval 1.1 R:0.08326 P:0.07337 F:0.07800
+================================================================================================================== 
+
+=================================================== 5 D0906B-A ===================================================
+[Topic]: rains and mudslides in Southern California Describe the effects and responses to the heavy rainfall and mudslides in Southern California.
+[Words]: [u'rain', u'mudslid', u'southern', u'california', u'describ', u'effect', u'respons', u'heavi', u'rainfal', u'mudslid', u'southern', u'california']
+[concepts]: 15
+southern@california:10  lo@angel:7  flood@mudslid:6  mudslid:4  california@highway:4  southern:4  california:4  highway@patrol:4  rain:3  flood:3  inch@sunday:3  previou@sunday:3  2.6@inch:3  dri@california:3  inch@rain:3  
+[IDF WORD SIZE]: 1470
+[not found word cnt in w2v]: 163
+2015-01-19 14:35:20,060 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpU5H6ai/rouge_conf.xml
+2015-01-19 14:35:20,060 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpU5H6ai/rouge_conf.xml
+[Sen Nums]: 363
+[In search]: 88.0965235884 88.0965235884 (88.09652358841763, 83.30598021177808, 4.7905433766395475, 21.6)
+[In search]: 176.245905715 88.1493821264 (176.24590571477123, 166.66334183501718, 9.582563879754044, 20.2)
+[In search]: 264.1204693 87.8745635853 (264.1204693000227, 249.75356953228436, 14.366899767738326, 27.22)
+[In search]: 343.121226902 79.0007576022 (343.12122690221616, 328.8635750611856, 14.257651841030565, 13.524000000000001)
+[summary]:
+[1] 20050110p025001 diversity: 0.25 weight: 0.939676220578 tol_words: 36 sen_len: 18 rank: 0.159491382833 bweight: 21.6
+roads were clogged with rain and mud, and at least 720 crashes were reported sunday, more than three times the number of accidents during the previous sunday when streets were dry, the california highway patrol said.
+[2] 20050110p025002 diversity: 0.25 weight: 0.592869686286 tol_words: 15 sen_len: 11 rank: 0.155693589602 bweight: 20.2
+fire officials estimated that 100 roads in los angeles saw flooding, mudslides or downed trees.
+[3] 20050110p001001 diversity: 0.5 weight: 0.939676220578 tol_words: 41 sen_len: 23 rank: 0.15647405101 bweight: 27.22
+los angeles will get a much-needed break early monday from the unforgiving rain that has pounded southern california since thursday, but a new front will move in monday night, bringing with it an additional 2 inches to 4 inches of rain.
+[4] 20050111p005002 diversity: 0.5 weight: 0.592869686286 tol_words: 16 sen_len: 7 rank: 0.214259869312 bweight: 13.524
+meteorologists say southern california has not been hit by this much rain in nearly 40 years.
+[GreedySearch]  sents: 4 words: 59
+D0906B-A 1 ROUGE-1 Eval 1.1 R:0.31658 P:0.28899 F:0.30216
+D0906B-A 1 ROUGE-2 Eval 1.1 R:0.06853 P:0.06250 F:0.06538
+D0906B-A 1 ROUGE-3 Eval 1.1 R:0.01282 P:0.01168 F:0.01222
+D0906B-A 1 ROUGE-4 Eval 1.1 R:0.00259 P:0.00236 F:0.00247
+D0906B-A 1 ROUGE-L Eval 1.1 R:0.19849 P:0.18119 F:0.18945
+D0906B-A 1 ROUGE-W-1.2 Eval 1.1 R:0.05304 P:0.12152 F:0.07385
+D0906B-A 1 ROUGE-SU4 Eval 1.1 R:0.08864 P:0.08072 F:0.08449
+================================================================================================================== 
+
+=================================================== 6 D0907B-A ===================================================
+[Topic]: John Yoo Describe the views and activities of John C. Yoo.
+[Words]: [u'john', u'yoo', u'describ', u'view', u'activ', u'john', u'c.', u'yoo']
+[concepts]: 19
+john@yoo:6  law@professor:5  univers@california:4  california@berkeley:4  unit@state:4  attorney@gener:4  justic@depart:4  yoo:3  john:3  deputi@assist:3  assist@attorney:3  offic@legal:3  professor@univers:3  white@hous:3  legal@counsel:3  depart@lawyer:3  john@c.:3  sen.@john:3  c.@yoo:3  
+[IDF WORD SIZE]: 1532
+[not found word cnt in w2v]: 100
+2015-01-19 14:36:00,537 [MainThread  ] [INFO ]  Written ROUGE configuration to /tmp/tmpFukCRJ/rouge_conf.xml
+2015-01-19 14:36:00,539 [MainThread  ] [INFO ]  Running ROUGE with command /home/tuywen/code/summarization/tools/RELEASE-1.5.5/ROUGE-1.5.5.pl -n 4 -w 1.2 -m -2 4 -u -c 95 -r 1000 -f A -p 0.5 -t 0 -a -d -m /tmp/tmpFukCRJ/rouge_conf.xml
+[Sen Nums]: 277
+[In search]: 66.1934565737 66.1934565737 (66.19345657365652, 61.4822202821633, 4.711236291493218, 35.4)
+[In search]: 133.908139478 67.7146829048 (133.9081394784898, 124.42985202283982, 9.478287455649976, 10)
+[In search]: 198.74160999 64.8334705115 (198.7416099900335, 184.60252985635643, 14.139080133677083, 17.479999999999997)
+[summary]:
+[1] 20050122p007001 diversity: 1.0 weight: 1.02060316917 tol_words: 38 sen_len: 21 rank: 0.0877944397358 bweight: 35.4
+``what the administration is saying is we're not going to torture people,'' said john c. yoo, a university of california, berkeley law professor who as a deputy assistant attorney general during bush's first term worked on torture policies.
+[2] 20050104p001001 diversity: 0.0 weight: 1.02060316917 tol_words: 45 sen_len: 28 rank: 0.0183794633927 bweight: 10
+alberto r. gonzales, the white house counsel, intervened directly with justice department lawyers in 2002 to obtain a legal ruling on the extent of the president's authority to permit extreme interrogation practices in the name of national security, current and former administration officials said tuesday.
+[3] 20041218p006001 diversity: 0.666666666667 weight: 1.02060316917 tol_words: 24 sen_len: 19 rank: 0.0883454732464 bweight: 17.48
+the 15-page document, dated september 25, 2001, was written by conservative justice department lawyer john yoo and addressed to white house counsel alberto gonzales.
+[GreedySearch]  sents: 3 words: 68
+D0907B-A 1 ROUGE-1 Eval 1.1 R:0.41235 P:0.37613 F:0.39341
+D0907B-A 1 ROUGE-2 Eval 1.1 R:0.11721 P:0.10682 F:0.11177
+D0907B-A 1 ROUGE-3 Eval 1.1 R:0.05038 P:0.04587 F:0.04802
+D0907B-A 1 ROUGE-4 Eval 1.1 R:0.02036 P:0.01852 F:0.01940
+D0907B-A 1 ROUGE-L Eval 1.1 R:0.23951 P:0.21847 F:0.22851
+D0907B-A 1 ROUGE-W-1.2 Eval 1.1 R:0.06429 P:0.14769 F:0.08958
+D0907B-A 1 ROUGE-SU4 Eval 1.1 R:0.13271 P:0.12077 F:0.12646
+================================================================================================================== 
+
+=================================================== 7 D0908B-A ===================================================
+[Topic]: Nepali King Gyanendra seizes power Describe foreign reactions to Nepali King Gyanendra's seizure of power on February 1, 2005.
+[Words]: [u'nepali', u'king', u'gyanendra', u'seiz', u'power', u'describ', u'foreign', u'reaction', u'nepali', u'king', u'gyanendra', u'seizur', u'power', u'februari', u'1', u'2005']
+[concepts]: 25
+king@gyanendra:10  prime@minist:7  nepal@king:6  foreign@ministri:5  minist@sher:5  sher@bahadur:5  state@emerg:5  bahadur@deuba:5  dismiss@govern:4  unit@state:4  gyanendra:4  nepal:4  king:4  govern:3  tuesday:3  impos@state:3  gyanendra@tuesday:3  time@year:3  gyanendra@dismiss:3  absolut@power:3  setback@democraci:3  democraci@nepal:3  govern@impos:3  power@grab:3  gyanendra@power:3  
+[IDF WORD SIZE]: 722
+[not found word cnt in w2v]: 30
+Traceback (most recent call last):
+  File "data_preprocess_n.py", line 1349, in <module>
+    ProcessAllFile(docset_dir,sysout_dir, goldsum_dir, method)
+  File "data_preprocess_n.py", line 1261, in ProcessAllFile
+    res_sum = AutoSum(input_file, output_file, vtype, w2vec_data)
+  File "data_preprocess_n.py", line 1109, in AutoSum
+    smatrix = GetNSimMatrixWithUnusedWord(senlist, w2vec_data[0], w2v_similarity)
+  File "data_preprocess_n.py", line 735, in GetNSimMatrixWithUnusedWord
+    LoadCachedis(ftype)
+  File "data_preprocess_n.py", line 604, in LoadCachedis
+    cache_dis = pickle.load(open(cachefile, 'rb'))
+  File "/usr/lib/python2.7/pickle.py", line 1378, in load
+    return Unpickler(file).load()
+  File "/usr/lib/python2.7/pickle.py", line 858, in load
+    dispatch[key](self)
+  File "/usr/lib/python2.7/pickle.py", line 880, in load_eof
+    raise EOFError
+EOFError
